@@ -1,0 +1,31 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  num: 1
+  spa: MyString
+  eng: MyString
+  por: MyString
+  rus: MyString
+  man: MyString
+  fre: MyString
+  start: MyString
+  stop: MyString
+  url: MyString
+  lang: MyString
+  wcount: 1
+  ccount: 1
+
+two:
+  num: 1
+  spa: MyString
+  eng: MyString
+  por: MyString
+  rus: MyString
+  man: MyString
+  fre: MyString
+  start: MyString
+  stop: MyString
+  url: MyString
+  lang: MyString
+  wcount: 1
+  ccount: 1
