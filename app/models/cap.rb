@@ -1,8 +1,8 @@
 class Cap < ActiveRecord::Base
 
-def self.search(search,page)
-  paginate :per_page=>5, :page=>page,
-    :conditions => ['spa like ? and eng != ?', "%#{search}%", ""],
+def self.search(search,page,language)
+  paginate :per_page=>10, :page=>page,
+    :conditions => [language + ' like ? and eng != ?', "%#{search}%", ""],
     :order  => 'num'
   end
 

@@ -3,7 +3,9 @@ class CapsController < ApplicationController
   # GET /caps.xml
   def index
 #    @caps = Cap.all
-    @caps = Cap.search(params[:search], params[:page])
+    @choice= params[:language]
+    lang=params[:language] || "Spa"
+    @caps = Cap.search(params[:search], params[:page],lang)
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @caps }

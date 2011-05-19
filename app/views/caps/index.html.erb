@@ -2,50 +2,66 @@
 
 <% form_tag caps_path, :method=> 'get' do %>
 	<p>
+		<%= select_tag "language", options_for_select([ "Spa", "Eng"], @choice) %>
 		<%= text_field_tag :search, params[:search] %>
+		
 		<%= submit_tag "Search", :name=>nil %>
+
 	</p>
 <%end%>
 <table>
   <tr>
 	<th>Id</th>
     <th>Num</th>
+	<th>Audio</th>
     <th>Spa</th>
     <th>Eng</th>
+<!--
     <th>Por</th>
     <th>Rus</th>
     <th>Man</th>
     <th>Fre</th>
+-->
     <th>Start</th>
     <th>Stop</th>
     <th>Url</th>
+	<!--
+
     <th>Lang</th>
     <th>Wcount</th>
     <th>Ccount</th>
+
     <th></th>
     <th></th>
     <th></th>
+-->
   </tr>
 
 <% @caps.each do |cap| %>
   <tr>
 	<td><%= cap.id %></td>
+	<td><audio src="/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" controls preload="auto" autobuffer></audio></td>
     <td><%= cap.num %></td>
     <td><%= cap.spa %></td>
     <td><%= cap.eng %></td>
+<!--
     <td><%= cap.por %></td>
     <td><%= cap.rus %></td>
     <td><%= cap.man %></td>
     <td><%= cap.fre %></td>
+-->
     <td><%= cap.start %></td>
     <td><%= cap.stop %></td>
     <td><%= cap.url %></td>
+<!--
     <td><%= cap.lang %></td>
     <td><%= cap.wcount %></td>
     <td><%= cap.ccount %></td>
+
     <td><%= link_to 'Show', cap %></td>
     <td><%= link_to 'Edit', edit_cap_path(cap) %></td>
     <td><%= link_to 'Destroy', cap, :confirm => 'Are you sure?', :method => :delete %></td>
+-->
   </tr>
 <% end %>
 </table>
