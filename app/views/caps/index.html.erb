@@ -4,16 +4,17 @@
 	<p>
 		<%= select_tag "language", options_for_select([ "Spa", "Eng"], @choice) %>
 		<%= text_field_tag :search, params[:search] %>
-		
 		<%= submit_tag "Search", :name=>nil %>
-
 	</p>
 <%end%>
 <table>
   <tr>
+<!--
 	<th>Id</th>
     <th>Num</th>
-	<th>Audio</th>
+-->
+
+	<th></th>
     <th>Spa</th>
     <th>Eng</th>
 <!--
@@ -36,12 +37,23 @@
     <th></th>
 -->
   </tr>
-
+<% c=0 %>
 <% @caps.each do |cap| %>
+<%c=c+1%>
   <tr>
+<!--
 	<td><%= cap.id %></td>
-	<td><audio src="/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" controls preload="auto" autobuffer></audio></td>
-    <td><%= cap.num %></td>
+   <td><%= cap.num %></td>
+-->
+<!--	<td><audio src="http://www.mikefab.com/mp3/2641baee-e0ad-4eee-a0ce-cb4696a2b84e/05_2641baee-e0ad-4eee-a0ce-cb4696a2b84e.mp3" controls preload="auto" autobuffer></audio></td>
+-->
+
+	<td>
+		<% if FileTest.exists?(RAILS_ROOT + "/public/audio/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
+		<audio id="player<%=c%>" src="/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3"  loop="loop"></audio><button onClick="document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';document.getElementById('player<%=c%>').play();"> Listen  </button>
+	<% end %>	
+	</td>
+ 
     <td><%= cap.spa %></td>
     <td><%= cap.eng %></td>
 <!--
@@ -68,4 +80,5 @@
 
 <br />
 <% will_paginate @caps %>
-<%= link_to 'New Cap', new_cap_path %>
+
+<%#= link_to 'New Cap', new_cap_path %>
