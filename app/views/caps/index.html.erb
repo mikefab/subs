@@ -52,8 +52,8 @@
 		<%# if FileTest.exists?(RAILS_ROOT + "/public/audio/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 		<%# if FileTest.exists?("http://www.mikefab.com/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 
-		<!-- <audio src="http://www.mikefab.com/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" controls preload="auto" autobuffer></audio> -->
-		<audio id="player<%=c%>" src="/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" onClick="#document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';" controls preload="auto" onClick="alert('hi')";loop="loop"></audio>
+		<audio src="http://www.mikefab.com/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" controls preload="auto" autobuffer></audio>
+		<!-- <audio id="player<%=c%>" src="/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" onClick="#document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';" controls preload="auto" onClick="alert('hi')";loop="loop"></audio> -->
 		<!-- <button onClick="document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';document.getElementById('player<%=c%>').play();"> Listen  </button> -->
 <!---->
 	<%# end %>	
