@@ -11,9 +11,9 @@
   <tr>
 <!--
 	<th>Id</th>
-    <th>Num</th>
+    
 -->
-
+<th>Num</th>
 	<th></th>
     <th>Spa</th>
     <th>Eng</th>
@@ -43,17 +43,19 @@
   <tr>
 <!--
 	<td><%= cap.id %></td>
-   <td><%= cap.num %></td>
+
 -->
 <!--	<td><audio src="http://www.mikefab.com/mp3/2641baee-e0ad-4eee-a0ce-cb4696a2b84e/05_2641baee-e0ad-4eee-a0ce-cb4696a2b84e.mp3" controls preload="auto" autobuffer></audio></td>
 -->
-
+   <td><%= cap.num %></td>
 	<td>
 		<%# if FileTest.exists?(RAILS_ROOT + "/public/audio/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 		<%# if FileTest.exists?("http://www.mikefab.com/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
-		<audio src="http://www.mikefab.com/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" controls preload="auto" autobuffer></audio>
-<!--		<audio id="player<%=c%>" src="/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3"  loop="loop"></audio><button onClick="document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';document.getElementById('player<%=c%>').play();"> Listen  </button>
--->
+
+		<!-- <audio src="http://www.mikefab.com/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" controls preload="auto" autobuffer></audio> -->
+		<audio id="player<%=c%>" src="/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" onClick="#document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';" controls preload="auto" onClick="alert('hi')";loop="loop"></audio>
+		<!-- <button onClick="document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';document.getElementById('player<%=c%>').play();"> Listen  </button> -->
+<!---->
 	<%# end %>	
 	</td>
  
