@@ -15,17 +15,19 @@
 -->
 <th>Num</th>
 	<th></th>
-    <th>Spa</th>
-    <th>Eng</th>
+    <th>Spanish</th>
+    <th>English</th>
 <!--
     <th>Por</th>
     <th>Rus</th>
     <th>Man</th>
     <th>Fre</th>
--->
+
     <th>Start</th>
     <th>Stop</th>
     <th>Url</th>
+-->
+
 	<!--
 
     <th>Lang</th>
@@ -52,8 +54,8 @@
 		<%# if FileTest.exists?(RAILS_ROOT + "/public/audio/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 		<%# if FileTest.exists?("http://www.mikefab.com/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 
-		<audio src="http://www.mikefab.com/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" controls preload="auto" autobuffer></audio>
-		<!-- <audio id="player<%=c%>" src="/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3" onClick="#document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';" controls preload="auto" onClick="alert('hi')";loop="loop"></audio> -->
+		<audio src="http://www.mikefab.com/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg" controls preload="auto" autobuffer></audio>
+		<!-- <audio id="player<%=c%>" src="/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg" onClick="#document.getElementById('player<%=c%>').src='/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg';" controls preload="auto" onClick="alert('hi')";loop="loop"></audio> -->
 		<!-- <button onClick="document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';document.getElementById('player<%=c%>').play();"> Listen  </button> -->
 <!---->
 	<%# end %>	
@@ -66,10 +68,12 @@
     <td><%= cap.rus %></td>
     <td><%= cap.man %></td>
     <td><%= cap.fre %></td>
--->
+
     <td><%= cap.start %></td>
     <td><%= cap.stop %></td>
-    <td><%= cap.url %></td>
+<td><%= cap.url %></td>
+-->
+    
 <!--
     <td><%= cap.lang %></td>
     <td><%= cap.wcount %></td>
@@ -84,6 +88,6 @@
 </table>
 
 <br />
-<% will_paginate @caps %>
-
+<%= will_paginate @caps %>
+<%= page_entries_info @caps %> 
 <%#= link_to 'New Cap', new_cap_path %>
