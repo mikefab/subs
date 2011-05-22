@@ -1,4 +1,6 @@
 Subs::Application.routes.draw do
+  get "users/new"
+
   resources :caps
 
   # The priority is based upon order of creation:
