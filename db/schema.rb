@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110518012908) do
+ActiveRecord::Schema.define(:version => 20110522210205) do
 
   create_table "caps", :force => true do |t|
     t.integer  "num"
@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(:version => 20110518012908) do
     t.string   "stop"
     t.string   "url"
     t.string   "lang"
+    t.string   "source"
+    t.string   "source2"
     t.integer  "wcount"
     t.integer  "ccount"
     t.datetime "created_at"
@@ -37,10 +39,22 @@ ActiveRecord::Schema.define(:version => 20110518012908) do
   add_index "caps", ["num"], :name => "index_caps_on_num"
   add_index "caps", ["por"], :name => "index_caps_on_por"
   add_index "caps", ["rus"], :name => "index_caps_on_rus"
+  add_index "caps", ["source"], :name => "index_caps_on_source"
   add_index "caps", ["spa"], :name => "index_caps_on_spa"
   add_index "caps", ["start"], :name => "index_caps_on_start"
   add_index "caps", ["stop"], :name => "index_caps_on_stop"
   add_index "caps", ["url"], :name => "index_caps_on_url"
   add_index "caps", ["wcount"], :name => "index_caps_on_wcount"
+
+  create_table "users", :force => true do |t|
+    t.string   "username"
+    t.string   "email"
+    t.string   "encrypted_password"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "extra"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

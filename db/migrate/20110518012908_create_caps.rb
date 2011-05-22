@@ -12,6 +12,8 @@ class CreateCaps < ActiveRecord::Migration
       t.string :stop
       t.string :url
       t.string :lang
+      t.string :source
+      t.string :source2            
       t.integer :wcount
       t.integer :ccount
 
@@ -29,6 +31,7 @@ class CreateCaps < ActiveRecord::Migration
     add_index :caps, :rus
     add_index :caps, :lang
     add_index :caps, :url
+    add_index :caps, :source
   end
 
   def self.down
