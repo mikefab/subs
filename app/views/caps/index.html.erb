@@ -28,9 +28,9 @@
     <th>Stop</th>
    
 --> 
-
-	<!--
 <th>Url</th>
+	<!--
+
     <th>Lang</th>
     <th>Wcount</th>
     <th>Ccount</th>
@@ -39,6 +39,7 @@
     <th></th>
     <th></th>
 -->
+   <th></th>
   </tr>
 <% c=0 %>
 <% @caps.each do |cap| %>
@@ -75,9 +76,9 @@
     <td><%= cap.stop %></td>
 
 -->
-
+<td><%= cap.url %></td>   
 <!--
- <td><%= cap.url %></td>   
+ 
     <td><%= cap.lang %></td>
     <td><%= cap.wcount %></td>
     <td><%= cap.ccount %></td>
@@ -86,6 +87,8 @@
     <td><%= link_to 'Edit', edit_cap_path(cap) %></td>
     <td><%= link_to 'Destroy', cap, :confirm => 'Are you sure?', :method => :delete %></td>
 -->
+    <td><%= link_to 'x', xxx_cap_path(cap) %></td>
+    <td><%= link_to 'Destroy', cap, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
