@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110523000737) do
+ActiveRecord::Schema.define(:version => 20110523155637) do
 
   create_table "caps", :force => true do |t|
     t.integer  "num"
@@ -49,9 +49,9 @@ ActiveRecord::Schema.define(:version => 20110523000737) do
   create_table "searches", :force => true do |t|
     t.string   "search"
     t.integer  "user_id"
-    t.integer  "page"
     t.string   "lang"
     t.string   "category"
+    t.integer  "page"
     t.boolean  "option"
     t.datetime "created_at"
     t.datetime "updated_at"
