@@ -1,0 +1,17 @@
+<h1>Searches#index</h1>
+
+
+<table><tr>
+	<th>Id</th>
+	<th>Lang</th>
+	<th>Page</th>
+	<th>Search</th>
+<% @searches.each do |search| %>
+<tr>	
+	<td><%= search.id %></td>
+	<td><%= search.lang %></td>
+	<td><%= search.page %></td>
+	<td><%= search.search %></td>		
+</tr>
+<%end%>
+</table>
