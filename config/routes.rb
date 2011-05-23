@@ -1,8 +1,18 @@
 Subs::Application.routes.draw do
+  get "searches/index"
+
+  get "search/index"
+
+  get "sessions/new"
+
   get "users/new"
 
-  resources :caps
 
+  resources :caps
+  resource :users
+  resource :searches
+  resources :sessions, :only => [:new, :create, :destroy]
+    match '/signup',  :to => 'users#new'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
