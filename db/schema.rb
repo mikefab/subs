@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110522210205) do
+ActiveRecord::Schema.define(:version => 20110523000737) do
 
   create_table "caps", :force => true do |t|
     t.integer  "num"
@@ -46,15 +46,34 @@ ActiveRecord::Schema.define(:version => 20110522210205) do
   add_index "caps", ["url"], :name => "index_caps_on_url"
   add_index "caps", ["wcount"], :name => "index_caps_on_wcount"
 
+  create_table "searches", :force => true do |t|
+    t.string   "search"
+    t.integer  "user_id"
+    t.integer  "page"
+    t.string   "lang"
+    t.string   "category"
+    t.boolean  "option"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "searches", ["category"], :name => "index_searches_on_category"
+  add_index "searches", ["lang"], :name => "index_searches_on_lang"
+  add_index "searches", ["option"], :name => "index_searches_on_option"
+  add_index "searches", ["page"], :name => "index_searches_on_page"
+  add_index "searches", ["user_id"], :name => "index_searches_on_user_id"
+
   create_table "users", :force => true do |t|
     t.string   "username"
     t.string   "email"
+    t.string   "password"
     t.string   "encrypted_password"
     t.string   "first_name"
     t.string   "last_name"
     t.string   "extra"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "salt"
   end
 
 end
