@@ -8,6 +8,7 @@
     <th>Category</th>
     <th>Page</th>
     <th>Option</th>
+	<th>Created</th>
     <th></th>
     <th></th>
     <th></th>
@@ -21,6 +22,7 @@
     <td><%= search.category %></td>
     <td><%= search.page %></td>
     <td><%= search.option %></td>
+    <td><%= search.created_at %></td>
     <td><%= link_to 'Show', search %></td>
     <td><%= link_to 'Edit', edit_search_path(search) %></td>
     <td><%= link_to 'Destroy', search, :confirm => 'Are you sure?', :method => :delete %></td>
