@@ -2,7 +2,7 @@ class SearchesController < ApplicationController
   # GET /searches
   # GET /searches.xml
   def index
-    @searches = Search.all
+    @searches = Search.all(:order=>"created_at")
 
     respond_to do |format|
       format.html # index.html.erb
