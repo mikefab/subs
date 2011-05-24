@@ -85,8 +85,15 @@ class CapsController < ApplicationController
 
   def xxx
     @cap = Cap.find(params[:id])
- #   @caps = Cap.find(:all, :conditions => ["url=?", @cap.url])
-    Cap.destroy_all(:url => @cap.url)
+    @caps = Cap.find(:all, :conditions => ["url=?", @cap.url])
+    string=""
+    @caps.each do |c|
+      c.hide=1
+      c.save
+    end
+
+ #render :text=>string
+ #   Cap.destroy_all(:url => @cap.url)
     respond_to do |format|
       format.html { redirect_to(caps_url) }
       format.xml  { head :ok }

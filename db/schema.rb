@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110523155637) do
+ActiveRecord::Schema.define(:version => 20110524004128) do
 
   create_table "caps", :force => true do |t|
     t.integer  "num"
@@ -30,10 +30,12 @@ ActiveRecord::Schema.define(:version => 20110523155637) do
     t.integer  "ccount"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "hide"
   end
 
   add_index "caps", ["eng"], :name => "index_caps_on_eng"
   add_index "caps", ["fre"], :name => "index_caps_on_fre"
+  add_index "caps", ["hide"], :name => "index_caps_on_hide"
   add_index "caps", ["lang"], :name => "index_caps_on_lang"
   add_index "caps", ["man"], :name => "index_caps_on_man"
   add_index "caps", ["num"], :name => "index_caps_on_num"
