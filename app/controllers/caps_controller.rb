@@ -83,14 +83,28 @@ class CapsController < ApplicationController
     end
   end
 
-  def xxx
-    @cap = Cap.find(params[:id])
-    @caps = Cap.find(:all, :conditions => ["url=?", @cap.url])
-    string=""
-    @caps.each do |c|
-      c.hide=1
-      c.save
+
+   def hide_all
+     @cap = Cap.find(params[:id])
+     @caps = Cap.find(:all, :conditions => ["url=?", @cap.url])
+     @caps.each do |c|
+       c.hide=1
+       c.save
+     end
+
+  #render :text=>string
+  #   Cap.destroy_all(:url => @cap.url)
+     respond_to do |format|
+       format.html { redirect_to(caps_url) }
+       format.xml  { head :ok }
+     end
     end
+
+
+  def hide
+    @cap = Cap.find(params[:id])
+    @cap.hide=1
+    @cap.save
 
  #render :text=>string
  #   Cap.destroy_all(:url => @cap.url)
@@ -99,9 +113,4 @@ class CapsController < ApplicationController
       format.xml  { head :ok }
     end
    end
-
-
-
-
-
 end

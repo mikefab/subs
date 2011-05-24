@@ -2,7 +2,8 @@ Subs::Application.routes.draw do
  
   resources :caps do
     member do
-      get 'xxx'
+      get 'hide'
+      get 'hide_all'
     end
   end
 resources :searches
