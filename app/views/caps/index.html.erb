@@ -59,12 +59,10 @@
 		<%# if FileTest.exists?(RAILS_ROOT + "/public/audio/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 		<%# if FileTest.exists?("http://www.mikefab.com/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 		<% if cap.url != "trash" %> 
-
 		<audio src="http://www.mikefab.com/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg" controls preload="auto" autobuffer></audio>
 		<%else%>
 			<%cap.source2=cap.source2.gsub(" ",".")%>
 			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=cap.source2%>/<%= cap.num %>_<%= cap.source2  %>.ogg" controls preload="auto" autobuffer></audio>
-		
 		<%end%>
 
 		<!-- <audio id="player<%=c%>" src="/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg" onClick="#document.getElementById('player<%=c%>').src='/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg';" controls preload="auto" onClick="alert('hi')";loop="loop"></audio> -->
@@ -72,9 +70,11 @@
 <!---->
 	<%# end %>	
 	</td>
- 
-    <td><%= cap.spa %></td>
-    <td><%= cap.eng %></td>
+    <td><%cap.spa.split(/\W+/).each do |w|%>
+	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%></a>
+	<%end%></td>
+
+    <td>-<%= cap.eng %>-</td>
 <!--
     <td><%= cap.por %></td>
     <td><%= cap.rus %></td>

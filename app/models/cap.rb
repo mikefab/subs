@@ -30,8 +30,8 @@ def self.search(search,page,language)
   Search.create(:search=>search, :lang=>language, :page=> page)
 
   paginate :per_page=>8, :page=>page,
-  :conditions => [language + ' like ? and eng != ? and spa != ? and spa!=eng and hide is not true', "%#{search}%", "",""],
-  :order  => 'num'
+  :conditions => ['('+language + ' like ? or ' + language + ' like ? or ' + language + ' like ?) and eng != ? and spa != ? and spa!=eng and hide is not true', "% #{search} %","#{search} %","% #{search}", "",""],
+  :order  => 'wcount'
   end
 
 end
