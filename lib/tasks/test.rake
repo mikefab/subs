@@ -1,3 +1,4 @@
+require 'iconv'
 task :create_subs => [:environment] do
 
   basedir = Rails.root.to_s + "/lib/tasks"

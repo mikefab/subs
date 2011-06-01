@@ -1,6 +1,6 @@
 class Verb < ActiveRecord::Base
 
-  def self.return_number_of_verbs()
+  def self.num_verbs()
     v = Verb.find(:all)
     return v.size
   end
