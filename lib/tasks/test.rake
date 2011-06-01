@@ -1,4 +1,4 @@
-require 'iconv'
+require 'iconv' 
 task :create_subs => [:environment] do
 
   basedir = Rails.root.to_s + "/lib/tasks"
@@ -42,16 +42,40 @@ task :create_verbs => [:environment] do
       line.gsub(/\r/,'')
       (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
 
-      verb = Verb.new(:verb=>verb,:conj=>conj,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
+      verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
 
       verb.save
       c+=1
      puts c.to_s + " " + verb.conj
     }  
 end
-task :ready_for_the_day => [:turn_off_alarm] do
-  puts "Ready for the day!"
+task :test_verbs => [:environment] do
+  basedir = Rails.root.to_s + "/lib/tasks"
+  file = File.new(basedir + "/verbs.txt","r")
+  c=0
+  #    ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
+  file.each {|line|
+    line.gsub(/\n/,'')
+    line.gsub(/\r/,'')
+    (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
+    v=Verb.find(:all,:conditions=>["verb = ? and conj = ? and tense_type= ? and mood = ? and tense = ? and pro = ?", "#{verb}", "#{conj}","#{tense_type}","#{mood}","#{tense}","#{pro}"])
+    
+if v.size==0 then
+  verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
+  verb.save
+  puts "added #{conj}.."
 end
+ #    if !v then
+ #     verb = Verb.new(:verb=>verb,:conj=>conj,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
+  #    verb.save
+   #   exit
+  #  end
+    
+  }
+
+end
+
+
 
 
 
