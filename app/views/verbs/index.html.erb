@@ -1,0 +1,35 @@
+<h1>Listing verbs</h1>
+
+<table>
+  <tr>
+    <th>Verb</th>
+    <th>Conj</th>
+    <th>Mood</th>
+    <th>Tense</th>
+    <th>Tense type</th>
+    <th>Pro</th>
+    <th>Pre</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @verbs.each do |verb| %>
+  <tr>
+    <td><%= verb.verb %></td>
+    <td><%= verb.conj %></td>
+    <td><%= verb.mood %></td>
+    <td><%= verb.tense %></td>
+    <td><%= verb.tense_type %></td>
+    <td><%= verb.pro %></td>
+    <td><%= verb.pre %></td>
+    <td><%= link_to 'Show', verb %></td>
+    <td><%= link_to 'Edit', edit_verb_path(verb) %></td>
+    <td><%= link_to 'Destroy', verb, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Verb', new_verb_path %>

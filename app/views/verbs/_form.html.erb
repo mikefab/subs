@@ -1,0 +1,45 @@
+<%= form_for(@verb) do |f| %>
+  <% if @verb.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@verb.errors.count, "error") %> prohibited this verb from being saved:</h2>
+
+      <ul>
+      <% @verb.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :verb %><br />
+    <%= f.text_field :verb %>
+  </div>
+  <div class="field">
+    <%= f.label :conj %><br />
+    <%= f.text_field :conj %>
+  </div>
+  <div class="field">
+    <%= f.label :mood %><br />
+    <%= f.text_field :mood %>
+  </div>
+  <div class="field">
+    <%= f.label :tense %><br />
+    <%= f.text_field :tense %>
+  </div>
+  <div class="field">
+    <%= f.label :tense_type %><br />
+    <%= f.text_field :tense_type %>
+  </div>
+  <div class="field">
+    <%= f.label :pro %><br />
+    <%= f.text_field :pro %>
+  </div>
+  <div class="field">
+    <%= f.label :pre %><br />
+    <%= f.text_field :pre %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

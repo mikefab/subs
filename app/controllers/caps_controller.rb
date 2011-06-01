@@ -6,6 +6,9 @@ class CapsController < ApplicationController
     @choice= params[:language]
     lang=params[:language] || "Spa"
     @caps = Cap.search(params[:search], params[:page],lang)
+    
+    @verbs = Verb.return_verbs(@caps)
+    
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @caps }

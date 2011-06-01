@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Verb:</b>
+  <%= @verb.verb %>
+</p>
+
+<p>
+  <b>Conj:</b>
+  <%= @verb.conj %>
+</p>
+
+<p>
+  <b>Mood:</b>
+  <%= @verb.mood %>
+</p>
+
+<p>
+  <b>Tense:</b>
+  <%= @verb.tense %>
+</p>
+
+<p>
+  <b>Tense type:</b>
+  <%= @verb.tense_type %>
+</p>
+
+<p>
+  <b>Pro:</b>
+  <%= @verb.pro %>
+</p>
+
+<p>
+  <b>Pre:</b>
+  <%= @verb.pre %>
+</p>
+
+
+<%= link_to 'Edit', edit_verb_path(@verb) %> |
+<%= link_to 'Back', verbs_path %>
