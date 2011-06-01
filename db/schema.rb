@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110524004128) do
+ActiveRecord::Schema.define(:version => 20110601045715) do
 
   create_table "caps", :force => true do |t|
     t.integer  "num"
@@ -77,5 +77,20 @@ ActiveRecord::Schema.define(:version => 20110524004128) do
     t.datetime "updated_at"
     t.string   "salt"
   end
+
+  create_table "verbs", :force => true do |t|
+    t.string   "verb"
+    t.string   "conj"
+    t.string   "mood"
+    t.string   "tense"
+    t.string   "tense_type"
+    t.string   "pro"
+    t.string   "pre"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "verbs", ["conj"], :name => "index_verbs_on_conj"
+  add_index "verbs", ["verb"], :name => "index_verbs_on_verb"
 
 end

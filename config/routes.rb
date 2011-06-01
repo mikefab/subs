@@ -1,5 +1,7 @@
 Subs::Application.routes.draw do
  
+  resources :verbs
+
   resources :caps do
     member do
       get 'hide'
