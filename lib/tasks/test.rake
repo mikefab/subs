@@ -49,6 +49,11 @@ task :create_verbs => [:environment] do
      puts c.to_s + " " + verb.conj
     }  
 end
+task :destroy_verbs => [:environment] do
+  v=Verbs.find(:all)
+  v.map do |f|  f.destroy  end
+  
+end
 task :test_verbs => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
   file = File.new(basedir + "/verbs.txt","r")
