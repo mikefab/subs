@@ -1,5 +1,9 @@
 class Verb < ActiveRecord::Base
 
+  def self.return_number_of_verbs()
+    v = Verb.find(:all)
+    return v.size
+  end
 
   def self.return_verbs(caps)
     verbs=""

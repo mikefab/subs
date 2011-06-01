@@ -1,6 +1,7 @@
 task :create_subs => [:environment] do
+
   basedir = Rails.root.to_s + "/lib/tasks"
-  file = File.new(basedir + "/combined.txt","r")
+  file = File.new(basedir + "/files/#{ENV["file"]}.txt","r")
   c=0
   ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
 
