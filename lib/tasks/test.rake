@@ -50,7 +50,7 @@ task :create_verbs => [:environment] do
     }  
 end
 task :destroy_verbs => [:environment] do
-  v=Verbs.find(:all)
+  v=Verb.find(:all)
   v.map do |f|  f.destroy  end
   
 end
