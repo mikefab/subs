@@ -26,12 +26,19 @@
 
 class Cap < ActiveRecord::Base
 
+def self.trash()
+  string  = "este"
+  string = string.gsub(/e/,"\(e|é\)") if string
+  return string
+end
+
 def self.search(search,page,language)
-#    search = search.gsub(/o/,"ó") if search
+#    search = search.gsub(/e/,"\[e|é\]") if search
   Search.create(:search=>search, :lang=>language, :page=> page)
 
   paginate :per_page=>8, :page=>page,
   :conditions => ['('+language + ' like ? or ' + language + ' like ? or ' + language + ' like ?) and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "% #{search} %","#{search} %","% #{search}", "",""],
+#  :conditions => ['spa select spa,eng from caps where spa REGEXP "(e|é)st(e|é) bien"'],
 
 
   :order  => 'wcount'

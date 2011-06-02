@@ -7,9 +7,16 @@
 		<%= submit_tag "Search", :name=>nil %>
 	</p>
 <%end%>
-
-
-<%=@verbs%>
+<script>
+	function light_up(id){
+	  if(document.getElementById(id)){
+		document.getElementById(id).style.display='inline';	
+	  }
+	}
+</script>
+<%# @verbs.each do |v|%>
+	<%#= v %>
+	<%#end%>
 <table>
   <tr>
 <!--
@@ -73,8 +80,20 @@
 <!---->
 	<%# end %>	
 	</td>
+
+	<%counter=0%>
     <td><%cap.spa.split(/\s+/).each do |w|%>
-	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%></a>
+<%thing="#{cap.id}-#{counter}"%>
+	<span onmouseover="light_up('<%=cap.id%>-<%=counter%>');">
+	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%>
+</a></span>
+<%if @hash_id[thing] then%>
+	<!-- title="<%= @hash_id[thing].conj%> : <%= @hash_id[thing].verb%> <%=@hash_id[thing].tense%>"> -->
+	<span id="<%=cap.id%>-<%=counter%>" style="background-color:yellow;display:none;"><%= @hash_id[thing].conj%> : <%= @hash_id[thing].verb%> <%=@hash_id[thing].tense%></span>
+ 	<%end%>
+
+	<%counter=counter+1%>
+
 	<%end%></td>
 
     <td><%= cap.eng %></td>
