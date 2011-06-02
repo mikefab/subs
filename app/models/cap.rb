@@ -27,7 +27,7 @@
 class Cap < ActiveRecord::Base
 
 def self.search(search,page,language)
-    search = search.gsub(/o/,"ó") if search
+#    search = search.gsub(/o/,"ó") if search
   Search.create(:search=>search, :lang=>language, :page=> page)
 
   paginate :per_page=>8, :page=>page,
