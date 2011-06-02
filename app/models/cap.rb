@@ -1,3 +1,4 @@
+#encoding: utf-8
 # == Schema Information
 # Schema version: 20110522210205
 #
@@ -26,11 +27,13 @@
 class Cap < ActiveRecord::Base
 
 def self.search(search,page,language)
-  
+    search =search.gsub(/o/,"ó")
   Search.create(:search=>search, :lang=>language, :page=> page)
 
   paginate :per_page=>8, :page=>page,
-  :conditions => ['('+language + ' like ? or ' + language + ' like ? or ' + language + ' like ?) and eng != ? and spa != ? and spa!=eng and hide is not true', "% #{search} %","#{search} %","% #{search}", "",""],
+  :conditions => ['('+language + ' like ? or ' + language + ' like ? or ' + language + ' like ?) and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "% #{search} %","#{search} %","% #{search}", "",""],
+
+
   :order  => 'wcount'
   end
 
