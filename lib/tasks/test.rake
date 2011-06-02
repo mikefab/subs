@@ -33,6 +33,7 @@ task :create_verbs => [:environment] do
     basedir = Rails.root.to_s + "/lib/tasks"
     file = File.new(basedir + "/verbs.txt","r")
     c=0
+    c2=0
 #    ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
 
     file.each {|line|
@@ -46,7 +47,9 @@ task :create_verbs => [:environment] do
 
       verb.save
       c+=1
-     puts c.to_s + " " + verb.conj
+      c2=c+1
+     puts c.to_s + " " + verb.conj if c2==100
+     c2=0 if c2==100
     }  
 end
 task :destroy_verbs => [:environment] do
