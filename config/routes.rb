@@ -1,5 +1,7 @@
 Subs::Application.routes.draw do
  
+  resources :roots
+
   resources :verbs
 
   resources :caps do

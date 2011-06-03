@@ -11,6 +11,7 @@ class Verb < ActiveRecord::Base
     a_caps=[]
     hash_ids=Hash.new()
     hash_id=Hash.new()
+    english=Hash.new()
     
     caps.each do |cap|
       cap.spa=cap.spa.gsub(/\s+/," ")
@@ -25,6 +26,7 @@ class Verb < ActiveRecord::Base
         a_caps.push(text[i])
         a_caps.push("#{text[i-1]} #{text[i]}") if i>0
         
+        #Create hash with words as keys and the value a string of all its positions in captions (id-i)
         if hash_ids["#{text[i]}"] then
           hash_ids["#{text[i]}"] = hash_ids["#{text[i]}"] + "#{cap.id}-#{i}|"
         else
@@ -46,6 +48,11 @@ class Verb < ActiveRecord::Base
       #loop through ids for each word, initialize hash set id as key and verb as value
       if hash_ids[word] and temp then
 
+        #get english translation for verb
+        trans=Root.find(:first,:conditions=>['verb=?',temp.verb])
+        print "#{trans.trans} xxxx\n"
+        english["#{temp.verb}"]=trans.trans
+
         hash_ids[word] =  hash_ids[word].sub(/|$/,"")
         array_of_ids = hash_ids[word].split("|")
         array_of_ids.each do |id|
@@ -56,7 +63,7 @@ class Verb < ActiveRecord::Base
     end
     verbs = verbs + " | " + word + " - " + temp.verb if temp
     end
-  [verbs,hash_id]
+  [verbs,hash_id,english]
   end
 
 
