@@ -8,6 +8,41 @@
 	</p>
 <%end%>
 <script>
+	mood= new Array();
+	mood["Subjuntivo"]="Used to express everything except certainty and objectivity.";
+	mood["Indicativo"]="the verb mood used in ordinary, typical speech when making statements.";
+	mood["Condicional"]="the verb mood used in ordinary, typical speech when making statements.";
+	mood["Imperitivo"]="";
+
+
+	tense= new Array();
+	tense["futuro simple"] ="future."
+	tense["futuro perfecto"] ="The future perfect is formed by combining the auxiliary verb 'haber' with the past participle. habré, habrás, habrá, habremos, habréis, habrán. (yo) Habré escrito el libro antes del año nuevo. I will have written the book before the new year. "
+	tense["imperfecto"]="The imperfect tense is used to refer to actions in the past that occurred repeatedly.";
+	tense["pluscuamperfecto"] = "The Spanish pluperfect (aka past perfect) is used to indicate an action in the past that occurred before another action in the past. The latter can be either mentioned in the same sentence or implied. Ya había salido (cuando tú llamaste). I had already left (when you called)."
+	tense["presente"]="Present";
+	tense["preterito perfecto"] = "";
+
+	tense_type=new Array();
+	tense["Tiempos compuestos"]="Present";
+	tense["Tiempos simples"] = ""
+
+
+	function return_mood(div,arg){
+		div.title=mood[arg];
+	}
+	function return_tense(div,arg){
+		div.title=tense[arg];
+	}
+
+	function return_tense_type(div,arg){
+		div.title=tense_type[arg];
+
+	}
+
+
+
+
 	function darken(id){
 
 	  if(document.getElementById(id)){
@@ -20,7 +55,7 @@
 
 		var pos = getPos(div);
 		document.getElementById(id).style.display='inline';	
-	    document.getElementById(id).style.left=pos[0] +"px";
+	    document.getElementById(id).style.left=(pos[0]+(document.getElementById(id+'_basic').offsetWidth*.6)) +"px";
 	    document.getElementById(id).style.top=(pos[1]+document.getElementById(id+'_basic').offsetHeight) +"px";
 
 	  }
@@ -39,6 +74,7 @@
 
 
 </script>
+
 <%# @verbs.each do |v|%>
 	<%#= v %>
 	<%#end%>
@@ -114,13 +150,14 @@
 </a></span>
 <%if @hash_id[thing] then%>
 	<!-- title="<%= @hash_id[thing].conj%> : <%= @hash_id[thing].verb%> <%=@hash_id[thing].tense%>"> -->
-	<span id="<%=cap.id%>-<%=counter%>" style="position:fixed;background-color:yellow;display:none;">
+	<span id="<%=cap.id%>-<%=counter%>" style="position:fixed;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 	<%= @hash_id[thing].conj%>
-	<br>verb: <%= @hash_id[thing].verb%>
-	<br>tense: <%=@hash_id[thing].tense%>
-	<br>tense type:  <%=@hash_id[thing].tense_type%>
-	<br>mood:  <%=@hash_id[thing].mood%>
-	<br>pronoun:  <%=@hash_id[thing].pro%>
+	<br>verb: <a href=""><%= @hash_id[thing].verb%></a>
+	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
+	<br>mood:  <a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
+
+	<br>tense type:  <a href="" onmouseover="return_tense_type(this,'<%=@hash_id[thing].tense_type%>');"><%=@hash_id[thing].tense_type%></a>
+	<br>pronoun: <a href=""> <%=@hash_id[thing].pro%></a>
 	
 	</span>
  	<%end%>
