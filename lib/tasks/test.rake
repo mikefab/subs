@@ -28,6 +28,34 @@ task :create_subs => [:environment] do
   }  
 end
 
+task :create_roots => [:environment] do
+  
+    basedir = Rails.root.to_s + "/lib/tasks"
+    file = File.new(basedir + "/roots.txt","r")
+    c=0
+    c2=0
+#    ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
+
+    file.each {|line|
+
+ #     line = ic.iconv(line + ' ')[0..-2]
+#      line=line.gsub(/\n/,'')
+#      line=line.gsub(/\r/,'')
+#  line=line.gsub(/(^\s+|\s+$)/)
+      (verb,english)=line.split(/\t/)
+    
+  english=english.gsub(/\s+$/,"") 
+      root = Root.new(:verb=>verb,:trans=>english)
+
+      root.save
+      c+=1
+      c2=c2+1
+     puts c.to_s + " " + root.verb
+    }  
+end
+
+
+
 task :create_verbs => [:environment] do
   
     basedir = Rails.root.to_s + "/lib/tasks"
@@ -47,7 +75,7 @@ task :create_verbs => [:environment] do
 
       verb.save
       c+=1
-      c2=c+1
+      c2=c2+1
      puts c.to_s + " " + verb.conj if c2==100
      c2=0 if c2==100
     }  
