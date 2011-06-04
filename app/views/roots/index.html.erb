@@ -1,0 +1,27 @@
+<h1>Listing roots</h1>
+
+<table>
+  <tr>
+    <th>Verb</th>
+    <th>Trans</th>
+    <th>Kind</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @roots.each do |root| %>
+  <tr>
+    <td><%= root.verb %></td>
+    <td><%= root.trans %></td>
+    <td><%= root.kind %></td>
+    <td><%= link_to 'Show', root %></td>
+    <td><%= link_to 'Edit', edit_root_path(root) %></td>
+    <td><%= link_to 'Destroy', root, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Root', new_root_path %>

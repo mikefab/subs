@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Verb:</b>
+  <%= @root.verb %>
+</p>
+
+<p>
+  <b>Trans:</b>
+  <%= @root.trans %>
+</p>
+
+<p>
+  <b>Kind:</b>
+  <%= @root.kind %>
+</p>
+
+
+<%= link_to 'Edit', edit_root_path(@root) %> |
+<%= link_to 'Back', roots_path %>

@@ -10,9 +10,9 @@
 <script>
 	mood= new Array();
 	mood["Subjuntivo"]="Used to express everything except certainty and objectivity.";
-	mood["Indicativo"]="the verb mood used in ordinary, typical speech when making statements.";
-	mood["Condicional"]="the verb mood used in ordinary, typical speech when making statements.";
-	mood["Imperitivo"]="";
+	mood["Indicativo"]="The verb mood used in ordinary, typical speech when making statements.";
+	mood["Condicional"]="The verb mood used in ordinary, typical speech when making statements.";
+	mood["Imperitivo"]="imperitive";
 
 
 	tense= new Array();
@@ -21,7 +21,7 @@
 	tense["imperfecto"]="The imperfect tense is used to refer to actions in the past that occurred repeatedly.";
 	tense["pluscuamperfecto"] = "The Spanish pluperfect (aka past perfect) is used to indicate an action in the past that occurred before another action in the past. The latter can be either mentioned in the same sentence or implied. Ya había salido (cuando tú llamaste). I had already left (when you called)."
 	tense["presente"]="Present";
-	tense["preterito perfecto"] = "";
+	tense["preterito perfecto"] = "The Spanish present perfect is used just like its English counterpart: to express that something has happened at some point before now, at an unspecified time in the past.";
 
 	tense_type=new Array();
 	tense["Tiempos compuestos"]="Present";
@@ -152,7 +152,7 @@
 	<!-- title="<%= @hash_id[thing].conj%> : <%= @hash_id[thing].verb%> <%=@hash_id[thing].tense%>"> -->
 	<span id="<%=cap.id%>-<%=counter%>" style="position:fixed;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 	<%= @hash_id[thing].conj%>
-	<br>verb: <a href=""><%= @hash_id[thing].verb%></a>
+	<br>verb: <a href=""><%= @hash_id[thing].verb%> - <%=@english["#{@hash_id[thing].verb}"]%></a>
 	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
 	<br>mood:  <a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
 
