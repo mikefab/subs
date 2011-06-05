@@ -5,6 +5,23 @@ class Verb < ActiveRecord::Base
     return v.size
   end
 
+
+  def self.return_mood_verbs(mood)
+    hash   =   Hash.new()
+    a_conj = Array.new()
+    a_verbs= Array.new()
+#    conjugations = Verb.find(:all,:conditions=>["mood = ?", "#{mood}"])
+ #   conjugations.each do |j|
+  #    print "#{j.verb} #{j.conj}\n"
+   #   c=Cap.find(:first,:conditions=>["spa like ?","#{j.conj}"])
+#        a_conj<<j if c
+    #    a_verbs<< j.verb
+     # end
+      return[a_verbs.uniq!,a_conj]
+  end
+
+
+
   def self.return_verbs(caps)
     verbs=""
     text=""

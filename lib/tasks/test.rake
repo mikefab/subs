@@ -1,4 +1,21 @@
 require 'iconv' 
+
+
+task :qualify_verbs => [:environment] do
+      a_conj = Array.new()
+      hash= Hash.new()
+      conjugations = Verb.find(:all,:conditions=>["tense = ? and pre='' and conj !='missing'", "preterito perfecto"])
+      conjugations.each do |j|
+          c=Cap.find(:all,:conditions=>["spa like ?", "%#{j.conj}%"])
+          print "#{j.verb}\n" unless hash["#{j.verb}"]
+          hash["#{j.verb}"] =1 unless hash["#{j.verb}"]
+          j.pre=c.size if c;
+          j.save if c;
+          print "#{j.verb} #{j.conj}\n" if c
+      end  
+end
+
+
 task :create_subs => [:environment] do
 
   basedir = Rails.root.to_s + "/lib/tasks"
@@ -50,11 +67,10 @@ task :create_roots => [:environment] do
       root.save
       c+=1
       c2=c2+1
-     puts c.to_s + " " + root.verb
+     puts c.to_s + " " + root.verb if c2==200
+     c2=0 if c2==201
     }  
 end
-
-
 
 task :create_verbs => [:environment] do
   
