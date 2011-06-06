@@ -6,18 +6,14 @@ class Verb < ActiveRecord::Base
   end
 
 
-  def self.return_mood_verbs(mood)
-    hash   =   Hash.new()
-    a_conj = Array.new()
-    a_verbs= Array.new()
-#    conjugations = Verb.find(:all,:conditions=>["mood = ?", "#{mood}"])
- #   conjugations.each do |j|
-  #    print "#{j.verb} #{j.conj}\n"
-   #   c=Cap.find(:first,:conditions=>["spa like ?","#{j.conj}"])
-#        a_conj<<j if c
-    #    a_verbs<< j.verb
-     # end
-      return[a_verbs.uniq!,a_conj]
+  def self.return_mood_verbs(mood,tense)
+    a_verbs=Array.new()
+    verbs = Verb.find(:all,:conditions=>["mood = ? and tense=? and pre !='' and pre != '0' ", "#{mood}", "#{tense}"])
+    verbs.each do |v|
+      c=Cap.find(:first, :conditions=>["spa REGEXP ? and hide is null and eng!=''", "(^#{v.conj}.?| #{v.conj}[\.\!\?\-]?)"])
+      a_verbs << v.conj if c
+          end
+    return a_verbs.uniq
   end
 
 

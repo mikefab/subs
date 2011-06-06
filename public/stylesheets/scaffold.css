@@ -11,6 +11,13 @@ pre {
   padding: 10px;
   font-size: 11px;
 }
+ul {padding:0px;}
+
+li {padding-bottom : 10px;}
+
+h2 {position:relative;padding-right:40px;}
+h3 {position:relative;display:inline;padding-right:40px;}
+
 
 a { color: #000; }
 a:visited { color: #666; }

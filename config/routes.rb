@@ -1,9 +1,16 @@
 Subs::Application.routes.draw do
  
+  get "home/about"
+ match 'about' => 'home#about'
+  get "home/index"
+  
+  match 'iframe' =>'caps#iframe'
+  match 'verbs' =>'verbs#verbs'
+
   resources :roots
 
   resources :verbs
-
+  resources :home
   resources :caps do
     member do
       get 'hide'
@@ -61,7 +68,7 @@ resources :searches
     # You can have the root of your site routed with "root"
     # just remember to delete public/index.html.
     # root :to => "welcome#index"
-    root :to => "caps#index"
+    root :to => "home#index"
 
     # See how all your routes lay out with "rake routes"
 

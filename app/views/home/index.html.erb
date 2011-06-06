@@ -1,12 +1,78 @@
-<p> Condicional
-<p> Imperativo  
- <p>Indicativo  
- <p>Subjuntivo
+<script>
+mood = "Subjuntivo";
+function display_verbs(value){
+	document.getElementById('verbs').src="/verbs?mood="+mood+ "&tense="+value;
 
-<br><br>
-<%#@a_verbs.each do |v| %>
-	<%#=v%><br>
-	<%#end%>
+}
+</script>
+<div id ="moods" style="position:relative; display:inline;" >
+<h2 onClick="mood = this.innerHTML;">Condicional</h2>
+<h2 onClick="mood = this.innerHTML;">Imperativo</h2>
+<h2 onClick="mood = this.innerHTML;">Indicativo</h2>
+<h2 onClick="mood = this.innerHTML;">Subjuntivo</h2>
+</div>
+
+<div id="mood_explination" style="position:absolute;float:right;display:inline;width:50%;left:300px;top:50px">
+ The subjunctive mood is used to express everything except certainty and objectivity: things like doubt, uncertainty, subjectivity, etc.
+ It expresses a wish, intent or command for a possible action or state of being. It is usually used in subordinate clauses that begin with que or si.
+</div>
+
+<div id="tenses" >
+<h3 onClick="display_verbs(this.innerHTML);">futuro perfecto</h3>
+<h3 onClick="display_verbs(this.innerHTML);">futuro simple</h3>
+<h3 onClick="display_verbs(this.innerHTML);">gerundio </h3>
+<h3 onClick="display_verbs(this.innerHTML);">imperfecto</h3>
+<h3 onClick="display_verbs(this.innerHTML);">infinitivo</h3>
+<br>
+<h3 onClick="display_verbs(this.innerHTML);">participio </h3>
+<h3 onClick="display_verbs(this.innerHTML);">pluscuamperfecto </h3>
+<h3 onClick="display_verbs(this.innerHTML);">presente</h3>
+<h3 onClick="display_verbs(this.innerHTML);">preterito perfecto</h3>
+</div>
+
+<br>
+<div id="examples" style="display:none;">
+<ul> 
+  <li><i>Quiero que no <b>tengas</b> fr&#237;o.</i> (I want you to be not cold.)</li> 
+ 
+  <li><i>Siento que <b>tengas</b> fr&#237;o.</i> (I'm sorry you're cold.) The sentence expresses <b>the speaker's emotions</b> about a perceived reality. What is important in this sentence is the speaker's feelings, not whether the other person is cold.</li> 
+ 
+  <li><i>Te doy mi chaqueta para que no <b>tengas</b> fr&#237;o.</i> (I'm giving you my coat so you won't be cold.) The sentence expresses the <b>speaker's intent</b>, not necessarily reality.</li> 
+ 
+  <li><i>Se permite que <b>lleven</b> chaquetas all&#237;.</i> (People are allowed to wear jackets there.) The phrase <b>expresses permission</b> for an action to take place.</li> 
+ 
+  <li><i>Di a ella que <b>lleve</b> una chaqueta.</i> (Tell her to wear her jacket.) Expresses a <b>command or wish</b> of the speaker.</li> 
+ 
+  <li><i>No hay nadie que tenga fr&#237;o.</i> (Nobody is cold.) Expression of <a href="http://spanish.about.com/od/sentencestructure/a/negation.htm"><b>negation</b></a> of the action in a subordinate clause.</li> 
+ 
+  <li><i>Tal vez <b>tenga</b> fr&#237;o.</i> (Perhaps he is cold.) This is an expression of <b>doubt</b>.</li> 
+ 
+  <li><i>Si yo <b>fuera</b> un rico, tocar&#237;a el viol&#237;n.</i> (If I were a rich man, I would play the fiddle.) This is an expression of a statement <b>contrary to fact</b>.</li> 
+</ul> 
+ 
+<p>Here are some examples of sentences showing differences between the indicative and subjunctive.</p> 
+ 
+<ul> 
+  <li><b>Indicative:</b> <i>Es cierto que <b>sale</b> tarde.</i> (It is definitely leaving late.)</li> 
+ 
+  <li><b>Subjunctive:</b> <i>Es imposible que <b>salga</b> tarde. Es probable que <b>salga</b> tarde.</i> It is impossible that it is leaving late. It is likely that it will leave late.</li> 
+ 
+  <li><b>Explanation:</b> The indicative is used to express perceived reality, while the subjunctive is used to express doubt, negation or mere probability.</li> 
+</ul> 
+</div>
+
+<iframe id="verbs"  style="position:relative;float:left;height:100%;border:none;display:inline;">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+<iframe id="iframe" width="90%" height="100%" style="position:fixed;float:right;display:inline;border:none;">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+
+
+
+
+
 <div id="subjunctive" style="display:none;">
 a menos que <br>
 unless <br><br>

@@ -10,6 +10,12 @@ class VerbsController < ApplicationController
     end
   end
 
+    def verbs
+     @verbs = Verb.return_mood_verbs(params[:mood],params[:tense])
+  #  @verbs="blow"
+    end
+    
+    
   # GET /verbs/1
   # GET /verbs/1.xml
   def show

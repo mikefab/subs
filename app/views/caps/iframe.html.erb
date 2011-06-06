@@ -1,16 +1,6 @@
 <div id="search" style="display:inline;">
 
-<%if params[:hide_search] then%>
-<h1>Listing captions</h1>
-<% form_tag caps_path, :method=> 'get' do %>
-	<p>
-		<%= select_tag "language", options_for_select([ "Spa", "Eng"], @choice) %>
-		<%= text_field_tag :search, params[:search] %>
-		<%= submit_tag "Search", :name=>nil %>
-	</p>
-<%end%>
-</div>
-<%end%>
+
 <script>
 	mood= new Array();
 	mood["Subjuntivo"]="Used to express everything except certainty and objectivity.";
@@ -91,20 +81,6 @@
 <th>Num</th>
 -->
 	<th></th>
-    <th>Spanish</th>
-    <th>English</th>
-<!--
-    <th>Por</th>
-    <th>Rus</th>
-    <th>Man</th>
-    <th>Fre</th>
-
-    <th>Start</th>
-    <th>Stop</th>
-   
---> 
-<th></th>
-<th></th>
 
 	<!--
 <th>Url</th>
@@ -144,10 +120,11 @@
 		<!-- <button onClick="document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';document.getElementById('player<%=c%>').play();"> Listen  </button> -->
 <!---->
 	<%# end %>	
-	</td>
-
+<br>
+<ul >
+<li>
 	<%counter=0%>
-    <td><%cap.spa.split(/\s+/).each do |w|%>
+    <%cap.spa.split(/\s+/).each do |w|%>
 <%thing="#{cap.id}-#{counter}"%>
 	<span id="<%=cap.id%>-<%=counter%>_basic" onmouseover="light_up('<%=cap.id%>-<%=counter%>',this);" onmouseout="darken('<%=cap.id%>-<%=counter%>');">
 	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%>
@@ -165,35 +142,13 @@
 	
 	</span>
  	<%end%>
-
 	<%counter=counter+1%>
 
-	<%end%></td>
-
-    <td><%= cap.eng %></td>
-<!--
-    <td><%= cap.por %></td>
-    <td><%= cap.rus %></td>
-    <td><%= cap.man %></td>
-    <td><%= cap.fre %></td>
-
-    <td><%= cap.start %></td>
-    <td><%= cap.stop %></td>
-
--->
-
-<!--
-<td><%= cap.url %></td>    
-    <td><%= cap.lang %></td>
-    <td><%= cap.wcount %></td>
-    <td><%= cap.ccount %></td>
-
-    <td><%= link_to 'Show', cap %></td>
-    <td><%= link_to 'Edit', edit_cap_path(cap) %></td>
-    <td><%= link_to 'Destroy', cap, :confirm => 'Are you sure?', :method => :delete %></td>
-
--->
-
+	<%end%>
+</li>
+<li>	<%=cap.eng%></li>
+</ul>
+</td>
     <td style="width:60px;font-size:8pt;" title="Removes just this file."><%= link_to 'remove',hide_cap_path(cap), :confirm => 'Are you sure?' %></td>
     <td style="width:100px;font-size:8pt;" title="Removes all clips in database from same video"><%= link_to 'remove all', hide_all_cap_path(cap), :confirm => 'Are you sure?'  %></td>
 
