@@ -10,11 +10,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110601045715) do
+ActiveRecord::Schema.define(:version => 20110605230843) do
 
   create_table "caps", :force => true do |t|
     t.integer  "num"
-    t.string   "spa"
+    t.string   "spa",        :null => false
     t.string   "eng"
     t.string   "por"
     t.string   "rus"
@@ -47,6 +47,14 @@ ActiveRecord::Schema.define(:version => 20110601045715) do
   add_index "caps", ["stop"], :name => "index_caps_on_stop"
   add_index "caps", ["url"], :name => "index_caps_on_url"
   add_index "caps", ["wcount"], :name => "index_caps_on_wcount"
+
+  create_table "roots", :force => true do |t|
+    t.string   "verb"
+    t.string   "trans"
+    t.string   "kind"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "searches", :force => true do |t|
     t.string   "search"
@@ -91,6 +99,9 @@ ActiveRecord::Schema.define(:version => 20110601045715) do
   end
 
   add_index "verbs", ["conj"], :name => "index_verbs_on_conj"
+  add_index "verbs", ["mood"], :name => "index_verbs_on_mood"
+  add_index "verbs", ["pre"], :name => "index_verbs_on_pre"
+  add_index "verbs", ["tense"], :name => "index_verbs_on_tense"
   add_index "verbs", ["verb"], :name => "index_verbs_on_verb"
 
 end
