@@ -9,13 +9,12 @@ task :qualify_verbs => [:environment] do
       conjugations.each do |j|
          count=count+1
           c=Cap.find(:all,:conditions=>["spa like ?", "%#{j.conj}%"])
-          print "#{j.verb}\n" unless hash["#{j.verb}"]
+
           hash["#{j.verb}"] =1 unless hash["#{j.verb}"]
           j.pre=c.size if c;
           j.save if c;
-          print "#{j.verb} #{j.conj}\n" if c
           print "#{count} #{j.verb} #{j.conj}\n" if count==200
-          count=0 if count=200
+          count=0 if count==200
       end  
 end
 
