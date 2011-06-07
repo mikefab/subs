@@ -1,18 +1,52 @@
 class Verb < ActiveRecord::Base
 
+
+
+def self.all_cached
+
+  Rails.cache.fetch('Verb.all') { all }
+end
   def self.num_verbs()
     v = Verb.find(:all)
     return v.size
   end
 
+  def self.return_tenses(mood)
+    tenses = ["futuro perfecto", "futuro simple", "gerundio", "imperfecto", "infinitivo", "participio", "pluscuamperfecto", "presente", "preterito perfecto"]
+    a=Array.new()
+
+    tenses.each do |t|
+      v= Verb.find(:first, :conditions=>["mood = ? and tense = ?", "#{mood}","#{t}"])
+      a<<t if v
+    end
+
+    return a
+    
+  end
 
   def self.return_mood_verbs(mood,tense)
     a_verbs=Array.new()
+    a_strings=Array.new()
+    #this is really a list of conjugations
     verbs = Verb.find(:all,:conditions=>["mood = ? and tense=? and pre !='' and pre != '0' ", "#{mood}", "#{tense}"])
+
     verbs.each do |v|
-      c=Cap.find(:first, :conditions=>["spa REGEXP ? and hide is null and eng!=''", "(^#{v.conj}.?| #{v.conj}[\.\!\?\-]?)"])
-      a_verbs << v.conj if c
-          end
+      a_strings<<v.conj
+    end
+    #Many conjugations repeat, so make list unique
+    a_strings=a_strings.uniq
+
+    #Now find out if each conjugation is found in a caption
+    a_strings.each do |s|
+      w=Word.find(:first, :conditions=>["word = '#{s}'"])
+          a_verbs << s if w
+    end
+#    #Now find out if each conjugation is found in a caption
+#    a_strings.each do |s|
+#      c=Cap.find(:first, :conditions=>["spa REGEXP ? and hide is null and eng!=''", "(^#{s}.? | #{s}[\.\!\?\-]?$ | #{s}[\.\!\?\-]? )"])
+#      print "#{a_strings.size}..#{s}\n" 
+#      a_verbs << s if c
+#          end
     return a_verbs.uniq
   end
 

@@ -4,8 +4,9 @@ Subs::Application.routes.draw do
  match 'about' => 'home#about'
   get "home/index"
   
-  match 'iframe' =>'caps#iframe'
+  match 'results' =>'caps#results'
   match 'verbs' =>'verbs#verbs'
+  match 'tenses'=>'verbs#tenses'
 
   resources :roots
 

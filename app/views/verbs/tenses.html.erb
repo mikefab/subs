@@ -1,0 +1,15 @@
+<script>
+function display_verbs(value){
+	parent.document.getElementById('verbs').src="/verbs?mood="+parent.mood+ "&tense="+value;
+
+}
+</script>
+<div style="position:absolute;top:-20px">
+<table cellpadding="15px">
+	<tr >
+<%@tenses.each do |t| %>
+
+<td><h4 onClick="display_verbs(this.innerHTML);"><%=t%></h4></td>
+<%end%>
+</tr></table>
+</div>

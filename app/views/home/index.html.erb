@@ -1,15 +1,25 @@
 <script>
 mood = "Subjuntivo";
-function display_verbs(value){
-	document.getElementById('verbs').src="/verbs?mood="+mood+ "&tense="+value;
 
+
+function highlight_mood(div){
+	child_divs = document.getElementById("moods").childNodes;
+	for(var i = 0; i < child_divs.length; i++){
+	 if (child_divs[i].nodeType==1){child_divs[i].style.color="black";}
+	}
+	div.style.color="blue";
+	document.getElementById('tense_mood').value=div.innerHTML;
+	document.getElementById('verb_mood').value=div.innerHTML;
+
+	document.getElementById('mood_button').focus();
+	document.getElementById('mood_button').click();
 }
 </script>
 <div id ="moods" style="position:relative; display:inline;" >
-<h2 onClick="mood = this.innerHTML;">Condicional</h2>
-<h2 onClick="mood = this.innerHTML;">Imperativo</h2>
-<h2 onClick="mood = this.innerHTML;">Indicativo</h2>
-<h2 onClick="mood = this.innerHTML;">Subjuntivo</h2>
+<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Condicional</h2>
+<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Imperativo</h2>
+<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Indicativo</h2>
+<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Subjuntivo</h2>
 </div>
 
 <div id="mood_explination" style="position:absolute;float:right;display:inline;width:50%;left:300px;top:50px">
@@ -17,20 +27,45 @@ function display_verbs(value){
  It expresses a wish, intent or command for a possible action or state of being. It is usually used in subordinate clauses that begin with que or si.
 </div>
 
-<div id="tenses" >
-<h3 onClick="display_verbs(this.innerHTML);">futuro perfecto</h3>
-<h3 onClick="display_verbs(this.innerHTML);">futuro simple</h3>
-<h3 onClick="display_verbs(this.innerHTML);">gerundio </h3>
-<h3 onClick="display_verbs(this.innerHTML);">imperfecto</h3>
-<h3 onClick="display_verbs(this.innerHTML);">infinitivo</h3>
+<% form_tag tenses_path,:name=>"tense_form",:id=>'tense_form', :method=>:get, :remote=>true do%>
+	<%=hidden_field_tag :tense_mood, params[:mood]%>
+	<%= submit_tag "Search", :id=>"mood_button",:name => 'mood_button',:style=>"display:none;" %>
+<%end%>
+
+<% form_tag verbs_path,:name=>"verb_form",:id=>'verb_form', :method=>:get, :remote=>true do%>
+	<%=hidden_field_tag :verb_mood, params[:mood]%>
+	<%=hidden_field_tag :verb_tense, params[:tense]%>
+	<%= submit_tag "Search", :id=>"verb_button",:name => 'verb_button',:style=>"display:none;" %>
+<%end%>
+
+<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
+	<%=hidden_field_tag :search, params[:search]%>
+	<%= submit_tag "Search", :id=>"results_button",:name => 'results_button',:style=>"display:none;" %>
+<%end%>
+
+<div id="tenses_div" style="position:relative;border:0;">
+	<%= render :partial => "verbs/tenses", :object => @tenses  %>
+</div>
 <br>
-<h3 onClick="display_verbs(this.innerHTML);">participio </h3>
-<h3 onClick="display_verbs(this.innerHTML);">pluscuamperfecto </h3>
-<h3 onClick="display_verbs(this.innerHTML);">presente</h3>
-<h3 onClick="display_verbs(this.innerHTML);">preterito perfecto</h3>
+<br>
+<br>
+<div id="verbs_div" style="position:relative;border:0;display:inline;float:left;">
+	<%= render :partial => "verbs/verbs", :object => @verbs  %>
+</div>
+	
+<div id ="results_div" style="position:relative;display:inline;float:right;width:70%;">
+	<%= render :partial => "caps/results", :object => @caps  %>
 </div>
 
-<br>
+
+
+
+
+
+
+
+
+
 <div id="examples" style="display:none;">
 <ul> 
   <li><i>Quiero que no <b>tengas</b> fr&#237;o.</i> (I want you to be not cold.)</li> 
@@ -60,16 +95,6 @@ function display_verbs(value){
   <li><b>Explanation:</b> The indicative is used to express perceived reality, while the subjunctive is used to express doubt, negation or mere probability.</li> 
 </ul> 
 </div>
-
-<iframe id="verbs"  style="position:relative;float:left;height:100%;border:none;display:inline;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-<iframe id="iframe" width="90%" height="100%" style="position:fixed;float:right;display:inline;border:none;">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-
-
-
 
 
 
@@ -265,3 +290,4 @@ to fear that <br><br>
 
 tener miedo de que <br>
 to be afraid that <br><br>
+</div>

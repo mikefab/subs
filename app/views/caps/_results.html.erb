@@ -1,0 +1,165 @@
+
+<%if @caps%>
+<div id="search" style="display:inline;">
+
+
+<script>
+	mood= new Array();
+	mood["Subjuntivo"]="Used to express everything except certainty and objectivity.";
+	mood["Indicativo"]="The verb mood used in ordinary, typical speech when making statements.";
+	mood["Condicional"]="The verb mood used in ordinary, typical speech when making statements.";
+	mood["Imperitivo"]="imperitive";
+
+
+	tense= new Array();
+	tense["futuro simple"] ="future."
+	tense["futuro perfecto"] ="The future perfect is formed by combining the auxiliary verb 'haber' with the past participle. habré, habrás, habrá, habremos, habréis, habrán. (yo) Habré escrito el libro antes del año nuevo. I will have written the book before the new year. "
+	tense["imperfecto"]="The imperfect tense is used to refer to actions in the past that occurred repeatedly.";
+	tense["pluscuamperfecto"] = "The Spanish pluperfect (aka past perfect) is used to indicate an action in the past that occurred before another action in the past. The latter can be either mentioned in the same sentence or implied. Ya había salido (cuando tú llamaste). I had already left (when you called)."
+	tense["presente"]="Present";
+	tense["preterito perfecto"] = "The Spanish present perfect is used just like its English counterpart: to express that something has happened at some point before now, at an unspecified time in the past.";
+
+	tense_type=new Array();
+	tense["Tiempos compuestos"]="Present";
+	tense["Tiempos simples"] = ""
+
+
+	function return_mood(div,arg){
+		div.title=mood[arg];
+	}
+	function return_tense(div,arg){
+		div.title=tense[arg];
+	}
+
+	function return_tense_type(div,arg){
+		div.title=tense_type[arg];
+
+	}
+
+
+
+
+	function darken(id){
+
+	  if(document.getElementById(id)){
+		document.getElementById(id).style.display='none';	
+
+	  }		
+	}
+	function light_up(id,div){
+	  if(document.getElementById(id)){
+
+		var pos = getPos(div);
+		document.getElementById(id).style.display='inline';	
+	    document.getElementById(id).style.left=(pos[0]+(document.getElementById(id+'_basic').offsetWidth*.6)) +"px";
+	    document.getElementById(id).style.top=(pos[1]+document.getElementById(id+'_basic').offsetHeight) +"px";
+
+	  }
+	}
+
+	function getPos(el) {
+	    // yay readability
+	    for (var lx=0, ly=0;
+	         el != null;
+	         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+	//    return {x: lx,y: ly};
+		return[lx,ly];
+	//alert(lx,ly);
+	}
+
+
+
+</script>
+
+<%# @verbs.each do |v|%>
+	<%#= v %>
+	<%#end%>
+<table>
+  <tr>
+<!--
+	<th>Id</th>
+    
+
+<th>Num</th>
+-->
+	<th></th>
+
+	<!--
+<th>Url</th>
+    <th>Lang</th>
+    <th>Wcount</th>
+    <th>Ccount</th>
+
+    <th></th>
+    <th></th>
+    <th></th>
+-->
+   <th></th>
+  </tr>
+<% c=0 %>
+<% @caps.each do |cap| %>
+<%c=c+1%>
+  <tr>
+<!--
+	<td><%= cap.id %></td>
+
+-->
+<!--	<td><audio src="http://www.mikefab.com/mp3/2641baee-e0ad-4eee-a0ce-cb4696a2b84e/05_2641baee-e0ad-4eee-a0ce-cb4696a2b84e.mp3" controls preload="auto" autobuffer></audio></td>
+   <td><%= cap.num %></td>
+-->
+
+	<td>
+		<%# if FileTest.exists?(RAILS_ROOT + "/public/audio/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
+		<%# if FileTest.exists?("http://www.mikefab.com/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
+		<% if cap.url != "trash" %> 
+		<audio src="http://www.mikefab.com/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg" controls preload="auto" autobuffer></audio>
+		<%else%>
+			<%cap.source2=cap.source2.gsub(" ",".")%>
+			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=cap.source2%>/<%= cap.num %>_<%= cap.source2  %>.ogg" controls preload="auto" autobuffer></audio>
+		<%end%>
+
+		<!-- <audio id="player<%=c%>" src="/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg" onClick="#document.getElementById('player<%=c%>').src='/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg';" controls preload="auto" onClick="alert('hi')";loop="loop"></audio> -->
+		<!-- <button onClick="document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';document.getElementById('player<%=c%>').play();"> Listen  </button> -->
+<!---->
+	<%# end %>	
+<br>
+<ul >
+<li>
+	<%counter=0%>
+    <%cap.spa.split(/\s+/).each do |w|%>
+<%thing="#{cap.id}-#{counter}"%>
+	<span id="<%=cap.id%>-<%=counter%>_basic" onmouseover="light_up('<%=cap.id%>-<%=counter%>',this);" onmouseout="darken('<%=cap.id%>-<%=counter%>');">
+	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%>
+</a></span>
+<%if @hash_id[thing] then%>
+	<!-- title="<%= @hash_id[thing].conj%> : <%= @hash_id[thing].verb%> <%=@hash_id[thing].tense%>"> -->
+	<span id="<%=cap.id%>-<%=counter%>" style="position:fixed;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
+	<%= @hash_id[thing].conj%>
+	<br>verb: <a href=""><%= @hash_id[thing].verb%> - <%=@english["#{@hash_id[thing].verb}"]%></a>
+	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
+	<br>mood:  <a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
+
+	<br>tense type:  <a href="" onmouseover="return_tense_type(this,'<%=@hash_id[thing].tense_type%>');"><%=@hash_id[thing].tense_type%></a>
+	<br>pronoun: <a href=""> <%=@hash_id[thing].pro%></a>
+	
+	</span>
+ 	<%end%>
+	<%counter=counter+1%>
+
+	<%end%>
+</li>
+<li>	<%=cap.eng%></li>
+</ul>
+</td>
+    <td style="width:60px;font-size:8pt;" title="Removes just this file."><%= link_to 'remove',hide_cap_path(cap), :confirm => 'Are you sure?' %></td>
+    <td style="width:100px;font-size:8pt;" title="Removes all clips in database from same video"><%= link_to 'remove all', hide_all_cap_path(cap), :confirm => 'Are you sure?'  %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+<%= will_paginate @caps %>
+<%= page_entries_info @caps %> 
+<%#= link_to 'New Cap', new_cap_path %>
+<%end%>

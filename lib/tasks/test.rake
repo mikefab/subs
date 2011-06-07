@@ -18,6 +18,42 @@ task :qualify_verbs => [:environment] do
       end  
 end
 
+task :create_words => [:environment] do
+  h=Hash.new()
+  seen=Hash.new()
+  i=0
+  Verb.find(:all).each do |v|
+    h[v.conj]=1
+  end
+  Cap.find(:all, :conditions=>["hide is null and eng!='' and spa!=eng"]).each do |c|
+    c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/,"").downcase
+    a=Array.new
+    a = c.spa.split(/\s+/) 
+    a.length.times do |i| 
+      if h[a[i]] then
+        unless seen[a[i]]  then
+          w = Word.new(:word=>a[i])
+          if w.word and w.word.match(/[a-zA-Z]/) then
+            w.save 
+          end
+          print "making hash of #{a[i]}\n"
+          seen[a[i]]=1
+        else
+        end
+      end
+      if i>0 and h["#{a[i-1]} #{a[i]}"] then
+        unless seen["#{a[i-1]} #{a[i]}"]then
+          w2=Word.new(:word=>"#{a[(i-1)]} #{a[i]}") 
+          w2.save
+          print "#{c.id}vvv #{w2.word}\n"
+          seen["#{a[i-1]} #{a[i]}"]=1
+        else
+        end
+      end
+    end
+  end
+end
+
 
 task :create_subs => [:environment] do
 

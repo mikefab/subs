@@ -15,7 +15,7 @@ class CapsController < ApplicationController
     end
   end
   
-    def iframe
+    def results
   #    @caps = Cap.all
       @choice= params[:language]
       lang=params[:language] || "Spa"
@@ -23,10 +23,7 @@ class CapsController < ApplicationController
 
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
 
-      respond_to do |format|
-        format.html # index.html.erb
-        format.xml  { render :xml => @caps }
-      end
+   
     end
 
   # GET /caps/1

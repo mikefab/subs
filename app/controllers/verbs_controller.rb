@@ -1,4 +1,5 @@
 class VerbsController < ApplicationController
+
   # GET /verbs
   # GET /verbs.xml
   def index
@@ -10,10 +11,20 @@ class VerbsController < ApplicationController
     end
   end
 
-    def verbs
-     @verbs = Verb.return_mood_verbs(params[:mood],params[:tense])
+  def tenses
+    @tenses = Verb.return_tenses(params[:tense_mood])
+  end
+
+  def verbs
+#     if Rails.cache.read("#{params[:mood]}-#{params[:tense]}") then
+#       @verbs = Rails.cache.read("#{params[:mood]}-#{params[:tense]}")
+ #    else
+
+     @verbs = Verb.return_mood_verbs(params[:verb_mood],params[:verb_tense])
+#     Rails.cache.write("#{params[:mood]}-#{params[:tense]}",@verbs)
+#   end
   #  @verbs="blow"
-    end
+   end
     
     
   # GET /verbs/1

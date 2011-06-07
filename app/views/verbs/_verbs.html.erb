@@ -1,0 +1,16 @@
+<script>
+function display_results(value){
+	document.getElementById('search').value=value;
+	document.getElementById('results_button').focus();
+	document.getElementById('results_button').click();                     
+}
+</script>
+
+
+<%if @verbs%>
+	<%c=0%>
+	<%@verbs.each do |v| %>
+		<%c=c+1%>
+		<div onClick="display_results(this.innerHTML);"><%=v%></div>
+	<%end%>
+<%end%>
