@@ -71,11 +71,11 @@ task :create_subs => [:environment] do
     (url,num,start,stop,spa,eng,trash,source,source2,trash)=line.split(/\t/)
     spa.gsub(/(^\s+|\s+$)/,'')
     eng.gsub(/(^\s+|\s+$)/,'')
-    wcount=line.split(/\s+/)
+    wcount=spa.split(/\s+/)
 #    wcount.each do |w|
 #     puts "#{w}\n"
 #    end
-    ccount= line.size.to_s
+    ccount= spa.size.to_s
     cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>url,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
     #puts wcount.size.to_s + " " + ccount + " " + txt
     cap.save
@@ -83,6 +83,31 @@ task :create_subs => [:environment] do
     puts c.to_s + " " + cap.spa
   }  
 end
+
+
+
+task :import_caps => [:environment] do
+  basedir = Rails.root.to_s + "/lib/tasks"
+   counter = 1
+   counter2=1
+   file = File.new(basedir +'/caps.txt', "r")
+   while (line = file.gets)
+    line= line.gsub(/\n/,"")
+     (url,num,start,stop,spa,eng,source,source2,trash)=line.split(/\t/)
+      wcount=spa.split(/\s+/).size.to_s
+      ccount= spa.size.to_s
+#      puts "#{start} #{stop} #{eng} #{wcount} #{ccount} #{spa} -p- #{source} -x- #{source2}"
+      cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>url,:wcount=>wcount,:ccount=>ccount,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
+      cap.save
+      print "#{counter2}\n" if counter==200;
+      counter=0 if counter==200
+      counter = counter + 1
+      counter2=counter2+1
+   end
+  file.close
+end
+
+
 
 task :export_caps => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
