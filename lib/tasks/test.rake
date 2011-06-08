@@ -150,6 +150,26 @@ task :export_verbs => [:environment] do
   end
 end
 
+task :import_verbs => [:environment] do
+  basedir = Rails.root.to_s + "/lib/tasks"
+   counter = 1
+   counter2=1
+   file = File.new(basedir +'/verbs.txt', "r")
+   while (line = file.gets)
+    line=line.gsub(/\n/,'')
+    line = line.gsub(/\r/,'')
+    (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
+
+    verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
+    verb.save
+ 
+      print "#{counter2}\n" if counter==200;
+      counter=0 if counter==200
+      counter = counter + 1
+      counter2=counter2+1
+   end
+  file.close
+end
 
 
 
@@ -191,8 +211,8 @@ task :create_verbs => [:environment] do
     file.each {|line|
 
  #     line = ic.iconv(line + ' ')[0..-2]
-      line.gsub(/\n/,'')
-      line.gsub(/\r/,'')
+      line=line.gsub(/\n/,'')
+      line = line.gsub(/\r/,'')
       (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
 
       verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
