@@ -154,6 +154,7 @@ task :import_verbs => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
    counter = 1
    counter2=1
+   counter3=1
    file = File.new(basedir +'/verbs.txt', "r")
    while (line = file.gets)
     line=line.gsub(/\n/,'')
@@ -165,12 +166,12 @@ task :import_verbs => [:environment] do
     verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
 
     verb.save!
-      print "#{counter2} #{conj} #{verb.conj}\n" if counter==200;
-      counter=0 if counter==200
-      counter = counter + 1
-      counter2=counter2+1
+    counter3=counter3+1
     end
-
+    print "#{counter2} #{counter3} #{conj} #{verb.conj}\n" if counter==200;
+    counter=0 if counter==200
+    counter = counter + 1
+    counter2=counter2+1
    end
   file.close
 end
