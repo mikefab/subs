@@ -162,14 +162,14 @@ task :import_verbs => [:environment] do
     (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
 
     v= Verb.find(:first,:conditions=>["verb=? and conj=? and mood=? and tense_type=? and tense=? and pro=?", "#{verb}","#{conj}","#{mood}","#{tense_type}", "#{tense}","#{pro}"])
-    if v then
+    if !v then
     verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
 
     verb.save!
     counter3=counter3+1
-    print "#{counter2} #{counter3} #{verb.conj} #{verb.conj}" if counter==200;
+#    print "#{counter2} #{counter3} creating for #{verb.conj} #{verb.conj}" if counter==200;
     end
-      print " #{counter2} #{counter3}\n" if counter==200;
+      print " #{counter2} #{counter3} #{verb.conj}\n" if counter==200;
     counter=0 if counter==200
     counter = counter + 1
     counter2=counter2+1
