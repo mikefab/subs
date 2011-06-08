@@ -163,7 +163,7 @@ task :import_verbs => [:environment] do
     verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
     verb.save!
  
-      print "#{counter2} #{conj} #{v.conj}\n" if counter==200;
+      print "#{counter2} #{conj} #{verb.conj}\n" if counter==200;
       counter=0 if counter==200
       counter = counter + 1
       counter2=counter2+1
