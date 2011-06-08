@@ -161,6 +161,7 @@ task :import_verbs => [:environment] do
     (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
 
     verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
+    sleep(0.2)
     verb.save!
  
       print "#{counter2} #{conj} #{verb.conj}\n" if counter==200;
