@@ -152,22 +152,22 @@ end
 
 task :import_verbs => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
-   counter = 1
-   counter2=1
-   counter3=1
-   file = File.new(basedir +'/verbs.txt', "r")
-   while (line = file.gets)
+  counter = 1
+  counter2=1
+  counter3=1
+  file = File.new(basedir +'/verbs.txt', "r")
+  while (line = file.gets)
     line=line.gsub(/\n/,'')
     line = line.gsub(/\r/,'')
     (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
-
     v= Verb.find(:first,:conditions=>["verb=? and conj=? and mood=? and tense_type=? and tense=? and pro=?", "#{verb}","#{conj}","#{mood}","#{tense_type}", "#{tense}","#{pro}"])
     if !v then
     verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
-
     verb.save!
     counter3=counter3+1
 #    print "#{counter2} #{counter3} creating for #{verb.conj} #{verb.conj}" if counter==200;
+    else
+      print "#{v.verb} #{v.conj} found\n"
     end
       print " #{counter2} #{counter3} #{verb.conj}\n" if counter==200;
     counter=0 if counter==200
