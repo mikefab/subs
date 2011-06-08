@@ -160,14 +160,17 @@ task :import_verbs => [:environment] do
     line = line.gsub(/\r/,'')
     (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
 
+    v= Verb.find(:first,:conditions=>["verb=? and conj=? and mood=? and tense_type=? and tense=? and pro=?", "#{verb}","#{conj}","#{mood}","#{tense_type}", "#{tense}","#{pro}"])
+    if v then
     verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
-    sleep(0.2)
+
     verb.save!
- 
       print "#{counter2} #{conj} #{verb.conj}\n" if counter==200;
       counter=0 if counter==200
       counter = counter + 1
       counter2=counter2+1
+    end
+
    end
   file.close
 end
