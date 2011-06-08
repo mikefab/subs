@@ -84,6 +84,50 @@ task :create_subs => [:environment] do
   }  
 end
 
+task :export_caps => [:environment] do
+  basedir = Rails.root.to_s + "/lib/tasks"
+  c=Cap.find(:all, :conditions=>["hide is null and eng !='' and spa!=eng "])
+  count=0
+  count2=0
+  c.each do |c|
+    count=count+1
+    count2=count2+1
+    string = "#{c.url}\t#{c.num}\t#{c.start}\t#{c.stop}\t#{c.spa}\t#{c.eng}\t#{c.source}\t#{c.source2}\n"
+    File.open(basedir +'/caps.txt', 'a') do |f2|  
+      f2.puts string  
+    end
+    print "#{count2.to_s}\n" if count==200
+    count=0 if count==200
+  end
+end
+
+task :export_verbs => [:environment] do
+  basedir = Rails.root.to_s + "/lib/tasks"
+  string=String.new()
+  string=""
+  File.open(basedir +'/verbs.txt', 'w') do |f2|  
+    f2.puts string  
+  end
+
+  v=Verb.find(:all)
+  count=0
+  count2=0
+  v.each do |v|
+    count=count+1
+    count2=count2+1
+    
+    string = "#{v.verb}\t#{v.conj}\t#{v.mood}\t#{v.tense_type}\t#{v.tense}\t#{v.pro}\t#{v.pre}\n"
+    File.open(basedir +'/verbs.txt', 'a') do |f2|  
+      f2.puts string  
+    end
+    print "#{count2.to_s}\n" if count==200
+    count=0 if count==200
+  end
+end
+
+
+
+
 task :create_roots => [:environment] do
   
     basedir = Rails.root.to_s + "/lib/tasks"
