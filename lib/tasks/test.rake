@@ -169,7 +169,7 @@ task :import_verbs => [:environment] do
     else
       print "#{counter2} #{line} found\n"
     end
-      print " #{counter2} #{counter3} #{verb.conj}\n" if counter==200;
+      print " #{counter2} #{counter3} #{conj}\n" if counter==200;
     counter=0 if counter==200
     counter = counter + 1
     counter2=counter2+1
