@@ -24,7 +24,7 @@ task :merge_url_source => [:environment] do
   caps=Cap.find(:all, :conditions=>["source !='dotsub'"]);
   caps.each do |c|
     c.url = c.source2
-
+     c.save!
   end  
 end
 
