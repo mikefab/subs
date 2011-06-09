@@ -41,7 +41,7 @@ def self.search(search,page,language)
   else
     Search.create(:search=>search, :lang=>language, :page=> page)
      paginate :per_page=>8, :page=>page,
-      :conditions => [language + ' similar to ?',"%#{search}(,|\.|\!|\?)%"],
+      :conditions => [language + ' similar to ?',"%#{search}(,|\.|\!|\?|\s+)%"],
       :order  => 'wcount'
 
     end
