@@ -158,7 +158,7 @@ task :import_words => [:environment] do
    while (line = file.gets)
     line= line.gsub(/\n/,"")
     line= line.gsub(/\r/,"")
-    word = Word.new(:num=>line)
+    word = Word.new(:word=>line)
     word.save!
     print "#{counter2} #{word}\n" if counter==200;
     counter=0 if counter==200
