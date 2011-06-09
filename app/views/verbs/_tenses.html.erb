@@ -1,11 +1,47 @@
 <script>
-tense= new Array();
-tense["futuro simple"] ="future."
-tense["futuro perfecto"] ="The future perfect is formed by combining the auxiliary verb 'haber' with the past participle. habré, habrás, habrá, habremos, habréis, habrán. (yo) Habré escrito el libro antes del año nuevo. I will have written the book before the new year. "
-tense["imperfecto"]="The imperfect tense is used to refer to actions in the past that occurred repeatedly.";
-tense["pluscuamperfecto"] = "The Spanish pluperfect (aka past perfect) is used to indicate an action in the past that occurred before another action in the past. The latter can be either mentioned in the same sentence or implied. Ya había salido (cuando tú llamaste). I had already left (when you called)."
-tense["presente"]="Present";
-tense["preterito perfecto"] = "The Spanish present perfect is used just like its English counterpart: to express that something has happened at some point before now, at an unspecified time in the past.";
+tense_main= new Array();
+tense_main["futuro simple"] ="future."
+tense_main["futuro perfecto"] ="The future perfect is formed by combining the auxiliary verb 'haber' with the past participle. habré, habrás, habrá, habremos, habréis, habrán."+
+"<p> (yo) Habré escrito el libro antes del año nuevo."+
+"<br> I will have written the book before the new year. "+
+"<p>(tú) ¿Habrás comprado una casa en un año?"+
+"<br>Will you have bought a house in a year?"+
+
+"<p>(él) Habrá pagado todas las deudas para el dos de octubre."+
+"<br>He will have paid all the debt by October 2."+
+
+"<p>(nosotros) Habremos vuelto de España para el doce de junio."+
+"<br>We will have returned from Spain by June 12."+
+
+"<p>(vosotros) Para cuando Juan llegue, vosotros ya habréis salido."+
+"<br>By the time Juan arrives, you-all will already have left."+
+
+"<p>(ellos) Para cuando María vuelva, ellos ya habrán comido."+
+"<br>By the time Maria returns, they will have already eaten.";
+
+tense_main["imperfecto"]="The imperfect tense is used to refer to actions in the past that occurred repeatedly."+
+"<p>The imperfect is used for actions that were repeated habitually."+
+"<p>Almorzábamos juntos todos los días."+
+"<br>We would lunch together every day."+
+
+"<p>Las señoras siempre charlaban por las mañanas."+
+"<br>The ladies would always chat in the mornings."+
+
+"<p>The imperfect is used for actions that 'set the stage' for another action."+
+"<br>Yo leía cuando entró mi papá."+
+"<br>I was reading when my papa entered."+
+
+"<p>The imperfect is used for telling time and stating one's age."+
+"<br>Eran las siete de la noche."+
+"<br>It was seven o'clock at night."+
+
+"<p>La niña tenía cinco años."+
+"<br>The little girl was five years old.";
+
+
+tense_main["pluscuamperfecto"] = "The Spanish pluperfect (aka past perfect) is used to indicate an action in the past that occurred before another action in the past. The latter can be either mentioned in the same sentence or implied. Ya había salido (cuando tú llamaste). I had already left (when you called)."
+tense_main["presente"]="Present";
+tense_main["preterito perfecto"] = "The Spanish present perfect is used just like its English counterpart: to express that something has happened at some point before now, at an unspecified time in the past.";
 
 function display_verbs(value){
 	document.getElementById('verb_tense').value=value;
@@ -24,11 +60,13 @@ function getPos(el) {
 }
 function explain_tense(div){
 	var pos = getPos(div);
-	document.getElementById('tense_explanation').innerHTML= tense[div.innerHTML];
+	document.getElementById('tense_explanation').innerHTML= tense_main[div.innerHTML];
 	var height=div.offsetHeight + 5;
-	document.getElementById('tense_explanation').setAttribute('style','position:relative;z-index:1;left:'+pos[0]+'px;top:'+height+'px;width:300px;background-color:yellow;')
-	document.getElementById('tense_explanation').setAttribute('onmouseout',"this.setAttribute('style','display:none;')");
+	document.getElementById('tense_explanation').setAttribute('style','position:relative;z-index:1;left:'+pos[0]+'px;top:'+height+'px;width:50%;background-color:yellow;')
 
+}
+function off_tense_explanation(){
+	document.getElementById('tense_explanation').setAttribute('style',"position:relative;display:none;")
 }
 
 function highlight_tense(div){
@@ -48,12 +86,13 @@ function highlight_tense(div){
 
 
 </script>
-<div id="tenses" style="position:absolute;top:-20px">
+<div id="tenses"  style="position:absolute;top:-20px">
 
 <%if @tenses%>	
 	<%@tenses.each do |t| %>
-	<div class="tenses" onClick="display_verbs(this.innerHTML);highlight_tense(this);" onmouseover= "explain_tense(this);" onmouseout="//document.getElementById('tense_explanation').setAttribute('style','display:none;');"><%=t%></div>
+	<div class="tenses" onClick="display_verbs(this.innerHTML);highlight_tense(this);" onmouseover= "explain_tense(this);" onmouseout="off_tense_explanation();"><%=t%></div>
 	<%end%>
 <%end%>
 <div id="tense_explanation" style="position:relative;background-color:yellow;width:200px;"></div>
+<div id="tense_example" style="position:relative;background-color:yellow;width:200px;"></div>
 </div>

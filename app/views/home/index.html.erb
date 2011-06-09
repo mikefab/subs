@@ -1,7 +1,7 @@
 <script>
 mood = "Subjuntivo";
 mood_des= new Array();
-mood_des["Subjuntivo"]="Used to express everything except certainty and objectivity.";
+mood_des["Subjuntivo"]="The subjunctive mood is used to express everything except certainty and objectivity: things like doubt, uncertainty, subjectivity, etc. It expresses a wish, intent or command for a possible action or state of being. It is usually used in subordinate clauses that begin with que or si.";
 mood_des["Indicativo"]="The verb mood used in ordinary, typical speech when making statements.";
 mood_des["Condicional"]="Conditional.";
 mood_des["Imperativo"]="imperative";
@@ -50,8 +50,7 @@ function highlight_mood(div){
 </div>
 
 <div id="mood_explination" style="position:absolute;float:right;display:inline;width:50%;left:300px;top:50px">
- The subjunctive mood is used to express everything except certainty and objectivity: things like doubt, uncertainty, subjectivity, etc.
- It expresses a wish, intent or command for a possible action or state of being. It is usually used in subordinate clauses that begin with que or si.
+Begin by clicking one of the four moods on the left.
 </div>
 
 <% form_tag tenses_path,:name=>"tense_form",:id=>'tense_form', :method=>:get, :remote=>true do%>
