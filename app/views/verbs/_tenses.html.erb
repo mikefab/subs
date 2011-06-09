@@ -1,8 +1,34 @@
 <script>
+tense= new Array();
+tense["futuro simple"] ="future."
+tense["futuro perfecto"] ="The future perfect is formed by combining the auxiliary verb 'haber' with the past participle. habré, habrás, habrá, habremos, habréis, habrán. (yo) Habré escrito el libro antes del año nuevo. I will have written the book before the new year. "
+tense["imperfecto"]="The imperfect tense is used to refer to actions in the past that occurred repeatedly.";
+tense["pluscuamperfecto"] = "The Spanish pluperfect (aka past perfect) is used to indicate an action in the past that occurred before another action in the past. The latter can be either mentioned in the same sentence or implied. Ya había salido (cuando tú llamaste). I had already left (when you called)."
+tense["presente"]="Present";
+tense["preterito perfecto"] = "The Spanish present perfect is used just like its English counterpart: to express that something has happened at some point before now, at an unspecified time in the past.";
+
 function display_verbs(value){
 	document.getElementById('verb_tense').value=value;
 	document.getElementById('verb_button').focus();
 	document.getElementById('verb_button').click();                     
+}
+
+function getPos(el) {
+    // yay readability
+    for (var lx=0, ly=0;
+         el != null;
+         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+//    return {x: lx,y: ly};
+	return[lx,ly];
+//alert(lx,ly);
+}
+function explain_tense(div){
+	var pos = getPos(div);
+	document.getElementById('tense_explanation').innerHTML= tense[div.innerHTML];
+	var height=div.offsetHeight + 5;
+	document.getElementById('tense_explanation').setAttribute('style','position:relative;z-index:1;left:'+pos[0]+'px;top:'+height+'px;width:300px;background-color:yellow;')
+	document.getElementById('tense_explanation').setAttribute('onmouseout',"this.setAttribute('style','display:none;')");
+
 }
 
 function highlight_tense(div){
@@ -26,8 +52,8 @@ function highlight_tense(div){
 
 <%if @tenses%>	
 	<%@tenses.each do |t| %>
-	<div class="tenses"  onClick="display_verbs(this.innerHTML);highlight_tense(this);"><%=t%></div>
+	<div class="tenses" onClick="display_verbs(this.innerHTML);highlight_tense(this);" onmouseover= "explain_tense(this);" onmouseout="//document.getElementById('tense_explanation').setAttribute('style','display:none;');"><%=t%></div>
 	<%end%>
 <%end%>
-
+<div id="tense_explanation" style="position:relative;background-color:yellow;width:200px;"></div>
 </div>
