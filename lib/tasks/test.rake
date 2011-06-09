@@ -1,6 +1,6 @@
 require 'iconv' 
 
-
+#Not sure if I still need this
 task :qualify_verbs => [:environment] do
   count=0
       a_conj = Array.new()
@@ -18,6 +18,19 @@ task :qualify_verbs => [:environment] do
       end  
 end
 
+
+
+task :merge_url_source => [:environment] do
+  caps=Cap.find(:all, :conditions=>["source !='dotsub'"]);
+  caps.each do |c|
+    c.url = c.source2
+
+  end  
+end
+
+
+
+#this creates an index of words and compound words that match conjugations in verbs table
 task :create_words => [:environment] do
   h=Hash.new()
   seen=Hash.new()
