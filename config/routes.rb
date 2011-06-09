@@ -7,6 +7,7 @@ Subs::Application.routes.draw do
   match 'results' =>'caps#results'
   match 'verbs' =>'verbs#verbs'
   match 'tenses'=>'verbs#tenses'
+  match 'single'=>'caps#single'
 
   resources :roots
 

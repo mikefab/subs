@@ -66,12 +66,17 @@ Begin by clicking one of the four moods on the left.
 
 <% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :search, params[:search]%>
-	<%=hidden_field_tag :search, params[:url]%>
-	<%=hidden_field_tag :search, params[:num]%>
 	<%= submit_tag "Search", :id=>"results_button",:name => 'results_button',:style=>"display:none;" %>
-
-
 <%end%>
+
+<% form_tag single_path,:name=>"single_form",:id=>'single_form', :method=>:get, :remote=>true do%>
+	<%=text_field_tag :direction%>
+	<%=text_field_tag :num%>
+	<%=text_field_tag :url%>
+	<%=text_field_tag :id%>
+	<%= submit_tag "Search", :id=>"single_button",:name => 'single_button',:style=>"display:none;" %>
+<%end%>
+
 
 <div id="tenses_div" style="position:relative;border:0;">
 	<%= render :partial => "verbs/tenses", :object => @tenses  %>

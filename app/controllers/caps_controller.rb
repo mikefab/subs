@@ -21,11 +21,13 @@ class CapsController < ApplicationController
   #    @caps = Cap.all
       @choice= params[:language]
       lang=params[:language] || "Spa"
-      @caps = Cap.search(params[:search], params[:page],lang)
-
+      @caps = Cap.search(params[:search], params[:page],lang) 
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
+    end
 
-   
+    def single
+      @single = Cap.find(:last)
+#      @caps = Cap.search_previous(params[:url],params[:num], params[:direction],lang)
     end
 
   # GET /caps/1
