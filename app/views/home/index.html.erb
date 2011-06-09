@@ -1,8 +1,39 @@
 <script>
 mood = "Subjuntivo";
+mood_des= new Array();
+mood_des["Subjuntivo"]="Used to express everything except certainty and objectivity.";
+mood_des["Indicativo"]="The verb mood used in ordinary, typical speech when making statements.";
+mood_des["Condicional"]="Conditional.";
+mood_des["Imperativo"]="imperative";
 
+
+tense= new Array();
+tense["futuro simple"] ="future."
+tense["futuro perfecto"] ="The future perfect is formed by combining the auxiliary verb 'haber' with the past participle. habré, habrás, habrá, habremos, habréis, habrán. (yo) Habré escrito el libro antes del año nuevo. I will have written the book before the new year. "
+tense["imperfecto"]="The imperfect tense is used to refer to actions in the past that occurred repeatedly.";
+tense["pluscuamperfecto"] = "The Spanish pluperfect (aka past perfect) is used to indicate an action in the past that occurred before another action in the past. The latter can be either mentioned in the same sentence or implied. Ya había salido (cuando tú llamaste). I had already left (when you called)."
+tense["presente"]="Present";
+tense["preterito perfecto"] = "The Spanish present perfect is used just like its English counterpart: to express that something has happened at some point before now, at an unspecified time in the past.";
+
+tense_type=new Array();
+tense["Tiempos compuestos"]="Present";
+tense["Tiempos simples"] = ""
+
+
+function return_mood(div,arg){
+	div.title=mood[arg];
+}
+function return_tense(div,arg){
+	div.title=tense[arg];
+}
+
+function return_tense_type(div,arg){
+	div.title=tense_type[arg];
+
+}
 
 function highlight_mood(div){
+	document.getElementById('mood_explination').innerHTML=mood_des[div.innerHTML];
 	child_divs = document.getElementById("moods").childNodes;
 	for(var i = 0; i < child_divs.length; i++){
 	 if (child_divs[i].nodeType==1){child_divs[i].style.color="black";}
@@ -14,6 +45,8 @@ function highlight_mood(div){
 	document.getElementById('mood_button').focus();
 	document.getElementById('mood_button').click();
 }
+
+
 </script>
 <div id ="moods" style="position:relative; display:inline;" >
 <h2 onClick="mood = this.innerHTML;highlight_mood(this);">Condicional</h2>

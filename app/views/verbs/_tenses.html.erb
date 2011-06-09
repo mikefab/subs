@@ -3,16 +3,31 @@ function display_verbs(value){
 	document.getElementById('verb_tense').value=value;
 	document.getElementById('verb_button').focus();
 	document.getElementById('verb_button').click();                     
-
 }
+
+function highlight_tense(div){
+//	document.getElementById('mood_explination').innerHTML=mood_des[div.innerHTML];
+	child_divs = document.getElementById("tenses").childNodes;
+	for(var i = 0; i < child_divs.length; i++){
+	 if (child_divs[i].nodeType==1){child_divs[i].style.color="black";}
+	}
+	div.style.color="blue";
+	// document.getElementById('tense_mood').value=div.innerHTML;
+	// document.getElementById('verb_mood').value=div.innerHTML;
+	// 
+	// document.getElementById('mood_button').focus();
+	// document.getElementById('mood_button').click();
+}
+
+
+
 </script>
-<div style="position:absolute;top:-20px">
-<table cellpadding="15px">
-	<tr >
+<div id="tenses" style="position:absolute;top:-20px">
+
 <%if @tenses%>	
 	<%@tenses.each do |t| %>
-	<td><h4 onClick="display_verbs(this.innerHTML);"><%=t%></h4></td>
+	<div class="tenses"  onClick="display_verbs(this.innerHTML);highlight_tense(this);"><%=t%></div>
 	<%end%>
 <%end%>
-</tr></table>
+
 </div>
