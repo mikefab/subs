@@ -43,7 +43,7 @@ def self.search(search,page,language)
     #   :conditions => ['('+language + ' like ? or ' + language + ' like ? or ' + language + ' like ?) and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "% #{search} %","#{search} %","% #{search}", "",""],
     #   :order  => 'wcount'
     paginate :per_page=>8, :page=>page,
-      :conditions => ['('+language + ' ~ ? or ' + language + ' like ? or ' + language + ' like ?) and eng != ? and spa != ? and hide is not TRUE and spa!=eng',"\s*{search}[\.\!\?\,]", "",""],
+      :conditions => ['('+language + ' ~ ? or ' + language + ' like ? or ' + language + ' like ?) and eng != ? and spa != ? and hide is not TRUE and spa!=eng',"{search}[\.\!\?\,]", "",""],
       :order  => 'wcount'
 
     end
