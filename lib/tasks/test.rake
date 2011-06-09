@@ -150,6 +150,52 @@ task :export_verbs => [:environment] do
   end
 end
 
+task :import_caps => [:environment] do
+  basedir = Rails.root.to_s + "/lib/tasks"
+   counter = 1
+   counter2=1
+   file = File.new(basedir +'/words.txt', "r")
+   while (line = file.gets)
+    line= line.gsub(/\n/,"")
+    line= line.gsub(/\r/,"")
+    word = Word.new(:num=>line)
+    word.save!
+    print "#{counter2} #{word}\n" if counter==200;
+    counter=0 if counter==200
+    counter = counter + 1
+    counter2=counter2+1
+  end
+  file.close
+end
+
+
+
+task :export_words=> [:environment] do
+  basedir = Rails.root.to_s + "/lib/tasks"
+  string=String.new()
+  string=""
+  File.open(basedir +'/words.txt', 'w') do |f2|  
+    f2.puts string  
+  end
+
+  word=Word.find(:all)
+  count=0
+  count2=0
+  word.each do |w|
+    count=count+1
+    count2=count2+1
+    
+    string = "#{w.word}\n"
+    File.open(basedir +'/words.txt', 'a') do |f2|  
+      f2.puts string  
+    end
+    print "#{count2.to_s}\n" if count==200
+    count=0 if count==200
+  end
+end
+
+
+
 task :import_verbs => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
   counter = 1
