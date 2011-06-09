@@ -150,7 +150,7 @@ task :export_verbs => [:environment] do
   end
 end
 
-task :import_caps => [:environment] do
+task :import_words => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
    counter = 1
    counter2=1
