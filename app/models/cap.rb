@@ -33,17 +33,16 @@ def self.trash()
 end
 
 def self.search(search,page,language)
-#    search = search.gsub(/e/,"\[e|é\]") if search
-  Search.create(:search=>search, :lang=>language, :page=> page)
-
-  paginate :per_page=>8, :page=>page,
-#  :conditions => ['('+language + ' like ? or ' + language + ' like ? or ' + language + ' like ?) and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "% #{search} %","#{search} %","% #{search}", "",""],
-#  :conditions => ['spa select spa,eng from caps where spa REGEXP "(e|é)st(e|é) bien"'],
-:conditions => [language + ' REGEXP ? and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "(^#{search}.?| #{search}[\.\!\?\-]?| #{search}[\.\!\?]? )", "",""],
-
-
-  :order  => 'wcount'
+  if connection().to_s.match(/mysal/) then
+    Search.create(:search=>search, :lang=>language, :page=> page)
+    paginate :per_page=>8, :page=>page,
+    :conditions => [language + ' REGEXP ? and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "(^#{search}.?| #{search}[\.\!\?\-]?| #{search}[\.\!\?]? )", "",""],
+    :order  => 'wcount'
+  else
+    paginate :per_page=>8, :page=>page,
+      :conditions => ['('+language + ' like ? or ' + language + ' like ? or ' + language + ' like ?) and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "% #{search} %","#{search} %","% #{search}", "",""],
+      :order  => 'wcount'
+    end
   end
-
 end
 #:conditions => [language + ' like ? and eng != ? and spa != ?', "%#{search}%", "",""],
