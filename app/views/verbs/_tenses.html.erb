@@ -1,4 +1,16 @@
 <script>
+
+tense_width=new Array();
+tense_width["future perfecto"] ="30";
+tense_width["futuro simple"] ="20";
+tense_width["imperfecto"] ="30";
+tense_width["pluscuamperfecto"] ="30";
+tense_width["futuro simple"] ="20";
+tense_width["preterito perfecto"] ="30";
+tense_width["presente"] ="20";
+
+
+
 tense_main= new Array();
 tense_main["futuro simple"] ="future."
 tense_main["futuro perfecto"] ="The future perfect is formed by combining the auxiliary verb 'haber' with the past participle. habré, habrás, habrá, habremos, habréis, habrán."+
@@ -62,7 +74,8 @@ function explain_tense(div){
 	var pos = getPos(div);
 	document.getElementById('tense_explanation').innerHTML= tense_main[div.innerHTML];
 	var height=div.offsetHeight + 5;
-	document.getElementById('tense_explanation').setAttribute('style','position:relative;z-index:1;left:'+pos[0]+'px;top:'+height+'px;width:50%;background-color:yellow;')
+	var left = pos[0]-9;
+	document.getElementById('tense_explanation').setAttribute('style','position:relative;z-index:1;left:'+left+'px;top:'+height+'px;width:'+tense_width[div.innerHTML]+'%;background-color:yellow;')
 
 }
 function off_tense_explanation(){

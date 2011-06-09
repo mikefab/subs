@@ -108,7 +108,7 @@
    <td><%= cap.num %></td>
 -->
 
-	<td>
+	<td><--<%=cap.num%>
 		<%# if FileTest.exists?(RAILS_ROOT + "/public/audio/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 		<%# if FileTest.exists?("http://www.mikefab.com/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 		<% if cap.url != "trash" %> 
@@ -122,7 +122,7 @@
 		<!-- <button onClick="document.getElementById('player<%=c%>').src='/audio/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.mp3';document.getElementById('player<%=c%>').play();"> Listen  </button> -->
 <!---->
 	<%# end %>	
-<br>
+--><br>
 <ul >
 <li>
 	<%counter=0%>
