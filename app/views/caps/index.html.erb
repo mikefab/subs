@@ -1,6 +1,7 @@
 <div id="search" style="display:inline;">
 
-<%if params[:hide_search] then%>
+<%if !params[:hide_search] then%>
+
 <h1>Listing captions</h1>
 <% form_tag caps_path, :method=> 'get' do %>
 	<p>
@@ -82,6 +83,7 @@
 <%# @verbs.each do |v|%>
 	<%#= v %>
 	<%#end%>
+	<%if @caps%>
 <table>
   <tr>
 <!--
@@ -119,7 +121,8 @@
    <th></th>
   </tr>
 <% c=0 %>
-<% @caps.each do |cap| %>
+
+<% @caps.each do |cap|  %>
 <%c=c+1%>
   <tr>
 <!--
@@ -200,8 +203,8 @@
   </tr>
 <% end %>
 </table>
-
 <br />
 <%= will_paginate @caps %>
 <%= page_entries_info @caps %> 
 <%#= link_to 'New Cap', new_cap_path %>
+<%end%>

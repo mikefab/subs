@@ -5,9 +5,11 @@ class CapsController < ApplicationController
 #    @caps = Cap.all
     @choice= params[:language]
     lang=params[:language] || "Spa"
-    @caps = Cap.search(params[:search], params[:page],lang)
     
+    if params[:search] then
+    @caps = Cap.search(params[:search], params[:page],lang)
     (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
+  end
 
     respond_to do |format|
       format.html # index.html.erb
