@@ -1,13 +1,14 @@
+<%@single=single if single%>
 <script>
 function go_to(id,num,url,direction,div){
-alert('hi')
-alert(div.parentNode.id);	
-	// document.getElementById('direction').value=direction;
-	// document.getElementById('url').value=url;
-	// document.getElementById('num').value=num;
-	// document.getElementById('id').value=id;
-	// document.getElementById('single_button').focus();
-	// document.getElementById('single_button').click();
+// alert('hi')
+// alert(div.parentNode.id);	
+	document.getElementById('direction').value=direction;
+	document.getElementById('url').value=url;
+	document.getElementById('num').value=num;
+	document.getElementById('id').value=div.parentNode.id;
+	document.getElementById('single_button').focus();
+	document.getElementById('single_button').click();
 
 }
 </script>
@@ -18,7 +19,7 @@ alert(div.parentNode.id);
 			<%@single.source2=@single.source2.gsub(" ",".")%>
 			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=@single.source2%>/<%= @single.num %>_<%= @single.source2  %>.ogg" controls preload="auto" autobuffer></audio>
 		<%end%>
-<div id="next" onClick="go_to(<%=@single.id%>,<%=@single.num%>,'<%=@single.source2%>','next');" title="view next clip." style="position:relative;display:inline;"><%=@single.num%>--></div><br><br>
+<div id="next" onClick="go_to(<%=@single.id%>,<%=@single.num%>,'<%=@single.url%>','next',this);" title="view next clip." style="position:relative;display:inline;"><%=@single.num%>--></div><br><br>
 	<%counter=0%>
     <%@single.spa.split(/\s+/).each do |w|%>
 <%thing="#{@single.id}-#{counter}"%>

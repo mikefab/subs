@@ -31,6 +31,7 @@ class CapsController < ApplicationController
       else
         @single = Cap.find(:first,:conditions=>["url=? and num > ?", params[:url], params[:num]], :order=>'num' )
       end
+        @single = Cap.find(:first,:conditions=>["url=? and num = ?", params[:url], params[:num]] ) if !@single
       caps=Array.new()
       caps<<@single
       (@verbs,@hash_id,@english) = Verb.return_verbs(caps)

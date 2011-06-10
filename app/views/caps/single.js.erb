@@ -1,3 +1,4 @@
 //alert("<%=@single.spa%>");
 var id=document.getElementById('id').value;
-$("#container_"+id).html("<%= escape_javascript(render(:partial => 'single'))%>");
+//$("#container_"+id).html("<%= escape_javascript(render(:partial => 'single'))%>");
+$('#'+id).html("<%= escape_javascript(render(:partial => 'single'))%>");

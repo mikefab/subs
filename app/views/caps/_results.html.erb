@@ -82,43 +82,12 @@
 </script>
 
 <% c=0 %>
-<% @caps.each do |cap| %>
+<% @caps.each do |single| %>
 <%c=c+1%>
 
 <div id="container_<%=c%>">
-	<div id="previous" onClick='go_to(<%=cap.id%>,<%=cap.num%>,"<%=cap.url%>","back");' title="view previous clip." style="position:relative;display:inline;"><%=cap.num%><--</div>
-		<% if cap.source == "dotsub" %> 
-		<audio src="http://www.mikefab.com/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg" controls preload="auto" autobuffer></audio>
-		<%else%>
-			<%cap.source2=cap.source2.gsub(" ",".")%>
-			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=cap.source2%>/<%= cap.num %>_<%= cap.source2  %>.ogg" controls preload="auto" autobuffer></audio>
-		<%end%>
-<div id="next" onClick="go_to(<%=cap.id%>,<%=cap.num%>,'<%=cap.source2%>','next');" title="view next clip." style="position:relative;display:inline;"><%=cap.num%>--></div><br><br>
-	<%counter=0%>
-    <%cap.spa.split(/\s+/).each do |w|%>
-<%thing="#{cap.id}-#{counter}"%>
-	<span id="<%=cap.id%>-<%=counter%>_basic" onmouseover="light_up('<%=cap.id%>-<%=counter%>',this);" onmouseout="darken('<%=cap.id%>-<%=counter%>');">
-	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%>
-</a></span>
-<%if @hash_id[thing] then%>
-	<span id="<%=cap.id%>-<%=counter%>" style="position:fixed;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
-	<%= @hash_id[thing].conj%>
-	<br>verb: <a href=""><%= @hash_id[thing].verb%> - <%=@english["#{@hash_id[thing].verb}"]%></a>
-	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
-	<br>mood:  <a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
-	<br>tense type:  <a href="" onmouseover="return_tense_type(this,'<%=@hash_id[thing].tense_type%>');"><%=@hash_id[thing].tense_type%></a>
-	<br>pronoun: <a href=""> <%=@hash_id[thing].pro%></a>
-	
-	</span>
- 	<%end%>
-	<%counter=counter+1%>
+	<%= render :partial => "caps/single", :object => single  %>
 
-	<%end%>
-<br>
-	<%=cap.eng%>
-<br>
-    <div style="position:relative;display:inline;width:60px;font-size:8pt;" title="Removes just this file."><%= link_to 'remove',hide_cap_path(cap), :confirm => 'Are you sure?' %></div>
-    <div style="position:relative;display:inline;width:100px;font-size:8pt;" title="Removes all clips in database from same video"><%= link_to 'remove all', hide_all_cap_path(cap), :confirm => 'Are you sure?'  %></div>
 </div>
 <br><br>
 
