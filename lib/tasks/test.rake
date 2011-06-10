@@ -230,8 +230,9 @@ task :import_verbs => [:environment] do
     line = line.gsub(/\r/,'')
     (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
     ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values('#{verb}','#{conj}','#{mood}','#{tense_type}','#{tense}','#{pro}','#{pre}');") if flag==1
+if conj then
     flag=1 if conj.match(/colonices/) and pro.match(/tu/) and mood.match(/Subjuntivo/)
-
+end
 #    verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
 #    verb.save!
     counter3=counter3+1
