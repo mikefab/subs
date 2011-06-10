@@ -38,7 +38,7 @@ end
 
     #Now find out if each conjugation is found in a caption
     a_strings.each do |s|
-      w=Word.find(:first, :conditions=>["word = '#{s}' collate utf8_bin"])
+      w=Word.find(:first, :conditions=>["word = '#{s}'"])
           a_verbs << s if w
     end
 #    #Now find out if each conjugation is found in a caption
