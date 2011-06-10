@@ -223,12 +223,14 @@ task :import_verbs => [:environment] do
   counter = 1
   counter2=1
   counter3=1
+  flag =0
   file = File.new(basedir +'/verbs.txt', "r")
   while (line = file.gets)
     line=line.gsub(/\n/,'')
     line = line.gsub(/\r/,'')
     (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
-    ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values('#{verb}','#{conj}','#{mood}','#{tense_type}','#{tense}','#{pro}','#{pre}');")
+    ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values('#{verb}','#{conj}','#{mood}','#{tense_type}','#{tense}','#{pro}','#{pre}');") if flag==1
+    flag=1 if conj.match(/colonices/) and pro.match(/tu/) and mood.match(/Subjuntivo/)
 
 #    verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
 #    verb.save!
