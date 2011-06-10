@@ -234,11 +234,11 @@ task :import_verbs => [:environment] do
     verb.save!
     counter3=counter3+1
 #    print "#{counter2} #{counter3} creating for #{verb.conj} #{verb.conj}" if counter==200;
-    else
-     # print "#{counter2} found\n"
-    end
-      print " #{counter2} #{counter3} #{conj}\n" if counter==200;
-    counter=0 if counter==200
+#    else
+ #    # print "#{counter2} found\n"
+#    end
+      print " #{counter2} #{counter3} #{conj}\n" if counter==400;
+    counter=0 if counter==400
     counter = counter + 1
     counter2=counter2+1
    end
