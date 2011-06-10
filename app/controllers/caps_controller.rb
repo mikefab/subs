@@ -3,6 +3,7 @@ class CapsController < ApplicationController
   # GET /caps.xml
   def index
 #    @caps = Cap.all
+    Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:search],:page=>params[:page],:lang=>params[:language]).save!
     @choice= params[:language]
     lang=params[:language] || "Spa"
     
@@ -18,6 +19,7 @@ class CapsController < ApplicationController
   end
   
     def results
+       Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:search],:page=>params[:page]).save!
   #    @caps = Cap.all
       @choice= params[:language]
       lang=params[:language] || "Spa"
@@ -26,6 +28,8 @@ class CapsController < ApplicationController
     end
 
     def single()
+      Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>"#{params[:num]}-#{params[:url]}").save!
+
       if params[:direction]=="back" then
         @single = Cap.find(:last,:conditions=>["url=? and num < ?", params[:url], params[:num]], :order=>'num' )
       else

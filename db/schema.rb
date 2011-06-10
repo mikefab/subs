@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110606192153) do
+ActiveRecord::Schema.define(:version => 20110610085806) do
 
   create_table "caps", :force => true do |t|
     t.integer  "num"
@@ -72,6 +72,18 @@ ActiveRecord::Schema.define(:version => 20110606192153) do
   add_index "searches", ["option"], :name => "index_searches_on_option"
   add_index "searches", ["page"], :name => "index_searches_on_page"
   add_index "searches", ["user_id"], :name => "index_searches_on_user_id"
+
+  create_table "tracks", :force => true do |t|
+    t.string   "ip"
+    t.string   "search"
+    t.string   "lang"
+    t.string   "page"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "tracks", ["ip"], :name => "index_tracks_on_ip"
+  add_index "tracks", ["lang"], :name => "index_tracks_on_lang"
 
   create_table "users", :force => true do |t|
     t.string   "username"

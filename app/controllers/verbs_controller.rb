@@ -3,6 +3,7 @@ class VerbsController < ApplicationController
   # GET /verbs
   # GET /verbs.xml
   def index
+
     @verbs = Verb.all
 
     respond_to do |format|
@@ -12,10 +13,12 @@ class VerbsController < ApplicationController
   end
 
   def tenses
+    Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:tense_mood]).save!
     @tenses = Verb.return_tenses(params[:tense_mood])
   end
 
   def verbs
+    Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:verb_tense]).save!
 #     if Rails.cache.read("#{params[:mood]}-#{params[:tense]}") then
 #       @verbs = Rails.cache.read("#{params[:mood]}-#{params[:tense]}")
  #    else
