@@ -301,7 +301,8 @@ end
 task :destroy_verbs => [:environment] do
 #  v=Verb.find(:all)
 #  v.map do |f|  f.destroy  end
- Verb.destroy_all 
+ActiveRecord::Migration.execute("truncate verbs;")
+
 end
 task :test_verbs => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
