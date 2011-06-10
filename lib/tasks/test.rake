@@ -299,9 +299,9 @@ task :create_verbs => [:environment] do
     }  
 end
 task :destroy_verbs => [:environment] do
-  v=Verb.find(:all)
-  v.map do |f|  f.destroy  end
-  
+#  v=Verb.find(:all)
+#  v.map do |f|  f.destroy  end
+ Verb.destroy_all 
 end
 task :test_verbs => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
