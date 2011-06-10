@@ -23,9 +23,18 @@ end
 task :merge_url_source => [:environment] do
   caps=Cap.find(:all, :conditions=>["source !='dotsub'"]);
   caps.each do |c|
-    c.url = c.source2
-     c.save!
+    c.url = "trash"
+    c.save!
   end  
+
+  caps=Cap.find(:all, :conditions=>["source ='dotsub'"]);
+  caps.each do |c|
+    c.source2 = c.trash
+    c.save!
+  end  
+
+
+
 end
 
 
@@ -218,9 +227,9 @@ task :import_verbs => [:environment] do
   while (line = file.gets)
     line=line.gsub(/\n/,'')
     line = line.gsub(/\r/,'')
-    (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
-    v= Verb.find(:first,:conditions=>["verb=? and conj=? and mood=? and tense_type=? and tense=? and pro=?", "#{verb}","#{conj}","#{mood}","#{tense_type}", "#{tense}","#{pro}"])
-    if !v then
+#    (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
+#    v= Verb.find(:first,:conditions=>["verb=? and conj=? and mood=? and tense_type=? and tense=? and pro=?", "#{verb}","#{conj}","#{mood}","#{tense_type}", "#{tense}","#{pro}"])
+#    if !v then
     verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
     verb.save!
     counter3=counter3+1
