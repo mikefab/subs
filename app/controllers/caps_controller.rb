@@ -3,13 +3,16 @@ class CapsController < ApplicationController
   # GET /caps.xml
   def index
 #    @caps = Cap.all
-    Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:search],:page=>params[:page],:lang=>params[:language]).save!
+
     @choice= params[:language]
     lang=params[:language] || "Spa"
     
     if params[:search] then
     @caps = Cap.search(params[:search], params[:page],lang)
+    returned_results = @caps.size || 0
+    Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:search],:page=>params[:page],:lang=>params[:language],:num=>returned_results).save!
     (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
+
   end
 
     respond_to do |format|
@@ -19,16 +22,17 @@ class CapsController < ApplicationController
   end
   
     def results
-       Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:search],:page=>params[:page]).save!
+
   #    @caps = Cap.all
       @choice= params[:language]
       lang=params[:language] || "Spa"
       @caps = Cap.search(params[:search], params[:page],lang) 
+      returned_results = @caps.size || 0
+      Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:search],:page=>params[:page],:num=>returned_results).save!      
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
     end
 
     def single()
-      Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>"#{params[:num]}-#{params[:url]}").save!
 
       if params[:direction]=="back" then
         @single = Cap.find(:last,:conditions=>["url=? and num < ?", params[:url], params[:num]], :order=>'num' )
@@ -36,6 +40,9 @@ class CapsController < ApplicationController
         @single = Cap.find(:first,:conditions=>["url=? and num > ?", params[:url], params[:num]], :order=>'num' )
       end
         @single = Cap.find(:first,:conditions=>["url=? and num = ?", params[:url], params[:num]] ) if !@single
+        @single? returned_results=1 : returned_results=0
+        Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>"#{params[:num]}-#{params[:url]}",:num=>returned_results).save!
+
       caps=Array.new()
       caps<<@single
       (@verbs,@hash_id,@english) = Verb.return_verbs(caps)

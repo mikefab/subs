@@ -78,6 +78,7 @@ ActiveRecord::Schema.define(:version => 20110610085806) do
     t.string   "search"
     t.string   "lang"
     t.string   "page"
+    t.integer  "num"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

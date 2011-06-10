@@ -5,6 +5,7 @@ class CreateTracks < ActiveRecord::Migration
       t.string :search
       t.string :lang
       t.string :page
+      t.integer :num
 
       t.timestamps
     end
