@@ -231,11 +231,13 @@ task :import_verbs => [:environment] do
     line=line.gsub(/\n/,'')
     line = line.gsub(/\r/,'')
     (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
-    ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values('#{verb}','#{conj}','#{mood}','#{tense_type}','#{tense}','#{pro}','#{pre}');") if flag==1
 
 if first==1 then
   flag = 1
 else
+  ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values('#{verb}','#{conj}','#{mood}','#{tense_type}','#{tense}','#{pro}','#{pre}');") if flag==1
+print "have #{verb} " if flag=0
+
   if conj then
     flag=1 if conj.match(/#{v.conj}/) and pro.match(/#{v.pro}/) and mood.match(/#{mood}/) and verb.match(/#{v.verb}/) and tense_type.match(/#{v.tense_type}/)
   end
@@ -296,7 +298,6 @@ task :create_verbs => [:environment] do
       (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
 
       verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
-
       verb.save
       c+=1
       c2=c2+1
