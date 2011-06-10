@@ -85,15 +85,15 @@
 <% @caps.each do |cap| %>
 <%c=c+1%>
 
-<div id="container_<%=cap.id%>">
-	<div id="previous" onClick='go_to(<%=cap.id%>,<%=cap.num%>,"<%=cap.url%>","back");' title="view previous clip." style="position:relative;display:inline;"><--</div>
+<div id="container_<%=c%>">
+	<div id="previous" onClick='go_to(<%=cap.id%>,<%=cap.num%>,"<%=cap.url%>","back");' title="view previous clip." style="position:relative;display:inline;"><%=cap.num%><--</div>
 		<% if cap.source == "dotsub" %> 
 		<audio src="http://www.mikefab.com/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg" controls preload="auto" autobuffer></audio>
 		<%else%>
 			<%cap.source2=cap.source2.gsub(" ",".")%>
 			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=cap.source2%>/<%= cap.num %>_<%= cap.source2  %>.ogg" controls preload="auto" autobuffer></audio>
 		<%end%>
-<div id="next" onClick="go_to(<%=cap.id%>,<%=cap.num%>,'<%=cap.source2%>','next');" title="view next clip." style="position:relative;display:inline;">--></div><br><br>
+<div id="next" onClick="go_to(<%=cap.id%>,<%=cap.num%>,'<%=cap.source2%>','next');" title="view next clip." style="position:relative;display:inline;"><%=cap.num%>--></div><br><br>
 	<%counter=0%>
     <%cap.spa.split(/\s+/).each do |w|%>
 <%thing="#{cap.id}-#{counter}"%>

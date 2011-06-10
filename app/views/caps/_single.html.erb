@@ -1,1 +1,44 @@
-<%=@single.spa%>
+<script>
+function go_to(id,num,url,direction,div){
+alert('hi')
+alert(div.parentNode.id);	
+	// document.getElementById('direction').value=direction;
+	// document.getElementById('url').value=url;
+	// document.getElementById('num').value=num;
+	// document.getElementById('id').value=id;
+	// document.getElementById('single_button').focus();
+	// document.getElementById('single_button').click();
+
+}
+</script>
+	<div id="previous" onClick='go_to(<%=@single.id%>,<%=@single.num%>,"<%=@single.url%>","back",this);' title="view previous clip." style="position:relative;display:inline;"><--<%=@single.num%></div>
+		<% if @single.source == "dotsub" %> 
+		<audio src="http://www.mikefab.com/ogg/spa/<%=@single.url%>/<%= @single.num %>_<%= @single.url %>.ogg" controls preload="auto" autobuffer></audio>
+		<%else%>
+			<%@single.source2=@single.source2.gsub(" ",".")%>
+			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=@single.source2%>/<%= @single.num %>_<%= @single.source2  %>.ogg" controls preload="auto" autobuffer></audio>
+		<%end%>
+<div id="next" onClick="go_to(<%=@single.id%>,<%=@single.num%>,'<%=@single.source2%>','next');" title="view next clip." style="position:relative;display:inline;"><%=@single.num%>--></div><br><br>
+	<%counter=0%>
+    <%@single.spa.split(/\s+/).each do |w|%>
+<%thing="#{@single.id}-#{counter}"%>
+	<span id="<%=@single.id%>-<%=counter%>_basic" onmouseover="light_up('<%=@single.id%>-<%=counter%>',this);" onmouseout="darken('<%=@single.id%>-<%=counter%>');">
+	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%>
+</a></span>
+<%if @hash_id[thing] then%>
+	<span id="<%=@single.id%>-<%=counter%>" style="position:fixed;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
+	<%= @hash_id[thing].conj%>
+	<br>verb: <a href=""><%= @hash_id[thing].verb%> - <%=@english["#{@hash_id[thing].verb}"]%></a>
+	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
+	<br>mood:  <a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
+	<br>tense type:  <a href="" onmouseover="return_tense_type(this,'<%=@hash_id[thing].tense_type%>');"><%=@hash_id[thing].tense_type%></a>
+	<br>pronoun: <a href=""> <%=@hash_id[thing].pro%></a>
+	
+	</span>
+ 	<%end%>
+	<%counter=counter+1%>
+
+	<%end%>
+<br>
+	<%=@single.eng%>
+<br>

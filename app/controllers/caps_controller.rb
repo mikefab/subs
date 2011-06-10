@@ -25,9 +25,16 @@ class CapsController < ApplicationController
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
     end
 
-    def single
-      @single = Cap.find(:last)
-#      @caps = Cap.search_previous(params[:url],params[:num], params[:direction],lang)
+    def single()
+      if params[:direction]=="back" then
+        @single = Cap.find(:last,:conditions=>["url=? and num < ?", params[:url], params[:num]], :order=>'num' )
+      else
+        @single = Cap.find(:first,:conditions=>["url=? and num > ?", params[:url], params[:num]], :order=>'num' )
+      end
+      caps=Array.new()
+      caps<<@single
+      (@verbs,@hash_id,@english) = Verb.return_verbs(caps)
+      @single
     end
 
   # GET /caps/1
