@@ -227,13 +227,12 @@ task :import_verbs => [:environment] do
   while (line = file.gets)
     line=line.gsub(/\n/,'')
     line = line.gsub(/\r/,'')
-#    verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
-#    verb.save!
-ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values(#{verb},#{conj},#{mood},#{tense_type},#{tesne},#{pro},#{pre});")
- 
+    (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
+    ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values(#{verb},#{conj},#{mood},#{tense_type},#{tesne},#{pro},#{pre});")
+
+    verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
+    verb.save!
     counter3=counter3+1
-
-
       print " #{counter2} #{counter3} #{conj}\n" if counter==400;
     counter=0 if counter==400
     counter = counter + 1
