@@ -1,3 +1,4 @@
+
 es
 llamamos
 opera
@@ -89,11 +90,74 @@ podemos
 cambio
 detalle
 abrir
+has
+comido
+has comido
+cambiado
+has cambiado
+noto
+tengo
+callado
+sé
+esté
+disimulado
+llego
+estás
+haciendo
+estoy
+lleva
+are
+pintado
+he pintado
+intentando
+está
+muera
+duela
+no duela
+bordado
+he bordado
+muero
+quedado
+has quedado
+tienes
+siento
+empieza
+dobles
+separado
+doble
+cierre
+resto
+trabaja
+prepara
+se prepara
+realizan
+se realizan
+dejando
+parte
+siga
+corriendo
+introduzco
+extraigo
+poder
+pasar
+realiza
+se realiza
+continuamos
+entre
+fallo
+cierra
+anillo
+tirando
+parece
+ha
+ha quedado
+debería
+hecho
+podéis
 alcanzar
 niveles
 desarrollo
 cambiar
-ha
 piensa
 carga
 programa
@@ -107,7 +171,6 @@ garantizar
 acuerdo
 demandas
 privado
-entre
 capacitado
 ha capacitado
 abarcando
@@ -120,7 +183,6 @@ ha contratado
 completas
 cabe
 señalar
-lleva
 se lleva
 proceso
 realizado
@@ -133,7 +195,6 @@ así
 permita
 optar
 condiciones
-resto
 resultado
 doy
 traído
@@ -156,31 +217,25 @@ llamado
 cuente
 han
 han capacitado
-poder
 dado
 han dado
 agradecemos
-hecho
 hemos hecho
 esfuerzo
 podamos
 agradecido
-siento
 me siento
 formar
-parte
 ayudado
 ha ayudado
 fue
 tuve
 abierto
 han abierto
-estoy
 desempeñando
 centro
 aprendido
 he aprendido
-está
 ayudando
 ha abierto
 dando
@@ -224,18 +279,48 @@ tocaría
 hace
 suena
 juré
-pasar
 soñaba
 llamas
 te llamas
 funciona
 prendes
-tienes
 programas
 acabamos
 aprender
 dibujo
 juego
+pueblo
+defiende
+se defiende
+supone
+monte
+arbolado
+pasó
+sabemos
+destruye
+hacen
+esperan
+creo
+llevado
+hemos llevado
+lucha
+sigue
+alimentando
+entrega
+suma
+pasa
+han cambiado
+encerrado
+han encerrado
+ha cambiado
+han hecho
+creemos
+decía
+confundir
+interesa
+estado
+hemos estado
+toca
 vienen
 pasan
 se pasan
@@ -289,7 +374,6 @@ vivo
 vengo
 enseñando
 rasgado
-suma
 quiere
 amar
 ama
@@ -312,7 +396,6 @@ quieres
 agarras
 vuelves
 cerrar
-tengo
 llevo
 querer
 dejo
@@ -334,7 +417,6 @@ piensen
 evadir
 buscar
 forma
-creo
 ha aprendido
 apúrese
 esperando
@@ -350,7 +432,6 @@ vuelvo
 olvide
 se olvide
 anda
-trabaja
 se va
 ambiente
 quedó
@@ -408,7 +489,6 @@ trato
 alcance
 sientan
 se sientan
-sé
 puedo
 tocar
 inicié
@@ -459,7 +539,6 @@ pasado
 ha pasado
 pierdes
 toque
-entrega
 escribe
 mejores
 visto
@@ -471,7 +550,6 @@ vive
 canta
 llora
 separar
-estás
 metiendo
 pidiendo
 llegar
@@ -487,7 +565,6 @@ fallar
 desafinar
 lucir
 traje
-sabemos
 defender
 sería
 cometer
@@ -505,7 +582,6 @@ acabar
 prevalecer
 pido
 seguir
-haciendo
 diga
 me diga
 meta
@@ -532,6 +608,7 @@ cerca
 sirve
 introducir
 realizar
+ingresan
 tardes
 intentar
 diría
@@ -555,7 +632,6 @@ unir
 estudiamos
 rodear
 caso
-dejando
 denuncias
 fueron
 quedando
@@ -563,7 +639,6 @@ teniendo
 fecha
 estén
 rastreo
-sigue
 avanzando
 ofreciendo
 permitiendo
@@ -593,7 +668,6 @@ seguimos
 rastreando
 llevan
 dependiendo
-estado
 encontremos
 nos encontremos
 preguntas
@@ -602,7 +676,6 @@ ayuda
 siguen
 permitan
 identificar
-parece
 no podemos
 sacamos
 recogimos
@@ -707,11 +780,9 @@ dejado
 había dejado
 experimento
 convertirse
-pueblo
 intereses
 nacen
 competir
-lucha
 acentuaría
 concreto
 sentó
@@ -745,7 +816,6 @@ empiecen
 no empiecen
 charla
 parado
-debería
 disfruten
 soluciones
 damos
@@ -773,7 +843,6 @@ generado
 ha generado
 profundizado
 ha profundizado
-pasa
 ha traído
 alcancen
 no alcancen
@@ -845,7 +914,6 @@ estructuras
 tirar
 llevando
 trabajan
-pasó
 dan
 podríamos
 discutir
@@ -876,7 +944,6 @@ consulta
 hacía
 paro
 figura
-fallo
 generando
 saben
 publicado
@@ -928,7 +995,6 @@ venga
 arriba
 tengan
 no tengan
-siga
 funcionando
 libre
 chiste
@@ -942,8 +1008,6 @@ dejen
 dejarán
 me acuerdo
 molesta
-hacen
-decía
 pones
 hablas
 supuesto
@@ -984,6 +1048,71 @@ visiten
 desarrollar
 ayudar
 adelante
+resultan
+incluye
+participan
+facilitan
+utilizar
+fomentan
+uso
+suponen
+muestra
+entendemos
+representado
+han representado
+conforme
+almacenan
+mantienen
+se mantienen
+brillo
+comparado
+estrellas
+representar
+vacías
+regresemos
+volvamos
+acerca
+usa
+significado
+ves
+observado
+evolucionado
+ocurrido
+separaron
+coinciden
+ocurre
+viven
+han evolucionado
+aproxima
+se aproxima
+estuve
+piensan
+confundirse
+cambian
+constituye
+traducen
+mueven
+vuelven
+se vuelven
+mirando
+observa
+se llevan
+reflejándose
+muestran
+esconden
+baile
+evolucionaron
+abismo
+han llevado
+danza
+experimente
+soltar
+agua
+esconderse
+ocultar
+usando
+danzas
+conforman
 daos
 llegan
 he pensado
@@ -994,7 +1123,6 @@ levantar
 recordad
 estáis
 deben
-podéis
 anular
 estrecha
 suelo
@@ -1020,7 +1148,8 @@ casar
 muerto
 soñar
 nadar
-agua
+tendremos
+responder
 nos encontramos
 explicara
 manejo
@@ -1044,7 +1173,6 @@ destino
 conservan
 entrar
 marcha
-significado
 ha significado
 visitar
 encontrado
@@ -1074,7 +1202,6 @@ pintar
 compartiendo
 sabiendo
 mirar
-ves
 busco
 suelta
 obra
@@ -1088,9 +1215,7 @@ aportar
 cumplido
 ha cumplido
 nacido
-muestra
 soporte
-quedado
 han quedado
 escogido
 ha escogido
@@ -1109,7 +1234,6 @@ recibimos
 tenían
 educar
 pretendemos
-creemos
 cierres
 han participado
 recuerdan
@@ -1118,7 +1242,6 @@ abrazar
 arena
 combatido
 rizado
-doble
 oro
 derrotado
 prestan
@@ -1151,7 +1274,6 @@ aprovechar
 recuperando
 seamos
 jugamos
-entendemos
 realizo
 coloco
 edita
@@ -1165,7 +1287,6 @@ limpia
 muere
 se muere
 toman
-viven
 creciendo
 aumentan
 documento
@@ -1173,8 +1294,33 @@ elaborado
 continuar
 sufrir
 restringir
-uso
 vivir
+han sido
+comunica
+se comunica
+contenido
+rueda
+desplaza
+altera
+pensamos
+involucrado
+volverse
+negocio
+razones
+vives
+vuelve
+se vuelve
+derrumba
+coge
+estando
+adelantado
+prefiere
+tiro
+luchando
+forzar
+presenciando
+choque
+proporciones
 botas
 aventura
 saquemos
@@ -1198,7 +1344,22 @@ desarrolló
 se desarrolló
 aclarar
 modelo
+aborto
+dudas
+conoce
+nombrar
+significa
+cumplan
+cumple
+aplica
 facilitar
+basan
+se basan
+principio
+permite
+se permite
+aportes
+apoya
 piense
 no piense
 cuento
@@ -1213,17 +1374,13 @@ logra
 rompe
 despierta
 coja
-llego
 adjetivo
 rompa
 no rompa
 marcan
-cambiado
-ha cambiado
 caminar
 malgasté
 dejé
-monte
 tomar
 cumpliré
 he sido
@@ -1260,8 +1417,154 @@ aburrido
 publico
 sueno
 comunicar
+han tenido
+componer
+trabajáis
+colaborado
+he colaborado
+empezado
+he empezado
+colaborar
+orquestas
+no sea
+mezclar
+digamos
+cocinar
+procesando
+obtienes
+dura
+tendría
+capas
+experimentar
+tocan
+eligieron
+quedarse
+vuelan
+mostrar
+he hecho
+preparamos
+viaje
+mudo
+orquesta
+tocando
+estaban
+entiendo
+presentando
+mencioné
+procesar
+parecido
+hemos empezado
 aquejan
+perdona
 he encontrado
+comprado
+he comprado
+rompió
+bajan
+entiendes
+gustan
+vendo
+probar
+define
+comprometerse
+justifica
+gasto
+suscribo
+me suscribo
+marca
+des
+ocupa
+nace
+juegas
+transformar
+crecido
+ha crecido
+jugando
+madurado
+ha madurado
+vuelo
+complementado
+ha complementado
+comunicarse
+demuestra
+hemos crecido
+evaluar
+rodearse
+ayudas
+gana
+dirigir
+correr
+corres
+funcionan
+corta
+juega
+aislado
+lava
+se lava
+creas
+colocando
+observando
+cogido
+han cogido
+transformado
+revelado
+ha revelado
+utilizan
+pruebas
+presenta
+finalizado
+determinado
+avanzado
+llegado
+ha llegado
+perdiendo
+desenmascarar
+adquiriendo
+vende
+se vende
+gastar
+dirá
+echo
+veía
+creía
+habían ganado
+anuncio
+gustado
+dicho
+ha dicho
+hables
+hable
+necesitas
+saca
+barra
+comparando
+supongo
+jugaba
+podías
+importaba
+opinas
+devolvemos
+volvemos
+producen
+enchufa
+consumir
+queramos
+ocurriendo
+hará
+jugar
+relacionarse
+descargar
+vender
+ruedas
+llena
+intentemos
+beso
+hago
+ponte
+pongo
+me pongo
+oye
+nos vemos
 escribí
 casco
 ocurrir
@@ -1276,19 +1579,14 @@ dejar
 comanden
 estructura
 separamos
-ocurre
 transporte
-conoce
 se conoce
 espera
 empezamos
-corriendo
 río
 transforma
 paga
 critique
-esté
-utilizar
 disputar
 transformaron
 diseñando
@@ -1308,9 +1606,7 @@ separando
 cambió
 se cambió
 transformó
-razones
 evitar
-no sea
 innovar
 leía
 iniciar
@@ -1324,7 +1620,6 @@ compusimos
 asumió
 planear
 aglomerado
-gastar
 hicieron
 maravilla
 salvar
@@ -1340,23 +1635,20 @@ lavar
 siembran
 serán
 convertir
-usa
-cocinar
 beber
 divertirse
 bañarse
 tiran
 contaminan
-tirando
 iniciemos
-viaje
-observa
 contraste
-realiza
-se realiza
 ingreso
 arreglo
 visitado
+gusto
+espero
+visita
+disfrutar
 votaste
 hubieron
 ocuparon
@@ -1365,7 +1657,6 @@ lleno
 votar
 media
 concluyo
-estuve
 movido
 encontraron
 trasladas
@@ -1380,19 +1671,30 @@ parís
 estrellado
 ha estrellado
 estreno
+arrestado
+prueben
+perseguido
+quieras
+practicar
+elegido
+voto
+durar
+esperar
+promover
+debes
+intentará
+destruir
 escriba
 buscábamos
 pone
 contestara
 se de
-oye
 quito
 ocurría
 se diga
 acaparas
 estudiado
 he estudiado
-dicho
 han dicho
 administras
 administrando
@@ -1415,12 +1717,10 @@ gritando
 oigan
 preserva
 preservar
-apoya
 no sean
 dialogar
 implicar
 asilo
-ha dicho
 saliendo
 necesitan
 proponiendo
@@ -1464,7 +1764,6 @@ pago
 marcas
 interpreta
 se convierte
-supongo
 concreta
 visitan
 vencer
@@ -1477,8 +1776,6 @@ tocado
 hubiera tocado
 recorrió
 querría
-han hecho
-danza
 entienden
 pregunto
 levantarían
@@ -1491,38 +1788,30 @@ levantaron
 asado
 quieran
 no tenga
-piensan
 cambiamos
 intenté
 entendieron
 levanto
-pensamos
-esperar
 juntan
 se juntan
-producen
 se producen
 cambia
 se cambia
 dijeron
 morimos
-mirando
 llenan
 fui
 late
 escucharon
 entendí
-colocando
 bailaba
 invitaban
 aparecieron
-vende
 dije
 proyecté
 gustó
 sentí
 estallar
-digamos
 entrando
 quebraba
 crecía
@@ -1554,11 +1843,8 @@ sostenía
 sucedía
 olvido
 despojo
-mostrar
 goce
 modificando
-esperan
-toca
 viaja
 retratar
 deja
@@ -1572,7 +1858,6 @@ rescata
 transformamos
 aterrizaron
 solucionan
-supone
 se pasó
 sucede
 gustaría
@@ -1597,17 +1882,20 @@ disfrute
 construyendo
 han pasado
 se lleven
-luchando
 debo
 convienen
 perjudican
 experimenta
+presta
+abrigo
+duermen
+levantan
+se levantan
 escondió
 bajó
 descubre
 abrazo
 amo
-hables
 cabalgo
 vio
 nacer
@@ -1618,7 +1906,6 @@ te quedes
 borde
 congeles
 no congeles
-quieras
 no quieras
 desgana
 salves
@@ -1646,6 +1933,7 @@ te duermes
 juzgas
 quedas
 te quedas
+cause
 veremos
 presentamos
 acceder
@@ -1655,7 +1943,6 @@ identificamos
 nos identificamos
 escribimos
 accedemos
-tendremos
 seleccionamos
 refiere
 se refiere
@@ -1681,38 +1968,53 @@ cocina
 había diseñado
 entregar
 gastan
-funcionan
 acaparado
 han acaparado
 inventó
 funcionó
 conseguimos
 unido
-dura
 duran
 calientan
 salto
 consume
-acerca
 se acerca
 tira
 contaminar
-vuelve
-se vuelve
 botar
 degradan
-durar
 proporcione
-gusto
 sigamos
 continuemos
 diseñaron
-principio
 presten
 dijéramos
 meditando
-are
 capture
+rellena
+unimos
+apilamos
+seca
+llenamos
+fijan
+se fijan
+libres
+tomaremos
+apretado
+recuerda
+uses
+no uses
+descomponer
+reemplaza
+construido
+tengas
+junta
+copies
+apesta
+olvida
+controlan
+han comprado
+critico
 dejarse
 llamar
 ambientes
@@ -1724,7 +2026,6 @@ escape
 sufrido
 ha sufrido
 han desarrollado
-han tenido
 recibió
 compró
 recoger
@@ -1742,7 +2043,6 @@ resignado
 impone
 dominar
 resigna
-transformar
 encontré
 me encontré
 meten
@@ -1752,25 +2052,19 @@ empleado
 te vas
 manejan
 creció
-libres
-consumir
 despertar
-hago
 me visto
 vestirse
 cura
 se dicen
-llegado
 hemos llegado
 colmo
-jugar
 definir
 luchan
 implicando
 promueven
 construyen
 movilizan
-utilizan
 apenas
 acaban
 anestesia
@@ -1786,7 +2080,6 @@ atente
 angustiado
 podría
 angustiar
-dirá
 informa
 darse
 se acaba
@@ -1806,7 +2099,6 @@ quedar
 proclamó
 concurso
 proclamaron
-creía
 acordó
 se acordó
 había ayudado
@@ -1820,7 +2112,6 @@ oficio
 destapado
 mete
 se meten
-llenamos
 halar
 halan
 llene
@@ -1838,35 +2129,24 @@ he tenido
 interpretaré
 trabajaremos
 surgen
-dudas
 procuraré
-espero
 reto
-des
 ibas
-he hecho
 había visto
 sentía
-veía
 molestaba
 me molestaba
 decides
 lanzar
-dirigir
 intentas
-pongo
-me pongo
 hablo
 leo
 decidí
-corta
 formado
 identificas
 te identificas
-interesa
 buscas
 formo
-intentando
 acercas
 te acercas
 habías visto
@@ -1881,21 +2161,17 @@ atrevido
 había atrevido
 reivindicas
 interesar
-entiendo
 gustar
 llamaría
 encantaría
 excitar
-creas
 moldear
 han estudiado
 tendrían
 memorizar
 meterse
-significa
 llevarse
 intimidad
-ocurriendo
 bebo
 facturas
 envío
@@ -1906,14 +2182,9 @@ envías
 enviado
 escudo
 uniforme
-estrellas
-disfrutar
 vistas
-han cambiado
-evolucionado
 ha evolucionado
 hemos preocupado
-tengas
 dispondrás
 podrás
 quisiste
@@ -1946,7 +2217,6 @@ soñado
 habías soñado
 diseñamos
 ampliamos
-relacionarse
 aficiones
 intentamos
 aplicando
@@ -1969,39 +2239,29 @@ variado
 dieran
 mantiene
 se mantiene
-mantienen
-se mantienen
 cita
 decide
 se decide
 sufriendo
 sigues
-has
 decidido
 has decidido
-abrigo
 sigo
 viviendo
 renunciar
-apesta
 has dado
 huelo
-volvemos
 esconder
 esconde
 escrito
 perderá
 se perderá
-han sido
-representar
 ha utilizado
 delimitar
 solucionar
 retomado
 han retomado
 involucra
-llevado
-han llevado
 tomando
 impulsado
 servirán
@@ -2053,14 +2313,39 @@ acelerado
 deterioro
 mantener
 padece
+desecar
+leer
+corrido
+ahogar
+picado
+remontes
 cuida
+seco
+molido
+tostado
+deposita
+avinagrado
+avinagra
+despegue
+secar
+quedo
+ordenar
+seque
+mover
+se levanta
+construyo
+sentado
+consigue
+beneficio
+quitando
+gastamos
+vendemos
 veis
 atenta
 aparentes
 iremos
 tenéis
 llevaría
-ocupa
 ultimo
 conocéis
 fracaso
@@ -2075,7 +2360,6 @@ devolveremos
 matiza
 ayudará
 escribía
-empieza
 contaba
 parecía
 entendía
@@ -2097,11 +2381,9 @@ protegemos
 quedaremos
 nos quedaremos
 matices
-orquesta
 escuchéis
 encontraréis
 eliminamos
-estaban
 reconocen
 obras
 derivan
@@ -2125,7 +2407,6 @@ suben
 aumento
 preocupa
 aumentando
-contenido
 dejan
 activa
 habíamos
@@ -2134,14 +2415,12 @@ notando
 relaciono
 faltará
 teníamos
-responder
 daban
 educando
 adquiere
 discuta
 no discuta
 bautiza
-participan
 queréis
 constatar
 pensad
@@ -2151,12 +2430,10 @@ estudiaba
 conocían
 se conocían
 aprendemos
-observando
 ejecutado
 se desarrolla
 desarrollemos
 podíamos
-experimentar
 transmiten
 observemos
 miremos
@@ -2165,12 +2442,10 @@ observar
 adaptarse
 actualice
 predice
-llena
 pidiéramos
 medir
 preciso
 leí
-cambian
 devuelve
 estarían
 leemos
@@ -2191,8 +2466,6 @@ apretar
 navegar
 bajar
 navega
-gustan
-anuncio
 motivar
 ponga
 se ponga
@@ -2209,16 +2482,13 @@ refuerza
 intenten
 bases
 apagado
-leer
 trasladaba
 desarrollan
 tienden
-experimente
 parezca
 construyan
 se pasa
 amas
-gana
 logran
 pensáis
 asignan
@@ -2250,11 +2520,8 @@ lanza
 contratar
 estudie
 acertar
-vender
-probar
 echa
 he llegado
-marca
 no una
 guste
 satisfacer
@@ -2263,7 +2530,6 @@ consiguen
 exigimos
 fluye
 se pone
-critico
 enseñado
 ha enseñado
 filtrar
@@ -2297,14 +2563,11 @@ proveer
 defiendo
 surgiendo
 critica
-hemos estado
-gustado
 ha gustado
 ultimas
 haya sido
 inicia
 se ven
-baile
 sonar
 notas
 olvidar
@@ -2339,7 +2602,6 @@ estuvieran
 pudiste
 llegué
 entramos
-entiendes
 explorando
 enfrentando
 continúan
@@ -2365,7 +2627,6 @@ logrado
 ha logrado
 agrupado
 ha agrupado
-permite
 exportar
 aportado
 ha aportado
@@ -2387,18 +2648,13 @@ descuidar
 requieren
 articular
 ampliando
-promover
-creí
-creen
-donaron
-cayendo
-he visto
-reciclar
-se levanta
-moje
-se moje
-reconozcamos
-gesto
+existimos
+segare
+conquista
+ora
+corte
+manifestare
+resta
 estima
 aumente
 explicado
@@ -2414,6 +2670,7 @@ aparezcan
 permanecían
 ocultas
 bloquear
+consultas
 oculto
 divisar
 visitamos
@@ -2427,7 +2684,6 @@ imprimir
 agrado
 descansar
 quejarse
-olvida
 descontar
 estuvieron
 terminando
@@ -2439,16 +2695,46 @@ planeando
 exijo
 decimos
 distes
-vuelan
-recuerda
 diste
 mancha
+sois
+tendiendo
+elaborando
+ganando
+has elegido
+catemos
+mostremos
+hemos elegido
+adaptado
+ha adaptado
+adaptado a
+comentabas
+vino
+elaboráis
+limpio
+tragar
+escupir
+caracterizan
+premio
+cultive
+cultivando
+avisado
+has avisado
+sabéis
+tragando
+apreciado
+necesites
+comiendo
+pretenderás
+reino
+demandando
+pertenece
+queráis
 basado
 modelado
 doblado
-cierra
+usado
 entrará
-seca
 se seca
 sentían
 muela
@@ -2466,17 +2752,31 @@ mejoran
 se mejoran
 respeto
 no cree
+sucediendo
+salté
+nadaban
+figuras
+acostumbrado
+nos fuimos
+remo
+temer
 reina
 ocultes
 ha puesto
 rezo
 llores
+cazamos
+aprendimos
+sed
+odiabas
+conocimos
+nos conocimos
+logro
+se enamoró
 cavas
 contaré
-tendría
 complicado
 ha llevado
-presenta
 reflexionar
 faltó
 quisieron
@@ -2485,7 +2785,6 @@ chistes
 reías
 volverías
 nombramos
-noto
 regalando
 guardaba
 disfrutaba
@@ -2494,7 +2793,6 @@ cantará
 has hecho
 conociste
 has dejado
-barra
 ubicado
 constituyen
 clasificado
@@ -2512,7 +2810,6 @@ complementó
 cocinan
 fortalecido
 han fortalecido
-determinado
 integro
 lanzarse
 aventuras
@@ -2523,28 +2820,23 @@ comprende
 modifican
 tramites
 emplea
-mover
 devolverá
 expandirse
 mando
 aporte
-visita
+viajando
 pasará
 dará
-anillo
 celebrar
 completo
-beso
 tendrá
 cantaban
 besar
 anima
 se anima
 faltan
-practicar
 adquirido
 ha adquirido
-sentado
 libras
 muevo
 gano
@@ -2565,11 +2857,9 @@ cortar
 descubriendo
 necesitar
 llenar
-prueben
 subir
 girar
 aplastar
-tragar
 agrega
 convirtió
 alambiques
@@ -2616,6 +2906,15 @@ trabajaron
 acomoda
 se acomoda
 evaluamos
+frecuente
+aporta
+rompieron
+integrar
+han permitido
+existes
+até
+pode
+suavizar
 metiste
 te metiste
 pertenecen
@@ -2624,7 +2923,6 @@ venido
 han venido
 molestar
 dé
-hable
 quisieras
 discrimina
 discriminen
@@ -2644,7 +2942,6 @@ júntese
 practico
 enfrente
 preparar
-necesitas
 vomitar
 filtran
 ríen
@@ -2692,6 +2989,25 @@ discute
 examino
 plantean
 revela
+inundan
+capturar
+establezco
+demuestro
+precisa
+alcanzan
+centellea
+reemplazar
+omitir
+ajuste
+liberen
+nadas
+convierta
+se convierta
+compartimos
+rompemos
+aconsejes
+mande
+no mande
 reflexiones
 complemento
 necesitando
@@ -2699,7 +3015,6 @@ buscaré
 abordar
 implica
 supere
-nos vemos
 digas
 regresar
 juras
@@ -2724,8 +3039,25 @@ vuelva
 notar
 nos damos
 jurado
+place
+force
+active
+mean
+vote
+liar
+tended
+forces
+dance
+placed
+quite
+moved
+vivid
+done
+places
+note
+suicide
+explore
 durmiendo
-comiendo
 nadando
 cocinando
 busquen
@@ -2752,6 +3084,7 @@ había tenido
 ciego
 encontraste
 escapó
+paguen
 licenciado
 enseñare
 comprobar
@@ -2823,18 +3156,15 @@ tocó
 disfruto
 confiando
 grabado
-vino
 enferma
 alabo
 habló
 pudieron
 restaurar
-ha quedado
 animado
 trabajamos
 preguntado
 has preguntado
-sabéis
 etiqueta
 regaláis
 estarás
@@ -2858,7 +3188,6 @@ expandía
 se expandía
 cambiaba
 digerir
-usando
 funcionaba
 expandir
 contraer
@@ -2866,7 +3195,6 @@ trató
 expandiera
 agregó
 abandona
-aprendimos
 se expandiera
 estrella
 ocurrían
@@ -2913,7 +3241,6 @@ llamó
 cerró
 había hecho
 queríamos
-acostumbrado
 hayamos acostumbrado
 parezcan
 acostumbrar
@@ -2933,7 +3260,6 @@ sentar
 sintáis
 os sintáis
 cerramos
-active
 notarán
 se parece
 elevado
@@ -2943,7 +3269,6 @@ nos veamos
 une
 notan
 trataría
-colaborar
 naciste
 transites
 despejado
@@ -2959,7 +3284,49 @@ sentirse
 se vaya
 frenan
 siéntete
-queramos
+interesaba
+pretende
+mueve
+encontrarse
+reconocer
+pretendido
+ha pretendido
+domesticar
+patente
+ilustran
+ha ido
+responden
+acoger
+coger
+han empezado
+mantengan
+recurrimos
+archivan
+replantea
+consumiendo
+aprovecharse
+adapta
+se adapta
+decidir
+reaccionar
+huelen
+preferís
+explora
+calientes
+disparan
+persiguiendo
+viajan
+deberían
+beneficien
+consuma
+se consuma
+sumerge
+iría
+pescado
+hemos diseñado
+permitimos
+hemos creado
+ansias
 pregunté
 me pregunté
 puso
@@ -2981,6 +3348,7 @@ recibí
 recibían
 conviven
 devalúa
+creen
 desarrollarse
 aseguro
 coincidiremos
@@ -3002,28 +3370,79 @@ estarán
 atienda
 eduque
 facilite
-perdiendo
 no tengamos
 acompañen
 cierren
 no hagan
 comprometan
 se comprometan
-place
+iniciamos
+perfiles
+describe
+ilustrado
+había estudiado
+meditado
+ha meditado
+extendió
+se extendió
+detener
+azotaba
+abofetear
+abrazó
+se abrazó
+comía
+odiaba
+vivió
+progreso
+desesperado
+aclaraba
+prohibió
+cayó
+toleró
+ocupó
+ocupaba
+tardó
+vencido
+hacían
+revolotear
+asombrado
+desconfiado
+condujo
+salía
+cerraran
+retiraran
+se retiraran
+había llegado
+transcurrieron
+se vio
+se atrevió
+mediar
+notaba
+yacía
+había muerto
+abrieron
+extraído
+aventado
+tumba
+osan
+queriendo
+desnuda
+tumbas
+ha hecho
+refugiarse
+pretenden
+has estado
+evoca
+dirías
 invites
 eleven
 invite
 complete
-moved
 case
-dance
 dad
-done
-mean
 introduce
 tense
 reforma
-uses
 denomina
 multiplicar
 numero
@@ -3041,7 +3460,6 @@ devastando
 protestar
 activas
 arboles
-ha ido
 decayendo
 prefieren
 absorben
@@ -3053,7 +3471,6 @@ pegado
 cuiden
 platicado
 han platicado
-vuelo
 planteado
 he planteado
 midieron
@@ -3078,7 +3495,6 @@ mencionaba
 legalizar
 tramite
 concentrando
-reconocer
 actualizar
 reportar
 evitando
@@ -3127,7 +3543,6 @@ cerco
 pelear
 descartado
 ha descartado
-almacenan
 detectó
 reduciendo
 incluyen
@@ -3148,8 +3563,6 @@ apasionado
 entusiasmo
 me entusiasmo
 prendido
-resultan
-ha hecho
 se deje
 pelo
 se dan
@@ -3164,7 +3577,6 @@ demostrado
 hacías
 sumamos
 refuerzo
-hemos creado
 edificó
 han preparado
 aplique
@@ -3174,7 +3586,6 @@ pensó
 usan
 desmitifiquemos
 haremos
-preparamos
 dedicado
 hemos dedicado
 apuntes
@@ -3189,23 +3600,19 @@ impedir
 siguiera
 consumía
 se consumía
-consumiendo
 cautivado
 han cautivado
 se dedica
 robo
 saqueo
-pertenece
 armado
 actúan
 denominaba
-patente
 denominaban
 ampliado
 han ampliado
 ejercito
 intentó
-capturar
 captura
 repartirán
 habido
@@ -3213,14 +3620,12 @@ ha habido
 bordo
 acapara
 retroceder
-consigue
 obtienen
 explotar
 unen
 atraviesan
 transportando
 transita
-extraído
 oriente
 disputaban
 prolonga
@@ -3257,23 +3662,19 @@ alertado
 ha alertado
 informes
 atiende
-detener
 vierten
 marchan
 se marchan
 alarma
-realizan
 azota
 rompen
 enfermar
 causan
 explico
-rompieron
 expusieron
 comienzo
 continuó
 desee
-nombrar
 descargando
 declaró
 descargas
@@ -3291,7 +3692,6 @@ consideramos
 nos consideramos
 se unen
 convirtiéndose
-negocio
 negocio en
 rescate
 retener
@@ -3299,7 +3699,6 @@ amenazado
 ignorado
 ha ignorado
 encabezan
-nace
 dispone
 amplía
 estimado
@@ -3308,7 +3707,6 @@ recordemos
 arrasado
 han arrasado
 explotan
-destruye
 agotado
 ha agotado
 se fueron
@@ -3343,6 +3741,38 @@ retrocederemos
 pulsado
 repetimos
 mantendréis
+recetas
+ha unido
+meditó
+medita
+pasaremos
+había podido
+había comido
+investiga
+probando
+añado
+sal
+adoptado
+ha adoptado
+quitamos
+serviríamos
+colocamos
+congelado
+deshidratado
+cociendo
+triturado
+pongamos
+pierden
+se pierden
+han desaparecido
+preparando
+colaborando
+has visto
+ideado
+han ideado
+disciplinas
+intervenido
+ha intervenido
 sabido
 han sabido
 venderse
@@ -3378,7 +3808,48 @@ se perdería
 entendería
 alejaría
 me alejaría
+editado
 debate
+ocupado
+has actualizado
+actualizas
+estabilizado
+han estabilizado
+añade
+aburro
+me aburro
+borré
+obligo
+pintas
+aburres
+te aburres
+vete
+escribes
+borrar
+escribís
+me levanto
+aprovecho
+escribo
+apetecía
+cogí
+deberías
+agarran
+conectas
+viajas
+lio
+he dicho
+arreglando
+llevas
+escogí
+he visto
+apartado
+te pones
+meter
+coincidieron
+bebiendo
+regaló
+mires
+se cae
 apetece
 quedare
 me quedare
@@ -3410,26 +3881,166 @@ te acerques
 abandonó
 verás
 he conseguido
-perdona
 escupan
 alegro
 me alegro
 rompieras
 creyendo
-haría
+amaba
+significan
 diré
-debes
+consiguiera
+preparo
+he pasado
+hablaremos
+haría
 desear
 festejar
+interno
+costado
+ha costado
+tomaban
+desplazarse
+creíamos
+se iban
+desplazar
+supe
+crié
+me crié
+he demostrado
+vivíamos
+volamos
+pasaban
+llegaba
+colaborara
+colaboraba
+llegaban
+matar
+llegando
+cogen
+llenó
+se iba
+cargan
+torturaron
+soltaron
+me decía
+corría
+llené
+enfermé
+me enfermé
+me daba
+tomé
+solicitan
+apure
+desplace
+me desplace
+asistir
+convenían
+salíamos
+veían
+hiciéramos
+desplacé
+me desplacé
+andaba
+he salido
+acostar
+amanecer
+vine
+volteo
+vivía
+negado
+dificultar
+se enamoran
+dificultando
+garantice
+perdía
+me perdía
+enfermo
+tuviera
+agarra
+echar
+sufría
+finalizaba
+empezábamos
+pedían
+agarré
+cupo
+me iba
+soldado
+devolvían
+regresaban
+trabas
+decidiendo
+enviamos
+envía
+solicitar
+refugiado
+prorroga
+notifica
+recurrir
+expide
+establece
+decida
+han recibido
+comportado
+salgo
+me quedo
+asustado
+atemorizado
+comenzaron
+arrecho
+mató
+sintió
+bate
+estableciera
+se estableciera
+ayudaban
+averiguamos
+ayudó
+fuéramos
+desempeño
+tire
+lance
+guías
+apoyaron
+compré
+necesitaba
+pinto
+enseño
+han sufrido
+tratan
+consoléis
+cuidamos
+nos cuidamos
+demora
+prefiero
+han tratado
+superado
+he superado
+escuchas
+pega
+sales
+frenas
+te frenas
+triunfas
+marcharse
+separan
+vivido
+han vivido
+obtuvo
+perdió
+embaraza
+entregó
+sembró
+sufrió
+reposan
 labores
 se llevaron
 aseo
-se realizan
 bendiga
 fabrica
 especifica
 sobro
-correr
 burlar
 quiebra
 equivocando
@@ -3451,9 +4062,22 @@ calo
 entiendas
 despedido
 han despedido
-quedarse
 comen
-recetas
+grabamos
+cogían
+metían
+han grabado
+acuerde
+me acuerde
+casaba
+se casaba
+engañó
+quitaron
+conservar
+pegaron
+celo
+acuerdas
+te acuerdas
 fluido
 relato
 habéis
@@ -3470,13 +4094,10 @@ veréis
 explicaré
 entenderéis
 tengáis
-sed
 tened
 apostaron
-note
 habéis venido
 envió
-me decía
 suelen
 pareció
 asustéis
@@ -3493,7 +4114,6 @@ volando
 captado
 hemos captado
 devuelvo
-se llevan
 cuestionar
 fiar
 habéis sabido
@@ -3501,7 +4121,6 @@ actúo
 habéis visto
 acordáis
 os acordáis
-coger
 costó
 han enseñado
 valer
@@ -3552,18 +4171,13 @@ mandar
 enfoca
 añadido
 huele
-ayudas
-mueve
 seleccionado
 hemos seleccionado
 hemos subido
 arreglamos
 tapamos
-adapta
-se adapta
 reconoce
 dirige
-pongamos
 convirtamos
 arreglar
 rellenar
@@ -3572,7 +4186,6 @@ convences
 coma
 hereda
 heredar
-pega
 avalar
 aceptará
 cogemos
@@ -3580,7 +4193,6 @@ convertimos
 pide
 entusiasmado
 enciende
-llevas
 te llevas
 me llevo
 ganar
@@ -3611,7 +4223,6 @@ libera
 vuela
 regreses
 no regreses
-vete
 seduciendo
 abres
 posan
@@ -3620,7 +4231,6 @@ volar
 caminas
 cruza
 asfalto
-figuras
 desahogo
 rayas
 basarse
@@ -3633,15 +4243,14 @@ convocado
 ha convocado
 convertiremos
 alejar
+aprieto
 entonar
 prescindir
 arremetió
 comprenderemos
 platica
-juegas
 practiqué
 agarraron
-juega
 irán
 se irán
 defiendes
@@ -3652,7 +4261,6 @@ se quedaría
 abrió
 despedimos
 nos despedimos
-volvamos
 parto
 intentado
 han intentado
@@ -3661,7 +4269,6 @@ ofrecerán
 inicio
 simbolizan
 botones
-escribo
 acuesto
 me acuesto
 invito
@@ -3676,8 +4283,6 @@ cantas
 cure
 confeccionas
 avisar
-acuerde
-me acuerde
 reservar
 reformas
 marcho
@@ -3695,12 +4300,73 @@ afirma
 rodea
 halla
 se halla
-muestran
-decidir
+guiar
+envuelve
 impida
 comprendí
-amanecer
 podrá
+sueñes
+contemplar
+esforzara
+me esforzara
+crecemos
+obliga
+evolucionando
+pedisteis
+pidieron
+pitando
+encantan
+has llevado
+circule
+se cruce
+han picado
+mide
+coges
+recoge
+respirar
+han estado
+luces
+alumbran
+asegurar
+lloro
+protegido
+chocar
+controlo
+cante
+cuelgo
+dormirse
+tararee
+se duerme
+ocupen
+pasemos
+relaja
+vuelto
+ha vuelto
+innovando
+equivoca
+se equivoca
+decanté
+me decanté
+cargando
+utilice
+caiga
+atado
+se caiga
+acolchado
+caía
+me caía
+columpio
+caen
+se caen
+tendrás
+tropezar
+tardasteis
+presupuesto
+mueres
+te mueres
+insistimos
+pagan
+ha salido
 habrían
 disparado
 habrían disparado
@@ -3709,24 +4375,17 @@ detuvieron
 solicitamos
 defendemos
 lanzas
-matar
 balas
 mataste
 vengas
 pagues
 contaminas
-elegido
-hemos elegido
-quitando
 hemos matado
 acabas
 comenzaba
 nos topamos
-vine
-vivía
+asustar
 brindó
-separaron
-nos fuimos
 mandaron
 fregar
 trapear
@@ -3734,27 +4393,30 @@ barrer
 estaré
 amaré
 tomaré
+dispondremos
+causaremos
+desestabilizar
+averigua
+arreglas
+cedemos
+llevarán
 censo
 cautivas
 frecuentes
 registrar
 satisface
 estrena
-envía
 desperdigado
 respaldado
 soportado
 dialogo
 publicará
-sales
 ayudan
 despejar
 tocamos
-aborto
 procurando
 acerque
 se acerque
-compartimos
 importar
 amista
 ha olvidado
@@ -3776,35 +4438,25 @@ me dejaba
 hervir
 hierve
 cuece
-vivido
 he vivido
 postergue
 he retomado
 dedique
-me iba
 subí
-obtuvo
 pronuncie
-presta
-disciplinas
 hablaba
 demanda
 formando
 callan
 se callan
 referir
-descargar
 preguntarse
-fomentan
 estimulan
 pedí
 mandara
-premio
 interrumpir
-aplica
 plantea
 se parecen
-pidieron
 dibujara
 entregando
 molían
@@ -3820,7 +4472,6 @@ nacieron
 agregaría
 limita
 estimular
-parecido
 tomó
 pares
 me atrevería
@@ -3830,13 +4481,10 @@ naces
 podrías
 lanzó
 pisa
-beneficio
-pruebas
 decantar
 parecieran
 se parecieran
 repetir
-entregó
 penalizan
 castigan
 fechas
@@ -3856,6 +4504,7 @@ recibieron
 reciben
 participen
 no estemos
+pela
 disponemos
 obedecen
 reciban
@@ -3893,7 +4542,57 @@ bota
 desperdicio
 meditemos
 botarían
-comparando
+desayunado
+he desayunado
+atrasó
+traes
+leyendo
+se olvida
+lee
+lea
+me fui
+te pareces
+se parecía
+hiciera
+publicar
+llaman
+se llaman
+exponer
+sorprender
+usas
+cometí
+ataques
+protegen
+se protegen
+protege
+renunció
+retiró
+se retiró
+cansa
+se sigue
+fascina
+hayan desaparecido
+se cambian
+capa
+contribuye
+participa
+sorprende
+mereces
+mueves
+empezaste
+llegaste
+me defiendo
+logramos
+participe
+atrayendo
+cargado
+ha cargado
+reacciona
+entienda
+practicas
+mejoraremos
+comunican
+ha ganado
 oler
 me presento
 arrulla
@@ -3904,17 +4603,13 @@ respondía
 exhibir
 mencionado
 había mencionado
-encontrarse
 se veía
 he ido
 escondiendo
 añadir
 comentar
-jugando
 mirado
-pintado
 ha pintado
-perseguido
 has pintado
 marcando
 viniendo
@@ -3923,7 +4618,6 @@ pinta
 reflejo
 hemos vivido
 ha llamado
-sorprende
 expresarse
 revelarse
 ha terminado
@@ -3932,13 +4626,30 @@ serviría
 pegar
 preparas
 salva
-vendo
+sabíais
+despido
+pierdas
+ultima
+calla
+amarrado
+explote
+suponía
+quemo
+me quemo
+desperdiciamos
+mejoras
+participéis
+asociado
+entretenido
+disfrutéis
+ame
+criar
+convidar
+verá
+editará
 haya tenido
 librarse
 aproveché
-me daba
-creíamos
-se iba
 habría pasado
 curaba
 determinar
@@ -3969,11 +4680,9 @@ formulan
 diseñan
 mencionar
 dilucidar
-mueven
 juntamos
 sentarse
 discuten
-vuelven
 conviviendo
 adquieren
 flotan
@@ -3981,22 +4690,17 @@ distinguir
 desconfiar
 razonar
 hablé
-empezado
-hemos empezado
-llegando
 hemos publicado
 preguntarán
 iré
 aclaramos
 detiene
-ocurrido
 comparto
 comprendes
 peleando
 me quede
 revisan
 lastima
-tocan
 salve
 matarán
 gustaríamos
@@ -4004,7 +4708,6 @@ conserva
 se conserva
 habréis
 habréis visto
-componer
 componía
 no sobre
 compuso
@@ -4014,7 +4717,6 @@ cautivaba
 escuchaba
 hallamos
 nos hallamos
-tocando
 toquéis
 olvidarán
 interpretéis
@@ -4030,22 +4732,224 @@ apoyando
 inspiran
 activan
 demos
-he pasado
+producido
+ha producido
+quedaran
+he estado
+fotografia
+entré
+considere
+trabajen
+odian
+obtuvimos
+abro
+pagó
+leen
+consideran
+nos quejamos
+dispuesto
+pudieran
+miraran
+ayudaran
+criticar
+inclinan
+se inclinan
+resumir
+obedece
+preguntar
+presto
+mandas
+olvidan
+trascender
+averiguar
+flotando
+equivale
+repensar
+marchamos
+organizamos
+volcar
+especifico
+catalogo
+mostró
+necesitemos
+no necesitemos
+convirtieron
+se convirtieron
+emitiendo
+reconociendo
+resultando
+obedecer
+autorizar
+paren
+no paren
+revisen
+resaltar
+sobrecarga
+encuentras
+marcamos
+etiquetar
+etiquetando
+etiquetan
+compartes
+encontrando
+terminas
+luchemos
+entones
+publica
+nos quedamos
+retar
+daré
+relaciona
+se relaciona
+contrasta
+contrasta con
+referimos
+nos referimos
+definiendo
+conociendo
+contrastamos
+contrastamos con
+integrando
+importan
+mostraré
+conectan
+se conectan
+aferrar
+valora
+liberar
+asimilar
+mejora
+relacione
+impulse
+impulsar
+seas
+hemos aprendido
+hayan aprendido
+señala
+doblando
+encogiendo
+descontando
+ignorando
+relacionar
+faltando
+utilicen
+mostrare
+marcar
+dejara
+dictar
+bloqueé
+considerar
+usé
+empezaran
+escribieron
+hubiera sido
+hubiera podido
+especificas
+aprendieran
+expandieron
+se convirtió
+repaso
+hayas
+hayas visto
+aportaron
+activo
+participando
+comenzado
+han comenzado
+dicto
+hayamos hecho
+hayan sido
+resumimos
+termino
+falló
+rastrea
+contribuido
+han contribuido
+esforzar
+he intentado
+convencido
+ajustes
+calculo
+bajen
+corrimos
+vieron
+publican
+integrado
+funcionara
+abrimos
+adiciones
+alcanzó
+terminó
+logras
+se para
+enviando
+se ponen
+prestado
+designado
+queden
+existido
+han existido
+invierte
+preguntando
+alterno
+describen
+leyeron
+predecir
+ocupan
+realice
+se realice
+devorando
+construyeron
+implementamos
+atravesamos
+sobres
+representaban
+mostraremos
+entregan
+colonizar
+colonizado
+ronda
+echando
+crearon
+tomara
+acabara
+se acabara
+uniera
+se uniera
+resolviera
+creara
+han experimentado
+terminaron
+usaban
+resultó
+colaboramos
+agregamos
+creí
+muestre
+agrego
+describiendo
+estrechando
+reportes
+auspiciado
+revelar
+regir
+andes
+pulse
+converse
+dialogue
+tumbo
+salad
+relate
 peleas
 riñas
-he estado
 rodean
 ha sentido
 no pruebe
 probado
 he probado
-iniciamos
 desfiles
-comunican
 se comunican
 bailes
-llaman
-se llaman
 sueñan
 llueva
 llueve
@@ -4062,14 +4966,11 @@ abuso
 he metido
 gestionar
 promuevan
-necesitemos
 adaptamos
-cargando
 acondicionado
 comprometa
 me comprometa
 han llamado
-prestado
 he prestado
 se calienta
 derriten
@@ -4079,10 +4980,7 @@ monta
 quédate
 merienda
 cena
-costado
 han costado
-salgo
-se ponen
 descuido
 deteriora
 distingo
@@ -4090,7 +4988,6 @@ se quita
 cerráis
 reís
 dijeras
-vendemos
 no vendemos
 repiten
 me mareo
@@ -4101,17 +4998,19 @@ acuerda
 se acuerda
 ofendido
 han ofendido
-llegaste
 lograste
+entrevisten
+afectan
+votes
+ten
+absorbed
 preguntaba
 me preguntaba
 entrevista
 has puesto
 colocado
 he colocado
-han estado
 han llegado
-ocupado
 han ocupado
 he escrito
 introducido
@@ -4132,6 +5031,7 @@ apellido
 conténtate
 descansa
 tocara
+forja
 viviste
 dolía
 oiga
@@ -4145,71 +5045,94 @@ habíamos encontrado
 tuviéramos
 llevaban
 castigado
+revisar
+se mete
+pegábamos
+arreglábamos
+nos arreglábamos
+destruyó
+subió
+baño
+bañábamos
+nos bañábamos
+traiga
 preguntarás
 te preguntarás
-hará
 viví
 acordar
 entretengas
+imprima
 apunto
 rescatara
 acudieron
 ayudaron
 aconsejaron
-condujo
 encontró
 perdiera
 estrellara
 aprendió
 conducir
-sufrió
 deberán
 multa
 rinde
 lideres
-fascina
+oyes
+se quite
+negareis
+entraron
+votad
+arrimamos
 codificar
 abstraer
 llévate
 contemplo
 vuelvas
 dirás
-ten
 mentiré
 duele
 no estés
 grita
 no escuche
-quedo
-me quedo
+incentivar
+aborde
+juntas
+educaron
+se toca
+sentando
+anclado
+capitulo
+me meta
+propongo
+experimenten
+tardan
+me vi
+he sacado
+porta
+viera
+me viera
+contara
+he quedado
+sonabas
 despertaron
 se despertaron
 conoció
 se encontró
 pidió
 ayudara
-ayudó
-mostró
 mandando
 recuperamos
 sincronizando
 entrenamos
-conocimos
 robamos
-cierre
 sincronizar
 atamos
 despidieron
 se despidieron
 desaparecieron
-logramos
-terminó
 motivó
 generó
 considerara
 asume
-mejoras
-pudieran
 acompañar
 cumplía
 fortalecía
@@ -4217,17 +5140,13 @@ abordan
 discutió
 entendió
 esperaba
-deberían
 consideró
 se consideró
 se entrega
 condiciona
 arregla
 se arregla
-mejora
-entraron
 planteamos
-se sigue
 expande
 se expande
 se dejó
@@ -4236,14 +5155,11 @@ condicionan
 almacenar
 incorporar
 definió
-considerar
 destinar
-tuviera
 íbamos
 analizó
 necesitábamos
 hemos ido
-conociendo
 superó
 difundido
 filmar
@@ -4270,23 +5186,42 @@ incorporarse a
 acelera
 gestan
 sacudir
-ruedas
 dejaría
 comprendéis
 cerraría
-integrar
 reconstruyeron
+reproche
+querías
+notaras
+respiro
+falto
+juro
+sobras
+miento
+daría
+lie
+engañaría
+arrepentido
+confieso
+besado
+has besado
+has enseñado
+calan
+pecado
+velo
+envenenan
+encargo
+ardiendo
+dances
+comes
 vistiéndose
-baño
 vienes
-he salido
 juzga
 utilizas
 vayas
 no vayas
 cerrando
 acumulado
-vieron
 pagando
 luchamos
 ganamos
@@ -4297,7 +5232,6 @@ apareciendo
 existían
 comparamos
 hablara
-gasto
 competimos
 superan
 creces
@@ -4306,7 +5240,6 @@ pertenecemos
 recorrer
 merece
 conversa
-presupuesto
 duplicamos
 aumentamos
 meto
@@ -4340,7 +5273,6 @@ liga
 pidan
 invirtió
 perdimos
-enfermo
 sigan
 cueste
 retorno
@@ -4351,16 +5283,12 @@ clasificamos
 sobra
 disciplina
 transformes
-dispuesto
 mandó
 pedía
 regalan
 auspicia
 valen
 contestó
-regaló
-pinto
-seco
 hubiera sabido
 tomaron
 se llevó
@@ -4376,9 +5304,7 @@ perdiste
 hemos mostrado
 limpiamos
 reflejó
-aporta
 aviso
-avanzado
 hemos avanzado
 convocamos
 animé
@@ -4386,12 +5312,14 @@ me animé
 favoreció
 han aprendido
 agrupar
-han recibido
+invitaba
+desean
+convocaron
+difunde
+tratamos
 organiza
-pretenden
 gustas
 menear
-respirar
 faltas
 peleamos
 insulta
@@ -4414,7 +5342,6 @@ sacas
 provocado
 haya provocado
 he buscado
-he dicho
 utilizo
 utilizaba
 tardaríamos
@@ -4430,10 +5357,8 @@ escondes
 te escondes
 tranquilice
 se tranquilice
-juro
 asalta
 acabarás
-prefiero
 florecen
 conozca
 se conozca
@@ -4441,7 +5366,6 @@ seleccionar
 indican
 ha subido
 mojar
-queráis
 pondríamos
 salvamos
 guardamos
@@ -4451,24 +5375,34 @@ copiamos
 pegamos
 hubiéramos
 hubiéramos hecho
-encantan
+baraja
+adivinar
+escoger
+miráis
+nombro
+has cortado
+cojas
+muestras
+me vuelvo
+marchita
+se marchita
+evita
+vierte
+sufrí
+rasgué
+duelo
 entendáis
 podáis
 relataré
-guías
 guía
 tardé
 oía
 comunicaban
 aportó
-me fui
 acostumbrando
 convivir
-capas
-se parecía
 lastimas
 te lastimas
-corte
 doler
 hiciste
 limpias
@@ -4481,7 +5415,6 @@ gustaban
 enfadaban
 inspiraban
 juzgar
-encuentras
 te encuentras
 empiezas
 calmando
@@ -4495,7 +5428,6 @@ rinda
 enfadamos
 nos enfadamos
 preguntamos
-ponte
 reproches
 no sientes
 echaba
@@ -4503,18 +5435,18 @@ habían aportado
 habían permitido
 afecto
 sabías
-interno
 hiero
 tardo
 comunico
 me comunico
-comunica
 deseas
-intervenido
 han intervenido
 ha centrado
 afrontando
 fundó
+organizó
+consumían
+se consumían
 atrapó
 investigando
 forjando
@@ -4531,7 +5463,6 @@ percibe
 receta
 accede
 fíjense
-veían
 acceda
 permanezca
 traza
@@ -4542,7 +5473,6 @@ reporte
 opinar
 adivinando
 condicionar
-separan
 prometo
 inventando
 experimentan
@@ -4551,18 +5481,13 @@ apaga
 se apaga
 sonando
 escuchamos
-separado
 arriesgar
 bloqueando
 se despierta
 establecido
 levantarse
-desesperado
-sucediendo
-comunicarse
+gesto
 adivine
-adivinar
-revisar
 sospecha
 trazo
 tomo
@@ -4575,7 +5500,6 @@ salían
 entrevistaba
 trataba
 habían aprendido
-relacionar
 analizado
 había analizado
 habíamos visto
@@ -4585,7 +5509,6 @@ se juntó
 utilizó
 caminaban
 respondiendo
-termino
 hemos estudiado
 nos preguntamos
 bebes
@@ -4596,22 +5519,18 @@ acercado
 había acercado
 nacemos
 corresponden
-conforman
 cumplió
 entretenía
-entretenido
 ha entretenido
 descubría
 arroba
 remonta
 descrito
-fotografia
 se revela
 dijera
 digan
 no diga
 seguiré
-alcanzó
 se retractara
 hablemos
 no hablemos
@@ -4623,57 +5542,90 @@ ahondaremos
 ahondado
 hemos ahondado
 inspiró
-recurrimos
 latiendo
 has ido
 alegrarán
 se alegrarán
 quedarán
-bordado
-existido
 haya existido
 brillar
-tumba
-muera
 entierran
 hemos dado
 enfrentado
 ha enfrentado
 traducir
 logrando
-perdió
 se perdió
-rompió
 encontrábamos
-preguntar
 habían estado
 cuenten
 empecemos
-lea
 identifique
-preguntando
 representan
-colaborado
 hemos colaborado
 invitado
 hemos invitado
-integrado
 han integrado
 traerá
-atado
+mostrara
+desvele
+se desvele
+innova
+prolongado
+elaboran
+distribuyen
+comparte
+difunden
+compone
+personaliza
+implicado
+aprobado
+ha hablado
+descartes
+destinado
+sello
+perdemos
+nos perdemos
+recopila
+tasa
+han diseñado
+expuso
+ha conseguido
+embeber
+han publicado
+denominamos
+entretener
+apoyado
+recurre
+se marcha
+comenzará
+obtendréis
+restringido
+difundiendo
+ha difundido
+movemos
+fomento
+finalizó
+obtuvieron
+radica
+realizaron
+desarrollaron
+se desarrollaron
+llamará
+se llamará
+aprovechamos
+roce
 pasaste
 adueñarse
 cansas
 te cansas
 he conocido
 aconseje
-seas
 domino
 coloreo
 pego
 disfruta
 descifrar
-logro
 proponen
 vivieron
 reiremos
@@ -4681,13 +5633,11 @@ recorreremos
 cavan
 enterraban
 involucrarse
-necesitaba
 atraído
 traían
 sorprendía
 se sorprendía
 cosecha
-importaba
 se forma
 exige
 había conocido
@@ -4741,19 +5691,17 @@ rapta
 enfocar
 atacó
 entraran
-producido
-ha producido
-adoptado
+reste
+marche
+nominé
+cela
 promueva
 ha ocurrido
 amenaza
 acentúa
-revisen
 dificulto
 dormimos
 abarcamos
-responden
-tratamos
 identifican
 se identifican
 fallas
@@ -4762,9 +5710,7 @@ identifica
 se identifica
 consultamos
 regulares
-terminaron
 explicaron
-porta
 charlan
 animo
 se ayudan
@@ -4772,11 +5718,36 @@ charlando
 trabando
 aprendan
 abandonabas
-se vio
-evaluar
+sostiene
+falla
+recogido
+juntado
+hemos juntado
+comercializar
+comprábamos
+faltaba
+conlleva
+ha pedido
+llamara
+confeccionamos
+comanda
+cargamos
+doblan
+devuelven
+tiende
+se tiende
+conservas
+nos juntamos
+ayudamos
+nos ayudamos
+defendéis
+he cargado
+sirvas
+dedicarse
+pesan
+traigan
 genero
 faltaban
-pasaban
 permanecido
 ha permanecido
 hayamos vivido
@@ -4784,23 +5755,17 @@ abarca
 enamorarse
 elige
 amado
-criar
-estando
-faltaba
 dudo
 batalla
 vinculado
-se enamoró
 bastaría
 suicidar
 ha aparecido
 había aparecido
-ha costado
 nos conocíamos
 bastaba
 haya cambiado
 regía
-salía
 convenía
 costaría
 hemos adoptado
@@ -4809,6 +5774,62 @@ se olvidó
 olvidarse
 sorprendió
 acepto
+acompaña
+contraen
+medias
+sostienen
+criado
+hemos criado
+sobrevive
+tendríamos
+embarazo
+se envuelve
+se establece
+descubren
+conquistando
+ha establecido
+sustituir
+partiendo
+ha construido
+actúa
+envidia
+portar
+acepta
+aceptar
+reconocemos
+agreden
+enfadado
+canalizar
+no conozcan
+ejercita
+acordaréis
+os acordaréis
+inician
+ponerse
+recorren
+se dejan
+ejercitando
+subirá
+tirará
+gozando
+pedirá
+fueras
+necesite
+proyectará
+abordará
+no siente
+repitiendo
+proyecta
+convertirá
+cogía
+envolvía
+nos sintamos
+hablábamos
+sugiere
+atizar
+se queja
+contener
+tratará
 necesitaremos
 mientan
 habrán invitado
@@ -4817,17 +5838,13 @@ avisando
 aclaro
 haya tocado
 votó
-vuelto
 han vuelto
-suponen
 servían
 he preguntado
-traducen
 cazar
 desplazando
 caza
 desplazo
-desplaza
 obrar
 necesitaban
 equivoco
@@ -4865,11 +5882,8 @@ había roto
 simboliza
 cayeron
 se cayeron
-cayó
 se cayó
-meter
 pensaría
-tratan
 explicarse
 oprime
 ha intentado
@@ -4882,32 +5896,23 @@ discriminar
 ciegas
 reproducir
 ciega
-caracterizan
-define
 brotes
-ha conseguido
 contagiar
 alcanzará
-proporciones
 oíd
 grito
 ved
-abrieron
 prepararse
 bañas
 te bañas
-desnuda
 ahogaste
 te ahogaste
 pierdo
 me pierdo
-se para
 abusan
 predicando
 animan
 vestir
-prepara
-se prepara
 confrontar
 compraste
 encantar
@@ -4917,21 +5922,17 @@ asesoramos
 venías
 perdonen
 conversando
-vivíamos
 culpas
 merecías
 interesara
 contradice
-echar
 entretienen
-se mete
 defendiéndose
 retrocediendo
 dominado
 se esconde
 persuadido
 dispara
-tiro
 arroja
 anunciando
 teme
@@ -4942,14 +5943,12 @@ he faltado
 seguís
 arruga
 salieron
-criado
 habrá criado
 habrá sido
 cambiemos
 te fuiste
 volviste
 exilio
-pretenderás
 compadezcamos
 acordé
 me acordé
@@ -4961,17 +5960,13 @@ había dado
 pulido
 hubiera pulido
 admiten
-descubren
 tomábamos
-enfermé
-me enfermé
 cumplí
 invitó
 avisaste
 te ibas
 escribiste
 emborracharse
-pegaron
 pararan
 hubiera roto
 despierto
@@ -5005,18 +6000,12 @@ continúe
 excedió
 suspendían
 expresaba
-junta
 demuestre
 retiene
-publicar
 tiraron
-hacían
 moría
-conservar
 envenenaron
-prefiere
 explota
-saca
 renuncio
 pelea
 afloje
@@ -5045,7 +6034,6 @@ consagrado
 han consagrado
 autorizado
 han autorizado
-brillo
 oponen
 se oponen
 provocarán
@@ -5072,7 +6060,6 @@ felicito
 no creen
 opinan
 cruzó
-andes
 protestando
 certificado
 masticar
@@ -5088,9 +6075,7 @@ ha encomendado
 ofendas
 no ofendas
 rechaces
-protegido
 has protegido
-pecado
 has pecado
 destruiré
 reconcilió
@@ -5098,7 +6083,6 @@ absuelvo
 absuelva
 perdonado
 ha perdonado
-pierden
 había dicho
 anotan
 jodas
@@ -5107,10 +6091,8 @@ hablaste
 organicé
 atienden
 quitas
-hayas
 hayas hecho
 roba
-lance
 haya rechazado
 rechazó
 mortifican
@@ -5123,16 +6105,13 @@ hemos equivocado
 sirvo
 caigo
 sopla
-crié
 emborracha
 se emborracha
 entenderíamos
-fueras
 querrías
 fracasado
 admitir
 andando
-repitiendo
 perdieron
 afanaron
 pudiendo
@@ -5141,11 +6120,9 @@ pulso
 destrozar
 prestar
 comiste
-ganando
 ha abandonado
 contestan
 revolver
-hiciéramos
 progresar
 enganchado
 intentaban
@@ -5153,16 +6130,11 @@ armó
 cortó
 cortaron
 leyó
-lee
-recurrir
 han muerto
-mudo
-realice
 rogar
 suelto
 fichas
 armando
-pretende
 no crea
 terminara
 burla
@@ -5171,8 +6143,6 @@ llamé
 pregunte
 habrás
 habrás contado
-andaba
-leyendo
 descuidó
 lloró
 habían visto
@@ -5180,21 +6150,16 @@ gastó
 apretaban
 devolvió
 cumplieron
-notaba
-ayudamos
 incendio
 destrozaron
-coinciden
 casado
 hubiera casado
 hubieras conseguido
-odiaba
 hubiera hecho
 habrás sido
 denunciaste
 desapareció
 se esfumó
-podías
 amnistía
 quedara
 convirtiendo

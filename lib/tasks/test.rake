@@ -44,20 +44,19 @@ task :create_words => [:environment] do
   h=Hash.new()
   seen=Hash.new()
   i=0
-  Verb.find(:all).each do |v|
+#  Verb.find(:all).each do |v|
 
-# ActiveRecord::Migration.execute("select conj from verbs").each do |j|
- #  print "#{j[0]} \n"
-    h[v.conj]=1
+ ActiveRecord::Migration.execute("select conj from verbs").each do |j|
+   temp=j[0]
+    h[temp]=1
   end
 
-  print "done with conj hash, getting gaps #{h.size}\n"
-  Cap.find(:all, :conditions=>["eng!=spa"]).each do |c|
+  print "done with conj hash, getting gaps\n"
+  Cap.find(:all, :conditions=>["hide is null and eng!=spa"]).each do |c|
     c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/,"").downcase
     a=Array.new
     a = c.spa.split(/\s+/) 
     a.length.times do |i| 
-
       if h[a[i]] then
 
         unless seen[a[i]]  then
@@ -65,12 +64,8 @@ task :create_words => [:environment] do
           if w.word and w.word.match(/[a-zA-Z]/) then
             w.save 
           end
-          if c.hide != 1 then
-            print "#{c.hide} - making hash of #{a[i]} \n"
-            seen[a[i]]=1
-          else
-            print "#{c.hide} hide #{c.url}\n"
-          end
+          print "making hash of #{a[i]}\n"
+          seen[a[i]]=1
         else
         end
       end
