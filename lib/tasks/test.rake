@@ -66,8 +66,10 @@ task :create_words => [:environment] do
             w.save 
           end
           if c.hide != 1 then
-            print "making hash of #{a[i]}\n"
+            print "#{c.hide} - making hash of #{a[i]} \n"
             seen[a[i]]=1
+          else
+            print "#{c.hide} hide #{c.url}\n"
           end
         else
         end
