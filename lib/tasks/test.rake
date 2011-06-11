@@ -48,11 +48,11 @@ task :create_words => [:environment] do
 
  ActiveRecord::Migration.execute("select conj from verbs").each do |j|
    temp=j[0]
-    h["#{temp}"]=1
+    h[temp]=1
   end
 
-  print "done with conj hash, getting gaps\n"
-  Cap.find(:all, :conditions=>["hide = false and eng!=spa"]).each do |c|
+  print "done with conj hash, getting caps\n"
+  Cap.find(:all, :conditions=>["hide = false and eng!=spa and eng!=''"]).each do |c|
     c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/,"").downcase
     a=Array.new
     a = c.spa.split(/\s+/) 
@@ -130,9 +130,9 @@ task :import_caps => [:environment] do
      (url,num,start,stop,spa,eng,source,source2,hide)=line.split(/\t/)
       wcount=spa.split(/\s+/).size.to_s
       ccount= spa.size.to_s
-      puts "#{start} #{stop} #{eng} #{wcount} #{ccount} #{spa} -p- #{source} -x- #{source2}"
+#      puts "#{start} #{stop} #{eng} #{wcount} #{ccount} #{spa} -p- #{source} -x- #{source2} ... #{hide}"
       cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>url,:hide=>hide,:wcount=>wcount,:ccount=>ccount,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
-      cap.save
+      cap.save!
       print "#{counter2}\n" if counter==200;
       counter=0 if counter==200
       counter = counter + 1
