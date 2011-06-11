@@ -52,7 +52,7 @@ task :create_words => [:environment] do
   end
 
   print "done with conj hash, getting gaps #{h.size}\n"
-  Cap.find(:all, :conditions=>["hide < > true and eng!=spa"]).each do |c|
+  Cap.find(:all, :conditions=>["eng!=spa"]).each do |c|
     c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/,"").downcase
     a=Array.new
     a = c.spa.split(/\s+/) 
@@ -65,8 +65,10 @@ task :create_words => [:environment] do
           if w.word and w.word.match(/[a-zA-Z]/) then
             w.save 
           end
-          print "making hash of #{a[i]}\n"
-          seen[a[i]]=1
+          if c.hide != 1 then
+            print "making hash of #{a[i]}\n"
+            seen[a[i]]=1
+          end
         else
         end
       end
