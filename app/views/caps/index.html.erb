@@ -136,7 +136,7 @@
 	<td>
 		<%# if FileTest.exists?(RAILS_ROOT + "/public/audio/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
 		<%# if FileTest.exists?("http://www.mikefab.com/spa/#{cap.url}/#{cap.num}_#{cap.url}.mp3")==true%> 
-		<% if cap.url != "trash" %> 
+		<% if cap.source == "dotsub" %> 
 		<audio src="http://www.mikefab.com/ogg/spa/<%=cap.url%>/<%= cap.num %>_<%= cap.url %>.ogg" controls preload="auto" autobuffer></audio>
 		<%else%>
 			<%cap.source2=cap.source2.gsub(" ",".")%>
@@ -157,7 +157,7 @@
 </a></span>
 <%if @hash_id[thing] then%>
 	<!-- title="<%= @hash_id[thing].conj%> : <%= @hash_id[thing].verb%> <%=@hash_id[thing].tense%>"> -->
-	<span id="<%=cap.id%>-<%=counter%>" style="position:fixed;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
+	<span id="<%=cap.id%>-<%=counter%>" style="position:fixed;z-index:3;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 	<%= @hash_id[thing].conj%>
 	<br>verb: <a href=""><%= @hash_id[thing].verb%> - <%=@english["#{@hash_id[thing].verb}"]%></a>
 	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
