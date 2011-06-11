@@ -52,7 +52,7 @@ task :create_words => [:environment] do
   end
 
   print "done with conj hash, getting gaps #{h.size}\n"
-  Cap.find(:all).each do |c|
+  Cap.find(:all, :conditions=>["hide !=? and eng!=spa", "1"]).each do |c|
     c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/,"").downcase
     a=Array.new
     a = c.spa.split(/\s+/) 
