@@ -44,22 +44,20 @@ task :create_words => [:environment] do
   h=Hash.new()
   seen=Hash.new()
   i=0
-#  Verb.find(:all).each do |v|
+  Verb.find(:all).each do |v|
 
- ActiveRecord::Migration.execute("select conj from verbs").each do |j|
-   print "#{j} \n"
-
-   temp=j[0]
-    h[temp]=1
+# ActiveRecord::Migration.execute("select conj from verbs").each do |j|
+ #  print "#{j[0]} \n"
+    h[v.conj]=1
   end
 
   print "done with conj hash, getting gaps #{h.size}\n"
-  Cap.find(:all,:conditions=>["hide != '1' and spa!=eng"]).each do |c|
+  Cap.find(:all).each do |c|
     c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/,"").downcase
     a=Array.new
     a = c.spa.split(/\s+/) 
     a.length.times do |i| 
-      print "#{a[i]}\n"
+
       if h[a[i]] then
 
         unless seen[a[i]]  then
