@@ -48,11 +48,11 @@ task :create_words => [:environment] do
 
  ActiveRecord::Migration.execute("select conj from verbs").each do |j|
    temp=j[0]
-    h[temp]=1
+    h["#{temp}"]=1
   end
 
   print "done with conj hash, getting gaps\n"
-  Cap.find(:all, :conditions=>["hide is null and eng!=spa"]).each do |c|
+  Cap.find(:all, :conditions=>["hide = false and eng!=spa"]).each do |c|
     c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/,"").downcase
     a=Array.new
     a = c.spa.split(/\s+/) 
@@ -73,13 +73,19 @@ task :create_words => [:environment] do
         unless seen["#{a[i-1]} #{a[i]}"]then
           w2=Word.new(:word=>"#{a[(i-1)]} #{a[i]}") 
           w2.save
-          print "#{c.id}vvv #{w2.word}\n"
+          print "saving #{c.id}vvv #{w2.word}\n"
           seen["#{a[i-1]} #{a[i]}"]=1
         else
         end
       end
     end
   end
+
+  seen.each do |k,v|
+    print "#{k} #{v} ..\n"
+  end
+
+
 end
 
 
@@ -121,11 +127,11 @@ task :import_caps => [:environment] do
    file = File.new(basedir +'/caps.txt', "r")
    while (line = file.gets)
     line= line.gsub(/\n/,"")
-     (url,num,start,stop,spa,eng,source,source2,trash)=line.split(/\t/)
+     (url,num,start,stop,spa,eng,source,source2,hide)=line.split(/\t/)
       wcount=spa.split(/\s+/).size.to_s
       ccount= spa.size.to_s
 #      puts "#{start} #{stop} #{eng} #{wcount} #{ccount} #{spa} -p- #{source} -x- #{source2}"
-      cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>url,:wcount=>wcount,:ccount=>ccount,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
+      cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>url,:hide=>hide,:wcount=>wcount,:ccount=>ccount,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
       cap.save
       print "#{counter2}\n" if counter==200;
       counter=0 if counter==200
@@ -139,13 +145,13 @@ end
 
 task :export_caps => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
-  c=Cap.find(:all, :conditions=>["hide is null and eng !='' and spa!=eng "])
+  c=Cap.find(:all, :conditions=>["hide =0 and eng !='' and spa!=eng "])
   count=0
   count2=0
   c.each do |c|
     count=count+1
     count2=count2+1
-    string = "#{c.url}\t#{c.num}\t#{c.start}\t#{c.stop}\t#{c.spa}\t#{c.eng}\t#{c.source}\t#{c.source2}\n"
+    string = "#{c.url}\t#{c.num}\t#{c.start}\t#{c.stop}\t#{c.spa}\t#{c.eng}\t#{c.source}\t#{c.source2}\t#{c.hide}\n"
     File.open(basedir +'/caps.txt', 'a') do |f2|  
       f2.puts string  
     end
@@ -213,7 +219,7 @@ task :export_words=> [:environment] do
     count=count+1
     count2=count2+1
     
-    string = "#{w.word}\n"
+    string = "#{w.word}\n" if w.word.match(/[a-zA-Z]/)
     File.open(basedir +'/words.txt', 'a') do |f2|  
       f2.puts string  
     end
