@@ -28,38 +28,36 @@ end
     a_verbs=Array.new()
     a_strings=Array.new()
     hash_words=Hash.new()
-    #this is really a list of conjugations
-#not sure why i need pre
-#    verbs = Verb.find(:all,:conditions=>["mood = ? and tense=? and pre !='' and pre != '0' ", "#{mood}", "#{tense}"],:order=>'conj')
-#    verbs = Verb.find(:all,:conditions=>["mood = ? and tense=? ", "#{mood}", "#{tense}"],:order=>'conj')
-     conjugations=ActiveRecord::Migration.execute("select conj from verbs where mood = '#{mood}' and tense = '#{tense}';")
-     conjugations.each do |j|
-       a_strings<<j[0]
-     end
-     words=ActiveRecord::Migration.execute("select word from words;")
-     words.each do |w|
-       hash_words[w[0]]=1
-     end
+    conjugations=ActiveRecord::Migration.execute("select conj from verbs where mood = '#{mood}' and tense = '#{tense}';")
 
+
+    if connection().to_s.match(/mysql/i) then
+      conjugations.each do |j|
+        a_strings<<j[0]
+      end
+    else
+      #mu'fuck'n po'gres
+      conj_count=ActiveRecord::Migration.execute("select count(*) from verbs where mood = '#{mood}' and tense = '#{tense}';")
+      conj_count[0]["count"].to_i.times{|i| a_strings<< conjugations[i]['conj'] }
+    end
+
+     words=ActiveRecord::Migration.execute("select word from words;")
+
+     if connection().to_s.match(/mysql/i) then
+       words.each do |w|
+         hash_words[w[0]]=1
+       end
+     else
+       word_count=ActiveRecord::Migration.execute("select count(*) from words;")
+       word_count[0]["count"].to_i.times{|i| hash_words[words[i]['word']]=1 }
+
+     end
     #Many conjugations repeat, so make list unique
     a_strings=a_strings.uniq
     #Now find out if each conjugation is found in a caption
     a_strings.each do |s|
-
-
-      # if connection().to_s.match(/mysql/i) then
-      #   w=Word.find(:first, :conditions=>["word = '#{s}' collate utf8_bin"])
-      # else
-      #   w=Word.find(:first, :conditions=>["word = '#{s}'"])
-      # end
       a_verbs << s if hash_words[s]
     end
-#    #Now find out if each conjugation is found in a caption
-#    a_strings.each do |s|
-#      c=Cap.find(:first, :conditions=>["spa REGEXP ? and hide is null and eng!=''", "(^#{s}.? | #{s}[\.\!\?\-]?$ | #{s}[\.\!\?\-]? )"])
-#      print "#{a_strings.size}..#{s}\n" 
-#      a_verbs << s if c
-#          end
     return a_verbs.uniq.sort!
   end
 
