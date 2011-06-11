@@ -1570,6 +1570,7 @@ poniendo
 descubran
 rescata
 transformamos
+dirían
 aterrizaron
 solucionan
 supone
@@ -2082,6 +2083,7 @@ entendía
 estuviera
 busques
 no busques
+ríen
 gira
 se gira
 verse
@@ -2097,6 +2099,7 @@ protegemos
 quedaremos
 nos quedaremos
 matices
+escucharéis
 orquesta
 escuchéis
 encontraréis
@@ -2636,7 +2639,6 @@ preparar
 necesitas
 vomitar
 filtran
-ríen
 apuestas
 trepa
 cobran
@@ -2906,7 +2908,6 @@ acostumbrado
 hayamos acostumbrado
 parezcan
 acostumbrar
-dirían
 dejemos
 salvo
 disfrutamos
@@ -3577,6 +3578,7 @@ me llevo
 ganar
 firma
 retomar
+negociar
 desconocen
 ahondar
 formulas
@@ -3708,6 +3710,7 @@ pagues
 contaminas
 elegido
 hemos elegido
+has matado
 quitando
 hemos matado
 acabas
@@ -3874,13 +3877,13 @@ inventado
 ha inventado
 derroche
 haya creado
+bota
 gastas
 se suma
 invento
 creían
 derrochan
 diseñó
-bota
 desperdicio
 meditemos
 botarían
@@ -4130,6 +4133,7 @@ paró
 atajar
 he sabido
 echaban
+sal
 llevaran
 dijeran
 habíamos encontrado
@@ -4181,10 +4185,12 @@ pidió
 ayudara
 ayudó
 mostró
+esperen
 mandando
 recuperamos
 sincronizando
 entrenamos
+vendas
 conocimos
 robamos
 cierre
@@ -4516,12 +4522,12 @@ parpadear
 asusten
 se asusten
 charlamos
+fíjense
 dirijan
 no entre
 percibe
 receta
 accede
-fíjense
 veían
 acceda
 permanezca
@@ -4717,7 +4723,6 @@ empaque
 aguantaba
 eliminó
 venden
-vendas
 compraba
 sacaban
 cobraban
@@ -4885,7 +4890,6 @@ manches
 no manches
 objetaba
 quedara
-regresaren
 temía
 llegará
 calificaba
@@ -4954,7 +4958,6 @@ aburre
 enfermó
 vivió
 quedé
-sal
 nos llevamos
 llorabas
 fumas

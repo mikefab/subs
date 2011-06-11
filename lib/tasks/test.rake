@@ -53,7 +53,7 @@ task :create_words => [:environment] do
 
   print "done with conj hash, getting caps\n"
   Cap.find(:all, :conditions=>["hide = false and eng!=spa and eng!=''"]).each do |c|
-    c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/,"").downcase
+    c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/," ").downcase
     a=Array.new
     a = c.spa.split(/\s+/) 
     a.length.times do |i| 
@@ -64,7 +64,7 @@ task :create_words => [:environment] do
           if w.word and w.word.match(/[a-zA-Z]/) then
             w.save 
           end
-          print "making hash of #{a[i]}\n"
+          print "#{c.id} making hash of #{a[i]}\n"
           seen[a[i]]=1
         else
         end
@@ -207,11 +207,10 @@ end
 task :export_words=> [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
   string=String.new()
-  string=""
   File.open(basedir +'/words.txt', 'w') do |f2|  
     f2.puts string  
   end
-
+  string=String.new()
   word=Word.find(:all)
   count=0
   count2=0
@@ -221,7 +220,7 @@ task :export_words=> [:environment] do
     
     string = "#{w.word}\n" if w.word.match(/[a-zA-Z]/)
     File.open(basedir +'/words.txt', 'a') do |f2|  
-      f2.puts string  
+      f2.puts string  if string.match(/[a-zA-Z]/)
     end
     print "#{count2.to_s}\n" if count==200
     count=0 if count==200
