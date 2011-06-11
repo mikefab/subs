@@ -36,12 +36,12 @@ def self.search(search,page,language)
   if connection().to_s.match(/mysql/i) then
     Search.create(:search=>search, :lang=>language, :page=> page)
     paginate :per_page=>8, :page=>page,
-    :conditions => [language + ' REGEXP ? and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "(^#{search}.?| #{search}[,\.\!\?\-]?| #{search}[,\.\!\?]? )", "",""],
+    :conditions => [language + ' REGEXP ? and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "(^#{search}.?| #{search}[,\.\!\?\-]?$| #{search}[,\.\!\?]? )", "",""],
     :order  => 'wcount'
   else
     Search.create(:search=>search, :lang=>language, :page=> page)
      paginate :per_page=>8, :page=>page,
-      :conditions => [language + ' similar to ?',"%#{search}(,|\.|\!|\?|\s+)%"],
+      :conditions => [language + ' similar to ? and similar to ? and similar to ? and hide !=1 and spa!=eng',"%^#{search}(,|\.|\!|\?|\s+)", "% #{search}(,|\.|\!|\?|\s+)$%", "% #{search}(,|\.|\!|\?|\s+)?%"],
       :order  => 'wcount'
 
     end
