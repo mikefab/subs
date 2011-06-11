@@ -53,6 +53,7 @@ task :create_words => [:environment] do
 
 h.each do |x|
   print "hash .. #{h[x]}\n"
+end
 
   print "done with conj hash, getting gaps #{h.size}\n"
   Cap.find(:all,:conditions=>["hide != 1 and spa!=eng"]).each do |c|
