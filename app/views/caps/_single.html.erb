@@ -12,14 +12,14 @@ function go_to(id,num,url,direction,div){
 
 }
 </script>
-	<div id="previous" onClick='go_to(<%=@single.id%>,<%=@single.num%>,"<%=@single.url%>","back",this);' title="view previous clip." style="position:relative;display:inline;"><--</div>
+	<div id="previous" onClick='go_to(<%=@single.id%>,<%=@single.num%>,"<%=@single.url%>","back",this);' title="view previous clip." style="position:relative;display:inline;font-size:8pt;">previous clip</div>
 		<% if @single.source == "dotsub" %> 
 		<audio src="http://www.mikefab.com/ogg/spa/<%=@single.url%>/<%= @single.num %>_<%= @single.url %>.ogg" controls preload="auto" autobuffer></audio>
 		<%else%>
 			<%@single.source2=@single.source2.gsub(" ",".")%>
 			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=@single.source2%>/<%= @single.num %>_<%= @single.source2  %>.ogg" controls preload="auto" autobuffer></audio>
 		<%end%>
-<div id="next" onClick="go_to(<%=@single.id%>,<%=@single.num%>,'<%=@single.url%>','next',this);" title="view next clip." style="position:relative;display:inline;">--></div><br><br>
+<div id="next" onClick="go_to(<%=@single.id%>,<%=@single.num%>,'<%=@single.url%>','next',this);" title="view next clip." style="position:relative;display:inline;font-size:8pt;">next clip</div><br><br>
 	<%counter=0%>
     <%@single.spa.split(/\s+/).each do |w|%>
 <%thing="#{@single.id}-#{counter}"%>
