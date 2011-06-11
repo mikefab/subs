@@ -49,7 +49,7 @@ task :create_words => [:environment] do
  ActiveRecord::Migration.execute("select conj from verbs").each do |j|
    temp=j[0]
     h[temp]=1
-    print "#{temp}\n"
+    print "#{j} #{temp} \n"
   end
 h.each do |x|
   print "hash .. #{h[x]}\n"
