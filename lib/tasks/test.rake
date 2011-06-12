@@ -237,7 +237,7 @@ task :import_verbs => [:environment] do
   counter4=1
   flag =0
   v=Verb.find(:last,:order=>'id');
-  flag=1 if !v
+  first=1 if !v
   file = File.new(basedir +'/verbs.txt', "r")
   while (line = file.gets)
     line=line.gsub(/\n/,'')
@@ -248,6 +248,7 @@ task :import_verbs => [:environment] do
     if conj and v.conj then
       flag=1 if conj.match(/#{v.conj}/) and pro.match(/#{v.pro}/) and mood.match(/#{mood}/) and verb.match(/#{v.verb}/) and tense_type.match(/#{v.tense_type}/)
     end
+    flag=1 if first==1
     ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values('#{verb}','#{conj}','#{mood}','#{tense_type}','#{tense}','#{pro}','#{pre}');") if flag==1
 
 
