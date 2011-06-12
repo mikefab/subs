@@ -108,6 +108,7 @@ end
 
         #get english translation for verb
         trans=Root.find(:first,:conditions=>['verb=?',temp.verb])
+print "ooo #{temp.verb}\n"
         print "#{trans.trans} xxxx\n"
         english["#{temp.verb}"]=trans.trans
 
