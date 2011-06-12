@@ -80,6 +80,7 @@ end
       #push each word and predecessor into a_caps
       text.length.times do |i|
       text[i] = text[i].gsub(/(\?|\!|\.|,)/,"")
+      print "bbbb #{text[i]}\n"
       text[i-1] = text[i-1].gsub(/(\?|\!|\.|,)/,"")if i>0
         text[i].downcase!
         a_caps.push(text[i])
