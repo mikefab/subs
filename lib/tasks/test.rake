@@ -234,6 +234,7 @@ task :import_verbs => [:environment] do
   counter = 1
   counter2=1
   counter3=1
+  counter4=1
   flag =0
   v=Verb.find(:last,:order=>'id');
   flag=1 if !v
@@ -248,12 +249,15 @@ task :import_verbs => [:environment] do
       flag=1 if conj.match(/#{v.conj}/) and pro.match(/#{v.pro}/) and mood.match(/#{mood}/) and verb.match(/#{v.verb}/) and tense_type.match(/#{v.tense_type}/)
     end
     ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values('#{verb}','#{conj}','#{mood}','#{tense_type}','#{tense}','#{pro}','#{pre}');") if flag==1
-#sleep 0.1
 
 
 #    verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
 #    verb.save!
+  counter4=counter4+1
+  sleep .1 if counter4 =10
+  counter4 = 1 if counte4=10 
   counter3=counter3+1
+
   print " #{counter2} #{counter3} #{conj}\n" if counter==400;
   counter=0 if counter==400
   counter = counter + 1
