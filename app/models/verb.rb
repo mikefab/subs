@@ -1,3 +1,4 @@
+# coding: utf-8
 class Verb < ActiveRecord::Base
 
 
@@ -12,7 +13,7 @@ end
   end
 
   def self.return_tenses(mood)
-    tenses = ["futuro perfecto", "futuro simple", "gerundio", "imperfecto", "infinitivo", "participio", "pluscuamperfecto", "presente", "preterito perfecto"]
+    tenses = ["futuro perfecto", "futuro simple", "gerundio", "imperfecto", "infinitivo", "participio", "pluscuamperfecto", "presente", "pretérito perfecto","pretérito anterior","condicional simple","condicional perfecto"]
     a=Array.new()
 
     tenses.each do |t|

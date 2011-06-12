@@ -14,10 +14,10 @@ function go_to(id,num,url,direction,div){
 </script>
 	<div id="previous" onClick='go_to(<%=@single.id%>,<%=@single.num%>,"<%=@single.url%>","back",this);' title="view previous clip." style="position:relative;display:inline;font-size:8pt;">previous clip</div>
 		<% if @single.source == "dotsub" %> 
-		<audio src="http://www.mikefab.com/ogg/spa/<%=@single.url%>/<%= @single.num %>_<%= @single.url %>.ogg" controls preload="auto" autobuffer></audio>
+		<audio src="http://www.mikefab.com/ogg/spa/<%=@single.url%>/<%= @single.num %>_<%= @single.url %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
 		<%else%>
 			<%@single.source2=@single.source2.gsub(" ",".")%>
-			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=@single.source2%>/<%= @single.num %>_<%= @single.source2  %>.ogg" controls preload="auto" autobuffer></audio>
+			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=@single.source2%>/<%= @single.num %>_<%= @single.source2  %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
 		<%end%>
 <div id="next" onClick="go_to(<%=@single.id%>,<%=@single.num%>,'<%=@single.url%>','next',this);" title="view next clip." style="position:relative;display:inline;font-size:8pt;">next clip</div><br><br>
 	<%counter=0%>
@@ -27,7 +27,7 @@ function go_to(id,num,url,direction,div){
 	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%>
 </a></span>
 <%if @hash_id[thing] then%>
-	<span id="<%=@single.id%>-<%=counter%>" style="position:fixed;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
+	<span id="<%=@single.id%>-<%=counter%>" style="position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 	<%= @hash_id[thing].conj%>
 	<br>verb: <a href=""><%= @hash_id[thing].verb%> - <%=@english["#{@hash_id[thing].verb}"]%></a>
 	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
