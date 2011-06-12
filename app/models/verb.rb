@@ -72,6 +72,7 @@ end
     english=Hash.new()
     
     caps.each do |cap|
+      print "aaaa #{cap.id} #{cap.spa}\n"
       cap.spa=cap.spa.gsub(/\s+/," ")
       text = cap.spa.split(/\s+/)
       #loop through each word
@@ -100,17 +101,16 @@ end
     end
     a_caps.uniq!
     a_caps.each do |word|
-      print "zzzz #{word}\n"
+#      print "zzzz #{word}\n"
       #remove punctuation from word or compound before checking if it's a verb
       word = word.gsub(/(\?|\!|\.|,)/,"")
       temp = Verb.find(:first,:conditions=>['conj = ?',"#{word}"])
       #loop through ids for each word, initialize hash set id as key and verb as value
       if hash_ids[word] and temp then
-        print "11111 #{word} #{temp.verb}\n"
+ #       print "11111 #{word} #{temp.verb}\n"
         #get english translation for verb
         trans=Root.find(:first,:conditions=>['verb=?',temp.verb])
-        print "#{trans.trans} xxxx\n"
-        english["#{temp.verb}"]=trans.trans
+          english["#{temp.verb}"]=trans.trans
 
         hash_ids[word] =  hash_ids[word].sub(/|$/,"")
         array_of_ids = hash_ids[word].split("|")
