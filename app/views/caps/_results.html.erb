@@ -1,4 +1,4 @@
-
+ <%= javascript_include_tag "pagination.js" %>
 <%if @caps%>
 <div id="search" style="display:inline;">
 
@@ -94,7 +94,7 @@
 <% end %>
 
 <br />
-<%= will_paginate @caps %>
+<%= will_paginate @caps, :remote=>true %>
 <%= page_entries_info @caps %> 
 <%#= link_to 'New Cap', new_cap_path %>
 <%end%>

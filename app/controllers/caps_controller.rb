@@ -22,7 +22,6 @@ class CapsController < ApplicationController
   end
   
     def results
-
   #    @caps = Cap.all
       @choice= params[:language]
       lang=params[:language] || "Spa"
@@ -30,6 +29,13 @@ class CapsController < ApplicationController
       returned_results = @caps.size || 0
       Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:search],:page=>params[:page],:num=>returned_results).save!      
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
+
+      # respond_to do |format|
+      #       format.html { render :partial=>"caps/results"}
+      #       format.xml  { render :xml => @cap }
+    
+      #end
+
     end
 
     def single()
