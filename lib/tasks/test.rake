@@ -308,11 +308,13 @@ task :create_verbs => [:environment] do
       line = line.gsub(/\r/,'')
       (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
 
-      verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
-      verb.save
+#      verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
+ #     verb.save!
+ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values('#{verb}','#{conj}','#{mood}','#{tense_type}','#{tense}','#{pro}','#{pre}');") 
+
       c+=1
       c2=c2+1
-     puts c.to_s + " " + verb.conj if c2==200
+     puts c.to_s + " " + conj if c2==200
      c2=0 if c2==201
     }  
 end
