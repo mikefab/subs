@@ -258,7 +258,7 @@ task :import_verbs => [:environment] do
 #   verb.save!
     counter3=counter3+1
     counter4=counter4+1
-    sleep 0.1 if counter4==10
+#    sleep 0.1 if counter4==10
     counter4=1 if counter4==10
     print " #{counter2} #{counter3} #{conj}\n" if counter==400;
     counter=0 if counter==400
