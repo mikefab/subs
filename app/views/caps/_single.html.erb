@@ -24,8 +24,7 @@ function go_to(id,num,url,direction,div){
     <%@single.spa.split(/\s+/).each do |w|%>
 <%thing="#{@single.id}-#{counter}"%>
 	<span id="<%=@single.id%>-<%=counter%>_basic" onmouseover="light_up('<%=@single.id%>-<%=counter%>',this);" onmouseout="darken('<%=@single.id%>-<%=counter%>');">
-	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%>
-</a></span>
+	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%></a></span>
 <%if @hash_id[thing] then%>
 	<span id="<%=@single.id%>-<%=counter%>" style="position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 	<%= @hash_id[thing].conj%>
@@ -38,8 +37,12 @@ function go_to(id,num,url,direction,div){
 	</span>
  	<%end%>
 	<%counter=counter+1%>
-
 	<%end%>
+	
 <br>
 	<%=@single.eng%>
 <br>
+<div>
+<div style="width:60px;font-size:8pt;" title="Removes just this file." style="position:relative;display:inline;"><%= link_to 'remove',hide_cap_path(@single), :confirm => 'Are you sure?' %></div>
+<div style="width:100px;font-size:8pt;" title="Removes all clips in database from same video" style="position:relative;display:inline;"><%= link_to 'remove all', hide_all_cap_path(@single), :confirm => 'Are you sure?'  %></div>
+</div>
