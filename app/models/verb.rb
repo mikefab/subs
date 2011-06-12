@@ -1,31 +1,38 @@
 # coding: utf-8
 class Verb < ActiveRecord::Base
 
-
-
 def self.all_cached
 
-  Rails.cache.fetch('Verb.all') { all }
+#  Rails.cache.fetch('Verb.all') { all }
 end
+
   def self.num_verbs()
     v = Verb.find(:all)
     return v.size
   end
 
   def self.return_tenses(mood)
-    tenses = ["futuro perfecto", "futuro simple", "gerundio", "imperfecto", "infinitivo", "participio", "pluscuamperfecto", "presente", "pretérito perfecto","pretérito anterior","condicional simple","condicional perfecto"]
-    a=Array.new()
 
-    tenses.each do |t|
-      v= Verb.find(:first, :conditions=>["mood = ? and tense = ?", "#{mood}","#{t}"])
-      a<<t if v
+    if Rails.cache.read("#{mood}") 
+      return Rails.cache.read("#{mood}").split(/:/) if Rails.cache.read("#{mood}") 
+    else
+      tenses = ["futuro perfecto", "futuro simple", "gerundio", "imperfecto", "infinitivo", "participio", "pluscuamperfecto", "presente", "pretérito perfecto","pretérito anterior","condicional simple","condicional perfecto"]
+      a=Array.new()
+      tenses.each do |t|
+        v= Verb.find(:first, :conditions=>["mood = ? and tense = ?", "#{mood}","#{t}"])
+        a<<t if v
+      end
+      
+      a_string=a.join(":")
+      Rails.cache.write("#{mood}","#{a_string}")
+      return a
     end
-
-    return a
-    
   end
 
   def self.return_mood_verbs(mood,tense)
+    if Rails.cache.read("#{mood}#{tense}") 
+      return Rails.cache.read("#{mood}#{tense}").split(/:/) 
+    else
     a_verbs=Array.new()
     a_strings=Array.new()
     hash_words=Hash.new()
@@ -59,9 +66,11 @@ end
     a_strings.each do |s|
       a_verbs << s if hash_words[s]
     end
+    a_string=a_verbs.join(":")
+    Rails.cache.write("#{mood}#{tense}","#{a_string}")
     return a_verbs.uniq.sort!
   end
-
+end
 
 
   def self.return_verbs(caps)

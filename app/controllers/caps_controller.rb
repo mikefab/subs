@@ -3,7 +3,7 @@ class CapsController < ApplicationController
   # GET /caps.xml
   def index
 #    @caps = Cap.all
-
+   
     @choice= params[:language]
     lang=params[:language] || "Spa"
     
