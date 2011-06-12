@@ -248,7 +248,7 @@ task :import_verbs => [:environment] do
       flag=1 if conj.match(/#{v.conj}/) and pro.match(/#{v.pro}/) and mood.match(/#{mood}/) and verb.match(/#{v.verb}/) and tense_type.match(/#{v.tense_type}/)
     end
     ActiveRecord::Migration.execute("insert into Verbs (verb,conj,mood,tense_type,tense,pro,pre) values('#{verb}','#{conj}','#{mood}','#{tense_type}','#{tense}','#{pro}','#{pre}');") if flag==1
-sleep 0.2
+#sleep 0.1
 
 
 #    verb = Verb.new(:verb=>verb,:conj=>conj,:mood=> mood,:tense_type=>tense_type,:tense=>tense,:pro=>pro,:pre=>pre)
