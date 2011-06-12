@@ -9,8 +9,15 @@ function display_results(value){
 
 <%if @verbs%>
 	<%c=0%>
+	<%if @verbs.size==0 then%>
+	<div style="position:fixed">	There are no verbs for this tense yet.<br>
+		Please click another tense.</div>
+	<%end%>
+	<div id="verb_place">
+
 	<%@verbs.each do |v| %>
 		<%c=c+1%>
-		<div onClick="display_results(this.innerHTML);"><%=v%></div>
+		<div id="<%=c%>_verb" onClick="display_results(this.innerHTML);"><%=v%></div>
 	<%end%>
+	</div>
 <%end%>

@@ -1,1 +1,8 @@
+
 $("#verbs_div").html("<%=escape_javascript(render(:partial => 'verbs'))%>");
+$(function (){  
+display_results(document.getElementById('1_verb').innerHTML);
+//   setTimeout("document.getElementById('1_verb').focus();document.getElementById('1_verb').click();",1000);  
+
+});
+
