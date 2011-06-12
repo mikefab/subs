@@ -243,7 +243,7 @@ task :import_verbs => [:environment] do
     line=line.gsub(/\n/,'')
     line = line.gsub(/\r/,'')
     (verb,conj,mood,tense_type,tense,pro,pre)=line.split(/\t/)
-print "#{flag} ...."
+#print "#{flag} ...."
     if first==1 then
       flag = 1
     else
