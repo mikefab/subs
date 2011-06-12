@@ -106,7 +106,7 @@ end
       temp = Verb.find(:first,:conditions=>['conj = ?',"#{word}"])
       #loop through ids for each word, initialize hash set id as key and verb as value
       if hash_ids[word] and temp then
-
+        print "11111 #{word} #{temp.verb}\n"
         #get english translation for verb
         trans=Root.find(:first,:conditions=>['verb=?',temp.verb])
         print "#{trans.trans} xxxx\n"
