@@ -25,7 +25,7 @@ function display_results(value){
 
 	<%@verbs.each do |v| %>
 		<%c=c+1%>
-		<div id="<%=c%>_verb" onClick="display_results(this.innerHTML);"><%=v%></div>
+		<div id="<%=c%>_verb" style="cursor:pointer;" onClick="display_results(this.innerHTML);"><%=v%></div>
 	<%end%>
 	</div>
 	<%end%>

@@ -115,7 +115,7 @@ function highlight_tense(div){
 <div id="tenses_holder" style="position:relative;display:inline;left:-60px;">
 
 	<%@tenses.each do |t| %>
-	<div class="tenses" style="position:relative;display:inline;" onClick="document.getElementById('instruction2').style.visibility='hidden';display_verbs(this.innerHTML);highlight_tense(this);" onmouseover= "explain_tense(this);" onmouseout="off_tense_explanation();"><%=t%></div>
+	<div class="tenses" style="position:relative;display:inline;cursor:pointer;" onClick="document.getElementById('instruction2').style.visibility='hidden';display_verbs(this.innerHTML);highlight_tense(this);" onmouseover= "explain_tense(this);" onmouseout="off_tense_explanation();"><%=t%></div>
 	<%end%>
 
 </div>
