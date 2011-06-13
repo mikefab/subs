@@ -1,4 +1,11 @@
 <script>
+    $(function(){
+
+		for(i=0;i<5;i++){
+               $("#instruction3").animate({color: "red"}, 'slow');
+               $("#instruction3").animate({color: "blue"}, 'slow');
+}
+    });
 function display_results(value){
 	document.getElementById('search').value=value;
 	document.getElementById('results_button').focus();
@@ -12,7 +19,8 @@ function display_results(value){
 	<%if @verbs.size==0 then%>
 	<div style="position:fixed">	There are no verbs for this tense yet.<br>
 		Please click another tense.</div>
-	<%end%>
+	<%else%>
+	<div id="instruction3">Now click a verb below<br>to see it in action</div>
 	<div id="verb_place">
 
 	<%@verbs.each do |v| %>
@@ -20,4 +28,5 @@ function display_results(value){
 		<div id="<%=c%>_verb" onClick="display_results(this.innerHTML);"><%=v%></div>
 	<%end%>
 	</div>
+	<%end%>
 <%end%>
