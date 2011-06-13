@@ -3,7 +3,7 @@
 <script>
 
     $(function(){
-		for(i=0;i<10;i++){
+		for(i=0;i<5;i++){
                $("#instruction1").animate({color: "blue"}, 'slow');
                $("#instruction1").animate({color: "navy"}, 'slow');
 }
@@ -37,6 +37,7 @@ function return_mood(div,arg){
 // }
 
 function highlight_mood(div){
+	document.getElementById('instruction2').style.visibility="visible";
 	document.getElementById('mood_explination').innerHTML=mood_des[div.innerHTML];
 	child_divs = document.getElementById("moods").childNodes;
 	for(var i = 0; i < child_divs.length; i++){
@@ -63,8 +64,8 @@ function highlight_mood(div){
 
 <div id="mood_explination" style="position:absolute;float:right;display:inline;width:50%;left:300px;top:50px">
 	<div id="instruction1" >Begin by clicking a mood to the left</div>
-
 </div>
+<div id="instruction2" style="position:relative;visibility:hidden;left:200px;top:-10px;" >Click on a tense!</div>
 
 <% form_tag tenses_path,:name=>"tense_form",:id=>'tense_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :tense_mood, params[:mood]%>
