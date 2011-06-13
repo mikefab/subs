@@ -38,6 +38,10 @@ function return_mood(div,arg){
 
 function highlight_mood(div){
 	document.getElementById('instruction2').style.visibility="visible";
+	document.getElementById('verbs_div').innerHTML="";
+	document.getElementById('results_div').innerHTML="";
+
+
 	document.getElementById('mood_explination').innerHTML=mood_des[div.innerHTML];
 	child_divs = document.getElementById("moods").childNodes;
 	for(var i = 0; i < child_divs.length; i++){
