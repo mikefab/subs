@@ -51,12 +51,17 @@ task :create_words => [:environment] do
     h[temp]=1
   end
 
+  h.each do |k,v|
+    print "hash #{k} #{v}\n"
+  end
+
   print "done with conj hash, getting caps\n"
   Cap.find(:all, :conditions=>["hide = '0' and eng!=spa and eng!=''"]).each do |c|
     c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/," ").downcase
     a=Array.new
     a = c.spa.split(/\s+/) 
     a.length.times do |i| 
+      print "cap #{a[i]}\n"
       if h[a[i]] then
 
         unless seen[a[i]]  then
