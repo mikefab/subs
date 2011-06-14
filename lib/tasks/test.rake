@@ -49,13 +49,15 @@ task :create_words => [:environment] do
 
 
 
-  if connection().to_s.match(/mysql/i) then
-    ActiveRecord::Migration.execute("select conj from verbs").each do |j|
+
+  conjugations=ActiveRecord::Migration.execute("select conj from verbs;")
+  if conjugations.class.to_s.match(/mysql/i) then
+    conjugations.each do |j|
       temp=j[0]
       h[temp]=1
     end
   else
-    conjugations=ActiveRecord::Migration.execute("select conj from verbs;")
+
     conj_count=ActiveRecord::Migration.execute("select count(*) from verbs")
     conj_count[0]["count"].to_i.times{|i| h[conjugations[i]['conj']]=1 }
   
