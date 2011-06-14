@@ -42,7 +42,7 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
     end
 
     def single()
-
+ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
       if params[:direction]=="back" then
         @single = Cap.find(:last,:conditions=>["url=? and num < ?", params[:url], params[:num]], :order=>'num' )
       else
@@ -50,7 +50,7 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
       end
         @single = Cap.find(:first,:conditions=>["url=? and num = ?", params[:url], params[:num]] ) if !@single
         @single? returned_results=1 : returned_results=0
-        Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>"#{params[:num]}-#{params[:url]}",:num=>returned_results).save!
+        Track.new(:ip=>ip,:search=>"#{params[:num]}-#{params[:url]}",:num=>returned_results).save!
 
       caps=Array.new()
       caps<<@single
