@@ -66,6 +66,8 @@ tense_main["presente"]="Present";
 tense_main["pretérito perfecto"] = "The Spanish present perfect is used just like its English counterpart: to express that something has happened at some point before now, at an unspecified time in the past.";
 
 function display_verbs(value){
+	document.getElementById('verbs_div').innerHTML="<h3>loading verbs...</h3>";
+	
 	document.getElementById('verb_tense').value=value;
 	document.getElementById('verb_button').focus();
 	document.getElementById('verb_button').click();                     
