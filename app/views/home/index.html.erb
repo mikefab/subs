@@ -58,9 +58,9 @@ function highlight_mood(div){
 
 
 </script>
-
-<div id="top_container" style="position:absolute;width:100%;height:30%;">
-	<div style="position:absolute;display:inline;float:right;right:200px;">
+<div id="container" style="width:90%;">
+<div id="top_container" style="position:absolute;width:90%; ">
+	<div style="position:absolute;display:inline;float:right;right:200px; ">
 		<%if !params[:hide_search] then%>
 			<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
 			<p>
@@ -71,10 +71,10 @@ function highlight_mood(div){
 		<%end%>
 	<%end%>
 	</div>
-	<div id="mood_explination" style="position:absolute;display:inline;left:300px;top:100px;inline;">
+	<div id="mood_explination" style="position:absolute;display:inline;left:300px;top:100px;inline; ">
 		<div id="instruction1" >Learn Spanish verbs by listening to clips with text.<br>Begin by clicking a mood to the left</div>
 	</div>
-	<div id ="moods" style="position:absolute;display:inline;" >
+	<div id ="moods" style="position:absolute;display:inline; " >
 		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Condicional</h2>
 		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Imperativo</h2>
 		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Indicativo</h2>
@@ -86,7 +86,7 @@ function highlight_mood(div){
 
 
 
-<div style="position:relative;top:200px;;">
+<div style="position:relative;top:200px;">
 	<div id="instruction2" style="position:relative;visibility:hidden;left:200px;top 10px;" >Now click on a tense to see the verbs!</div>
 
 <% form_tag tenses_path,:name=>"tense_form",:id=>'tense_form', :method=>:get, :remote=>true do%>
@@ -132,7 +132,7 @@ function highlight_mood(div){
 
 
 
-
+</div>
 
 
 <!-- 
