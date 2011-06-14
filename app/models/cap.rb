@@ -37,7 +37,7 @@ def self.search(search,page,language)
     Search.create(:search=>search, :lang=>language, :page=> page)
     paginate :per_page=>4, :page=>page,
 #    :conditions => [language + ' REGEXP ? and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "(^#{search}.?| #{search}[,\.\!\?\-]?$| #{search}[,\.\!\?]? )", "",""],
-    :conditions => [language + ' REGEXP ? COLLATE UTF8_GENERAL_CI and eng != ? and spa != ? and hide is not TRUE and spa!=eng ', "[[:<:]]#{search}[[:>:]]", "",""],
+    :conditions => [language + ' REGEXP ? COLLATE UTF8_GENERAL_CI and eng != ? and spa != ? and hide = ? and spa!=eng ', "[[:<:]]#{search}[[:>:]]", "","","0"],
 
     :order  => 'wcount'
   else
