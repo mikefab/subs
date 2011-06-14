@@ -9,6 +9,8 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
+<%= request.env['HTTP_X_REAL_IP']%>-
+<%= request.env['REMOTE_ADDR']%>-
 
 <%= yield %>
 <script type="text/javascript">
