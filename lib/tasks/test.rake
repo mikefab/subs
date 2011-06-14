@@ -52,7 +52,7 @@ task :create_words => [:environment] do
   end
 
   print "done with conj hash, getting caps\n"
-  Cap.find(:all, :conditions=>["hide = false and eng!=spa and eng!=''"]).each do |c|
+  Cap.find(:all, :conditions=>["hide = '0' and eng!=spa and eng!=''"]).each do |c|
     c.spa=c.spa.gsub(/(\(|\)|"|'|\?|\!|\.|,|\n|\r|^\s+|\s+$)/," ").downcase
     a=Array.new
     a = c.spa.split(/\s+/) 
@@ -80,12 +80,6 @@ task :create_words => [:environment] do
       end
     end
   end
-
-  seen.each do |k,v|
-    print "#{k} #{v} ..\n"
-  end
-
-
 end
 
 
