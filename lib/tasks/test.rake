@@ -46,14 +46,21 @@ task :create_words => [:environment] do
   i=0
 #  Verb.find(:all).each do |v|
 
- ActiveRecord::Migration.execute("select conj from verbs").each do |j|
-   temp=j[0]
-    h[temp]=1
+
+
+
+  if connection().to_s.match(/mysql/i) then
+    ActiveRecord::Migration.execute("select conj from verbs").each do |j|
+      temp=j[0]
+      h[temp]=1
+    end
+  else
+    conjugations=ActiveRecord::Migration.execute("select conj from verbs;")
+    conj_count=ActiveRecord::Migration.execute("select count(*) from verbs")
+    conj_count[0]["count"].to_i.times{|i| h[conjugations[i]['conj']]=1 }
+  
   end
 
-  h.each do |k,v|
-    print "hash #{k} #{v}\n"
-  end
 
   print "done with conj hash, getting caps\n"
   Cap.find(:all, :conditions=>["hide = '0' and eng!=spa and eng!=''"]).each do |c|
@@ -61,7 +68,7 @@ task :create_words => [:environment] do
     a=Array.new
     a = c.spa.split(/\s+/) 
     a.length.times do |i| 
-      print "cap #{a[i]}\n"
+
       if h[a[i]] then
 
         unless seen[a[i]]  then
