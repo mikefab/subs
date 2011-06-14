@@ -2,10 +2,10 @@ class CapsController < ApplicationController
   # GET /caps
   # GET /caps.xml
 
-ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
+
   def index
 #    @caps = Cap.all
-   
+ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']   
     @choice= params[:language]
     lang=params[:language] || "Spa"
     
@@ -24,6 +24,7 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   end
   
     def results
+ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   #    @caps = Cap.all
       @choice= params[:language]
       lang=params[:language] || "Spa"

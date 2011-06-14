@@ -1,5 +1,4 @@
 class VerbsController < ApplicationController
-ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   # GET /verbs
   # GET /verbs.xml
   def index
@@ -13,12 +12,15 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   end
 
   def tenses
+    ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
+
     @tenses = Verb.return_tenses(params[:tense_mood])
     returned_results=@tenses.size || 0
     Track.new(:ip=>ip,:search=>params[:tense_mood],:num=>returned_results).save!
   end
 
   def verbs
+    ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
 
      @verbs = Verb.return_mood_verbs(params[:verb_mood],params[:verb_tense])
      returned_results=@verbs.size || 0
