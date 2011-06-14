@@ -87,7 +87,7 @@ function highlight_mood(div){
 
 
 <div style="position:relative;top:200px;;">
-	<div id="instruction2" style="position:relative;visibility:hidden;left:200px;top:-10px;" >Now click on a tense to see the verbs!</div>
+	<div id="instruction2" style="position:relative;visibility:hidden;left:200px;top 10px;" >Now click on a tense to see the verbs!</div>
 
 <% form_tag tenses_path,:name=>"tense_form",:id=>'tense_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :tense_mood, params[:mood]%>
