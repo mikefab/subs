@@ -37,13 +37,13 @@ def self.search(search,page,language)
     Search.create(:search=>search, :lang=>language, :page=> page)
     paginate :per_page=>4, :page=>page,
 #    :conditions => [language + ' REGEXP ? and eng != ? and spa != ? and hide is not TRUE and spa!=eng', "(^#{search}.?| #{search}[,\.\!\?\-]?$| #{search}[,\.\!\?]? )", "",""],
-    :conditions => [language + ' REGEXP ? COLLATE UTF8_GENERAL_CI and eng != ? and spa != ? and hide = ? and spa!=eng ', "[[:<:]]#{search}[[:>:]]", "","","0"],
+    :conditions => [language + ' REGEXP ? COLLATE UTF8_GENERAL_CI and eng != ? and spa != ? and hide is not TRUE and spa!=eng ', "[[:<:]]#{search}[[:>:]]", "",""],
 
     :order  => 'wcount'
   else
     Search.create(:search=>search, :lang=>language, :page=> page)
      paginate :per_page=>4, :page=>page,
-       :conditions => ['(lower('+language + ') similar to lower(?) or lower('+language+') similar to lower(?)) and eng != ? and spa!=eng',"% #{search}(,|\.|\!|\?|\s+)%","%^#{search}(,|\.|\!|\?|\s+)%","1"],
+       :conditions => ['(lower('+language + ') similar to lower(?) or lower('+language+') similar to lower(?)) and hide != ? eng != ? and spa!=eng',"% #{search}(,|\.|\!|\?|\s+)%","%^#{search}(,|\.|\!|\?|\s+)%","1"],
 #       :conditions => [''+language + ' like ? and eng != ? and spa!=eng',"%#{search}%","1"],
 
       :order  => 'wcount'
