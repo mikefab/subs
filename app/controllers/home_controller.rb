@@ -1,6 +1,7 @@
 class HomeController < ApplicationController
   def index
-    Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>"index page").save!
+    ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
+    Track.new(:ip=>ip,:search=>"index page").save!
   end
 
 

@@ -1,6 +1,8 @@
 class CapsController < ApplicationController
   # GET /caps
   # GET /caps.xml
+
+ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   def index
 #    @caps = Cap.all
    
@@ -10,7 +12,7 @@ class CapsController < ApplicationController
     if params[:search] then
     @caps = Cap.search(params[:search], params[:page],lang)
     returned_results = @caps.size || 0
-    Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:search],:page=>params[:page],:lang=>params[:language],:num=>returned_results).save!
+    Track.new(:ip=>ip,:search=>params[:search],:page=>params[:page],:lang=>params[:language],:num=>returned_results).save!
     (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
 
   end
@@ -27,7 +29,7 @@ class CapsController < ApplicationController
       lang=params[:language] || "Spa"
       @caps = Cap.search(params[:search], params[:page],lang) 
       returned_results = @caps.size || 0
-      Track.new(:ip=>request.env['REMOTE_ADDR'],:search=>params[:search],:page=>params[:page],:num=>returned_results).save!      
+      Track.new(:ip=>ip,:search=>params[:search],:page=>params[:page],:num=>returned_results).save!      
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
 
       # respond_to do |format|
