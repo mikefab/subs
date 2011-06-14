@@ -24,7 +24,7 @@ function go_to(id,num,url,direction,div){
     <%@single.spa.split(/\s+/).each do |w|%>
 <%thing="#{@single.id}-#{counter}"%>
 	<span id="<%=@single.id%>-<%=counter%>_basic" onmouseover="light_up('<%=@single.id%>-<%=counter%>',this);" onmouseout="darken('<%=@single.id%>-<%=counter%>');">
-	<a href='/caps?utf8=%E2%9C%93&language=Spa&search=<%=w%>'><%=w%></a></span>
+	<a href='#' onClick="display_results('<%=w%>');"><%=w%></a></span>
 <%if @hash_id[thing] then%>
 	<span id="<%=@single.id%>-<%=counter%>" style="position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 	<%= @hash_id[thing].conj%>

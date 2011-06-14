@@ -55,7 +55,11 @@ function highlight_mood(div){
 	document.getElementById('mood_button').focus();
 	document.getElementById('mood_button').click();
 }
-
+function display_results(value){
+	document.getElementById('search').value=value;
+	document.getElementById('results_button').focus();
+	document.getElementById('results_button').click();                     
+}
 
 </script>
 <div id="container" style="width:90%;">
