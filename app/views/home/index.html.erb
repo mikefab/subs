@@ -59,6 +59,18 @@ function highlight_mood(div){
 
 </script>
 
+<div id="xxx" style="position:absolute;left:600px;display:inline;">
+<%if !params[:hide_search] then%>
+
+<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
+	<p>
+		<%= select_tag "language", options_for_select([ "Spa", "Eng"], @choice) %>
+		<%= text_field_tag :search, params[:search] %>
+	<%= submit_tag "Search", :id=>"results_button",:name => 'results_button',:style=>"display:inline;" %>
+	</p>
+<%end%>
+</div>
+<%end%>
 
 <div id ="moods" style="position:relative; display:inline;" >
 <h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Condicional</h2>
@@ -67,10 +79,12 @@ function highlight_mood(div){
 <h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Subjuntivo</h2>
 </div>
 
-<div id="mood_explination" style="position:absolute;float:right;display:inline;width:50%;left:300px;top:50px">
+<div id="mood_explination" style="position:absolute;float:right;display:inline;width:50%;left:300px;top:100px">
 	<div id="instruction1" >Learn Spanish verbs by listening to clips with text.<br>Begin by clicking a mood to the left</div>
 </div>
 <div id="instruction2" style="position:relative;visibility:hidden;left:200px;top:-10px;" >Now click on a tense to see the verbs!</div>
+
+
 
 <% form_tag tenses_path,:name=>"tense_form",:id=>'tense_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :tense_mood, params[:mood]%>
@@ -83,10 +97,10 @@ function highlight_mood(div){
 	<%= submit_tag "Search", :id=>"verb_button",:name => 'verb_button',:style=>"display:none;" %>
 <%end%>
 
-<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
+<!-- <% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :search, params[:search]%>
 	<%= submit_tag "Search", :id=>"results_button",:name => 'results_button',:style=>"display:none;" %>
-<%end%>
+<%end%> -->
 
 <% form_tag single_path,:name=>"single_form",:id=>'single_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :direction%>
