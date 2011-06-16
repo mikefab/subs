@@ -3987,16 +3987,6 @@
 4b39a250-c6e1-4bfb-8344-643fe5bed888	453	55:27	55:31	Y espero que os haya sido interesante esta charla. 	And hope you have been intrigued by this talk. 	dotsub		false
 4b39a250-c6e1-4bfb-8344-643fe5bed888	454	55:31	55:34	Un abrazo. 	Warm Regards, 	dotsub		false
 4b39a250-c6e1-4bfb-8344-643fe5bed888	455	55:34	55:37	Transcripción Dolors Reig y José Rodríguez - K12 Online 2010 	Transcript Dolors Reig and Jose Rodriguez - K12 Online 2010. Translation: Deyanira Castilleja and Jose Rodríguez 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	1	00:02	00:08	Cuando inicia el día La Loma se ven envuelta en la magia de las montañas y las nubes ... 	When the day begins La Loma is enveloped in the magic of mountains and clouds ... 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	2	00:08	00:13	En medio de lomas, cada cual lo empieza a su manera ... 	In the midst of hills, each person starts at his own pace ... 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	3	00:39	00:45	Con la noche llega la fiesta ... 	With the night comes the party ... 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	4	01:02	01:07	Entre baile y baile, entre son y son, se van las penas ... 	With each song and dance the embarrassment fades ... 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	5	01:08	01:13	Y al sonar de las notas de un porro, la gente parece olvidar penumbras ... 	And at the sound of each note of Porro the people forget their blues ... 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	6	01:13	01:17	Tanto así, que el porro le dió protagonismo a la Banda Paniagua ... 	So much so, that Porro gave gave prominence to the Banda Paniagua ... 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	7	01:20	01:26	Y toque tras toque, se volvió el ritmo que hace reunir a todos los lomeños 	And, track after track, the rhythm returns which unites everyone living in La Loma. 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	8	01:48	01:54	Realizado por ConVerGentes. http://convergentes.wordpress.com 	Produced by ConVerGentes. http://convergentes.wordpress.com 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	9	01:54	01:56	Música: Son de la Loma - Carlos Prado 	Music: Son de la Loma - Carlos Prado 	dotsub		false
-4be57fd9-80eb-44fe-84ed-1126439bd728	10	01:56	02:04	Agradecimientos: BPP Filial "La Loma" y Rising Voices. San Cristóbal - Medellín. 2008 	Thanks: Satellite Library "La Loma" and Rising Voices. San Cristobal - Medellin. 2008 	dotsub		false
 4c1894d3-4135-4b0c-af51-e7d4f30549cd	1	00:01	00:05	Lunas Lomeñas 	La Loma Moon 	dotsub		false
 4c1894d3-4135-4b0c-af51-e7d4f30549cd	2	00:06	00:11	La ubicación de nuestra vereda la hace uno de los miradores más espectaculares 	The location of our county makes it one of the most scenic lookouts 	dotsub		false
 4c1894d3-4135-4b0c-af51-e7d4f30549cd	3	00:16	00:20	aprovechando esos bellos escenarios montañeros que nos circundan ... 	taking advantage of these beautiful mountainous landscapes all around us 	dotsub		false
@@ -4966,17 +4956,6 @@
 73a0c41f-5e63-4842-9e6f-5afd466b7900	4	00:11	00:14	Y OTRAS IMAGENES, TAMBIEN 	AND MORE PICTURES, TOO 	dotsub		false
 73a0c41f-5e63-4842-9e6f-5afd466b7900	5	00:14	00:17	ENCONTRAMOS IMAGENES DE WILLIAM TIUSABA 	FIND PICTURES OF WILLIAM TIUS 	dotsub		false
 73a0c41f-5e63-4842-9e6f-5afd466b7900	6	00:17	00:20	REALIZANDO ALGUNO DE SUS HOBBIES, COMO JUGAR FUTBOL 	Doing some of your hobbies, such as football play 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	1	00:00	00:03	El tiempo presente progresivo 	The present progressive 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	2	00:03	00:06	Estructura del presente progresivo 	structure of the present progressive 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	3	00:06	00:09	El esta trabajando 	He is working 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	4	00:11	00:15	Ella esta pensando 	She is thinking 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	5	00:16	00:19	El esta durmiendo 	He is sleeping 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	6	00:20	00:23	El esta comiendo 	He is eating 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	7	00:24	00:27	El esta estudiando 	He is studying 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	8	00:28	00:30	El esta nadando 	He is swimming 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	9	00:31	00:35	El esta cocinando 	He is cooking 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	10	00:36	00:37	El esta corriendo 	He is running 	dotsub		false
-74162394-0d2e-408d-8ade-a821549350d7	11	00:38	00:42	El esta estudiando 	He is studying 	dotsub		false
 7449549a-e80d-4c5e-83d2-e8bd0db20d02	1	00:01	00:04	PROGRAMA PILOTO OLPC 	OLPC PILOT PROGRAMME 	dotsub		false
 7449549a-e80d-4c5e-83d2-e8bd0db20d02	2	00:07	00:11	ARAHUAY - CANTA (PERÚ) 	ARAHUAY - CANTA (PERU) 	dotsub		false
 7449549a-e80d-4c5e-83d2-e8bd0db20d02	3	00:37	00:39	Vamos a entrar a Internet 	We are going into the internet, 	dotsub		false
@@ -10688,51 +10667,6 @@ dce3b23f-bd95-493f-b633-7fff3477135e	6	00:55	01:00	Si no puedo tenerte para que 
 dce3b23f-bd95-493f-b633-7fff3477135e	7	01:01	01:06	Si no puedo abrazarte para que continuar 	If I can not hold you to continue 	dotsub		false
 dce3b23f-bd95-493f-b633-7fff3477135e	8	01:06	01:21	Necesito tu vida, necesito tus labios que me llenes de besos al despertaaar. 	need your life, I need your lips to fill me with kisses to Awake. 	dotsub		false
 dce3b23f-bd95-493f-b633-7fff3477135e	9	01:28	01:32	No Podre respirar si me faltas amor 	Can not breathe if I do not love 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	1	00:00	00:01	La Cultura no es tu amiga 	Culture is not your friend. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	2	00:01	00:06	La Civilización es: 6 billones de personas tratando de hacerse felices 	Civilization is 6 billion people trying to make themselves happy, 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	3	00:06	00:11	cada uno subiendose al hombro del otro, patiandose los dientes. 	each of them climbing on the others' shoulders, kicking their teeth in. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	4	00:11	00:15	No es una situación placentera 	It's not a pleasant situation. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	5	00:15	00:20	Pero aún podemos dar un paso atrás y mirar éste planeta y ver 	However we can still take a step back, look at our planet and see 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	6	00:20	00:25	que tenemos el dinero, el poder, el entendimiento médico, 	that we have the money, power, and medical knowledge, 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	7	00:25	00:29	el "saber cómo" cientifico, el amor, y la comunidad 	the scientific knowhow, love, and community 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	8	00:29	00:33	para producir una especie de paraiso Humano. 	necessary to produce a type of human paradise. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	9	00:33	00:36	Pero estamos manejados por la minoría de nosotros 	But we're driven by a minority, those 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	10	00:36	00:42	los menos inteligentes, nobles, visionarios, 	who aren't intelligent, noble or visionaries 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	11	00:42	00:48	y no peleamos en contra de éstos valores Deshumanizantes 	and we don't fight against these dehumanizing values 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	12	00:48	00:52	Que son reconocidos como "íconos de control" 	which are recognized as control icons. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	13	00:52	00:57	Esto es algo que... no quiero hablar en éste momento, 	That's something I really don't want to talk about now 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	14	00:57	01:00	ya que solo eso es una conferencia en sí. 	since that would require a conference in itself. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	15	01:00	01:04	La Cultura no es tu amiga 	Culture isn't your friend. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	16	01:04	01:08	La Cultura es para la conveniencia de otras personas 	Culture is for the convenience of others. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	17	01:08	01:15	Para otras instituciones, como las Iglesias. Companias, recolección de impuestos 	For other institutions, like churches, companies, tax collection. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	18	01:15	01:17	No es tu amiga... 	It isn't your friend... 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	19	01:17	01:23	Te insulta, te desautoriza, te usa y abusa de vos. 	It insults you, prohibits you, it uses and abuses you. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	20	01:23	01:28	Ninguno de nosotros es bien tratado por la Cultura. 	None of us is treated well by culture. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	21	01:28	01:33	y no glorificamos el potencial creativo de lo individual 	And we don't glorify an individual's creative potential. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	22	01:33	01:39	Los derechos de lo individual, entendemos las experiencias del presente que son las mas importantes 	The rights of an individual, we understand present experiences which are the most important, 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	23	01:39	01:42	pero la Cultura es una perverción 	but culture is a perversion. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	24	01:42	01:46	Fetichiza objetos, crea consumo-manía 	It creates fetishes and consumerism. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	25	01:46	01:50	Formas infinitas de infelicidad 	Infinite forms of unhappiness, 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	26	01:50	01:53	Infinitas formas de mal entendimiento, en la forma de 	infinite forms of misunderstanding , in the form of 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	27	01:53	01:57	Religiones, cultos estúpidos 	religions, stupid cults. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	28	01:57	02:01	Invita a la gente a degradarse a sí misma 	It invites people to degrade themselves 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	29	02:01	02:07	y dehumanizarse por comportarse como máquinas, 	and dehumanize themselves by behaving like machines, 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	30	02:07	02:09	Procesadores de significados.. 	processors of significance... 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	31	02:09	02:16	como la intención entregada por la Avenida Madison, o Hollywood. 	like Madison Avenue's or Hollywood's intentions. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	32	02:16	02:19	Como peleamos contra ésto? 	How can we fight against this? 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	33	02:19	02:22	Es una respuesta que vale la pena una respuesta 	It's a question which warrants an answer. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	34	02:22	02:24	(publico) Hacia a donde vamos como organismos? 	(audience) Where are we headed as organisms? 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	35	02:24	02:28	Es igual que la pregunta de como peleamos contra ésto... 	It's the same as the asking how we can fight against this. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	36	02:28	02:32	Yo creo que creando Arte 	I think that by creating art. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	37	02:32	02:40	El hombre no fué puesto en este planeta para luchar en el barro 	mankind wasn't placed on this planet to fight in the mud. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	38	02:40	02:44	o el Dios que nos puso en éste planeta para luchar en el barro 	The God that placed us on this planet to fight in the mud 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	39	02:44	02:48	es un Dios que no quiero saber nada, 	is a God of whom I wish to know nothing, 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	40	02:48	02:50	es un tipo de Dios Gnostico Demoníaco. 	is a type of demonic gnostic God. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	41	02:50	02:53	es un Dios Canibalísticamente demagogo 	He's a cannibalistically demagogic God 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	42	02:53	02:58	Que debe ser anunciado como tercero y ser rechazado 	who should be called out and rejected. 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	43	02:58	03:04	Poniendo el impulso artístico al metal 	By revving up our artistic impulse 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	44	03:04	03:07	Yo creo que realmente podemos maximizar lo humano 	I believe we can really maximize humanism 	dotsub		false
-dd2da807-bb77-4f86-b824-47c0fed96a85	45	03:07	03:15	y convertirnos mucho mas necesarios y incomprensibles para las máquinas 	and become much more necessary and incomprehensible for machines. 	dotsub		false
 dd696f1c-a446-4405-8631-019cce629492	1	00:00	00:05	Comité de Prevención de Riesgos 	Risk and Disaster Prevention Committee 	dotsub		false
 dd696f1c-a446-4405-8631-019cce629492	2	00:06	00:12	Pertenezco al Grupo de Mitigación de Riesgos y Desastres a la comunidad. 	I belong to the Risk and Disaster Mitigation group in the community. 	dotsub		false
 dd696f1c-a446-4405-8631-019cce629492	3	00:12	00:13	En el caso de mitigación de riesgos 	In the case of mitigation of risks 	dotsub		false
@@ -11242,7 +11176,7 @@ e74008e4-5f1b-4c01-beed-a67adf9f8bc4	154	12:11	12:16	que estábamos, en ese mome
 e74008e4-5f1b-4c01-beed-a67adf9f8bc4	155	12:16	12:20	y la analizamos en mi casa en Château Rouge, en el norte de París 	and we analyzed her in my house in Château Rouge, in the north of Paris 	dotsub		false
 e74008e4-5f1b-4c01-beed-a67adf9f8bc4	156	12:20	12:26	y vimos que aprendía, tanto como el más vigoroso de los aprendizajes que habíamos visto en la gente que tenía plena conciencia 	and we saw she was learning as much as the most vigorous patients with full consciousness did 	dotsub		false
 e74008e4-5f1b-4c01-beed-a67adf9f8bc4	157	12:26	12:30	y a partir de eso entendimos que habíamos descubierto algo, de alguna manera, muy relevante 	and in that point we understood we had made an enormous discovery. 	dotsub		false
-e74008e4-5f1b-4c01-beed-a67adf9f8bc4	158	12:30	12:35	seguimos, yo volví a Argentina, se juntó Diego Shalom 	We kept investigating, I resturned to Argentina and Diego Shalom joined the project 	dotsub		false
+e74008e4-5f1b-4c01-beed-a67adf9f8bc4	158	12:30	12:35	seguimos, yo volví a Argentina, se juntó Diego Shalom 	We kept investigating, I returned to Argentina and Diego Shalom joined the project	dotsub		false
 e74008e4-5f1b-4c01-beed-a67adf9f8bc4	159	12:35	12:39	hicimos el experimento por un montón de años y después de 35 pacientes 	we continued with this experiment for many years and after 35 patients 	dotsub		false
 e74008e4-5f1b-4c01-beed-a67adf9f8bc4	160	12:39	12:43	vimos que de hecho 3 de ellos, que no son tantos pero tampoco son tan pocos 	we saw that actually 3 of them, which were not many of them, but were not few either 	dotsub		false
 e74008e4-5f1b-4c01-beed-a67adf9f8bc4	161	12:43	12:47	son 10% de los pacientes que estaban diagnosticados como que no tenían conciencia 	arround 10% of the amount of patients diagnosed as not having any consciousness at all 	dotsub		false
@@ -16521,3 +16455,1014 @@ la.historia.oficial	1197	6666.32	6670.85	Un pasito para allí,	One step this way
 la.historia.oficial	1198	6672.36	6675.52	No recuerdo si lo di.	I wonder if I may.	movies	la.historia.oficial	false
 la.historia.oficial	1199	6676.3	6679.7	Un pasito para allá,	One step over there.	movies	la.historia.oficial	false
 la.historia.oficial	1200	6681.17	6687.4	Ay, qué miedo que me da.	Oh, what a big scare.	movies	la.historia.oficial	false
+carancho	0	104.84	107.07	- Par. De dnde conoces a mi viejo? - Lo conozco dela cancha.	- How d'you know my dad? - From soccer.	movies	carancho	false
+carancho	1	107.18	109.77	- Dela cancha? De qu cuadro era?	- Oh yeah? Which club?	movies	carancho	false
+carancho	2	111.15	113.91	De qu cuadro era. Hijo de puta? Par.	- Which club, son of a bitch? - Stop it...	movies	carancho	false
+carancho	3	114.02	115.61	- De qu club era mi viejo? - Almirante Brown.	- Which club? - Almirante Brown.	movies	carancho	false
+carancho	4	115.72	116.78	- Cmo? - Da e hijo de puta!	What? Son of a bitch! 	movies	carancho	false
+carancho	5	116.89	120.09	De qu cuadro era mi viejo?	Which club was my father in?	movies	carancho	false
+carancho	6	120.26	121.69	Eh? De qu cuadro?	Which team?	movies	carancho	false
+carancho	7	123.16	125.6	De qu club era mi viejo, hijo de puta?	Which club was my father in, piece of shit?	movies	carancho	false
+carancho	9	132.4	135.07	- No te acords?	- Can't remember?	movies	carancho	false
+carancho	10	136.34	141.54	Hubieras esperado a que o entierre. Hijo de mi putas. Transa de mierda. Vamos.	Couldn't wait 'til after the burial, Swindling fucker. Let's go!	movies	carancho	false
+carancho	11	144.62	148.35	- Carancho de mierda. - Vamos, vamos.	- Fucking vulture! - Let's get out of here.	movies	carancho	false
+carancho	12	301.74	303.5	RADIO; Atento Sosa, atento Sosa.	Do you copy, Sosa?	movies	carancho	false
+carancho	13	303.61	307.41	Choque de una camioneta con una moto, Mosconi y Villegas.	Motorbike-truck collision on Mosconi and Villegas.	movies	carancho	false
+carancho	14	317.19	318.71	Tranquilo. Ya legaron.	Take it easy,	movies	carancho	false
+carancho	15	348.39	349.88	Qu paso?	What happened?	movies	carancho	false
+carancho	16	351.89	355.05	Parece que se par delante de la camioneta.	He crossed in front of the truck.	movies	carancho	false
+carancho	17	356.13	358.93	Se golpe muy fuerte la cabeza, no tena puesto el casco.	Strong blow to the head, no helmet.	movies	carancho	false
+carancho	18	359.03	362.47	Sabes si estaba borracho? Olor a alcohol no tiene.	- Do you know if he's drunk? - Doesn't smell of alcohol,	movies	carancho	false
+carancho	19	362.57	365.7	Sabes cmo se llama? Eh... Creo que Gustavo.	- Do you know his name? - I think it's Gustavo.	movies	carancho	false
+carancho	20	366.1	369.63	- Estuvo todo el tiempo consciente? - Hasta recin hablaba. Ahora...	Loss of consciousness? He was speaking up until now,	movies	carancho	false
+carancho	21	369.77	372.94	Gustavo, me escuchas? - S. - S?	- Gustavo, do you hear me? - Yes,	movies	carancho	false
+carancho	22	373.44	375.38	Bueno. Yo soy mdica gordo. sabes?	I'm a doctor, Okay?	movies	carancho	false
+carancho	23	375.48	379.64	Te estoy poniendo un colar. Te vamos a llevar a hospital, s?	This is a neck brace. We're taking you to the hospital.	movies	carancho	false
+carancho	24	379.75	382.28	Te acords de lo que pas?	- Do you remember what happened? - No.	movies	carancho	false
+carancho	25	382.39	384.95	No? No te acords de nada?	You don't? Nothing at all?	movies	carancho	false
+carancho	26	385.06	387.02	- Cuntos aos tens. Gustavo?	How old are you, Gustavo?	movies	carancho	false
+carancho	27	387.13	392.46	- 24. - 24? Estabas trabajando?	24. - Were you working? - Yes.	movies	carancho	false
+carancho	28	393.56	395.33	- Despejen. Por favor. - Quedte tranquilo.	Stay calm.	movies	carancho	false
+carancho	29	395.43	399.66	Me ayuds con la tabla? Dejle a cabeza ac. Ponte a lado mo.	Can you help me with the stretcher? Put his head down and come beside me.	movies	carancho	false
+carancho	30	399.94	401.3	Tengo primeros auxilios.	I have my first aid certificate.	movies	carancho	false
+carancho	31	403.34	407.67	Te pido si pods poner una mano ac, con a otra trabs ac. s?	Put one hand over here... and hold the other one here.	movies	carancho	false
+carancho	32	407.78	410.41	Cuando yo cuento. A la cuenta de tres. O vamos a correr.	On my count of three, we'll move him.	movies	carancho	false
+carancho	33	410.52	412.78	Vamos? 1, 2, 3.	Ready? One, two, three,	movies	carancho	false
+carancho	34	413.35	418.38	Tranquilo. Tranquilo, gordo. Dale, 1, 2, 3. Lo bajamos. - Muy bien. - Listo.	Stay calm. Okay. One, two, three. We put him down, Good.	movies	carancho	false
+carancho	35	418.49	419.92	Ah estamos.	There we go!	movies	carancho	false
+carancho	36	420.02	422.42	Oficial, me ayuda por favor?	Officer, can you help me please?	movies	carancho	false
+carancho	37	422.73	425.22	- Vos ests bien? - Yo?	Are you okay? Me?	movies	carancho	false
+carancho	38	425.33	427.3	- S. - S, s. Ms o menos.	More or less, yes.	movies	carancho	false
+carancho	39	427.4	431.89	S? Vos estabas manejando? - Chocaste? - Ah. No, esto es otra cosa.	- Were you driving? - No, it's something else,	movies	carancho	false
+carancho	40	433.17	434.93	- Estoy bien. - A ver, perdn, eh? Quedte quieto.	- Stay still. - Let's go, Lujn.	movies	carancho	false
+carancho	41	435.04	438.3	- Por ah te tienen que coser. - Gracias.	- You need stitches, - Thank you,	movies	carancho	false
+carancho	42	443.25	445.65	Lo conocs? Qu?	- Do you know him? - What?	movies	carancho	false
+carancho	43	445.75	448.84	Si lo conocs al tipo que nos ayud recin.	That guy who just helped us. Do you know him?	movies	carancho	false
+carancho	44	451.72	453.12	Nos est siguiendo.	He's following us.	movies	carancho	false
+carancho	45	453.22	456.28	S, todo bien. Nos acompaa hasta el policlnico.	Don't worry, He's coming to the clinic with us,	movies	carancho	false
+carancho	46	465.2	467.17	- Qu pas? - No lo quieren recibir.	- So? - They won't admit him,	movies	carancho	false
+carancho	47	467.27	469.97	Por qu? Qu s yo qu pasa.	- Why? - How should I know?	movies	carancho	false
+carancho	48	470.07	473.44	Que no hay nadie. Que tienen quilombo, la misma pajera de siempre.	No one's on call, the place is a mess, Usual bullshit.	movies	carancho	false
+carancho	49	473.54	476.04	- Ah est ella arreglando todo. - Quin es a chica?	- She's trying to get him in, - Who is she?	movies	carancho	false
+carancho	50	476.15	479.45	Es nueva. A hermana de un amigo.	She's new. Sister of a friend of mine.	movies	carancho	false
+carancho	51	481.42	484.08	Me entends? Vos ac tens terapia y tens tomgrafo.	You have an IC unit and a CAT scan here.	movies	carancho	false
+carancho	52	484.19	486.55	Te lo vas a tener que levar porque no lo puedo aceptar.	I'm sorry, I can't admit him.	movies	carancho	false
+carancho	53	486.66	490.12	Yo no me lo voy a levar. Resolvelo, porque yo de ac no me voy.	I'm not taking him anywhere, so work it out.	movies	carancho	false
+carancho	54	490.23	492.72	Habla con el jefe de servicio.	Talk to your supervisor.	movies	carancho	false
+carancho	55	492.83	494.8	- Hola. Perdn. Cmo ests? - Hola.	- Excuse me. - Good evening.	movies	carancho	false
+carancho	56	494.9	497.93	- Decme. El Ruso no est hoy? - S, est.	- Is Russo in today? - Yes, he is.	movies	carancho	false
+carancho	57	498.04	500.3	Lo pods llamar un minutito?	Can you call him over?	movies	carancho	false
+carancho	58	502.14	503.83	Voy a ver que hago.	I'll go see.	movies	carancho	false
+carancho	59	504.41	506.14	Y yo qu hago?	What about me?	movies	carancho	false
+carancho	60	506.71	508.8	Vos, esperme.	You wait.	movies	carancho	false
+carancho	61	511.08	512.88	Gustavo, ests bien?	Gustavo, are you okay?	movies	carancho	false
+carancho	62	517.59	519.75	La verdad. No lo puedo creer.	I can't believe this...	movies	carancho	false
+carancho	63	519.86	521.52	Tranquila.	Don't worry.	movies	carancho	false
+carancho	64	542.08	545.28	Pico. Entrego el vestuario y te veo fuera, s?	Pico, I'll leave the chart and meet you outside.	movies	carancho	false
+carancho	65	555.89	558.02	- Todo bien? - S, gracias. Permiso.	- Everything okay? - Yes, thanks.	movies	carancho	false
+carancho	66	558.13	559.49	Algn problema?	Any problems?	movies	carancho	false
+carancho	67	559.6	561.46	No. No. Todo bien. Gracias por ayudarme, en serio.	No, everything's fine.	movies	carancho	false
+carancho	68	564.84	566.53	Me decs tu nombre?	Can I have your name?	movies	carancho	false
+carancho	70	568.24	571.57	Y tu nombre? - Lujn. Lujn Olivera. - Lujn Olivera.	- Your first name? - Lujn, Lujn Olivera.	movies	carancho	false
+carancho	71	572.38	574.5	- Necesits mi matrcula? - No, no. As est bien.	- Need my license? - No, this is fine.	movies	carancho	false
+carancho	72	574.61	577.21	- Toma. Por si necesits algo. - Bueno.	Here, just in case.	movies	carancho	false
+carancho	73	577.32	579.94	Tenla, nunca se sabe. Hasta luego. [MOTOR]	Keep it, you never know. See you.	movies	carancho	false
+carancho	74	580.05	582.65	Gracias, Sosa. En serio.	Thanks, Sosa, I mean it, Bye.	movies	carancho	false
+carancho	75	598.3	601.29	Che, hace mucho que lo conocs a Sosa vos?	How long have you known Sosa?	movies	carancho	false
+carancho	76	601.64	604.94	Bastante. Cunto es bastante?	- Long enough. - How long is long enough?	movies	carancho	false
+carancho	77	605.04	608.67	Y, bastante es como 8, 10 aos.	Enough is like 8 or 10 years.	movies	carancho	false
+carancho	78	608.78	611.51	Siempre caranchando?	- Always been a "vulture"?	movies	carancho	false
+carancho	79	612.35	614.98	Eh? No. El loco empez a hacer esto cuando le sacaron a matrcula.	No, he started when he lost his license.	movies	carancho	false
+carancho	80	615.09	617.82	Empez a trabajar para os putos estos de la fundacin.	Started working for those Foundation assholes.	movies	carancho	false
+carancho	81	618.26	620.88	Primero te da dos gambas por el dato...	First, you get 200 bucks for the tip.	movies	carancho	false
+carancho	82	621.69	623.82	y si el caso es bueno,	If it turns into a case,	movies	carancho	false
+carancho	83	623.93	625.83	Y los clientes que vos le das. cobran?	Do the clients get paid?	movies	carancho	false
+carancho	84	625.93	628.8	Los garcan un poco. viste? Pero cobran.	It's a swindle, but they get some money.	movies	carancho	false
+carancho	85	628.9	632.8	Imaginate que no tienen obra social ni trabajo. No tienen una mierda.	These people don't have medical coverage or jobs.	movies	carancho	false
+carancho	86	632.9	636.9	La fundacin para esta gente termina haciendo como un trabajo social.	The Foundation ends up being like social work for them,	movies	carancho	false
+carancho	87	637.01	638.91	Un trabajo social?	Social work?	movies	carancho	false
+carancho	88	639.01	641.2	- Trabajo social. S.	Yes, social work.	movies	carancho	false
+carancho	89	641.68	646.31	Imaginate un tipo de stos. Tirado abajo de un bondi a las 4 de la maana con los huesos rotos...	For someone lying under a bus at 4 a.m., with broken bones,	movies	carancho	false
+carancho	90	646.42	652.35	Qu es lo mejor que les puede pasar? Que caiga un carancho con ganas de romperle bien e ojete a las aseguradoras.	it's the best they can get. A vulture who'll help them screw the insurance company.	movies	carancho	false
+carancho	91	690.93	693.06	Ya llegamos. Gorda. Mir, ya estamos.	We're almost there,	movies	carancho	false
+carancho	92	701.97	707.97	- Abuela, con qu fue que te pegaron? - Ay. No s con qu me pegaron. Vena llegando a casa y me golpearon.	Tell me what they hit you with, I don't know, I was going home and they hit me.	movies	carancho	false
+carancho	93	708.28	711.54	A caerme sobre el piso. Me lastim la cabeza.	I hurt my head when I fell to the ground,	movies	carancho	false
+carancho	94	711.65	715.14	Un poco por arriba me duele.	It hurts up here too, doctor.	movies	carancho	false
+carancho	95	715.25	717.45	- No s, doctora, que ser. - Te acords de todo lo que te pas?	But do you remember what happened?	movies	carancho	false
+carancho	96	717.56	720.49	Ms o menos.	Sort of, sort of.	movies	carancho	false
+carancho	97	720.59	723.42	Vos sos polica? No, yo no soy polica. Soy mdica.	- You are a cop. - No, I'm a doctor.	movies	carancho	false
+carancho	98	723.53	727.72	Quedte un poquito tranquilito, dale? Yo soy mdica y te estoy curando.	Try to calm down, okay? I'm here to take care of you,	movies	carancho	false
+carancho	99	727.83	730.6	Te estoy tratando de curar la cabeza que tens todo abierto.	to stop the bleeding on your head,	movies	carancho	false
+carancho	100	730.7	733.4	Estamos legando al hospital. Te van a atender.	When we get to the hospital, they'll take over.	movies	carancho	false
+carancho	101	733.5	736.44	- Me voy. - No te vas ningn lado porque estamos manejando.	- I'm leaving. - Not now, we're driving,	movies	carancho	false
+carancho	102	736.54	739.44	Cuando leguemos al hospital si quers te vas. dale?	Once we reach the hospital you're free to leave.	movies	carancho	false
+carancho	103	739.54	741.37	- Te amo. - Bueno, est bien. Est bien.	- I love you! - That's nice, just relax.	movies	carancho	false
+carancho	104	741.48	745.85	- Quedte ah quietito.	Stay seated, nice and easy. Stay put.	movies	carancho	false
+carancho	105	748.09	750.88	Las manos quietitas. Quedte tranquilo. Cuidado.	Get your hands off me and try to relax.	movies	carancho	false
+carancho	106	756.19	759.42	- Quedte quieto. - Guacha.	- Stay put! - Bitch!	movies	carancho	false
+carancho	107	761.4	764.9	- Dame un beso. PICO; -Ahora yo te voy a dar un beso.	Give me a kiss. Come with me, I'll give you a kiss,	movies	carancho	false
+carancho	108	811.38	815.25	Es importante todo lo que se acuerde. Me dijo que tena un testigo, no?	Try to remember the details, There was a witness, right?	movies	carancho	false
+carancho	109	815.35	818.88	Un vecino que vio todo me dijo que la culpa fue del camin.	A neighbor saw it al, he said it was the trucker's fault,	movies	carancho	false
+carancho	110	818.99	823.36	Porque el camin vena sin luces y por la mano contraria.	His lights were off and he was driving the wrong way.	movies	carancho	false
+carancho	111	824.63	828.39	l no tuvo tiempo de hacer nada. Doctor.	He didn't have time to swerve, counselor.	movies	carancho	false
+carancho	112	828.5	830.99	Dicen que fue un accidente.	They said it was an accident.	movies	carancho	false
+carancho	113	831.1	833.66	Si se poda evitar...	If it could have been avoided,	movies	carancho	false
+carancho	114	834.04	836.53	no es un accidente. Es un incidente.	it's not an accident, it's an incident,	movies	carancho	false
+carancho	115	837.07	839.6	La polica le sac fotos al auto?	The police took photos of the car,	movies	carancho	false
+carancho	116	839.71	841.61	Yo no s, creo que s...	I'm not sure, I guess so...	movies	carancho	false
+carancho	117	841.71	845.34	- Usted firmo algo. Hizo la denuncia? - Hice la denuncia, s.	- Did you file a formal complaint? - Yes, I did,	movies	carancho	false
+carancho	118	845.45	847.01	Dnde est esa denuncia?	Where is it?	movies	carancho	false
+carancho	119	847.65	849.95	Creo que la tiene mi mujer. No s. Est en casa.	I think my wife has it at home,	movies	carancho	false
+carancho	120	850.05	853.18	- Quin lo socorri? - La polica.	- Who came to your aid? - Policemen,	movies	carancho	false
+carancho	121	853.29	856.95	- S, pasaban por ah. Me vieron que yo baj de auto golpeado.	As they drove by, they saw me staggering out of the car.	movies	carancho	false
+carancho	122	857.06	860	- Ellos lo levaron a hospital? - Ellos me llevaron.	- They took you to the hospital? - They did,	movies	carancho	false
+carancho	123	860.36	861.8	Se acuerda quin lo atendi?	Who treated you there?	movies	carancho	false
+carancho	124	861.9	865.73	No, un mdico que estaba de verde o de blanco.	Can't say. A doctor, wearing green or white.	movies	carancho	false
+carancho	125	865.84	867.8	- Le sacaron placas? - Me sacaron dos placas.	- You got X-rays? - Yes.	movies	carancho	false
+carancho	126	867.91	870.47	&nbsp;-Qu hacs, Sosa? -Esas placas as tiene usted?	- Hey, Sosa, - Do you have the X-rays?	movies	carancho	false
+carancho	127	870.57	873.77	- Lo van a bajar en el juicio. A ste. -No es culpa ma y lo sabs.	- It won't hold in court. - It's not my fault.	movies	carancho	false
+carancho	128	873.88	877.87	Dile a Guerrero 20 puntos. Y sto por qu no lo tens? - Porqu no lo firmaste? - Estamos trabajando bien.	Ask Guerrero for 20 points, Why didn't you sign it?	movies	carancho	false
+carancho	129	879.72	881.81	Tan difcil es, Casa? Tan difcil es?	What's so difficult, Casal?	movies	carancho	false
+carancho	130	881.92	883.91	Qu pas en la jeta?	What happened to your face?	movies	carancho	false
+carancho	131	884.56	886.42	Nada. No pasa nada.	It's nothing.	movies	carancho	false
+carancho	132	886.52	891.83	- Ves que me tens que llevar con vos? - Qu hace el Perro ac?	You have to take me with you. What's the Dog doing here?	movies	carancho	false
+carancho	133	893.43	896.56	- Tens todo servido en bandeja, Casal. - Dejame de joder.	- What more could you ask for? - Fuck off!	movies	carancho	false
+carancho	134	896.67	901.1	Tens a mi gente trabajando para vos. Tens auto, oficina, secretaria...	You have subordinates, a car, an office, a secretary...	movies	carancho	false
+carancho	135	901.21	902.97	Vos estas ac porque yo quiero.	You're here because I want you to be.	movies	carancho	false
+carancho	136	903.41	909.04	En este escrito usted nos autoriza a hacernos cargo de la presentacin de caso.	This document authorizes us to handle the case.	movies	carancho	false
+carancho	137	909.15	912.98	Yo no puedo creer que est ac haciendo esto. No lo puedo creer.	I can't believe this is happening.	movies	carancho	false
+carancho	138	913.32	916.78	- No s lo que voy a hacer, doctor. - No tiene que hacer nada.	I don't know what to do, counselor. We take care of everything,	movies	carancho	false
+carancho	139	916.89	922.05	S, ya s. Pero unas vecinas me dijeron de que ustedes son buenos.	Yes, I know, but... My neighbors say you're good	movies	carancho	false
+carancho	140	922.16	923.59	-Vamos por pasos.	One step at a time,	movies	carancho	false
+carancho	141	923.69	925.53	Por qu no te fijs en la comisarla?	Check the Police Station!	movies	carancho	false
+carancho	142	925.63	927.22	Ah tens que buscar al que te est calgando, no ac.	That's where you get screwed!	movies	carancho	false
+carancho	143	927.33	930.23	En la comisarla est todo bien, vos ocupate de lo que pasa ac.	No, the real problem comes from here!	movies	carancho	false
+carancho	144	934.51	937.91	- Doctor Casa, un minuto por favor.	Counselor Casal, could I have a minute?	movies	carancho	false
+carancho	145	938.01	941.17	La Sra. Es la viuda de Arrieta.	This is Mr. Arrieta's widow.	movies	carancho	false
+carancho	146	941.28	944.21	Del accidente de la cale Mrmo.	The accident on Mrmol Street.	movies	carancho	false
+carancho	147	944.82	949.81	Sentimos mucho su prdida, seora. Esperemos poder ayudarla.	We're very sorry for your loss, And we hope we can be of service,	movies	carancho	false
+carancho	148	950.39	952.18	Ey. Dale.	Wake up.	movies	carancho	false
+carancho	149	953.32	955.22	Dale que te espero afuera, dale.	I'll wait for you outside.	movies	carancho	false
+carancho	150	964.74	966.86	Hola. Hola, cmo va?	- Hi. - Hi, how are you?	movies	carancho	false
+carancho	151	966.97	970.06	Qu tenemos? Accidente en va pblica.	- What do we have? - Traffic accident.	movies	carancho	false
+carancho	152	978.95	980.18	Vamos?	Ready?	movies	carancho	false
+carancho	153	983.02	986.22	Viste que te dije que no era ac. Son como 20 cuadras para al.	I told you it was like 20 blocks that way,	movies	carancho	false
+carancho	154	986.32	990.02	Bueno. Ya vamos a llegar.	A right a ready! We'll be there soon.	movies	carancho	false
+carancho	155	992.46	994.83	Ponte el cinturn, Pico.	Put your seatbelt on, Pico.	movies	carancho	false
+carancho	156	1006.34	1009.01	Pero en cualquier momento me raja un tiro en la nuca.	But I might turn up shot in the head any time now.	movies	carancho	false
+carancho	157	1009.11	1012.71	Ten cuidado. El Perro sabe que ands en cosas, claro que si.	Be careful The Dog knows you're up to something,	movies	carancho	false
+carancho	158	1012.82	1016.27	Lo hablamos mil veces, estoy cansado. Harto. Se termin.	We've been through this a thousand times. I've had it.	movies	carancho	false
+carancho	159	1016.39	1018.12	Vos no te podes ir, ahora no.	You can't leave, not now.	movies	carancho	false
+carancho	160	1018.22	1020.28	Mirme, me ves?	Take a good look at me.	movies	carancho	false
+carancho	161	1020.39	1021.52	No puedo ms.	I can't take it anymore,	movies	carancho	false
+carancho	162	1021.63	1025.36	Bueno. Ok. Ests cansado?	So you're tired! Then I'll go out, like we used to do,	movies	carancho	false
+carancho	163	1025.46	1027.26	Salgo yo entonces, como en los viejos tiempos.	I'm not talking about today.	movies	carancho	false
+carancho	164	1027.36	1029.06	Pero no es de hoy. Desde hace mucho estoy cansado.	I've been tired a long time,	movies	carancho	false
+carancho	165	1029.17	1031.76	Yo estoy igual que vos.	I'm just as tired as you are.	movies	carancho	false
+carancho	166	1031.87	1035	Te tengo que aclarar que estoy harto de Perro?	Do I have to tell you how sick I am of the Dog?	movies	carancho	false
+carancho	167	1035.11	1037.23	Las cosas estn cambiando y l no se quiere enterar.	He refuses the slightest change!	movies	carancho	false
+carancho	168	1037.34	1038.54	A m qu me importa?	That's not my problem,	movies	carancho	false
+carancho	169	1038.64	1041.44	Yo recupero la matrcula y me voy a la mierda.	As soon as I get my license back, I'm out.	movies	carancho	false
+carancho	170	1041.55	1045.55	Hoy sin falta hablo con Rinaldi. Te necesito conmigo.	Today, I'll talk to Rinaldi. I need you beside me!	movies	carancho	false
+carancho	171	1046.02	1048.04	En qu quedamos? Vos te quers ir o no?	Wait, Do you want to leave or stay?	movies	carancho	false
+carancho	172	1048.15	1052.52	De ac no me saca nadie, el que se va es el Perro.	No one's throwing me out, The one leaving is the Dog.	movies	carancho	false
+carancho	173	1052.62	1056.22	Rinaldi lo quiere calgar, ya me lo dijo.	Rinaldi wants his ass, he told me so.	movies	carancho	false
+carancho	174	1056.66	1059.63	Cunto te crees que le queda? A Perro, cunto le queda?	How much longer can he resist?	movies	carancho	false
+carancho	175	1059.73	1063.53	Ya esta. Ya esta. Ya fue. Que pase e que sigue.	He's done for, Who's next in line?	movies	carancho	false
+carancho	176	1063.87	1066.17	No te confundas con el Perro.	Don't underestimate the Dog.	movies	carancho	false
+carancho	177	1066.27	1068.53	Vos haceme caso a m.	You listen to me,	movies	carancho	false
+carancho	178	1068.91	1072.27	Tenemos que estar juntos ms que nunca.	We have to stick together now,	movies	carancho	false
+carancho	179	1076.25	1080.35	Dale, boludo. Me vas a hacer ir a m?	C'mon, man..., You really want my head?	movies	carancho	false
+carancho	180	1083.02	1085.96	A vos te creen. A m, no.	They buy it from you, not me.	movies	carancho	false
+carancho	181	1100.9	1105.41	Seor Moyano? Me avisaron de la remisera que el coche est retrasado.	Mr. Moyano, the taxi company called, the car's running late.	movies	carancho	false
+carancho	182	1105.51	1107.64	- Disclpeme, pero yo no soy Moyano. - Ah. Perdn.	Excuse me, I'm not Moyano.	movies	carancho	false
+carancho	183	1107.74	1110.37	El seor Moyano tuvo un accidente de trnsito.	Sorry, Mr. Moyano had a traffic accident.	movies	carancho	false
+carancho	184	1110.48	1113.81	Soy su abogado. Pero no lo conozco personalmente. Disculpe.	I'm his attorney, but I haven't met him in person,	movies	carancho	false
+carancho	185	1114.22	1116.62	Yo tambin tuve un accidente.	I had an accident, too.	movies	carancho	false
+carancho	186	1116.72	1118.28	Ah. S? Qu le pas?	Really? What happened?	movies	carancho	false
+carancho	187	1118.39	1121.08	Un hijo de puta me atropell con la camioneta.	A son of a bitch ran me over with his truck.	movies	carancho	false
+carancho	188	1121.19	1122.68	- Cundo fue eso? - Ayer.	- When was that? - Yesterday.	movies	carancho	false
+carancho	189	1122.79	1124.19	- Le hicieron placas? - S.	- Did you get X-rays? - Yes,	movies	carancho	false
+carancho	190	1124.29	1126.13	Me permite?	Can I see them?	movies	carancho	false
+carancho	191	1137.54	1142.21	Iba a trabajar y sali un auto del boliche y la llevo por delante.	She was going to work. A car leaving a nightclub ran her lover.	movies	carancho	false
+carancho	192	1142.31	1144.64	- A qu hora? - A la madrugada.	- At what time? - At dawn.	movies	carancho	false
+carancho	193	1144.75	1149.45	Casada? Tiene hijos? S. Casada. Tiene dos hijos.	- Married? Any children? - Yes, married, two children.	movies	carancho	false
+carancho	194	1151.42	1153.05	Al marido lo conocs?	Do you know the husband?	movies	carancho	false
+carancho	195	1153.16	1155.12	S. Est por venir.	Yes, he's on his way.	movies	carancho	false
+carancho	196	1172.48	1172.74	Pasaron a dejarte unas cosas por ac, Sosa.	You left some stuff here yesterday, Sosa.	movies	carancho	false
+carancho	197	1175.05	1177.21	- Venite para la central.	Stop by headquarters.	movies	carancho	false
+carancho	198	1177.31	1179.25	Te copi, estoy yendo para all. Chau.	Roger that, I'm coming.	movies	carancho	false
+carancho	199	1179.35	1180.91	Dale, te espero.	I'll wait for you.	movies	carancho	false
+carancho	200	1196.23	1198.57	- Tengo las planillas. - Dale.	- Here's the paperwork. - Good.	movies	carancho	false
+carancho	201	1206.14	1208.24	Qu fue o de Almafuerte?	What's the story on Almafuerte Ave.?	movies	carancho	false
+carancho	202	1208.35	1211.47	Un femenino de 82 aos.	Female, 82 years old,	movies	carancho	false
+carancho	203	1211.95	1215.44	Hipertensa, con un pico de presin.	high blood pressure, suffered a hypertensive crisis,	movies	carancho	false
+carancho	204	1218.39	1220.15	- Qu hacs. Pico? - Vamos a comer algo?	- Hi there, Pico, - Who's hungry?	movies	carancho	false
+carancho	205	1220.26	1222.52	- Y el de Mosconi a 1500, te acords? - Cul?	- Remember the Mosconi St. Guy? - Who?	movies	carancho	false
+carancho	206	1222.63	1224.82	El de la bicicleta. Ese que qued abajo.	The one who hit a cyclist,	movies	carancho	false
+carancho	207	1224.93	1228.52	S. No s que problema tuvo con el banco o fallo algo	Yeah, He had some kind of trouble with his bank	movies	carancho	false
+carancho	208	1228.63	1231.97	y no le entro el debito automtico de seguro.	and his insurance policy went unpaid.	movies	carancho	false
+carancho	209	1232.07	1235.1	Y justo ese da se llev puesto a un tipo en bicicleta. Lo mat.	The same day, he hit and killed this guy on a bike,	movies	carancho	false
+carancho	210	1235.21	1238.07	Eso es mala suerte. El de la bicicleta seguro que vena cruzando en rojo.	- Rotten luck! - Bet the cyclist ran a light,	movies	carancho	false
+carancho	211	1238.18	1240.91	Siempre alguien tiene la culpa.	Someone is always to blame,	movies	carancho	false
+carancho	212	1241.01	1245.47	S, s, claro. Por eso paga el seguro. Pero... - nadie quiere tener un accidente.	Sure, but insurance company's pay because an accident is an accident.	movies	carancho	false
+carancho	213	1245.58	1248.14	- Y a mina de la agencia de manejo?	And that ady from the driving school.	movies	carancho	false
+carancho	214	1248.25	1251.35	Haba una mina con una agencia de manejo, aos de oficio tena.	A driving instructor, with years of experience.	movies	carancho	false
+carancho	215	1251.46	1255.88	Y un da va manejando tranquilita y ve la increble imagen por el parabrisas	One day, she's driving a long, when right in front of her windshield	movies	carancho	false
+carancho	216	1255.99	1259.9	de un tipo que queda fulminado de un macetazo que le cae de arriba, eh?	this guy drops dead, hit by a falling flowerpot.	movies	carancho	false
+carancho	217	1260	1263.46	Y a la mina le agarra tal angustia que le agarra un paro en el auto.	She's so distressed, she has a heart attack right there,	movies	carancho	false
+carancho	218	1263.57	1267.56	Y el auto sigui solo. Par. Se sube arriba de la vereda.	So her car keeps going, runs up the sidewalk	movies	carancho	false
+carancho	219	1267.67	1270.16	Y se leva puesto a un pendejo de 15 aos que era el sobrino.	and hits this kid, her own nephew...	movies	carancho	false
+carancho	220	1270.27	1273	- Dejte de chamullar. -  Qu chamullo? - Estas cosas pasan.	- Bullshit! - No, this stuff happens!	movies	carancho	false
+carancho	221	1273.11	1276.17	- El mvil est en camino. - Vamos muchachos.	The unit's on its way. Ready to go, guys?	movies	carancho	false
+carancho	222	1276.28	1278.27	- Para vos nada. Sosa. - Ok.	There's nothing for you, Sosa, See ya.	movies	carancho	false
+carancho	223	1282.19	1283.55	Lujn.	Lujn!	movies	carancho	false
+carancho	224	1290.33	1293.06	Es muy largo, no se cobra nunca.	It takes forever, you never see the money.	movies	carancho	false
+carancho	225	1293.16	1295.03	Es un quilombo. No me meto con los mdicos.	I don't mess with doctors.	movies	carancho	false
+carancho	226	1296.47	1298.43	Bueno. Mejor.	Good to know.	movies	carancho	false
+carancho	227	1298.54	1301.2	Qu tengo que hacer para que no me mires as?	How can I change the way you look at me?	movies	carancho	false
+carancho	228	1301.3	1305.97	As, cmo? No s. Como con miedo.	- Meaning? - I don't know. Like I scare you,	movies	carancho	false
+carancho	229	1306.08	1308.17	- No, no te miro con miedo. - No?	I'm not afraid of you.	movies	carancho	false
+carancho	230	1313.58	1316.02	Te gusta trabajar ac?	Do you like working here?	movies	carancho	false
+carancho	231	1316.59	1318.95	S. Me gusta.	Yes, I do,	movies	carancho	false
+carancho	232	1320.09	1323.29	Es mi trabajo. Igual no voy a hacer guardias toda mi vida. no?	But I don't plan to be on call all my life.	movies	carancho	false
+carancho	233	1323.39	1326.92	Claro. Ests como esperando. Aguantando.	Right, You're waiting for a better opportunity.	movies	carancho	false
+carancho	234	1327.96	1330.36	Puede ser. Yo tambin.	- Something like that. - Me too.	movies	carancho	false
+carancho	235	1331.2	1333.33	Qu estas esperando vos?	What are you waiting for?	movies	carancho	false
+carancho	236	1333.44	1335.46	Un choque mltiple?	A multiple colision?	movies	carancho	false
+carancho	237	1336.37	1339.1	No, no s.	No, I'm not sure...	movies	carancho	false
+carancho	238	1339.21	1341.71	Cambiar de zona. De laire.	A change of scenery,	movies	carancho	false
+carancho	239	1341.71	1343.98	Salir un poco de ac.	getting out of here...	movies	carancho	false
+carancho	240	1344.31	1347.01	En fin, no s.	I'm not really sure.	movies	carancho	false
+carancho	241	1348.19	1352.25	La verdad es que te empec a ver un poco ms seguido y...	Truth is, since I started bumping into you regularly,	movies	carancho	false
+carancho	242	1352.36	1354.85	estoy pensando en quedarme.	I'm considering staying here.	movies	carancho	false
+carancho	243	1356.99	1360.29	Es una especie de piropo. Eso?	- Is that your pick up line? - No, it's the truth.	movies	carancho	false
+carancho	244	1360.4	1363.06	No. Es la verdad. No soy bueno para... Vamos, Lujn?	- I'm not very good at... - Ready, Lujn?	movies	carancho	false
+carancho	245	1364.3	1366.17	Me tengo que ir.	I have to go.	movies	carancho	false
+carancho	246	1366.27	1371.3	Bueno. a que hora termins? La guardia.	What time do you finish... your shift?	movies	carancho	false
+carancho	247	1372.84	1375.97	A las 8, pero por ah me voy un poco antes, no s.	At 8. But I may leave a bit early.	movies	carancho	false
+carancho	248	1376.08	1378.07	Te puedo esperar?	Can I wait for you?	movies	carancho	false
+carancho	249	1380.55	1383.08	Bueno. Como quieras.	Sure. If you like,	movies	carancho	false
+carancho	250	1383.39	1385.95	Te espero. Bueno.	- I'll wait for you. - Okay.	movies	carancho	false
+carancho	251	1436.31	1438.8	Todo bien? Cmo fue hoy?	- Everything okay? - Yeah, and you?	movies	carancho	false
+carancho	252	1438.91	1440.57	Termin. Bien?	- I'm done. - Did it go well?	movies	carancho	false
+carancho	253	1440.68	1442.74	Bien. Cansada.	Yeah, but I'm kind of tired.	movies	carancho	false
+carancho	254	1442.85	1444.91	Necesito irme a dormir me parece.	I should get some sleep, I guess.	movies	carancho	false
+carancho	255	1445.02	1448.61	Ni un cafecito ac? 5 minutos.	Can I buy you a coffee here? Five minutes?	movies	carancho	false
+carancho	256	1448.72	1451.85	Te recibiste, hiciste la residencia all,	You graduated, did your residency there,	movies	carancho	false
+carancho	257	1451.96	1458.55	no haban muchas posibilidades. Pico te ayud a conseguir este trabajo. No est tan mal.	and since positions were rare, Pico helped you get this job. That's not so bad.	movies	carancho	false
+carancho	258	1460.33	1462.09	Y vos?	What about you?	movies	carancho	false
+carancho	259	1463.2	1465.19	Yo. qu?	What about me?	movies	carancho	false
+carancho	260	1465.94	1468.23	Qu hiciste para perder la matrcula?	What did you do to lose your license?	movies	carancho	false
+carancho	261	1469.31	1471.14	Nada.	Nothing.	movies	carancho	false
+carancho	262	1472.24	1475.61	- Nada. - Nada, tuve mala suerte. No hice nada.	- Nothing? - No, It was bad luck, that's all.	movies	carancho	false
+carancho	263	1476.51	1478.5	Mir vos.	Really?	movies	carancho	false
+carancho	264	1480.15	1485.25	Pero me parece que ahora la cosa est cambiando.	But I'm pretty sure... it's changing.	movies	carancho	false
+carancho	265	1485.56	1487.96	Qu? Mi suerte.	- What's changing? - My luck.	movies	carancho	false
+carancho	266	1488.06	1489.75	Por qu?	Why?	movies	carancho	false
+carancho	267	1489.86	1492.16	Mir. ves ese semforo?	See that traffic light?	movies	carancho	false
+carancho	268	1493.16	1495.13	Ese.	That one.	movies	carancho	false
+carancho	269	1496.4	1500.5	Si en el prximo dos autos pasan en rojo, yo te beso.	If two cars run the red light, I'll kiss you.	movies	carancho	false
+carancho	270	1501.07	1504.77	Ests loco. No, es un juego.	- Are you crazy? - No, it's just a game.	movies	carancho	false
+carancho	271	1504.87	1508.47	Es para mostrarte que mi suerte est cambiando. No pasa nada.	Just to show you my luck is changing.	movies	carancho	false
+carancho	272	1508.95	1512.18	- Si es un juego. Eso es muy poco. - 3? Quers 3?	- Two is too easy, - Would you go for three?	movies	carancho	false
+carancho	273	1512.28	1514.38	10.	Ten.	movies	carancho	false
+carancho	274	1514.95	1517.11	Te res porque sabes que es mucho,	That's unreasonable and you know it.	movies	carancho	false
+carancho	275	1517.22	1519.05	son las 6 de la maana.	It's 6 a.m.	movies	carancho	false
+carancho	276	1520.89	1523.29	4. Igual 4 es mucho.	Four is a lot.	movies	carancho	false
+carancho	277	1524.09	1526.62	4. A ver.	Four... Let's see.	movies	carancho	false
+carancho	278	1529.33	1532.27	Un poco de ayuda necesito.	Help me out here, people.	movies	carancho	false
+carancho	279	1534.3	1536.24	Ah va 1.	Here comes the first.	movies	carancho	false
+carancho	280	1546.78	1549.05	No, ese es un camin. No vale. S que vale.	- Trucks don't count, - Yes, they do.	movies	carancho	false
+carancho	281	1552.92	1557.12	Me exced. Y esos no eran camiones.	I made it! And not a single truck.	movies	carancho	false
+carancho	282	1559.96	1563.3	Igual no te voy a dar un beso. Vos no me lo tens que dar, te lo tengo que dar yo.	- I won't kiss you, though. - I'll kiss you, then.	movies	carancho	false
+carancho	283	1563.4	1566.39	- Me tengo que ir. - Te lo voy a dar en cualquier momento.	- I have to go. - I'll give it to you at any moment.	movies	carancho	false
+carancho	284	1629.27	1631.17	Cierro?	Should I close it?	movies	carancho	false
+carancho	285	1754.86	1757.16	Seguros La superior. Esta es buena.	"La Superior," good insurance,	movies	carancho	false
+carancho	286	1760.8	1762.59	Est al da?	Is it still valid?	movies	carancho	false
+carancho	287	1763.4	1764.99	S.	Yes...	movies	carancho	false
+carancho	288	1766.74	1768.83	Est bien. Cunto quiere por esto?	Alright. How much do you want for it?	movies	carancho	false
+carancho	289	1768.94	1772.27	Con 500 y e arreglo del auto. Te lo saco.	500 bucks plus repairs and we have a deal.	movies	carancho	false
+carancho	290	1772.38	1778.78	"Por el presente, autoriza a percibir la suma correspondiente a presente pacto de cuotalitis descontndo as de la sumas	"I hereby authorize payment of the amount, as stated in the agreement de quota litis,	movies	carancho	false
+carancho	291	1778.88	1782.78	que se obtengan en concepto de indemnizacin.	and to be deducted from the final damages obtained.	movies	carancho	false
+carancho	292	1782.89	1786.05	En prueba de conformidad. Se firman dos ejemplares."	Two equal documents are signed as proof of conformity."	movies	carancho	false
+carancho	293	1786.16	1789.72	- Pero, el resto cundo lo cobro? - Ya te expliqu. - Hay que esperar, te acords?	When do I get the rest? Like I said, you have to wait.	movies	carancho	false
+carancho	294	1796.87	1798.99	Termin de leer. Ah vengo.	finish reading. I'll be a minute.	movies	carancho	false
+carancho	295	1802.91	1804.93	Cunto quers que le demos?	How much do you want to give him?	movies	carancho	false
+carancho	296	1805.24	1806.87	Dale 200 ms.	Give him 200 more,	movies	carancho	false
+carancho	297	1807.91	1811.94	Lo vi a Rinaldi. Est todo en marcha. Lo tens que conocer.	I met with Rinaldi. It's all I set. You need to see him.	movies	carancho	false
+carancho	298	1812.05	1815.38	- Otra vez con lo mismo? - S, porque no te creo.	- Same old story? - Yes, I don't trust you.	movies	carancho	false
+carancho	299	1815.65	1818.85	Dnde te van a tratar mejor que ac, Sosa?	No place will treat you better than we do, Sosa.	movies	carancho	false
+carancho	300	1825.33	1827.23	Tom, 200 ms.	There you go, 200 more,	movies	carancho	false
+carancho	301	1834.04	1836.23	- Y ahora. qu hago? - Firm.	- What do I do now? - Sign.	movies	carancho	false
+carancho	302	1844.05	1845.98	Cmo nos tomaramos una cervecita ahora. eh?	I could do with a nice cold beer.	movies	carancho	false
+carancho	303	1846.08	1849.42	Dale Vega. No sea borracho. Firm, que es esta noche.	Vega, you drunkard, sign, We're doing it tonight.	movies	carancho	false
+carancho	304	1891.23	1892.92	Por fin.	At last!	movies	carancho	false
+carancho	305	1894.53	1896.33	Ven. Ven.	Come here.	movies	carancho	false
+carancho	306	1898.67	1900.19	Todo bien?	Everything okay?	movies	carancho	false
+carancho	307	1900.3	1902.07	Todo bien.	Yes, fine.	movies	carancho	false
+carancho	308	1903.17	1906.97	Qu paso? Nada. Te quedaste dormida.	- What happened? - Nothing. You fell asleep.	movies	carancho	false
+carancho	309	1907.34	1908.57	Perdn.	Sorry.	movies	carancho	false
+carancho	310	1908.68	1911.04	No, todo bien.	Don't worry.	movies	carancho	false
+carancho	311	1911.15	1914.17	Cunto dorm? Como 12 horas.	- How long did I sleep? - Around 12 hours.	movies	carancho	false
+carancho	312	1915.35	1917.34	Tens hambre?	Are you hungry?	movies	carancho	false
+carancho	313	1919.66	1922.22	No te gusta que te hablen apenas te desperts. no?	You're not a morning talker.	movies	carancho	false
+carancho	314	1922.33	1926.39	No, no, todo bien. No estoy muy acostumbrada.	No, it's just that I'm not very used to it.	movies	carancho	false
+carancho	315	1932.4	1934.39	- Quers que te ayude? - Dale.	Want me to give you a hand?	movies	carancho	false
+carancho	316	1934.7	1937.94	Corta un poco ms de morrn y el zapallito ese.	Chop more red pepper and that zucchini.	movies	carancho	false
+carancho	317	1939.01	1941.03	- ste? - S.	- This one? - Right.	movies	carancho	false
+carancho	318	1941.34	1943.01	Los dos.	Both.	movies	carancho	false
+carancho	319	1947.32	1948.98	As?	Like this?	movies	carancho	false
+carancho	320	1949.09	1950.48	S.	Yes.	movies	carancho	false
+carancho	321	1972.81	1974.44	Hola.	Hi.	movies	carancho	false
+carancho	322	1975.18	1978.2	Qu haces vos ac? Estoy de reemplazo, salgo con vos.	- What are you doing here? - Filling in.	movies	carancho	false
+carancho	323	1978.31	1979.94	Qu? Dnde est Santilln?	Where's Santilln?	movies	carancho	false
+carancho	324	1983.09	1988.68	&nbsp; &nbsp;Y despus con el pulgar. Hacs un larpegio rpido. - Y despus con las uas. me entends? - S.	Then, do a quick arpeggio using thumb and nails. - Get it? - Yes.	movies	carancho	false
+carancho	325	1988.79	1994.99	E pulgar para abajo marca a nota grave y el resto de la mano...	The thumb, when pointing down, strums the lower notes, The rest of the hand...	movies	carancho	false
+carancho	326	1995.1	1999.96	...tambin las agudas. Tercera, segunda, primera.	plays the higher notes. The third, second and first...	movies	carancho	false
+carancho	327	2000.07	2003.23	Y con el pulgar hacs un arpegio rpido y despus con las uas.	Then, a quick arpeggio using your thumb and nails,	movies	carancho	false
+carancho	328	2003.34	2006.87	Pulgar mano, pulgar mano. Pulgar mano.	Thumb, hand, thumb, hand...	movies	carancho	false
+carancho	329	2008.14	2009.74	A ver. Mirame.	Look at me.	movies	carancho	false
+carancho	330	2009.85	2013.34	El secreto de la samba es el rasgueo.	The secret to Samba is in the strumming,	movies	carancho	false
+carancho	331	2013.55	2016.18	Como me hubiera gustado tocar un instrumento a m.	I wish I knew how to play an instrument.	movies	carancho	false
+carancho	332	2016.29	2018.58	- Sabes tocar algo, vos? - No.	- Do you play anything? - No.	movies	carancho	false
+carancho	333	2018.69	2020.02	Tens olor a alcohol.	You smell of alcohol.	movies	carancho	false
+carancho	334	2020.12	2021.42	- No. - No me mientas.	- No. - Don't lie to me,	movies	carancho	false
+carancho	335	2021.52	2025.69	No! Dale. Dale, falta mucho para esto? Ya est.&nbsp;	No! - C'mon! Are we done here? - We're done,	movies	carancho	false
+carancho	336	2025.8	2027.85	Deja la pierna bien dura.	Keep your leg straight,	movies	carancho	false
+carancho	337	2029.4	2032.6	A los pibes chiquitos habra que ensearles a tocar un instrumento.	Little kids should learn to play an instrument.	movies	carancho	false
+carancho	338	2035.4	2037.1	Toma, mord esto.	Here, bite this.	movies	carancho	false
+carancho	339	2038.51	2040.37	Qu sents? - Nada.	- What do you feel? - Nothing...	movies	carancho	false
+carancho	340	2040.48	2043.07	- Ests seguro?&nbsp; No. Nada. Dale, no seas cagn.	- Sure? - Yes! Don't chicken out on me!	movies	carancho	false
+carancho	341	2043.18	2045.61	Bueno. Dale. Ah va. No grites, eh?	Okay, here it goes. Don't shout.	movies	carancho	false
+carancho	342	2054.42	2056.52	Aguant, aguant. Aguant.	Hang in there!	movies	carancho	false
+carancho	343	2056.63	2058.18	Dale, aguant.	C'mon, be strong!	movies	carancho	false
+carancho	344	2058.29	2060.56	No grites que se pudre todo.	Don't shout or we're fucked.	movies	carancho	false
+carancho	345	2065.4	2067.03	Escuchame. me escuchs?	Listen to me!	movies	carancho	false
+carancho	346	2067.14	2070.13	- S. - Ahora vas a seguir vos solo. Acordate de lo que te dije.	It's all you from here, Remember what I told you?	movies	carancho	false
+carancho	347	2070.24	2073.04	No lo mires. - Vega. me os? - S.	Don't look at him, Vega, do you hear me?	movies	carancho	false
+carancho	348	2150.12	2151.45	Qu pas, flaco?	What happened, dude?	movies	carancho	false
+carancho	349	2151.55	2156.51	No lo vi. No s. Apareci por ah. Nunca me pas una cosa as!	He jumped out of nowhere! This has never happened to me!	movies	carancho	false
+carancho	350	2156.63	2159.39	- Qu hiciste. Pelotudo?	- What did you do?	movies	carancho	false
+carancho	351	2159.5	2162.33	- Seor. est bien? - Viejo. me escuchs?	- Are you okay, sir? - Can you hear me?	movies	carancho	false
+carancho	352	2162.43	2165.2	Nunca me paso una cosa as. Hace 30 aos que manejo.	I've been driving 30 years and this never happened to me!	movies	carancho	false
+carancho	353	2165.3	2165.74	Dnde vamos. Pico?	Where are we going, Pico?	movies	carancho	false
+carancho	354	2165.74	2167.17	Dnde vamos. Pico?	Where are we going, Pico?	movies	carancho	false
+carancho	355	2167.27	2168.79	A un auxilio.	To aid a victim,	movies	carancho	false
+carancho	356	2168.91	2171.03	Si no llamaron de central...	But headquarters didn't radio us.	movies	carancho	false
+carancho	357	2171.14	2175.01	No importa, Lujn. Vos preparate para atender porque ya llegamos. ok?	It doesn't matter, Lujn. Just get ready, we're almost there.	movies	carancho	false
+carancho	358	2192.76	2194.32	Hola.	Hi.	movies	carancho	false
+carancho	359	2195	2198.06	Qu haces ac? Cmo qu hago ac? Estoy trabajando.	- What are you doing here? - What? I'm working.	movies	carancho	false
+carancho	360	2198.17	2200.73	- S. Perdn. - Qu pas?	- Of course, sorry. - What happened?	movies	carancho	false
+carancho	361	2202.57	2205.7	Tiene una factura en la cabeza me parece. Y en la pierna.	I think he has a skull and a leg fracture.	movies	carancho	false
+carancho	362	2214.12	2218.18	S. Estuvo todo el tiempo inconsciente?	- Has he been unconscious since? - Yes.	movies	carancho	false
+carancho	363	2221.32	2223.42	Sabs como se llama?	Do you know his name?	movies	carancho	false
+carancho	364	2224.19	2226.49	Vega, es mi amigo.	Vega, he's a friend.	movies	carancho	false
+carancho	365	2229.73	2231.29	La camilla.	The stretcher.	movies	carancho	false
+carancho	366	2231.9	2234.37	- Pon una mano ac y a otra ac. - S.	Put a hand here and the other there.	movies	carancho	false
+carancho	367	2234.47	2237.74	- Ah va. ests listo? - Vamos?	Ready? One, two, three, Let's go.	movies	carancho	false
+carancho	368	2237.84	2239.64	Uno, Dos, tres, ah va.	One, two, three...	movies	carancho	false
+carancho	369	2239.74	2241.87	- Bajamos. - Cuidado.	- And down... - Careful.	movies	carancho	false
+carancho	370	2241.98	2244.21	A ver. Pasale este suncho.	Strap this around.	movies	carancho	false
+carancho	371	2245.75	2248.11	Ponele el suncho de all.	Strap that one.	movies	carancho	false
+carancho	372	2248.48	2252.15	Ya est. Ya est. - Dale. Vamos a subirlo. - Uno, Dos, tres.	That's good, let's lift him up.	movies	carancho	false
+carancho	373	2252.72	2255.02	Me pods explicar qu es lo que pas? Eh?	Can you explain what happened?	movies	carancho	false
+carancho	374	2256.49	2258.43	Ahora no. Esper.	Not now, Later.	movies	carancho	false
+carancho	375	2258.76	2262.03	Vamos? - Uno. Dos. Tres. - Ah va. est fijo?	- Ready? - One, two, three!	movies	carancho	false
+carancho	376	2262.13	2263.96	Despus te cuento todo, s?	I'll tell you everything later,	movies	carancho	false
+carancho	377	2264.07	2266.53	Subilo. Pico. Listo. Ya es mo.	- Take him in, Pico. - I've got him.	movies	carancho	false
+carancho	378	2268.07	2269.87	Ven conmigo. Sub.	Come with me.	movies	carancho	false
+carancho	379	2275.91	2278.44	Qu pas?	What happened?	movies	carancho	false
+carancho	380	2278.55	2280.52	Por favor. Ahora no. Despus te explico todo.	Please, not now. Later.	movies	carancho	false
+carancho	381	2280.62	2282.28	Salvlo. Ayudme.	Save him. Help me.	movies	carancho	false
+carancho	382	2282.39	2284.95	Despus te cuento todo, te lo juro.	I swear I'll tell you everything.	movies	carancho	false
+carancho	383	2286.36	2288.38	Toma, ponete esto.	Here, put these on.	movies	carancho	false
+carancho	384	2288.49	2291.32	Qu hago? Pontelo.	- What do I do? - Put them on.	movies	carancho	false
+carancho	385	2297.07	2299.19	Sabes qu tom?	Do you know what he took?	movies	carancho	false
+carancho	386	2299.54	2302.06	Un tramado y codena.	Tramadol and codeine.	movies	carancho	false
+carancho	387	2302.17	2304.14	Y por qu?	Why?	movies	carancho	false
+carancho	388	2304.47	2306.44	Para que no le duela.	So it wouldn't hurt.	movies	carancho	false
+carancho	389	2306.54	2308.87	No, no entiendo Sosa.	I don't get it, Sosa.	movies	carancho	false
+carancho	390	2309.61	2312.78	Yo despus te voy a contar todo, s? Ahora salvalo.	I'll explain everything, alright?	movies	carancho	false
+carancho	391	2312.88	2314.75	- Se par. - Eh? - Cmo que se par? - Escuchme, agarra sto.	He's in arrest! Grab this!	movies	carancho	false
+carancho	392	2314.85	2319.91	Cuando yo te diga, vas a apretar dos veces.	When I tell you to, press it twice, Now, start.	movies	carancho	false
+carancho	393	2320.99	2324.45	Dale, empez. Qu hago? Decme. Cuando yo te aviso, empez a bombear.	- How? Tell me, - When I tell you, start pumping.	movies	carancho	false
+carancho	394	2324.56	2327.79	Uno. Dos. - A cunto estamos, Pico?	One, two... Pico! How far are we?	movies	carancho	false
+carancho	395	2327.9	2333.4	- 6, 7, minutos, como mucho - Bueno, llama y avis que se par. - S. Mvil 28 a base.	- Six or seven minutes, - Call to say he's in arrest. Unit 28 to base,	movies	carancho	false
+carancho	396	2344.55	2348.31	Recibido y notificado, seor. Aguant boludo. No me hagas esto.	- [Recieved and understood.] - Hang in there, man.	movies	carancho	false
+carancho	397	2350.95	2352.65	Hola. cmo ests? Contame. qu paso?	Tell me what's going on,	movies	carancho	false
+carancho	398	2354.02	2355.29	Es un accidente en va pblica,	Traffic accident,	movies	carancho	false
+carancho	399	2357.39	2360.52	masculino, 65 aos.	Male, 65 years old...	movies	carancho	false
+carancho	400	2360.63	2364.12	TEC con prdida de conocimiento.	His vitals are out.	movies	carancho	false
+carancho	401	2364.23	2366	Est en paro hace 7 minutos.	We've been doing CPR for 7 minutes.	movies	carancho	false
+carancho	402	2366.1	2369.3	Pasaste algn tipo de medicacin? - No. Nada. - Es alrgico a alguna medicacin?	- Did you administer anything? - No. Any known allergies to medication?	movies	carancho	false
+carancho	403	2375.88	2379.78	- Un paro. 65 aos. Un politrauma grave. TEC con prdida de conocimiento.	Cardiac arrest, 65-year-old patient, polytrauma...	movies	carancho	false
+carancho	404	2388.82	2390.66	Llevate la Camilla, Pico.	Take the stretcher, Pico,	movies	carancho	false
+carancho	405	2391.63	2393.46	&nbsp;-Me conects el oxigeno, por favor?	Hook up the oxygen, please,	movies	carancho	false
+carancho	406	2397.5	2399.33	- Dame un poquito de vaselina. - Prendido monitor.	- Get me Vaseline. - Monitor's on.	movies	carancho	false
+carancho	407	2399.44	2401.7	Preparamos una va perifrica para entubar.	Put a line in, please,	movies	carancho	false
+carancho	408	2401.8	2404.67	- Cargando. - Dame el oxigeno.	- Charging! - Get me the oxygen.	movies	carancho	false
+carancho	409	2406.01	2407.81	Atrs. Descarga.	Step back! Discharge!	movies	carancho	false
+carancho	410	2408.88	2410.97	- Ah va. les ayudo en algo ms?	Can I be of any help?	movies	carancho	false
+carancho	411	2411.08	2414.35	No. Pas por admisin y dejme un resumen solamente.	Go by admissions and write a summary, that's all.	movies	carancho	false
+carancho	412	2415.25	2417.05	- Dale. - Para entubar. Por favor.	For intubation, please.	movies	carancho	false
+carancho	413	2429.23	2431.06	Lujn, cmo est?	Lujn, how is he?	movies	carancho	false
+carancho	414	2431.6	2433.12	Est muerto. Sosa.	He is dead, Sosa.	movies	carancho	false
+carancho	415	2433.24	2437.94	Qu decs? Cmo que est?	What do you mean dead? He can't be dead!	movies	carancho	false
+carancho	416	2438.04	2442.3	Est muerto. No me toques, sabs?	He is dead, Get your hands off me! Understood? Hands off!	movies	carancho	false
+carancho	417	2464.37	2466.2	Espere afuera por favor.	Wait outside, please.	movies	carancho	false
+carancho	418	2498.8	2500.33	Doctora?	Doctor?	movies	carancho	false
+carancho	419	2500.74	2504.6	Subcomisario Ibez. - Doctor Casa, buenas noches. - Buenas noches.	- Captain Ibez, - Counse or Casal. Good evening.	movies	carancho	false
+carancho	420	2504.71	2507.97	Usted hizo el auxilio de la calle Morelli. verdad?	You intervened on Morelli Street, right?	movies	carancho	false
+carancho	421	2508.08	2511.81	Necesitara una copia del ese informe, por favor.	I'd need a copy of that report, please.	movies	carancho	false
+carancho	422	2511.91	2514.58	Pueden pedirla ac en admisin. Permiso.	Ask the admissions desk. Excuse me.	movies	carancho	false
+carancho	423	2514.68	2517.31	No se preocupe. Muchas gracias.	Don't worry, many thanks,	movies	carancho	false
+carancho	424	2517.42	2521.36	Doctora, vamos a necesitar su nmero de matricula, datos de siniestro.	We'll need your license number and details about the accident,	movies	carancho	false
+carancho	425	2521.46	2523.72	Colaboracin en la pericia...	If you agreed to cooperate...	movies	carancho	false
+carancho	426	2525.63	2530.03	l quera cuidarte que ests bien. - No te voy a dejar sola. Te lo juro. - Perdn.	He wanted to take care of you, I won't abandon you. Excuse me.	movies	carancho	false
+carancho	427	2531.1	2536.13	Tranquila, hicimos todo lo que pudimos. - Lo siento mucho. - Gracias. Doctora.	Calm down. We did all we could, I'm very sorry, ma'am.	movies	carancho	false
+carancho	428	2536.24	2538.1	Tranquila.	Calm down...	movies	carancho	false
+carancho	429	2541.74	2545.51	Esperme ac, tengo que arreglar un asunto.	I have to settle something. I'll be back.	movies	carancho	false
+carancho	430	2566.27	2568.96	Vos ests loco? Cmo no me vas a avisar en lo que me mets?	Are you crazy, dragging me into your schemes?	movies	carancho	false
+carancho	431	2569.07	2573.41	No s. Era un traslado como cualquiera. - Un tipo con una pata quebrada. - Vos me estas jodiendo?	It was just supposed to be a broken leg. You've got to be kidding!	movies	carancho	false
+carancho	432	2573.51	2576.27	Yo soy la que firmo, vos no perds nada.	I sign the papers, You have nothing to lose!	movies	carancho	false
+carancho	433	2576.38	2578.28	- Me voy a mi casa. - Lujn. Escuchme un segundo.	- I'm going home. - Wait!	movies	carancho	false
+carancho	434	2578.38	2579.57	- No me toques. - Escuchme.	Get your hands off me.	movies	carancho	false
+carancho	435	2579.68	2584.38	Est bien. Pero escuchme, es importante. Qu te preguntaron? Qu te dijeron?	Okay, but this is very important! What did they say?	movies	carancho	false
+carancho	436	2584.49	2588.25	No firmes nada. No declares nada, esto lo tengo que arreglar yo.	Sign no papers, make no statements, I have to fix this myself.	movies	carancho	false
+carancho	437	2588.36	2589.65	Qu vas a arreglar vos?	Fix what?	movies	carancho	false
+carancho	438	2589.76	2592.75	Vos no tenas que estar metida en esto. Te pido que me perdones.	You shouldn't have been involved, Forgive me.	movies	carancho	false
+carancho	439	2592.86	2595.56	No tengo nada que perdonarte, Sosa.	I don't have anything to forgive.	movies	carancho	false
+carancho	440	2597.4	2599.39	Se acaba de morir un tipo por tu culpa.	A man just died because of you.	movies	carancho	false
+carancho	441	2599.5	2602.96	Aunque vos no me lo creas. E estaba haciendo un favor a Vega.	I know you don't believe me, but I was doing Vega a favor.	movies	carancho	false
+carancho	442	2603.07	2604.3	 necesitaba la plata, era algo simple.	He needed the money.	movies	carancho	false
+carancho	443	2604.41	2607.81	Tena que salir bien. Pero sali mal.	Things should've gone smoothly.	movies	carancho	false
+carancho	444	2610.25	2612.27	No s qu hacer.	I don't know what to do.	movies	carancho	false
+carancho	445	2612.65	2615.31	Y yo te tengo que decir qu tens que hacer?	And I'm supposed to tell you?	movies	carancho	false
+carancho	446	2615.42	2617.51	Ests grande. Sosa.	You're a big boy, Sosa,	movies	carancho	false
+carancho	447	2618.65	2620.85	No te quiero ver ms.	I don't want to see you again.	movies	carancho	false
+carancho	448	2695.46	2698.7	Tiene un laboratorio hecho. Tiene dolor abdominal. Tienen que venir los cirujanos.	His labs are done. He has abdominal pain.	movies	carancho	false
+carancho	449	2698.8	2700.83	- Los lamaste ya? - S, pero no legaron.	- Surgeon's on his way. - Paged him?	movies	carancho	false
+carancho	450	2703.41	2707.17	Tiene una fractura expuesta y traumatismo de crneo.	Male, fell at work, Exposed fracture and cranial trauma.	movies	carancho	false
+carancho	451	2707.28	2709.01	- Le pediste placas? - Las placas s.	- X-rays? - They're done.	movies	carancho	false
+carancho	452	2712.92	2716.01	Este es un seor que parece una TBC.	- This one? - This guy apparently has TB,	movies	carancho	false
+carancho	453	2716.12	2718.92	A ver? Y porqu no lo aislaste?	Let me see... Why isn't he in isolation?	movies	carancho	false
+carancho	454	2719.02	2722.48	Porque no, no s. No lo vi yo, no hay cama tampoco.	I wasn't attending, There are no beds anyway,	movies	carancho	false
+carancho	455	2722.59	2725.96	Necesito un reemplazo para la guardia de los viernes, te interesa?	Would you be interested in the Friday shift?	movies	carancho	false
+carancho	456	2726.06	2729.29	S. Claro. No parece.	- Yes, of course. - You don't look it.	movies	carancho	false
+carancho	457	2729.4	2733.33	No, no. Pasa que es mi nico da libre y estoy un poco cansada, nada ms.	It's just that Friday's my day off, I'm sort of tired...	movies	carancho	false
+carancho	458	2733.44	2736.96	Para tu nombramiento te conviene acumular horas.	If you want to get appointed, pile up some extra hours.	movies	carancho	false
+carancho	459	2737.31	2740.67	S. S. Te anoto? S. Gracias.	- Should I sign you? - Yes, thanks.	movies	carancho	false
+carancho	460	2744.78	2746.34	Tiene ruido.	Can't hear a thing.	movies	carancho	false
+carancho	461	2746.45	2748.71	Apuren que tengo dos ms esperando afuera.	I have two more waiting outside.	movies	carancho	false
+carancho	462	2750.45	2752.42	La panza est blandita. Dale.	His belly is fine.	movies	carancho	false
+carancho	463	2752.52	2754.32	Yo me encargo.	Go. I'll handle it,	movies	carancho	false
+carancho	464	2754.42	2756.19	- Qu pasa, flaco?	What happened to you?	movies	carancho	false
+carancho	465	2760.46	2763.63	Dnde te pegaron? - Por todos lados. - Por todos lados?	- Where did they hit you? - Everywhere!	movies	carancho	false
+carancho	466	2763.73	2767.46	Perdiste el conocimiento? Qu haces. Gordo. Ac? La concha de tu madre. Pedazo de puto.	- Did you lose consciousness? - You're here, piece of shit?	movies	carancho	false
+carancho	467	2773.81	2775.83	Par. Llam la seguridad.	Call security!	movies	carancho	false
+carancho	468	2866.57	2869.37	Dale Pico, pon la sirena as avanzamos.	Turn on the siren so we can move!	movies	carancho	false
+carancho	469	2869.47	2872.44	Para, es un semforo, qu quers que haga? Mir.	It's a red light. What can I do?	movies	carancho	false
+carancho	470	2877.45	2879.14	Te gusta ah?  Quers sta?	Is that good? Wanna try the other one?	movies	carancho	false
+carancho	471	2880.22	2882.71	Desde que se raj de la fundacin no o vi ms.	Since he left the Foundation, no news.	movies	carancho	false
+carancho	472	2882.82	2884.68	Y me qued debiendo unos pesos.	He still owes me money.	movies	carancho	false
+carancho	473	2884.79	2887.45	Yo hace rato que no lo veo tampoco.	It's been a while since I saw him.	movies	carancho	false
+carancho	474	2887.79	2890.35	Yo lo vi en... La San Martn.	I saw him at San Martin Hospital,	movies	carancho	false
+carancho	475	2890.46	2893.16	Paso por un pasillo.	Saw him in a hall way,	movies	carancho	false
+carancho	476	2893.26	2895.73	Y vos no lo viste por ah?	Haven't you seen him around?	movies	carancho	false
+carancho	477	2897.97	2904.27	E boga me dice "Ah. Te quera confirmar a ver si sabs algo". 5 das en Tablada.	Nothing, the lawyer called asking if I'd heard about those five days in Tablada.	movies	carancho	false
+carancho	478	2904.37	2907.5	E digo; "No, mira... Ni idea, a m no me avisaron nada".	I told him I didn't have a clue,	movies	carancho	false
+carancho	479	2907.61	2909.48	Y me dice; "No s. Yo voy a ir igual".	He said he'd go anyway.	movies	carancho	false
+carancho	480	2933.67	2936.93	Una para traumato, un masculino.	One for traumatology, a male.	movies	carancho	false
+carancho	481	2938.21	2941.51	Una mujer para ciruga.	A woman for surgery.	movies	carancho	false
+carancho	482	2947.12	2950.55	Un chico de 25 aos para aislar.	A 25-year-old guy for isolation.	movies	carancho	false
+carancho	483	2951.52	2953.72	No, se hay que derivarlo.	No, we need to transfer that one.	movies	carancho	false
+carancho	484	2953.82	2957.31	Bueno. E dejo ac los pedidos. Gracias, eh?	Here are the orders, thanks.	movies	carancho	false
+carancho	485	2961.46	2962.95	Qu haces ac?	What are you doing here?	movies	carancho	false
+carancho	486	2963.07	2964.53	- Te estuve llamando. - S. Ya s.	- I've been calling you. - I know.	movies	carancho	false
+carancho	487	2964.63	2968.57	Te dejo mensajes, no atends, no contests...	I left messages, but you never answer.	movies	carancho	false
+carancho	488	2968.94	2970.63	Necesito hablar con vos.	I need to talk to you,	movies	carancho	false
+carancho	489	2970.74	2972.33	S. Pero ac no. No quiero que me vean con vos.	Okay, but not here. I don't want to be seen with you.	movies	carancho	false
+carancho	490	2972.44	2975.88	Bueno. Decme cundo, dnde... Y yo voy. No tengo problema.	So tell me when and where. I'll be there.	movies	carancho	false
+carancho	491	2976.88	2980.81	Necesito que me escuches un minuto. Slo eso.	I just need you to listen to me, for just a minute.	movies	carancho	false
+carancho	492	2987.09	2988.89	Cundo?	When?	movies	carancho	false
+carancho	493	2989.73	2992.19	No s. Ahora estoy trabajando.	I don't know, I'm working now.	movies	carancho	false
+carancho	494	3033.03	3034.83	Qu carajo te pasa. Sosa?	What's with you, Sosa?	movies	carancho	false
+carancho	495	3034.94	3037.4	Qu? Viste a la virgen? Sos bueno ahora?	Virgin Mary turn you into a good boy?	movies	carancho	false
+carancho	496	3037.51	3039.06	Quin te hablo, Jess?	Did Jesus talk to you?	movies	carancho	false
+carancho	497	3039.64	3041.47	Esa plata no es tuya.	That money is not yours.	movies	carancho	false
+carancho	498	3041.58	3044.67	Vas a tener que romper muchos huesos ahora para devolverla.	You'll have to break many bones to it pay back.	movies	carancho	false
+carancho	499	3044.78	3047.91	Y mientras tanto. A m me van a seguir mandando a cagarte a trompadas.	Meanwhile, they'll keep sending me to beat your ass.	movies	carancho	false
+carancho	500	3049.52	3051.01	Qu le digo a Casal?	What should I tell Casal?	movies	carancho	false
+carancho	501	3051.12	3053.31	Decme, qu le digo a Casal?	Tell me what to tell Casal,	movies	carancho	false
+carancho	502	3053.42	3055.95	Cunto hace que nos conocemos, Sosa?	How long have we known each other?	movies	carancho	false
+carancho	503	3056.06	3058.92	Sabs que a m me encantara estar con Romina en casa,	You know I'd rather be with Romina at home,	movies	carancho	false
+carancho	504	3059.03	3066.33	con los chicos mirando a la tele... y sin embargo. Tengo que venir ac a explicarle a un pelotudo como vos como son las cosas. Eh?	or with the kids watching TV. But instead, I have to come beat some sense into you.	movies	carancho	false
+carancho	505	3067.77	3070.8	Qu el digo a Casal. Sosa?	What should I tell Casal, Sosa?	movies	carancho	false
+carancho	506	3070.91	3074.6	Y que te quede claro algo, Sosa. Que te quede claro algo.	And this better be crystal clear.	movies	carancho	false
+carancho	507	3074.71	3078.7	Ac el nico responsable sos vos, a concha de tu madre.	You are the only responsible for this, stupid son of a bitch.	movies	carancho	false
+carancho	508	3095.16	3099.96	Te est buscando un tipo que tiene un corte en la cabeza, hace como 10 minutos que est esperndote.	A guy with a head injury has been asking for you for ten minutes.	movies	carancho	false
+carancho	509	3105.47	3107.27	vos me estas jodiendo?	Is this some kind of joke?	movies	carancho	false
+carancho	510	3107.38	3109.04	Qu te paso?	What happened?	movies	carancho	false
+carancho	511	3113.55	3116.24	- Pods? - S. Claro.	- Can you sit? - Yes, of course.	movies	carancho	false
+carancho	512	3117.89	3119.91	A ver. Ven. Dale.	Come with me.	movies	carancho	false
+carancho	513	3121.06	3122.85	- La campera? - Ya la agarr.	- My jacket? - I've got it.	movies	carancho	false
+carancho	514	3124.69	3126.63	Dale, apurte.	Hurry up.	movies	carancho	false
+carancho	515	3128.86	3130.7	- And all. - Perdonme.	- Over there. - Sorry.	movies	carancho	false
+carancho	516	3132.5	3135.9	El caso de Vega iba a ser el ltimo. Era fci.	The Vega case was to be the last, It was an easy one.	movies	carancho	false
+carancho	517	3136	3138.17	Si lo haba hecho varias veces.	I'd done it several times.	movies	carancho	false
+carancho	518	3138.27	3141.07	Siempre salieron todos beneficiados.	Everyone got what they wanted.	movies	carancho	false
+carancho	519	3141.74	3145.08	Iba a ser mi ltimo trabajo para la fundacin, te lo juro.	It was my last job for the Foundation.	movies	carancho	false
+carancho	520	3145.71	3146.68	A ver. Quedte as.	Stay like this.	movies	carancho	false
+carancho	521	3146.78	3150.68	Necesitaba recuperar a matricula para sacrmelos de encima. Nada ms.	I just needed my license back, so I could be free.	movies	carancho	false
+carancho	522	3150.79	3153.55	Despus en el medio de todo ese quilombo...	But in the middle of all that mess...	movies	carancho	false
+carancho	523	3154.79	3156.69	Apareciste vos...	you turned up,	movies	carancho	false
+carancho	524	3157.56	3162.43	y empec a sentir que las cosas podan cambiar.	And I started to feel things could change.	movies	carancho	false
+carancho	525	3164.27	3166.06	Pero claro...	But of course...	movies	carancho	false
+carancho	526	3167.7	3170.4	algo tena que salir mal. no?	something had to go wrong.	movies	carancho	false
+carancho	527	3170.51	3171.77	Algo...	Something...	movies	carancho	false
+carancho	528	3173.51	3174.77	Quedte as.	Stay put.	movies	carancho	false
+carancho	529	3174.88	3177	No s. Ahora es tan raro.	It's so weird.	movies	carancho	false
+carancho	530	3178.18	3181.24	Es como si saliera dela crcel.	Feels like getting out of jail.	movies	carancho	false
+carancho	531	3182.65	3186.64	Recuper a matrcula. Puedo trabajar solo, pero no lo puedo hacer ac.	Even with my license back, I can't work here.	movies	carancho	false
+carancho	532	3187.19	3189.45	Esto fue un aviso.	This was a warning,	movies	carancho	false
+carancho	533	3191.46	3194.39	Estoy empezando a hacer as cosas bien.	I'm starting to do things right.	movies	carancho	false
+carancho	534	3194.5	3196.12	Esto es hacer las cosas bien?	This is how you do it?	movies	carancho	false
+carancho	535	3196.23	3201.73	me hice cagar a trompadas para que me des un poquito de bola.	I had them beat the hell out of me to get your attention.	movies	carancho	false
+carancho	536	3202.44	3206.24	Cobr toda la plata de Vega. Se la dla su mujer.	I collected all the Vega money, Gave it to his wife.	movies	carancho	false
+carancho	537	3207.18	3209.84	E la se o mereca.	She deserved it.	movies	carancho	false
+carancho	538	3209.95	3212.81	Y yo, que me caguen a trompadas.	They can beat the hell out of me.	movies	carancho	false
+carancho	539	3213.55	3217.04	No puedo seguir trabajando ac, Lujn.	I can't keep working here, Lujn,	movies	carancho	false
+carancho	540	3217.75	3221.38	Me vas a tener todas las semanas ac en la guardia.	Or you'll be stitching my face every week.	movies	carancho	false
+carancho	541	3223.39	3226.29	Por eso me tengo que rajar. entends?	That's why I have to leave.	movies	carancho	false
+carancho	542	3226.73	3229.06	Tena dos opciones.	I had two options:	movies	carancho	false
+carancho	543	3229.16	3231.79	Venir a despedirme...	I could come say goodbye...	movies	carancho	false
+carancho	544	3232.37	3235.5	o pedirte que me acompaes.	or ask you to come with me.	movies	carancho	false
+carancho	545	3238.51	3240.3	Qu opins?	What do you think?	movies	carancho	false
+carancho	546	3242.71	3245.44	Que no sabs lo que ests diciendo.	That you're talking nonsense,	movies	carancho	false
+carancho	547	3247.85	3250.72	Ahora vengo. Es en serio.	- I'll be back, - I mean it.	movies	carancho	false
+carancho	548	3254.76	3258.99	Estaba todo golpeado. Cmo todo? Todo golpeado? Cunto?	- He was beat up, - Beat up? How badly, when?	movies	carancho	false
+carancho	549	3262.53	3265.43	Qu? As onda puntos y todo eso?	Did he need stitches, and all?	movies	carancho	false
+carancho	550	3266.1	3269.07	S. Le di dos puntos.	Yeah, gave him two.	movies	carancho	false
+carancho	551	3269.5	3271.37	Vos le diste diez puntos. Te enamoraste, eh?	You would've given him 10!	movies	carancho	false
+carancho	552	3271.47	3273.91	- Lo viste y te lo compraste. - Qu boludo que sos.	You fell for him at first sight! - Don't be a jerk, Pico.	movies	carancho	false
+carancho	553	3274.01	3277.5	Digo "Sosa" y mir cmo te pons.	- Look how you get...	movies	carancho	false
+carancho	554	3277.61	3279.08	Qu pelotudo.	You're a jerk!	movies	carancho	false
+carancho	555	3289.79	3293.89	Que carajo te pas. Sosa? Sos moglico?	What the fuck happened to you, Sosa? Are you stupid?	movies	carancho	false
+carancho	556	3294	3296.93	para que un pelotudo como vos me traiga problemas.	I have enough problems without your stupid ass,	movies	carancho	false
+carancho	557	3297.03	3301.06	- S lo quiero que me dejen en paz. - Me chupa un huevo!	I just want to be left a one. I don't give a shit!	movies	carancho	false
+carancho	558	3301.4	3303.87	En esta zona no laburs.	You can't work this area.	movies	carancho	false
+carancho	559	3303.97	3308.51	Me cagaste el caso Vega, te quedaste con mi plata. ahora quers ms?	You fucked up the Vega case, you kept my money and now you want more?	movies	carancho	false
+carancho	560	3308.61	3311.51	Lo que le diste al viejo cobrtelo de lo que me debas. Estamos a mano.	Deduct it from all you owe me, We'll be even.	movies	carancho	false
+carancho	561	3311.61	3313.38	- A mano? - A mano, s.	- Even? - Even, yes.	movies	carancho	false
+carancho	562	3313.48	3316.78	Sosa, vos no pods negociar con nada.	Sosa, you are in no position to negotiate.	movies	carancho	false
+carancho	563	3317.69	3319.95	Haceme caso, perdete. Desaparec.	Know what? Get lost, Disappear.	movies	carancho	false
+carancho	564	3320.06	3321.65	- No me quiero meter con vos.	I don't want back in,	movies	carancho	false
+carancho	565	3321.76	3324.62	Yo trabaj para ustedes mucho tiempo. Pero eso ya termin.	I worked for you guys too long. It's over.	movies	carancho	false
+carancho	566	3324.73	3326.63	Necesito que me dejen laburar tranquilo,	Let me work in peace,	movies	carancho	false
+carancho	567	3326.73	3329.42	poder juntar un poco de guita y rajarme. Slo eso.	I'll get some money together and leave.	movies	carancho	false
+carancho	568	3329.53	3334.03	Yo te entiendo, pero los accidentes son mos.	I understand, But those are my accidents, my clients.	movies	carancho	false
+carancho	569	3334.14	3336.47	Los clientes son mos, el policlnico es mo.	It's my clinic and my hospital.	movies	carancho	false
+carancho	570	3336.57	3338.73	El hospital es mo, San Justo es mo. el pas es mo!	San Justo is mine, this country is mine!	movies	carancho	false
+carancho	571	3338.84	3342.04	As que. Andate bien lejos si no quers quilombo.	So stay away if you don't want any trouble.	movies	carancho	false
+carancho	572	3342.14	3343.67	Sino. No s...	Otherwise,	movies	carancho	false
+carancho	573	3344.88	3349.18	Hac consorcio, divorcio, sucesiones.	try doing homeowners' association, divorce cases, estates...	movies	carancho	false
+carancho	574	3349.92	3352.35	Francisco Abendao, choque de colectivos.	Francisco Abendao... Bus crash,	movies	carancho	false
+carancho	575	3352.45	3358.86	La compaa pag 270.000 pesos, l recibi 30.	The company paid 270 grand, he got 30,000.	movies	carancho	false
+carancho	576	3358.96	3362.83	Delia Ortega. Estaba embarazada cuando el auto a levant en la senda pelatona,	Delia Ortega, pregnant, hit at a pedestrian crossing.	movies	carancho	false
+carancho	577	3362.93	3364.23	me acuerdo perfectamente.	I remember accurately.	movies	carancho	false
+carancho	578	3364.33	3366.8	- Pagaron 150. ella recibi 25.	They paid 150, she got 25,	movies	carancho	false
+carancho	579	3366.9	3371.43	Rodrigo Surez. Accidente de moto. Pagaron 80, recibi 11.	Rodrigo Surez. Bike accident. They paid 80, he got 11,	movies	carancho	false
+carancho	580	3371.54	3373.47	Martn Prieti y su familia, te acords?	Martn Prieti and his family, remember?	movies	carancho	false
+carancho	581	3373.58	3376.74	Pagaron 112.000,  recibi 35. sigo?	They paid 112 grand, he got 35. Should I keep going?	movies	carancho	false
+carancho	582	3376.85	3378.57	Qu sos? La voz de mi consciencia?	Are you the voice of conscience or something?	movies	carancho	false
+carancho	583	3378.68	3381.48	No. Tengo todos os telfonos. Boludo.	No, I have their phone numbers, you jerk.	movies	carancho	false
+carancho	584	3382.72	3385.88	Tengo todas las copias de las actas de acuerdo.	I have every copy of the agreement forms.	movies	carancho	false
+carancho	585	3385.99	3390.48	Si quiero. Hago que te presenten una demanda por semana, te vuelvo loco.	I can have them sue you, once a week 'till I drive you crazy.	movies	carancho	false
+carancho	586	3390.59	3393.93	Hasta cundo vas a julgar a que sos el jefe?	Do you still think you're in charge?	movies	carancho	false
+carancho	587	3394.03	3399.26	Quin te va a defender? El Perro? Rinaldi? Quin?	Who's going to protect you? The Dog? Rinaldi? Who?	movies	carancho	false
+carancho	588	3399.37	3403.06	Me ests amenazando?	Are you threatening me?	movies	carancho	false
+carancho	589	3403.17	3406.73	Vos ests loco? Vos te olvids todo o que hice yo por vos?	Are you nuts? After everything I've done for you?	movies	carancho	false
+carancho	590	3406.84	3409.67	Yo te encontr tirado. Te di laburo, te cuid...	I got you back on your feet, gave you a job.	movies	carancho	false
+carancho	591	3409.78	3411.9	- Me vas a emocionar. - Emocionte, pelotudo!	- That's really sentimental, - Sure it is, asshole!	movies	carancho	false
+carancho	592	3412.01	3417.87	Escuchme una cosa. Necesito que me des un poco de tiempo, juntar un poco de guita, y me voy a la mierda.	Listen to me! Give me a little time to save up and I'll leave for good.	movies	carancho	false
+carancho	593	3417.99	3421.68	Es solo eso. Lo pods entender. O no?	That's all I'm asking. Don't you get it?	movies	carancho	false
+carancho	594	3422.79	3425.05	No lo puedo creer.	I don't believe this!	movies	carancho	false
+carancho	595	3432.53	3435	- Tranquilo Sosa. - Me das asco. Boludo.	- Calm down, Sosa. - You make me sick.	movies	carancho	false
+carancho	596	3435.64	3437.4	- Ojo con lo que hacs. - La concha de tu madre.	- Don't do anything stupid. - Fuck you!	movies	carancho	false
+carancho	597	3437.97	3441.1	Vos atendiste a Nevares, un paciente con FA?	Did you treat Nevares? The one with atrial fibrillation?	movies	carancho	false
+carancho	598	3441.21	3442.27	S.	Yes.	movies	carancho	false
+carancho	599	3442.38	3444.71	Y le diste heparina? S. Claro.	- Did you give him heparin? - Of course.	movies	carancho	false
+carancho	600	3444.81	3445.51	Claro? Sos tarada?	Are you nuts?	movies	carancho	false
+carancho	601	3445.51	3446.48	Claro? Sos tarada?	Are you nuts?	movies	carancho	false
+carancho	602	3446.58	3448.48	Qu quers? Matarlo?	Do you want to kill him?	movies	carancho	false
+carancho	603	3448.58	3451.95	No te diste cuenta que el tipo tena una hemorragia digestiva?	Didn't you realize he had a digestive hemorrhage?	movies	carancho	false
+carancho	604	3452.45	3456.76	- No, no me di cuenta. Perdn. - En qu ests pensando? - Es que estoy sin dormir.	No, I didn't, Sorry. - What were you thinking? - I need sleep.	movies	carancho	false
+carancho	605	3456.86	3460.03	- Estamos todos cansados. Pero vas a terminar matando a alguien.	We're all tired! You'll end up killing someone.	movies	carancho	false
+carancho	606	3460.6	3462.03	And y resolvelo.	Go fix it.	movies	carancho	false
+carancho	607	3462.13	3464.03	Pero yo me estaba yendo ya.	But I was on my way out...	movies	carancho	false
+carancho	608	3464.13	3468.16	Vos te queds hasta que o resuelvas, est claro?	You'll stay until this is fixed. Am I clear?	movies	carancho	false
+carancho	609	3486.89	3488.56	Doctora, arriba.	Doctor, they're waiting upstairs.	movies	carancho	false
+carancho	610	3511.58	3513.34	Vamos. Lujn. Que pas?	- C'mon, Lujn, - What happened?	movies	carancho	false
+carancho	611	3513.45	3516.47	Se pegaron un palo en la ruta, un auto y un camin.	A car hit a truck on the highway.	movies	carancho	false
+carancho	612	3516.58	3517.09	Cuantas vctimas hay? Y, tenemos 6 vctimas...	- How many victims? - Six victims.	movies	carancho	false
+carancho	613	3519.22	3522.82	- 6? - 6. Y 3 aparentemente muy graves.	Six? Three in very serious condition.	movies	carancho	false
+carancho	614	3522.92	3524.05	Cuntos somos?	How many are we?	movies	carancho	false
+carancho	615	3524.16	3526.25	Estamos Jurez. Vos y yo.	It's Jurez, you and me.	movies	carancho	false
+carancho	616	3526.36	3529.52	- Y Garrido donde est? - Garrido est yendo para la guardia.	- What about Garrido? - Garrido is doing triage.	movies	carancho	false
+carancho	617	3534.87	3536.3	Se ahoga. Aydeme, Se ahoga. Se ahoga!	He's choking.	movies	carancho	false
+carancho	618	3540.94	3543.67	Esper por ac. dale?	- What's this? - Respiratory arrest.	movies	carancho	false
+carancho	619	3545.35	3545.61	Si te pones as no lo puedo atender. And para afuera.	I can't work if you're screaming. Wait outside!	movies	carancho	false
+carancho	620	3554.46	3557.08	Quit e la remera, pon el oxgeno.	Take off his shirt, give him oxygen.	movies	carancho	false
+carancho	621	3560.46	3565.76	- No, no le est entrando aire. - Es hipertenso? - S. S. - Tom. Tom.	Stay calm, sir! He's not getting any air, - Hypotonic pneumothorax? - Yes.	movies	carancho	false
+carancho	622	3566.37	3570.13	Ponle un poco de pervinox. Dale. Trat de respirar tranquilo.	Put some Pervinox on. Try to breath slowly!	movies	carancho	false
+carancho	623	3575.48	3577.6	Volv a respirar, ah va? Estamos? S?	He's breathing better.	movies	carancho	false
+carancho	624	3578.48	3580.54	Me escuchs, viejo?	Can you hear me, man?	movies	carancho	false
+carancho	625	3588.66	3589.05	- Ah va. - Bien. As, dale, dale.	- Now we're talking! - That's it!	movies	carancho	false
+carancho	626	3589.16	3592.06	Ah va, est ventilando. Est ventilando.	He's ventilating, There you go.	movies	carancho	false
+carancho	627	3592.16	3593.96	Bien. And si quers. Yo me quedo.	Go if you have to, I'll stay,	movies	carancho	false
+carancho	628	3594.06	3595.62	Dale. Ponle el collar y and.	Put the brace on and go.	movies	carancho	false
+carancho	629	3597.13	3598.5	- Llam la ciruga.	Call the surgeon,	movies	carancho	false
+carancho	630	3598.6	3601.4	- Ahora llamo. - Par que te pongo el collar.	Let me put the brace on...	movies	carancho	false
+carancho	631	3601.7	3603.17	- Dale. Yo me quedo con l. - Ya ests. Tranquilo. eh?	- I'll stay with him. - You're a set. Quiet.	movies	carancho	false
+carancho	632	3603.17	3604.66	- Dale. Yo me quedo con l. - Ya ests. Tranquilo. eh?	- I'll stay with him. - You're a set. Quiet.	movies	carancho	false
+carancho	633	3604.77	3607.37	Respir ah viejo. Respir hondo y adentro.	Breathe deeply, man, breathe.	movies	carancho	false
+carancho	634	3621.72	3625.09	- Era mi nico hermano varn, doctora. - A ver.	He was my only brother, doctor.	movies	carancho	false
+carancho	635	3627.33	3631.53	Bueno, pero tens que pensar en que tu marido est bien, eh?	Concentrate on your husband now, He's fine.	movies	carancho	false
+carancho	636	3642.31	3646.08	- Va a estar todo bien. sabs? - Cmo le cuento a mi mam?	Everything's going to be okay. How do I tell my mom?	movies	carancho	false
+carancho	637	3646.18	3646.21	- Bueno, ya e vas a contar... - Ay. Doctora!	- You'll find the words. - Oh, doctor!	movies	carancho	false
+carancho	638	3649.42	3652.28	Vas a encontrar a forma de contarle.	You'll find a way to tell her.	movies	carancho	false
+carancho	639	3657.19	3660.23	Qu tristeza.	It's all so awfull.	movies	carancho	false
+carancho	640	3662.3	3664.53	Par. Par, par. - Prometmelo. - Qu cosa?	Hold on there. Promise me.	movies	carancho	false
+carancho	641	3664.63	3666.73	Que vas a hacer las cosas bien.	- What? - That you'll do things right.	movies	carancho	false
+carancho	642	3666.83	3669.67	- Ya te lo dije. - Bueno, prometmelo otra vez.	- I've a ready told you, - Promise me again.	movies	carancho	false
+carancho	643	3673.44	3674.74	Te lo prometo otra vez.	I promise you again.	movies	carancho	false
+carancho	644	3674.74	3675.83	Te lo prometo otra vez.	I promise you again.	movies	carancho	false
+carancho	645	3676.48	3678.27	Est?	Okay?	movies	carancho	false
+carancho	646	3682.68	3685.08	Bueno. Vamos.	- Okay, let's go. - Thanks.	movies	carancho	false
+carancho	647	3686.19	3688.05	Lo hago por ella, no por vos.	- I'm only doing it for her. - Me too.	movies	carancho	false
+carancho	648	3688.16	3688.76	Igual, te agradezco que confes en m.	I appreciate your trust, anyway.	movies	carancho	false
+carancho	649	3691.53	3692.49	De nada.	You're welcome.	movies	carancho	false
+carancho	650	3703.17	3703.27	Mis familiares ya estn hablando con otro estudio, pero ellos nos dicen	My family is already talking to a different firm.	movies	carancho	false
+carancho	651	3707.44	3710.78	que es mejor que todos tengamos un mismo abogado.	They say it's better if we all have the same lawyer.	movies	carancho	false
+carancho	652	3710.88	3712.61	No, no. Eso no es verdad.	No, that's not the truth.	movies	carancho	false
+carancho	653	3712.71	3715.65	Usted tiene derecho a trabajar con quien le parezca conveniente.	You're free to choose who you work with.	movies	carancho	false
+carancho	654	3715.75	3717.79	Y por favor. No firmen nada todava.	And please, don't sign any papers yet.	movies	carancho	false
+carancho	655	3717.99	3719.58	Usted despus me trae los papeles	Bring me the papers,	movies	carancho	false
+carancho	656	3719.69	3722.45	y yo les explico qu es lo que ellos les estn proponiendo.	and I'll explain what their proposition is,	movies	carancho	false
+carancho	657	3722.56	3724.42	S. Doctor.	Okay, counselor.	movies	carancho	false
+carancho	658	3724.93	3728.16	Y con mi hermano qu vamos a hacer?	What can we do about my brother?	movies	carancho	false
+carancho	659	3728.26	3730.13	Porque mi cuada est desesperada.	My sister-in-law is in despair.	movies	carancho	false
+carancho	660	3730.23	3731.8	En el hospital no nos dicen nada, en la polica tampoco.	The hospital and police station won't tell us anything.	movies	carancho	false
+carancho	661	3736.17	3739.9	Y tampoco nos quieren entregar el cuerpo. Seor.	They won't let us take his body,	movies	carancho	false
+carancho	662	3802.3	3802.37	- Ay, Dios mo. por qu? - No me dejes, hermanito mo.	Get those X-rays to me, I'm on call all night, okay?	movies	carancho	false
+carancho	663	3802.37	3806.81	Pass por rayos. Te hacs la placa y me la levs a la guardia. - Yo estoy toda la noche. s? - Bueno.	Get those X-rays to me, I'm on call all night, okay?	movies	carancho	false
+carancho	664	3808.14	3810.91	Olivera? Ven un minuto.	Olivera? Come here for a second.	movies	carancho	false
+carancho	665	3811.01	3812.88	S. que pas?	Sure, what's going on?	movies	carancho	false
+carancho	666	3814.62	3816.55	Te volviste loca?	Have you gone mad?	movies	carancho	false
+carancho	667	3816.88	3817.89	Qu ests haciendo? No, no entiendo.	- What are you doing? - What do you mean?	movies	carancho	false
+carancho	668	3819.79	3822.92	No te hagas la ingenua. No te hagas la boluda conmigo. eh?	Don't play naive. Don't play dumb with me!	movies	carancho	false
+carancho	669	3823.02	3826.98	Vos le estas pasando informacin a carancho que anda por el hospital?	Are you helping that vulture who's been lurking around here?	movies	carancho	false
+carancho	671	3829.43	3831.9	Escuchme una cosa. No me tomes por pelotudo.	Don't mess with me,	movies	carancho	false
+carancho	672	3832.2	3837.73	Ten cuidado con o que hacs, la pods pasar muy mal. Te pods arrepentir.	And watch what you do. This could turn ugly, You could regret it.	movies	carancho	false
+carancho	673	3837.84	3840.31	Mirme cuando te hablo. entendiste?	Look at me when I'm talking to you!	movies	carancho	false
+carancho	674	3840.41	3841.81	Me parece que usted est confundido.	I think you're confused,,,	movies	carancho	false
+carancho	675	3841.91	3844.74	Ac a nica confundida sos vos.	You're the one who's confused!	movies	carancho	false
+carancho	676	3845.85	3846.41	Y te avis, no te olvides.	Consider yourself warned, Don't forget that.	movies	carancho	false
+carancho	677	3975.74	3977.3	Hola.	Hi.	movies	carancho	false
+carancho	678	3978.45	3980.44	Buen da.	Good morning!	movies	carancho	false
+carancho	679	3983.38	3985.75	Ests bien? S.	- Are you okay? - Yes.	movies	carancho	false
+carancho	680	3995.6	3997.46	Qu buscas?	What do you need?	movies	carancho	false
+carancho	681	3997.8	4000.73	Mis cosas. Quedaron en el hospital?	- Are my things at the hospital? - No.	movies	carancho	false
+carancho	682	4000.84	4002.89	No. Yo las traje, estn en tu cartera, por ah.	Everything's in your purse.	movies	carancho	false
+carancho	683	4003	4003.57	- Las quers? - No, no. Est bien.	- Do you want them? - No, it's okay.	movies	carancho	false
+carancho	684	4007.81	4011.77	Estoy bien, eh? Si quers. And. Quers que me vaya?	- You can leave if you want. - Do you want me to?	movies	carancho	false
+carancho	685	4014.68	4017.24	No. Quiero que te quedes.	I want you to stay,	movies	carancho	false
+carancho	686	4018.69	4020.75	Entonces. Me quedo.	Then I'll stay.	movies	carancho	false
+carancho	687	4023.12	4025.46	Gracias por traerme.	Thanks for picking me up,	movies	carancho	false
+carancho	688	4044.31	4046.61	El otro da anduvieron por ac.	- He came by. - Who?	movies	carancho	false
+carancho	689	4046.71	4048.15	- Quin? - El gordo.	The fat man.	movies	carancho	false
+carancho	690	4048.25	4051.65	Ah. Y? Pregunt si te haba visto y eso. No.	- And? - Asked me if I'd seen you around.	movies	carancho	false
+carancho	691	4052.09	4053.99	- Tens los papeles? - S.	- Got the papers? - Yes.	movies	carancho	false
+carancho	692	4054.82	4056.81	Tom, contlo bien.	Here, Count it.	movies	carancho	false
+carancho	693	4058.13	4059.96	En qu ands?	What are you up to?	movies	carancho	false
+carancho	694	4064.23	4065.89	Ey. Guardate un poco.	Lay low for a while.	movies	carancho	false
+carancho	695	4089.39	4094.93	Le decs a Ibez que est Sosa? Ahora le digo. Toms algo? Un vaso de agua.	- Tell Ibez Sosa is here. - I'll tell him. - Anything to drink? - A glass of water.	movies	carancho	false
+carancho	696	4114.45	4117.88	qu penss? Vos cres que yo no s hace cunto vens hablando con Casa?	Think I don't know you and Casal are plotting?	movies	carancho	false
+carancho	697	4117.99	4118.19	Me ests cansando.	I've had it!	movies	carancho	false
+carancho	698	4123.79	4126.28	- Adis, Sosa. - Rinaldi.	- Goodbye, Sosa. - Rinaldi.	movies	carancho	false
+carancho	699	4127.16	4129.43	Sosa, perdoname la demora, eh?	Sosa, Sorry I kept you waiting.	movies	carancho	false
+carancho	700	4129.53	4131.33	No, por favor, no hay problema.	Don't worry, no problem.	movies	carancho	false
+carancho	701	4131.9	4132.7	Vos siempre dndome sorpresas a m, eh?	You like to surprise me.	movies	carancho	false
+carancho	702	4134.44	4139.24	Te escaps de la fundacin as noms. Sin decir una palabra. Sin saludar.	You fleed the Foundation without saying goodbye.	movies	carancho	false
+carancho	703	4139.34	4142.64	Pegando un portazo. Eso es un acto de ingratitud.	Slamming the door on your way out. That shows lack of gratitude,	movies	carancho	false
+carancho	704	4142.74	4145.3	S. S. S, s. Claro que lo es.	Oh yes, that's what it is.	movies	carancho	false
+carancho	705	4146.15	4146.71	Y despus vens ac, sin avisar. Nada.	Then you come here without warning.	movies	carancho	false
+carancho	706	4148.02	4151.21	- No, avis. Pero... - A quin le avisaste?	- I warned..., - Who did you warn? Nobody!	movies	carancho	false
+carancho	707	4151.52	4155.25	Te estas ocupando del accidente de la ruta 3, no?	You're taking care of the Route 3 accident, right?	movies	carancho	false
+carancho	708	4157.12	4161.23	Ya tens os poderes? 2. Los otros 3 los tiene Casal.	- Have their power of attorney? - Two... Casal has the other three.	movies	carancho	false
+carancho	709	4162.3	4164.53	Y qu haces ac?	So what are you doing here?	movies	carancho	false
+carancho	710	4166.8	4168.83	No s. Quiero trabajar tranquilo.	I want to work in peace.	movies	carancho	false
+carancho	711	4168.94	4172.63	Casal est muy ansioso. Se me vino encima.	Casal is very anxious, he's a lover me,	movies	carancho	false
+carancho	712	4173.14	4175.24	Necesitara que o controles un poco.	- I need you to keep him on a leash, - Yes...	movies	carancho	false
+carancho	713	4176.08	4178.24	S. Es que me quiere calgar. Casal.	Casal wants to fuck me over.	movies	carancho	false
+carancho	714	4178.35	4181.44	Est tranzando con Rinaldi.	He's plotting with Rinaldi.	movies	carancho	false
+carancho	715	4181.55	4183.52	Bueno. No importa, siempre fue as.	It's a ways been this way.	movies	carancho	false
+carancho	716	4183.62	4186.48	Cuando ests arriba. Os que estn abajo te quieren sacar algo.	Those below want a piece of those on top.	movies	carancho	false
+carancho	717	4186.59	4189.61	- Yo no le quiero sacar nada a nadie. - Yo s.	- I don't want a piece of anyone. - I do!	movies	carancho	false
+carancho	718	4189.72	4194.72	Yo quiero los 5 poderes firmados ac. Y que me los traigas vos, no Casal.	I want those five powers of attorney here, And I want you bringing them, not Casal.	movies	carancho	false
+carancho	719	4194.83	4198.46	Yo te ayudo, vos me ayudas.	We give each other a mutual hand. That's the way its done.	movies	carancho	false
+carancho	720	4199.3	4202.96	Y qu necesits para conseguir esos poderes?	What do you need to get those papers?	movies	carancho	false
+carancho	721	4204.94	4206.67	Tiempo.	Time.	movies	carancho	false
+carancho	722	4206.77	4208.71	Lo vas a tener.	You'll get it.	movies	carancho	false
+carancho	723	4208.81	4211.8	Yo me ocupo de controlar a Casal para que no te joda...	I'll make sure Casal gets off your back.	movies	carancho	false
+carancho	724	4211.91	4215.18	y cuando vos tengas os poderes firmados, me los tras.	Bring me back those papers signed.	movies	carancho	false
+carancho	725	4215.28	4219.78	IBAEZ: Si esto sale bien, tengo grandes proyectos para vos.	And if all this goes well, I have big plans for you.	movies	carancho	false
+carancho	726	4228.1	4230.12	Doctor nuestra intencin es negociar.	Counselor, we intend to negotiate,	movies	carancho	false
+carancho	727	4230.23	4233.06	Pero la situacin se present muy complicada.	but this situation is getting complicated,	movies	carancho	false
+carancho	728	4233.17	4236.97	Usted maneja unos casos, e doctor Casal maneja otros.	You handle some cases, Mr. Casal handles others.	movies	carancho	false
+carancho	729	4237.07	4241.34	Para la compaa sera ms simple negociar todas las vctimas del siniestro con un solo estudio.	It would be much simple for us to negotiate with one firm,	movies	carancho	false
+carancho	730	4241.44	4244	- Me entiende, o no? - S, o entiendo perfecto.	- Am I clear? - Yes, perfectly.	movies	carancho	false
+carancho	731	4244.35	4248.68	Si prefiere terminamos de charlar todo esto en Tribunales y listo.	We can finish this conversation in court if you wish,	movies	carancho	false
+carancho	732	4249.25	4251.44	El doctor Casal me llam 5 veces hoy	Mr. Casal called me five times today.	movies	carancho	false
+carancho	733	4251.55	4255.68	y me dijo que su situacin no tiene sentido. Que sus poderes fueron revocados.	He told me your powers of attorney had been revoked.	movies	carancho	false
+carancho	734	4256.02	4258.18	Usted le cree a Casal?	Do you believe Casal?	movies	carancho	false
+carancho	735	4258.29	4259.85	A Casal?	Casal?	movies	carancho	false
+carancho	736	4260.73	4265.56	Esta invitacin es para usted, es del cumpleaos de 15 de mi hija.	This invitation is for you. It's for my daughter's sweet 15,	movies	carancho	false
+carancho	737	4265.67	4268.33	Bueno. Muchas gracias. Qu lindo.	Thank you very much!	movies	carancho	false
+carancho	738	4268.44	4269.96	Va a venir. verdad?	You are coming, right?	movies	carancho	false
+carancho	739	4270.4	4272.46	- Cuando es? - El sbado que viene.	- When is it? - Next Saturday.	movies	carancho	false
+carancho	740	4272.57	4275.13	Lo que pasa es que yo el sbado trabajo.	The thing is, I work on Saturday,	movies	carancho	false
+carancho	741	4275.24	4276.9	Tengo guardia, no puedo.	I'm on call, I can't go,	movies	carancho	false
+carancho	742	4277.01	4280.45	Un ratito doctora, por favor.	Just drop by, please,	movies	carancho	false
+carancho	743	4280.98	4286.21	Gracias a usted mi marido est vivo y podemos hacer esta fiesta.	Thanks to you, my husband is alive, and we can have this party.	movies	carancho	false
+carancho	744	4286.32	4289.88	Nos encantara que venga. Usted va a ser la invitada especial.	We'd love for you to come. You are our special guest.	movies	carancho	false
+carancho	745	4289.99	4293.79	Vamos chicos! Listos?	Picture time, everyone!	movies	carancho	false
+carancho	746	4296.53	4298.12	Un minuto.	Ready?	movies	carancho	false
+carancho	747	4298.87	4300.86	Vamos!	Say cheese!	movies	carancho	false
+carancho	748	4302.14	4304.7	Ah va. A ver.	Perfect! One more,	movies	carancho	false
+carancho	749	4305.41	4307.17	Sonran, whisky.	Say cheese...	movies	carancho	false
+carancho	750	4308.11	4310.98	Otra ms.	One more time,	movies	carancho	false
+carancho	751	4311.08	4312.98	Vamos. A ver la abuela, sonra.	Smile, Grandma!	movies	carancho	false
+carancho	752	4313.75	4317.01	Aparece con esta oferta y lo firma. Es lgico.	Faced with such an offer, he obviously signed.	movies	carancho	false
+carancho	753	4317.12	4320.38	Bueno. E compraron el caso. Y usted ni se enter. As es.	The same thing's happening with your case, they bought it off.	movies	carancho	false
+carancho	754	4320.49	4323.48	Al ao. Se puede enterar que altravs de la demanda,	One year later, you'll find out that the awsuit	movies	carancho	false
+carancho	755	4323.59	4326.35	consiguen 80, 100, 120 mil pesos o lo que sea...	brought in 80, 100 or 120 grand.	movies	carancho	false
+carancho	756	4326.46	4328.36	y usted lo siente como una estafa.	And you'll feel ripped off.	movies	carancho	false
+carancho	757	4328.46	4331.9	Quiere hacer una denuncia. Es tarde, ya firm.	You'll want to sue, but, too late, You've a ready signed,	movies	carancho	false
+carancho	758	4332	4338.53	Qu pasa? E los pueden hacerlo porque tienen mucha plata. Tienen muchos casos como el de ustedes y tienen tiempo.	Thing is, they have a lot of money, a lot of cases... Like yours, and they have time.	movies	carancho	false
+carancho	759	4338.64	4340.33	Pueden esperar.	They can wait.	movies	carancho	false
+carancho	760	4340.44	4344.24	Todo est bien. Doctor. Pero con usted, cundo cobramos?	Right, but when would we get the money with you?	movies	carancho	false
+carancho	761	4344.34	4350.48	Eso no es algo que decido yo. Eso lo tenemos que charlar, Lo tenemos que hablar, como en el caso de ellos.	That's not my decision. It's something we need to discuss, like we did with them.	movies	carancho	false
+carancho	762	4350.58	4352.28	Lo importante es no apurarse.	Just don't be in a rush,	movies	carancho	false
+carancho	763	4352.39	4353.82	Ac el que se apura. Pierde. Por eso es que el los ganan.	that's when you lose.	movies	carancho	false
+carancho	764	4353.92	4357.58	La clave es saber esperar.	The key is knowing how to be patient.	movies	carancho	false
+carancho	765	4391.16	4393.56	Un aplauso para la doctora, por favor!	Hurrah for Dr. Olivera!	movies	carancho	false
+carancho	766	4399.93	4401.9	Vamos a medio.	Let's go to the center.	movies	carancho	false
+carancho	767	4547.91	4549.75	Te quiero.	I love you,	movies	carancho	false
+carancho	768	4554.55	4558.92	Despus. Cuando vine a Buenos Aires. Conoc a un tipo que era anestesista	When I came to Buenos Aires I met an anesthetist,	movies	carancho	false
+carancho	769	4559.03	4561.86	y con l me empec a inyectar.	With him, I started shooting up.	movies	carancho	false
+carancho	770	4563.76	4566.53	Es lo nico que me calma.	It's the only thing that soothes me,	movies	carancho	false
+carancho	771	4568.24	4571.14	Nada. Igual, tambin me gusta, creo.	And I think I like it, too.	movies	carancho	false
+carancho	772	4577.08	4582.55	- Y fotos tens? - De qu? De cuando eras gorda.	Do you have any pictures? - What kind? - Of when you were fat.	movies	carancho	false
+carancho	773	4582.65	4584.41	No te las voy a mostrar nunca.	I'm not ever showing you those.	movies	carancho	false
+carancho	774	4584.52	4586.25	Qu lstima.	What a pity.	movies	carancho	false
+carancho	775	4586.35	4589.98	No s porque pienso que me gustaras gorda, eh?	I could fall for a fat version of yourself.	movies	carancho	false
+carancho	776	4590.09	4592.12	Qu? As no te gusto?	Don't you like me thin?	movies	carancho	false
+carancho	777	4592.23	4594.63	Ms o menos.	More or less...,	movies	carancho	false
+carancho	778	4596.93	4598.63	Qu malo.	You're mean...	movies	carancho	false
+carancho	779	4608.01	4610.53	- Contme algo de vos. - De m?	- Tell me something about you, - About me?	movies	carancho	false
+carancho	780	4610.64	4612.58	- S. - No.	- No..., - Why?	movies	carancho	false
+carancho	781	4612.68	4615.31	- Por qu? - Porque a estamos pasando bien.	Because we're having a good time,	movies	carancho	false
+carancho	782	4616.62	4619.02	Me gustara dejarlo as.	I'd rather not ruin it,	movies	carancho	false
+carancho	783	4638.47	4642.84	"En San Justo, partido de La Matanza, provincia de Buenos Aires.	"At San Justo, La Matanza County, state of Buenos Aires,	movies	carancho	false
+carancho	784	4642.94	4647.51	Se presentan y dicen que otorgan poder general judicial	they stand to bestow legal power of attorney	movies	carancho	false
+carancho	785	4647.61	4650.64	a favor de doctor Sosa Hctor.	in favor of Counselor Hctor Sosa,	movies	carancho	false
+carancho	786	4650.75	4655.78	Para que intervenga y entienda en todos los asuntos judiciales,	so he can be part of all judicial matters,	movies	carancho	false
+carancho	787	4655.89	4660.35	quedando por consiguiente facultado para cobrar.	and therefore entitled to collect cash	movies	carancho	false
+carancho	788	4660.46	4663.19	Percibir y gestionar diligencias."	or negotiate on any business matter."	movies	carancho	false
+carancho	789	4663.3	4669.43	Y eso es que me estn autorizando tambin a cobrar por ustedes ante a aseguradora.	This means you're authorizing me to collect any money the insurance company pays you.	movies	carancho	false
+carancho	790	4670.14	4672.5	Ahora firmo yo. Si me permite.	My turn to sign.	movies	carancho	false
+carancho	791	4681.82	4684.31	Para eso me sacaste a bailar... - para verduguiarme, por eso no quera.	You wanted me to dance to make fun of me!	movies	carancho	false
+carancho	792	4684.42	4686.75	- No, mentira. -No ves que es as?	- Not at all! - I knew it.	movies	carancho	false
+carancho	793	4690.59	4694.68	Muy quieto ac. En los hombros.	See? I was right. Look at your shoulders,	movies	carancho	false
+carancho	794	4705.74	4708.11	No puedo creer que estoy ac otra vez.	I can't believe I'm here again.	movies	carancho	false
+carancho	795	4708.21	4710.57	Y. cmo hacemos? Te paso a buscar a la noche?	Want me to pick you up tonight?	movies	carancho	false
+carancho	796	4710.68	4712.87	No, estoy hasta maana.	I'm on call 'till tomorrow.	movies	carancho	false
+carancho	797	4713.48	4716.14	- Ah. Y, entonces? - Yo te amo.	- What then? - I'll call you.	movies	carancho	false
+carancho	798	4718.59	4722.58	 Me lo levs a shock y le pons una va? Gracias, eh?	Can you take him to triage and put a line in? Thanks.	movies	carancho	false
+carancho	799	4723.86	4726.52	A de la 12 hay que cambiarle el suero. sabes?	The one on 12 needs his drip changed, okay?	movies	carancho	false
+carancho	800	4726.63	4730.26	Doctora, por un anlisis de sangre. sta es la orden.	I'm here for a blood test. Here's the prescription.	movies	carancho	false
+carancho	801	4730.36	4733.2	No, no es por ac, - es de otro lado.	Not here, Try the other counter.	movies	carancho	false
+carancho	802	4752.75	4754.62	Hola?	Hello?	movies	carancho	false
+carancho	803	4766.83	4769.46	Hola? Me qued encerrada.	Hello? I'm locked in!	movies	carancho	false
+carancho	804	4769.57	4771.94	No se puede abrir, doctora.	We can't open, doctor	movies	carancho	false
+carancho	805	4772.37	4775.03	Ac tiene algo para leer.	Here's something to read!	movies	carancho	false
+carancho	806	4775.14	4777.2	As no se aburre.	So you don't get bored!	movies	carancho	false
+carancho	807	4788.99	4792.82	- Me abrs? - Qu te pasa? - Dejme pasar.	Open up! - What's your problem? - Let me out.	movies	carancho	false
+carancho	808	4792.93	4796.86	- Camin. - Soltame. - Tranquila. Eh?	- Walk, please, - Let me go. Take it easy.	movies	carancho	false
+carancho	809	4797.26	4799.49	Sin complicrmela. Estamos?	Don't complicate things.	movies	carancho	false
+carancho	810	4799.6	4803.3	Tranquilita que no te va a pasar nada. Hay alguien ms ac?	Stay calm and you'll be fine. Anyone else here?	movies	carancho	false
+carancho	811	4803.4	4804.77	- No. - Eh?	No,	movies	carancho	false
+carancho	812	4805.17	4807.4	Vos sabs por qu estamos ac?	Do you know why we're here?	movies	carancho	false
+carancho	813	4810.08	4812.84	No. Qu te pasa? Sos tonta o no leste el expediente vos?	Are you stupid, didn't you read the case file?	movies	carancho	false
+carancho	814	4812.95	4814.94	And ala puerta.	Wait for me outside.	movies	carancho	false
+carancho	815	4817.72	4820.62	Qu hace una pendeja como vos metida en esto?	How did someone like you get mixed up in this?	movies	carancho	false
+carancho	816	4821.29	4823.88	Vos sabs por qu estamos ac.	You do know why we're here, right?	movies	carancho	false
+carancho	817	4824.26	4826.35	Te dimos seales.	We sent you signs.	movies	carancho	false
+carancho	818	4826.46	4828.55	Quers ms?	Do you still not get it?	movies	carancho	false
+carancho	819	4828.93	4830.26	Dejame pasar.	Let me out.	movies	carancho	false
+carancho	820	4832.57	4834.56	Me ests lastimando.	You're hurting me!	movies	carancho	false
+carancho	821	4834.67	4837.73	Adnde vas? Esto no se termin.	Where do you think you're going? This isn't over.	movies	carancho	false
+carancho	822	4837.84	4840.17	Yo digo cuando termina.	I'll say when it's over!	movies	carancho	false
+carancho	823	4841.64	4843.4	Terminaste?	Are you done?	movies	carancho	false
+carancho	824	4848.42	4850.38	- Par. Par! - Callte!	Stop it!	movies	carancho	false
+carancho	825	4874.04	4878.31	Qu te pas? Qu tens? Qu te hicieron? Mirme. Mirme, por favor. Dejme ver.	What happened? What is it? What did they do? Let me take a look.	movies	carancho	false
+carancho	826	4878.41	4880.81	Lujn. Lujn. Dejme verte. Dejme verte.	Lujn, look at me.	movies	carancho	false
+carancho	827	4881.78	4884.65	- Ay. Hijos de puta. - Sacame de ac, por favor.	- Son of a bitch! - Drive me away from here, please.	movies	carancho	false
+carancho	828	4884.75	4889.22	Ests bien? Ests bien? Amor. Decme.	Are you okay? Tell me, sweetie.	movies	carancho	false
+carancho	829	4893.99	4895.76	Perdoname, por favor.	Forgive me, please.	movies	carancho	false
+carancho	830	4895.86	4897.85	Lujn, perdoname.	Lujn, please forgive me.	movies	carancho	false
+carancho	831	4904.6	4906.6	Sentte ah. Afirmte.	Sit down, hang in there.	movies	carancho	false
+carancho	832	4906.71	4908.54	Ah. Dejme ver.	There, let me see,	movies	carancho	false
+carancho	833	4910.18	4912.3	Abr a boca.	Open your mouth.	movies	carancho	false
+carancho	834	4913.91	4915.81	Hijos de puta.	Son of a bitch...	movies	carancho	false
+carancho	835	4916.52	4919.45	A ver. Te voy a sacar esto, levant los brazos.	Let me get this off. Raise your arms,	movies	carancho	false
+carancho	836	4921.45	4923.22	- Qu? - Ay. Me duele.	- What? - It hurts...,	movies	carancho	false
+carancho	837	4923.32	4925.95	- Qu te duele?  Qu te duele? - Todo.	- What hurts? - Everything.	movies	carancho	false
+carancho	838	4941.68	4943.7	Ay, esper. Esper.	Wait,	movies	carancho	false
+carancho	839	4946.25	4947.54	 Qu?	What is it?	movies	carancho	false
+carancho	840	4949.52	4951.28	Ayudme.	Help me,	movies	carancho	false
+carancho	841	4952.09	4953.75	Por favor.	Please,,,	movies	carancho	false
+carancho	842	4985.55	4987.65	Ponela en la vena.	Stick it in the vein,	movies	carancho	false
+carancho	843	4987.75	4990.38	- S como hacerlo. - Ves?	I know how to do it, Don't worry,	movies	carancho	false
+carancho	844	5011.51	5012.91	Mirme.	Look at me,	movies	carancho	false
+carancho	845	5013.01	5014.81	Gracias.	Thanks.	movies	carancho	false
+carancho	846	5023.42	5026.15	Perdonme, por favor.	Please, forgive me,	movies	carancho	false
+carancho	847	5028.86	5031.09	Ay, voy a estar bien.	I'm going to be okay,	movies	carancho	false
+carancho	848	5045.55	5047.14	Te amo.	I love you,	movies	carancho	false
+carancho	849	5069.3	5070.96	- Hijo de puta!	Son of a bitch!	movies	carancho	false
+carancho	850	5071.37	5074.57	Con ella no te mets ms!	Don't ever mess with her again!	movies	carancho	false
+carancho	851	5076.54	5079.03	La puta que te pari!	You motherfucking shit!	movies	carancho	false
+carancho	852	5079.75	5082.08	Nunca ms. me entends?	Not ever again! Got it?	movies	carancho	false
+carancho	853	5082.18	5084.01	Nunca ms!	Never again!	movies	carancho	false
+carancho	854	5099.9	5101.76	Me oste?	Understood?	movies	carancho	false
+carancho	855	5102.3	5104.24	Me os bien?	Did you hear what I said?	movies	carancho	false
+carancho	856	5107.17	5108.87	Contest!	Answer me!	movies	carancho	false
+carancho	857	5110.01	5112.67	La puta que te pari.	Fucking son of a bitch!	movies	carancho	false
+carancho	858	5145.95	5147.47	Qu pas?	What happened?	movies	carancho	false
+carancho	859	5192.89	5194.79	Lujn, vamos.	Lujn, we're leaving!	movies	carancho	false
+carancho	860	5195.36	5197.52	Despertate, dale.	Wake up, c'mon,	movies	carancho	false
+carancho	861	5198.3	5200.32	- Por favor Lujn, levantte. - Qu haces?	Please, Lujn, wake up!	movies	carancho	false
+carancho	862	5200.43	5204.43	Escuchme. No tenemos tiempo. Nos tenemos que ir. Dale.	Listen to me, there's no time. We need to go.	movies	carancho	false
+carancho	863	5204.54	5206.51	- Qu te pas? - Pon algo de ropa.	- Your face... - Pack some clothes.	movies	carancho	false
+carancho	864	5206.61	5208.54	Hace o que te dije. Despus te explico.	I'll tell you later.	movies	carancho	false
+carancho	865	5208.91	5210.03	Dale, ac te dejo el bolso.	Here's a bag.	movies	carancho	false
+carancho	866	5230.3	5231.76	Vamos.	C'mon.	movies	carancho	false
+carancho	867	5250.38	5252.48	Esper. No abras. Esper, escuchme. No mires para afuera.	Hold on, don't open.	movies	carancho	false
+carancho	868	5252.59	5256.52	No mires para afuera, no mires para afuera, mirame a m.	Don't look out, look at me.	movies	carancho	false
+carancho	869	5256.62	5259.25	- Vamos a hacer otra cosa. - Vamos para arriba.	- We'll find another way. - Let's go back up.	movies	carancho	false
+carancho	870	5259.36	5260.62	- Vos vas a ir para arriba. - No.	You go back up,	movies	carancho	false
+carancho	871	5260.73	5263.63	Te vas a encerrar en el departamento y no vas a abrir hasta que yo vue va.	You lock yourself in until I'm back.	movies	carancho	false
+carancho	872	5263.73	5268.03	Me escuchaste? No atiendas el telfono. - Escuchme, no hables. - No te vayas, por favor.	Don't answer the phone, Listen to me, Please, don't go...	movies	carancho	false
+carancho	873	5274.97	5283.24	Escuchme a m! Mirme. Abr los ojos. Abr los ojos.	Listen to me! Look at me. Open your eyes! Look at me,	movies	carancho	false
+carancho	874	5283.55	5291.45	Agarr el bolso. Anda arriba, encerrte y no le abras a nadie hasta que yo vuelva. No atiendas el telfono tampoco.	Grab the bag and go upstairs. Lock the door and don't open it until I'm back. Don't answer the phone, It'll be fine,	movies	carancho	false
+carancho	875	5291.56	5293.86	Yo vuelvo. Yo vuelvo.	I'll come back.	movies	carancho	false
+carancho	876	5293.96	5295.69	Te juro que vuelvo.	I promise I'll come back.	movies	carancho	false
+carancho	877	5295.8	5298.2	- Por favor. - Tranquila, anda arriba.	- Please... - Stay calm, go upstairs.	movies	carancho	false
+carancho	878	5298.3	5300.2	Vuelvo, amor. Chau.	I'll come back, sweetie,	movies	carancho	false
+carancho	879	5315.72	5317.27	Ven. Mir.	Take a look,	movies	carancho	false
+carancho	880	5317.72	5319.45	Mir como o dejaste.	Look at what you did.	movies	carancho	false
+carancho	881	5319.55	5322.42	Qu o pari che, como qued este hombre.	Fuck, man, Look at him,	movies	carancho	false
+carancho	882	5323.16	5325.06	Se te fue la mano.	You went too far.	movies	carancho	false
+carancho	883	5325.16	5327.06	Pobre muchacho.	Poor thing!	movies	carancho	false
+carancho	884	5328.49	5334.12	Casa estaba buscando roa y la encontr.	Casal had it coming. Finally got what he deserved.	movies	carancho	false
+carancho	885	5335.44	5337.06	Bueno. Ya fue.	What's done, is done.	movies	carancho	false
+carancho	886	5337.17	5339.4	Pero la verdad es que me hicieron un favor.	Truth is you did me a favor.	movies	carancho	false
+carancho	887	5339.51	5342.27	Lo que yo no quiero es que a vos te rompan las pelotas stos.	But I don't want you getting in trouble with them.	movies	carancho	false
+carancho	888	5342.38	5346.4	- Qu quers? - Que te quedes tranquilo.	- What do you want? - For you to keep your calm.	movies	carancho	false
+carancho	889	5347.05	5348.67	Soltalo.	Uncuff him...,	movies	carancho	false
+carancho	890	5349.42	5351.44	Vamos a conversar, ven.	Let's have a chat.	movies	carancho	false
+carancho	891	5353.05	5354.99	Sentte. Dale.	Sit down, okay?	movies	carancho	false
+carancho	892	5365.4	5368.86	Conseguiste todos los casos y no me avisaste.	You got a the cases and you kept it to yourself.	movies	carancho	false
+carancho	893	5371.04	5373.44	Bueno, no importa. Cuando os cobres,	It's ok, though, Once you collect,	movies	carancho	false
+carancho	894	5373.81	5376.43	cambis el cheque y me tras a plata a m.	you'll cash the checks and bring me the money,	movies	carancho	false
+carancho	895	5376.54	5378.27	 Cunto?	How much?	movies	carancho	false
+carancho	896	5378.38	5384.31	Todo, obvio. Tomalo como una inversin. Esa plata no es ma.	All of it, of course, - Think of it as an investment. - That money is not mine.	movies	carancho	false
+carancho	897	5384.42	5387.61	Yo no puedo resolver todos tus problemas.	I can't solve all your problems,	movies	carancho	false
+carancho	898	5387.72	5392.38	Yo te ofrezco amistad y proteccin. parece poco?	I'm offering my friendship and protection. Is that not enough?	movies	carancho	false
+carancho	899	5395.5	5396.72	Muoz?	Muoz!	movies	carancho	false
+carancho	900	5397.76	5399.49	Che, Muoz!	Muoz!	movies	carancho	false
+carancho	901	5401.6	5403.3	S. Ac estoy.	Here I am.	movies	carancho	false
+carancho	902	5404.7	5408.5	 tiene que hacer un trmite muy delicado para m.	He has to take care of a very delicate errand for me.	movies	carancho	false
+carancho	903	5408.61	5411.34	Yo quiero que vos lo acompaes y que te quedes con l.	I want you to go with him and stay close,	movies	carancho	false
+carancho	904	5411.44	5413.91	- Para su mayor seguridad. - Perfecto.	For his own safety.	movies	carancho	false
+carancho	905	5414.01	5416.81	Ven. Vayan tranquilos.	- Come on, - Go in peace.	movies	carancho	false
+carancho	906	5420.62	5423.68	Che. Sosa. Sosa!	Hey, Sosa... Sosa!	movies	carancho	false
+carancho	907	5424.36	5426.76	Este silln es para vos.	This chair is yours,	movies	carancho	false
+carancho	908	5481.28	5483.31	Escuchme.	Listen carefully.	movies	carancho	false
+carancho	909	5483.68	5487.28	Villegas 1357. A la altura de descampado.	Villegas 1357, opposite the waste ground,	movies	carancho	false
+carancho	910	5489.16	5492.61	Despus de cobrar, penss que te van a dejar ir?	Think they'll let you off the hook once you collect?	movies	carancho	false
+carancho	911	5492.73	5495.32	No. Por eso, prestame atencin.	No. So, pay attention,	movies	carancho	false
+carancho	912	5495.43	5497.62	Es una ocura.	This is madness.	movies	carancho	false
+carancho	913	5500.87	5503.7	Quedte conmigo, por favor.	Just stay with me, please,	movies	carancho	false
+carancho	914	5516.42	5518.08	Ya pasamos por ac.	We can do this.	movies	carancho	false
+carancho	915	5528.53	5530.55	Cuidate.	Be careful,	movies	carancho	false
+carancho	916	5539.17	5541.14	Tengo miedo.	I'm scared.	movies	carancho	false
+carancho	917	5542.54	5545.48	No tengas miedo, confi en m.	Don't be. Trust me.	movies	carancho	false
+carancho	918	5547.21	5549.34	Dnde queda la financiera?	Where's the bank?	movies	carancho	false
+carancho	919	5550.38	5553.91	Villegas 1357. Bien. Bien.	- Villegas 1357. - Good.	movies	carancho	false
+carancho	920	5598.5	5600.97	La indemnizacin convenida a favor del reclamante	"The damages in favor of the plaintiff	movies	carancho	false
+carancho	921	5601.07	5603.7	y que asciende a la suma de 580.000 pesos	amount to $580,000,	movies	carancho	false
+carancho	922	5603.8	5606.17	se efectuar mediante la entrega de 3 cheques	payable in three checks,	movies	carancho	false
+carancho	923	5606.27	5608.83	al nombre del letrado, apoderado de reclamante.	made out to the plaintiff's attorney."	movies	carancho	false
+carancho	924	5608.94	5612.97	Despus vienen as partes. Bueno, y la firma.	The rest states the parties involved, And your signature,	movies	carancho	false
+carancho	925	5634.53	5635.76	Bien.	Good,	movies	carancho	false
+carancho	926	5637	5639.2	Bueno Sosa, legaste.	Sosa, you're finally here,	movies	carancho	false
+carancho	927	5639.31	5640.9	Est todo?	You have everything?	movies	carancho	false
+carancho	928	5642.04	5643.8	Vamos a chequearlo.	Let's check it out.	movies	carancho	false
+carancho	929	5645.68	5647.84	Bueno. Parece que s. Vamos?	Looks like it's all there, Let's go,	movies	carancho	false
+carancho	930	5705.81	5707.74	Este tambin est bien, eh?	That's all of it.	movies	carancho	false
+carancho	931	5711.98	5713.34	Correcto.	A right,	movies	carancho	false
+carancho	932	5740.24	5745.71	530 y 560. 20 de la comisin.	530,000, And 560,000. 20,000 is our commission,	movies	carancho	false
+carancho	933	5755.02	5758.72	La oficina qued hecha una miseria, realmente.	The office is in an awful state.	movies	carancho	false
+carancho	934	5758.82	5761.29	Bueno. A hice limpiar bien...	I had it cleaned thoroughly,	movies	carancho	false
+carancho	935	5761.39	5765.89	Ahora quiero cambiar os muebles y traer a los pintores.	I'll have the furniture replaced, then send in the painting crew.	movies	carancho	false
+carancho	936	5766	5767.99	- Qu color te gustara? - Eh?	What color would you like?	movies	carancho	false
+carancho	937	5768.1	5771.04	De qu color? La oficina.	I mean what color for the office?	movies	carancho	false
+carancho	938	5771.14	5773.1	No s.	I don't know.	movies	carancho	false
+carancho	939	5773.51	5775.5	Yo pienso que hay que pintarla de colores claros,	I think a lighter color	movies	carancho	false
+carancho	940	5775.61	5778.51	para que se vea ms grande. Ms importante, viste?	would make it look bigger, more important,	movies	carancho	false
+carancho	941	5778.61	5781.58	Estaba muy oscura, con muchas cosas...	It was too dark, too cluttered.	movies	carancho	false
+carancho	942	5782.15	5784.84	Bueno. Vemos despus eso.	We'll see about that later.	movies	carancho	false
+carancho	943	5791.46	5793.22	Bueno. Ya est.	Okay, this is it,	movies	carancho	false
+carancho	944	5793.56	5794.82	Tom.	Here,	movies	carancho	false
+carancho	945	5794.93	5800.09	- Vos vens con nosotros, Sosa. - Adnde? Donde quieras, te acercamos.	You're coming with us, Sosa. - Where to? - Wherever, we can give you a ride,	movies	carancho	false
+carancho	946	5804.6	5806.13	Sub.	Get in,	movies	carancho	false
+carancho	947	5818.92	5822.72	Bueno. Segu pensando o del color y me decs.	Keep thinking about the color and let me know.	movies	carancho	false
+carancho	948	5823.22	5825.55	Yo ya hice cambiar a cerradura. Esta tarde me entregan as laves.	I had the locks changed,	movies	carancho	false
+carancho	949	5825.93	5830.56	As que haceme acordar y te doy la copia.	I'll have the keys later today. Remind me to give you a set.	movies	carancho	false
+carancho	950	5832.13	5835.86	Ya me entregaron la lista de todos los accidentes del fin de semana.	I already got the list of this weekend's accidents.	movies	carancho	false
+carancho	951	5836.2	5841.87	Anoche un taxi levant dos tipos en la vereda. Arm un quilombo.	Last night, a taxi ran over two guys at Juan Tern, A big fucking mess!	movies	carancho	false
+carancho	952	5844.04	5847.14	- Leste el diario? - S.  Cuntos hubo esta semana?	Did you read the paper? How many this week?	movies	carancho	false
+carancho	953	5847.91	5849.61	8 ya?	Eight already?	movies	carancho	false
+carancho	954	5849.72	5853.24	En el mes ya van ms de 30, es una barbaridad.	That's over 30 this month, Unbelievable,	movies	carancho	false
+carancho	955	5861.29	5863.73	Te enteraste del choque de Camino de Cintura?	Did you hear about the highway crash?	movies	carancho	false
+carancho	956	5863.83	5865.63	E 57 iba lleno.	The bus was packed.	movies	carancho	false
+carancho	957	5865.73	5868.76	Hay ms de 12 heridos, un par de muertos.	There's over a dozen injured, a couple dead...	movies	carancho	false
+carancho	958	5877.81	5880.04	No arreglan a barrera estos hijos de puta.	Sons of bitches should fix the gate.	movies	carancho	false
+carancho	959	5880.15	5881.37	No, no puede ser.	They're useless...	movies	carancho	false
+carancho	960	5881.48	5885.28	Hay uno con 60% de incapacidad. Ese no vue ve a caminar.	This one guy ended up with 60% disability.	movies	carancho	false
+carancho	961	5885.38	5887.75	Hay que conseguirlo s o s. eh?	We need to get our hands on him,	movies	carancho	false
+carancho	962	5887.85	5890.25	Eso es trabajo tuyo, Sosa.	That's your job, Sosa,	movies	carancho	false
+carancho	963	5891.92	5895.86	Qu le pasa a este? No contesta. Anda perdido.	What's the matter with him? Cat got his tongue?	movies	carancho	false
+carancho	964	5896.7	5898.09	Calgaste, Perro.	You're fucked, Dog!	movies	carancho	false
+carancho	965	5901.77	5907.03	Dale Pico. Arranc. No escuchaste? Dale! - Par, que venga Vitali. - No. Arranc ahora. Par. Que tiene que venir.	- Go! Didn't you hear? - Wait for Vitali, - No! Let's go! - We're waiting for him!	movies	carancho	false
+carancho	966	5908.44	5910.14	Qu pas?	What happened?	movies	carancho	false
+carancho	967	5921.65	5924.38	- Apurens! Apurens! - Qu pas?	- Hurry up! - Hurry up! What happened?	movies	carancho	false
+carancho	968	5929.9	5932.26	Dale. Apurte!	It looks bad! Do you see him?	movies	carancho	false
+carancho	969	5932.36	5934.23	No, no, no. Todava no.	No, not yet.	movies	carancho	false
+carancho	970	5943.71	5946.8	Sosa! Sosa, ests bien?	Sosa, are you okay?	movies	carancho	false
+carancho	971	5954.35	5955.82	Ests bien? Ests bien, mi amor?	Are you okay?	movies	carancho	false
+carancho	972	5955.92	5958.01	Me escuchs? Quedte quieto. No te muevas. s?	Are you okay? Can you hear me?	movies	carancho	false
+carancho	973	5958.12	5961.85	- No lo muevas. - La pierna...	Stay put, don't move. - The leg	movies	carancho	false
+carancho	974	5961.96	5966.69	- No lo muevas. Pon en el colar. - No, qu colar? Hay que sacarlo.	Don't move him! Put a brace on him! We need to get him out!	movies	carancho	false
+carancho	975	5966.8	5967.99	- La pierna. - Ests bien?	- Are you okay? - It's my leg...	movies	carancho	false
+carancho	976	5971.57	5976.3	Par. Ponele el colar.	Hold on, hold on! Here's the brace.	movies	carancho	false
+carancho	977	5976.41	5979.17	No hay tiempo para colar, ayudame a sacarlo.	No time for that, Help me get him out,	movies	carancho	false
+carancho	978	5979.51	5980.81	Escuchme. cmo te sents?	How do you feel?	movies	carancho	false
+carancho	979	5980.91	5984.14	Mirme. No cierres los ojos. Mirme.	Don't close your eyes. Look at me, honey,	movies	carancho	false
+carancho	980	5984.25	5985.84	Mirme mi amor. Mirme.	Look at me,	movies	carancho	false
+carancho	981	5991.69	5995.39	- La guita. - Eh? Busc la guita. E maletn. - El maletn. - Ven.	The money, Get the suitcase. The suitcase,	movies	carancho	false
+carancho	982	5995.83	5997.49	Vena muy rpido.	He was coming too fast,	movies	carancho	false
+carancho	983	5997.6	6000.62	- Vena muy rpido? - Muy rpido. S. Te dio muy duro.	- Very fast, - He hit you hard...	movies	carancho	false
+carancho	984	6001.1	6008.6	- Tra ala ella. - S, quedte tranquilo. - Trala ala ella, tra ala ella. - Ac estoy. Quedte tranquilo.	Bring the briefcase, Don't get worked up, stay calm,	movies	carancho	false
+carancho	985	6010.71	6013.75	A ver. Sentte ah. Dejme que lo voy a mirar. Vmonos de ac, Vmonos de ac.	Sit down. - Let me examine him, - Let's split,	movies	carancho	false
+carancho	986	6013.85	6016.01	Dejme que lo voy a mirar Pico. Mirme. Escuchme.	Let me examine him, Pico.	movies	carancho	false
+carancho	987	6022.79	6026.02	- El arma. dnde est el arma? - No s. Dmela. Dmela.	Where is the gun? Give it to me!	movies	carancho	false
+carancho	988	6029.03	6032.59	- Pico! - No salgas. - No salgas, ven. Ven. - Pico!	- Don't go there! - Are you okay? Pico!	movies	carancho	false
+carancho	989	6036.03	6038.2	- Est muerto!	He's dead!	movies	carancho	false
+carancho	990	6039.77	6041.97	- El auto! Donde est el auto? - All! All!	- Where's the car? - Over there!	movies	carancho	false
+carancho	991	6046.11	6047.37	Ven.	Come on!	movies	carancho	false
+carancho	992	6049.92	6051.47	Dejlo!	Are you okay?	movies	carancho	false
+carancho	993	6051.58	6053.45	- Subte al auto!	Get in the car!	movies	carancho	false
+carancho	994	6056.96	6059.79	- Arranc! Arranc! - Qu hago? No arranca!	- Hit it! - It won't start!	movies	carancho	false
+carancho	995	6077.91	6080.97	Mirme! Abr los ojos!	Look at me, Open your eyes.	movies	carancho	false
+carancho	996	6085.05	6088.11	Decme qu hago! Fijte si nos siguen.	- Tel me what to do. - Are we being followed?	movies	carancho	false
+carancho	997	6090.36	6092.12	No, no nos siguen.	No one's following us.	movies	carancho	false
+carancho	998	6092.22	6095.66	Mirme, mirme. Ests bien?	Look at me, Are you okay?	movies	carancho	false
+carancho	999	6097	6098.59	Dobl ac. Dale, dobl.	Make a right.	movies	carancho	false
+carancho	1000	6108.64	6110.2	Lo hiciste muy bien.	You did well,	movies	carancho	false
+carancho	1001	6117.68	6120.12	- Gracias. Doctora. - Te amo.	- Thanks, Doctor, - I love you.	movies	carancho	false
+carancho	1002	6120.22	6122.05	Yo tambin. Vmonos. Sal de ac.	Me too, Let's get out of here.	movies	carancho	false
+carancho	1003	6122.15	6123.64	Dale, vamos.	Yeah, let's go,	movies	carancho	false
+carancho	1004	6137.44	6140.13	- Permiso, permiso. Permiso. - Permiso, permiso.	Coming through, please!	movies	carancho	false
+carancho	1005	6141.17	6145.58	Ac tenemos una femenina. En el auto, a ver. Un masculino.	A female over here and inside the car, a male.	movies	carancho	false
+carancho	1006	6145.68	6151.15	El seor. Mir. Tiene sangre por todos lados. No el palpo pulso. Sangre aparentemente en abdomen, regin umbar...	The guy is covered in blood, No pulse, blood in the abdomen and mid-section.	movies	carancho	false
+carancho	1007	6151.25	6152.88	Vamos a levarnos a la mujer.	We're taking the woman,	movies	carancho	false
+carancho	1008	6152.99	6154.95	Seora, seora.	Ma'am?	movies	carancho	false
+carancho	1009	6156.19	6158.45	Me conts cmo fue el accidente? Flaca?	Can you tell me about the accident?	movies	carancho	false
+carancho	1010	6158.56	6161.62	Ac tens el colar. Yo te ayudo.	Take the neck brace, Let me help you,	movies	carancho	false
+carancho	1011	6162.43	6164.92	Ah est bien agarrada. Bueno. A la cuenta de 3, s?	Lift on my count of three, okay?	movies	carancho	false
+carancho	1012	6165.03	6167	1, 2, 3.	One, two, three...	movies	carancho	false
+carancho	1013	6168.2	6171.14	- Permiso. - Permiso, permiso. Vamos a pasar. Permiso.	Excuse me, coming through!	movies	carancho	false
