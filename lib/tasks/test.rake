@@ -45,11 +45,6 @@ task :create_words => [:environment] do
   seen=Hash.new()
   i=0
 #  Verb.find(:all).each do |v|
-
-
-
-
-
   conjugations=ActiveRecord::Migration.execute("select conj from verbs;")
   if conjugations.class.to_s.match(/mysql/i) then
     conjugations.each do |j|
@@ -62,7 +57,7 @@ task :create_words => [:environment] do
     conj_count[0]["count"].to_i.times{|i| h[conjugations[i]['conj']]=1 }
   
   end
-
+ActiveRecord::Migration.execute("truncate words;")
 
   print "done with conj hash, getting caps\n"
   Cap.find(:all, :conditions=>["hide = '0' and eng!=spa and eng!=''"]).each do |c|
@@ -100,7 +95,9 @@ end
 task :create_subs => [:environment] do
 
   basedir = Rails.root.to_s + "/lib/tasks"
-  file = File.new(basedir + "/files/#{ENV["file"]}.txt","r")
+#  file = File.new(basedir + "/files/#{ENV["file"]}.txt","r")
+ file = File.new(basedir + "/files/combined.txt","r")
+ 
   c=0
   ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
 
@@ -118,7 +115,7 @@ task :create_subs => [:environment] do
 #     puts "#{w}\n"
 #    end
     ccount= spa.size.to_s
-    cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>url,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
+    cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>source2,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount,:hide=>0)
     #puts wcount.size.to_s + " " + ccount + " " + txt
     cap.save
     c+=1
@@ -139,7 +136,7 @@ task :import_caps => [:environment] do
       wcount=spa.split(/\s+/).size.to_s
       ccount= spa.size.to_s
 #      puts "#{start} #{stop} #{eng} #{wcount} #{ccount} #{spa} -p- #{source} -x- #{source2} ... #{hide}"
-      cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>url,:hide=>hide,:wcount=>wcount,:ccount=>ccount,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
+      cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>source2,:hide=>hide,:wcount=>wcount,:ccount=>ccount,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
       cap.save!
       print "#{counter2}\n" if counter==200;
       counter=0 if counter==200
