@@ -136,7 +136,7 @@ task :import_caps => [:environment] do
       wcount=spa.split(/\s+/).size.to_s
       ccount= spa.size.to_s
 #      puts "#{start} #{stop} #{eng} #{wcount} #{ccount} #{spa} -p- #{source} -x- #{source2} ... #{hide}"
-      cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>source2,:hide=>hide,:wcount=>wcount,:ccount=>ccount,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
+      cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>url,:hide=>hide,:wcount=>wcount,:ccount=>ccount,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount)
       cap.save!
       print "#{counter2}\n" if counter==200;
       counter=0 if counter==200
