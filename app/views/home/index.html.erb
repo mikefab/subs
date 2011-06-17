@@ -15,7 +15,7 @@ mood_des["Subjuntivo"]="The subjunctive mood is used to express everything excep
 mood_des["Indicativo"]="The verb mood used in ordinary, typical speech when making statements.";
 mood_des["Condicional"]="The conditional is frequently used to express probability, possibility, wonder or conjecture, and is usually translated as would, could, must have or probably.";
 mood_des["Imperativo"]="The imperative mood expresses direct commands, requests, and prohibitions. In many circumstances, using the imperative mood may sound blunt or even rude, so it is often used with care.";
-
+mood_des["Verboide"]="Verbs that are considered non-personal because they lack personal endings."
 
 
 
@@ -35,6 +35,14 @@ function return_mood(div,arg){
 // 	div.title=tense_type[arg];
 // 
 // }
+
+function display_verbs(value){
+	document.getElementById('verbs_div').innerHTML="<h3>loading verbs...</h3>";
+	
+	document.getElementById('verb_tense').value=value;
+	document.getElementById('verb_button').focus();
+	document.getElementById('verb_button').click();                     
+}
 
 function highlight_mood(div){
 	document.getElementById('tenses_div').innerHTML="<h3>loading tenses...</h3>";
@@ -76,13 +84,16 @@ function display_results(value){
 	<%end%>
 	</div>
 	<div id="mood_explination" style="position:absolute;display:inline;left:300px;top:100px;inline; ">
-		<div id="instruction1" >Learn Spanish verbs by listening to clips with text.<br>Begin by clicking a mood to the left</div>
+		<div id="instruction1" >Learn Spanish verbs by listening to clips with text.<br>Begin by clicking a mood to the left.</div>
+
 	</div>
-	<div id ="moods" style="position:absolute;display:inline; " >
+	<div id ="moods" style="position:absolute;display:inline;" >
 		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Condicional</h2>
 		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Imperativo</h2>
 		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Indicativo</h2>
 		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Subjuntivo</h2>
+		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Verboide</h2>
+
 	</div>
 
 </div>

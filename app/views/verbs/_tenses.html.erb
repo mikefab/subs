@@ -20,6 +20,9 @@ tense_width["presente"] ="20";
 
 
 tense_main= new Array();
+tense_main["participio"]="The participle which, in both<br>Spanish and English, can be used <br>as an adjective or with<br> auxiliary verbs to form<br> the perfect tenses or the passive voice.<br>Examples:<br>I have studied in Barcelona.<br>(He estudiado en Barcelona.)<br><br> My friend was arrested.<br> (Mi amiga fue detenida.)<br><br>I had eaten the burnt potatoes.<br> (Había comido las papas quemadas.)"
+tense_main["infinitivo"]="The infinitive is the basic,<br>unconjugated form of a verb,<br>sometimes called the name of the verb.<br>In English the infinitive is<br>to + verb: to talk, to eat,<br> to leave, etc.<br>Infinitivos have one of the following endings:<br> -ar, -er, or -ir"
+tense_main["gerundio"]="a special, invariable form of the verb which<br>always ends in -ndo in Spanish,<br>for example: hablando, comiendo, viviendo.<br>In English it is translated as the '-ing'<br> form of the verb (for example, 'speaking')";
 tense_main["condicional simple"]="1. To express a wish/courtesy:<p>	Me gustaría comprar una camisa (I´d like to buy a shirt).<br>¿Podrías decirme....? (Could you tell me...?)<p>2. To express a possibility:<br>Compraríamos la motocicleta si tuviéramos* más dinero. (We would buy the motorbike if we had more money).<p>3. To give an advice:<br>¡Deberías comer más! (You should eat more!)"
 tense_main["condicional perfecto"]="The conditional perfect is used to make statements that are contrary to reality.<br> Something would, or would not, have happened if some condition had been met.<p>As an example,<br>'I would have done the assingment last night, if I had only taken my notebook with me to the party'.<p>The conditional perfect can also be used to express probability or<br>conjecture about the completion of an action prior to some point in the past:<p>El habría sacado la gorda antes de comprar aquella mansion.<br>He would have won the lottery before purchasing that mansion.<p>El profesor le habría prometido una marca perfecta cuando empezó el curso.<br>The professor must have promised him an A plus when he started the course."
 tense_main["futuro simple"] ="future."
@@ -65,13 +68,7 @@ tense_main["pluscuamperfecto"] = "The Spanish pluperfect (aka past perfect) is u
 tense_main["presente"]="Present";
 tense_main["pretérito perfecto"] = "The Spanish present perfect is used just like its English counterpart: to express that something has happened at some point before now, at an unspecified time in the past.";
 
-function display_verbs(value){
-	document.getElementById('verbs_div').innerHTML="<h3>loading verbs...</h3>";
-	
-	document.getElementById('verb_tense').value=value;
-	document.getElementById('verb_button').focus();
-	document.getElementById('verb_button').click();                     
-}
+
 
 function getPos(el) {
     // yay readability

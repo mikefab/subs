@@ -131,6 +131,7 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
 
 
    def hide_all
+     Rails.cache.clear()
      @cap = Cap.find(params[:id])
      @caps = Cap.find(:all, :conditions => ["url=?", @cap.url])
      @caps.each do |c|
@@ -148,6 +149,7 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
 
 
   def hide
+    Rails.cache.clear()
     @cap = Cap.find(params[:id])
     @cap.hide=1
     @cap.save
