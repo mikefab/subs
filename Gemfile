@@ -5,7 +5,7 @@ gem 'rails', '3.0.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'mysql2', '0.2.7'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -32,3 +32,5 @@ gem 'annotate-models', '1.0.4'
 #   gem 'webrat'
 # end
 gem "will_paginate", "~> 3.0.pre2"
+gem 'heroku_external_db'
+gem "jquery-rails"

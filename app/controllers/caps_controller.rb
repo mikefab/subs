@@ -41,21 +41,21 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
 
     end
 
-    def single()
-ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
+    def cap()
+      ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
       if params[:direction]=="back" then
-        @single = Cap.find(:last,:conditions=>["url=? and num < ?", params[:url], params[:num]], :order=>'num' )
+        @cap = Cap.find(:last,:conditions=>["url=? and num < ?", params[:url], params[:num]], :order=>'num' )
       else
-        @single = Cap.find(:first,:conditions=>["url=? and num > ?", params[:url], params[:num]], :order=>'num' )
+        @cap = Cap.find(:first,:conditions=>["url=? and num > ?", params[:url], params[:num]], :order=>'num' )
       end
-        @single = Cap.find(:first,:conditions=>["url=? and num = ?", params[:url], params[:num]] ) if !@single
-        @single? returned_results=1 : returned_results=0
+        @cap = Cap.find(:first,:conditions=>["url=? and num = ?", params[:url], params[:num]] ) if !@cap
+        @cap? returned_results=1 : returned_results=0
         Track.new(:ip=>ip,:search=>"#{params[:num]}-#{params[:url]}",:num=>returned_results).save!
 
       caps=Array.new()
-      caps<<@single
+      caps<<@cap
       (@verbs,@hash_id,@english) = Verb.return_verbs(caps)
-      @single
+      @cap
     end
 
   # GET /caps/1

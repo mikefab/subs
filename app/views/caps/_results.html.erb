@@ -41,8 +41,8 @@
 		document.getElementById('url').value=url;
 		document.getElementById('num').value=num;
 		document.getElementById('id').value=id;
-		document.getElementById('single_button').focus();
-		document.getElementById('single_button').click();
+		document.getElementById('cap_button').focus();
+		document.getElementById('cap_button').click();
 
 	}
 
@@ -82,11 +82,11 @@
 </script>
 
 <% c=0 %>
-<% @caps.each do |single| %>
+<% @caps.each do |cap| %>
 <%c=c+1%>
 
 <div id="container_<%=c%>">
-	<%= render :partial => "caps/single", :object => single  %>
+	<%= render :partial => "caps/cap", :object => cap  %>
 
 </div>
 <br><br>

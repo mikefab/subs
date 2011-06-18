@@ -1,0 +1,5 @@
+
+
+var id=document.getElementById('id').value;
+
+$('#'+id).html("<%= escape_javascript(render(:partial => 'cap'))%>");

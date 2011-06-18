@@ -25,6 +25,7 @@
 #
 
 class Cap < ActiveRecord::Base
+  acts_as_rateable
 
 def self.trash()
   string  = "este"

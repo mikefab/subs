@@ -9,14 +9,16 @@ Subs::Application.routes.draw do
   match 'results' =>'caps#results'
   match 'verbs' =>'verbs#verbs'
   match 'tenses'=>'verbs#tenses'
-  match 'single'=>'caps#single'
+  match 'cap'=>'caps#cap'
+  match 'ratings'=>'ratings#rating'
 
   resources :roots
-
+  resources :ratings
   resources :verbs
   resources :home
   resources :caps do
     member do
+
       get 'hide'
       get 'hide_all'
     end

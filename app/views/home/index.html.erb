@@ -120,12 +120,12 @@ function display_results(value){
 	<%= submit_tag "Search", :id=>"results_button",:name => 'results_button',:style=>"display:none;" %>
 <%end%> -->
 
-<% form_tag single_path,:name=>"single_form",:id=>'single_form', :method=>:get, :remote=>true do%>
+<% form_tag cap_path,:name=>"cap_form",:id=>'cap_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :direction%>
 	<%=hidden_field_tag :num%>
 	<%=hidden_field_tag :url%>
 	<%=hidden_field_tag :id%>
-	<%= submit_tag "Search", :id=>"single_button",:name => 'single_button',:style=>"display:none;" %>
+	<%= submit_tag "Search", :id=>"cap_button",:name => 'cap_button',:style=>"display:none;" %>
 <%end%>
 
 

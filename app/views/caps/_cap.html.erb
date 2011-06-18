@@ -1,0 +1,60 @@
+<%@cap=cap if cap%>
+<script>
+
+
+
+function go_to(id,num,url,direction,div){
+// alert('hi')
+// alert(div.parentNode.id);	
+	document.getElementById('direction').value=direction;
+	document.getElementById('url').value=url;
+	document.getElementById('num').value=num;
+	document.getElementById('id').value=div.parentNode.id;
+	document.getElementById('cap_button').focus();
+	document.getElementById('cap_button').click();
+
+}
+</script>
+	<div id="previous" onClick='go_to(<%=@cap.id%>,<%=@cap.num%>,"<%=@cap.url%>","back",this);' title="view previous clip." style="position:relative;display:inline;font-size:8pt;">previous clip</div>
+		<% if @cap.source == "dotsub" %> 
+		<audio src="http://www.mikefab.com/ogg/spa/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
+		<%else%>
+			<%@cap.source2=@cap.source2.gsub(" ",".")%>
+			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=@cap.source2%>/<%= @cap.num %>_<%= @cap.source2  %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
+		<%end%>
+<div id="next" onClick="go_to(<%=@cap.id%>,<%=@cap.num%>,'<%=@cap.url%>','next',this);" title="view next clip." style="position:relative;display:inline;font-size:8pt;">next clip</div><br><br>
+	<%counter=0%>
+    <%@cap.spa.split(/\s+/).each do |w|%>
+<%thing="#{@cap.id}-#{counter}"%>
+	<span id="<%=@cap.id%>-<%=counter%>_basic" onmouseover="light_up('<%=@cap.id%>-<%=counter%>',this);" onmouseout="darken('<%=@cap.id%>-<%=counter%>');">
+	<a href='#' onClick="display_results('<%=w%>');"><%=w%></a></span>
+<%if @hash_id[thing] then%>
+	<span id="<%=@cap.id%>-<%=counter%>" style="position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
+	<%= @hash_id[thing].conj%>
+	<br>verb: <a href=""><%= @hash_id[thing].verb%> - <%=@english["#{@hash_id[thing].verb}"]%></a>
+	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
+	<br>mood:  <a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
+	<br>tense type:  <a href="" onmouseover="return_tense_type(this,'<%=@hash_id[thing].tense_type%>');"><%=@hash_id[thing].tense_type%></a>
+	<br>pronoun: <a href=""> <%=@hash_id[thing].pro%></a>
+	
+	</span>
+ 	<%end%>
+	<%counter=counter+1%>
+	<%end%>
+	
+<br>
+	<%=@cap.eng%>
+<br><br>
+<div>
+	<div style="position:relative;float:left;display:inline;">
+	<%= render :partial => "ratings/rating", :object => @cap  %>
+	</div>
+	<div style="position:relative;left:100px;display:inline;">
+
+		<div style="display:inline;" title="Removes just this file." ><%= link_to 'remove',hide_cap_path(@cap), :confirm => 'Are you sure?' %></div> |
+		<div style="display:inline;" title="Removes all clips in database from same video" ><%= link_to 'remove all', hide_all_cap_path(@cap), :confirm => 'Are you sure?'  %></div> |
+		<div style="display:inline;" ><%= link_to 'edit Spanish', hide_all_cap_path(@cap), :confirm => 'Are you sure?'  %></div> |
+		<div style="display:inline;" ><%= link_to 'edit English', hide_all_cap_path(@cap), :confirm => 'Are you sure?'  %></div> |
+
+	</div>
+</div>
