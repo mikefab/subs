@@ -1,6 +1,6 @@
  <%= javascript_include_tag "pagination.js" %>
 <%if @caps%>
-<div id="search" style="display:inline;">
+<div id="search" >
 
 
 <script>
@@ -82,19 +82,23 @@
 </script>
 
 <% c=0 %>
+<div>
 <% @caps.each do |cap| %>
 <%c=c+1%>
 
-<div id="container_<%=c%>">
+<div id="container_<%=c%>" >
 	<%= render :partial => "caps/cap", :object => cap  %>
 
 </div>
 <br><br>
 
 <% end %>
-
-<br />
+</div>
+<br>
+<div style="position:relative;">
 <%= will_paginate @caps, :remote=>true %>
 <%= page_entries_info @caps %> 
 <%#= link_to 'New Cap', new_cap_path %>
 <%end%>
+</div>
+</div>	

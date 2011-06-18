@@ -2,8 +2,9 @@
 <div id="<%=@cap.id%>_rating_div" style="display:inline;">
 		<%rated_number= @rate_default || 5%>
 
-<h5 style="display:inline;">Please rate quality.</h5>
 <div style="display:inline;">
+	<h5 style="display:inline;">Please rate quality.</h5>
+
 <% form_tag ratings_path,:name=>"rating_form",:id=>'rating_form', :onClick=>"document.getElementById('#{@cap.id}_rating_button').click();",:method=>:get, :remote=>true do |f|%>
     <% 1.upto(8) do |value| %>
   <%= star_button f, @cap, value, (value==rated_number) %>
@@ -12,5 +13,5 @@
     <%= hidden_field_tag("cap_id", @cap.id) %>
 	<%= submit_tag "Search", :id=>"#{@cap.id}_rating_button",:name => 'rating_button',:style=>"display:none;" %>
   <% end %>
-  Average rating: <%= @cap.average_rating %>
+  Rating: <%= @cap.average_rating %>
 </div></div>
