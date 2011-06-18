@@ -59,10 +59,11 @@
 	function light_up(id,div){
 	  if(document.getElementById(id)){
 
+
 		var pos = getPos(div);
 		document.getElementById(id).style.display='inline';	
 	    document.getElementById(id).style.left=(pos[0]+(document.getElementById(id+'_basic').offsetWidth*.6)) +"px";
-	    document.getElementById(id).style.top=(pos[1]+document.getElementById(id+'_basic').offsetHeight) +"px";
+	    document.getElementById(id).style.top=(pos[1]+document.getElementById(id+'_basic').offsetHeight-document.body.scrollTop) +"px";
 
 	  }
 	}
