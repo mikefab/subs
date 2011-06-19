@@ -83,6 +83,11 @@
 </script>
 
 <% c=0 %>
+<div style="position:relative;">
+<%= will_paginate @caps, :remote=>true %>
+<%#= page_entries_info @caps %> 
+<%#= link_to 'New Cap', new_cap_path %>
+</div><br>
 <div>
 <% @caps.each do |cap| %>
 <%c=c+1%>
@@ -100,6 +105,7 @@
 <%= will_paginate @caps, :remote=>true %>
 <%= page_entries_info @caps %> 
 <%#= link_to 'New Cap', new_cap_path %>
-<%end%>
 </div>
+<%end%>
+
 </div>	
