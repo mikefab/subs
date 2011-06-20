@@ -115,7 +115,7 @@ task :create_subs => [:environment] do
 #     puts "#{w}\n"
 #    end
     ccount= spa.size.to_s
-    cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>source2,:lang=>"spa",:source=>source,:source2=>source2,:wcount=>wcount.size,:ccount=>ccount,:hide=>0)
+    cap = Cap.new(:num=>num,:start=>start,:stop=>stop,:spa=>spa,:eng=>eng,:url=>url,:lang=>"spa",:source=>url,:source2=>url,:wcount=>wcount.size,:ccount=>ccount,:hide=>0)
     #puts wcount.size.to_s + " " + ccount + " " + txt
     cap.save
     c+=1
@@ -156,7 +156,7 @@ task :export_caps => [:environment] do
   c.each do |c|
     count=count+1
     count2=count2+1
-    string = "#{c.url}\t#{c.num}\t#{c.start}\t#{c.stop}\t#{c.spa}\t#{c.eng}\t#{c.source}\t#{c.source2}\t#{c.hide}\n"
+    string = "#{c.url}\t#{c.num}\t#{c.start}\t#{c.stop}\t#{c.spa}\t#{c.eng}\t#{c.url}\t#{c.url}\t#{c.hide}\n"
     File.open(basedir +'/caps.txt', 'a') do |f2|  
       f2.puts string  
     end
