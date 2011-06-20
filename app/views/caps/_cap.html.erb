@@ -16,12 +16,9 @@ function go_to(id,num,url,direction,div){
 }
 </script>
 	<div id="previous" onClick='go_to(<%=@cap.id%>,<%=@cap.num%>,"<%=@cap.url%>","back",this);' title="view previous clip." style="position:relative;display:inline;font-size:8pt;">previous clip</div>
-		<% if @cap.source == "dotsub" %> 
-		<audio src="http://www.mikefab.com/ogg/spa/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
-		<%else%>
 			<%@cap.source2=@cap.source2.gsub(" ",".")%>
-			<audio src="http://www.mikefab.com/ogg/spa/movies/<%=@cap.source2%>/<%= @cap.num %>_<%= @cap.source2  %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
-		<%end%>
+			<audio src="http://www.mikefab.com/ogg/<%=cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url%>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
+
 <div id="next" onClick="go_to(<%=@cap.id%>,<%=@cap.num%>,'<%=@cap.url%>','next',this);" title="view next clip." style="position:relative;display:inline;font-size:8pt;">next clip</div><br><br>
 	<%counter=0%>
     <%@cap.spa.split(/\s+/).each do |w|%>
