@@ -47,7 +47,7 @@ function go_to(id,num,url,direction,div){
 	<%= render :partial => "ratings/rating", :object => @cap  %>
 	</div>
 	<div style="position:relative;left:200px;display:inline;">
-		<div style="display:inline;" title="Removes all clips in database from same video" >Remove all<%#= link_to 'remove all', hide_all_cap_path(@cap), :confirm => 'Are you sure?'  %></div> |
+		<div style="display:inline;" title="Removes all clips in database from same video" >Remove all<%= link_to 'remove all', hide_all_cap_path(@cap), :confirm => 'Are you sure?'  %></div> |
 		<div style="display:inline;" >Edit<%#= link_to 'edit', hide_all_cap_path(@cap), :confirm => 'Are you sure?'  %></div> 
 
 	</div>
