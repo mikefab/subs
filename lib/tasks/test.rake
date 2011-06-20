@@ -152,6 +152,8 @@ end
 
 task :export_caps => [:environment] do
   basedir = Rails.root.to_s + "/lib/tasks"
+  File.open(basedir +'/caps.txt', 'w') do |f2|
+  end
   c=Cap.find(:all, :conditions=>["hide =0 and eng !='' and spa!=eng "])
   count=0
   count2=0
@@ -159,7 +161,7 @@ task :export_caps => [:environment] do
     count=count+1
     count2=count2+1
     string = "#{c.url}\t#{c.num}\t#{c.start}\t#{c.stop}\t#{c.spa}\t#{c.eng}\t#{c.url}\t#{c.url}\t#{c.hide}\n"
-    File.open(basedir +'/caps.txt', 'w') do |f2|  
+    File.open(basedir +'/caps.txt', 'a') do |f2|  
       f2.puts string  
     end
     print "#{count2.to_s}\n" if count==200
