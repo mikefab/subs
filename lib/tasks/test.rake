@@ -126,6 +126,8 @@ end
 
 
 task :import_caps => [:environment] do
+  ActiveRecord::Migration.execute("truncate caps;")
+
   basedir = Rails.root.to_s + "/lib/tasks"
    counter = 1
    counter2=1
