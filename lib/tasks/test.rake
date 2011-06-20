@@ -73,7 +73,7 @@ ActiveRecord::Migration.execute("truncate words;")
           if w.word and w.word.match(/[a-zA-Z]/) then
             w.save 
           end
-          print "#{c.id} making hash of #{a[i]}\n"
+#          print "#{c.id} making hash of #{a[i]}\n"
           seen[a[i]]=1
         else
         end
@@ -119,7 +119,7 @@ task :create_subs => [:environment] do
     #puts wcount.size.to_s + " " + ccount + " " + txt
     cap.save
     c+=1
-    puts c.to_s + " " + cap.spa
+#    puts c.to_s + " " + cap.spa
   }  
 end
 
