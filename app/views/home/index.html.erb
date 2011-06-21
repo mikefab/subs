@@ -62,6 +62,7 @@ function highlight_mood(div){
 
 	document.getElementById('mood_button').focus();
 	document.getElementById('mood_button').click();
+
 }
 function display_results(value){
 	document.getElementById('search').value=value;
@@ -84,7 +85,7 @@ function display_results(value){
 	<%end%>
 	</div>
 	<div id="mood_explination" style="position:absolute;display:inline;left:300px;top:100px;inline; ">
-		<div id="instruction1" >Learn Spanish verbs by listening to clips with text.<br>Begin by clicking a mood to the left.</div>
+		<div id="instruction1" >Learn Spanish verbs by listening to clips with text.<br>Begin by clicking a mood to the left.<p style="font-size:9pt;">(In some cases this tool mistakes a noun for a verb or mistakes a tense.<br>Imperativo is especially slippery.)</p></div>
 
 	</div>
 	<div id ="moods" style="position:absolute;display:inline;" >
@@ -102,7 +103,7 @@ function display_results(value){
 
 
 <div style="position:relative;top:200px;">
-	<div id="instruction2" style="position:relative;visibility:hidden;left:200px;top 10px;" >Now click on a tense to see the verbs!</div>
+	<div id="instruction2" style="position:relative;visibility:hidden;left:200px;top 10px;" >Click on a tense to see the verbs!</div>
 
 <% form_tag tenses_path,:name=>"tense_form",:id=>'tense_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :tense_mood, params[:mood]%>

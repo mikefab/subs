@@ -1,1 +1,18 @@
 $("#tenses_div").html("<%= escape_javascript(render(:partial => 'tenses'))%>");
+
+$(function (){  
+//		document.getElementById('instruction2').style.visibility='hidden';
+		var first_tense= document.getElementById('1_tense');
+		if (!first_tense.innerHTML.match(/futuro perfecto/)){
+			display_verbs(first_tense.innerHTML);
+			highlight_tense(first_tense);
+			refresh_tenses=0;
+		}else{
+			var first_tense= document.getElementById('2_tense');
+			display_verbs(first_tense.innerHTML);
+			highlight_tense(first_tense);
+			refresh_tenses=0;
+			
+		}
+
+});
