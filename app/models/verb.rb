@@ -31,23 +31,30 @@ end
   end
 
   def self.return_mood_verbs(mood,tense)
+#Rails.cache.clear()
     if Rails.cache.read("#{mood}#{tense}") 
-      return Rails.cache.read("#{mood}#{tense}").split(/:/) 
+#      return Rails.cache.read("#{mood}#{tense}").split(/:/) 
+      return Rails.cache.read("#{mood}#{tense}") 
+
     else
     a_verbs=Array.new()
     a_strings=Array.new()
     hash_words=Hash.new()
-    conjugations=ActiveRecord::Migration.execute("select conj from verbs where mood = '#{mood}' and tense = '#{tense}';")
+    grand_verb=Hash.new() #for all matching conjugations through life of function
+    small_verb=Hash.new() #for unique conjugations with matching words.
+    conjugations=ActiveRecord::Migration.execute("select conj,verb from verbs where mood = '#{mood}' and tense = '#{tense}';")
 
 
     if connection().to_s.match(/mysql/i) then
       conjugations.each do |j|
-        a_strings<<j[0]
+#        a_strings<<j[0]
+        grand_verb[j[0]]=j[1]
       end
     else
       #mu'fuck'n po'gres
       conj_count=ActiveRecord::Migration.execute("select count(*) from verbs where mood = '#{mood}' and tense = '#{tense}';")
-      conj_count[0]["count"].to_i.times{|i| a_strings<< conjugations[i]['conj'] }
+#      conj_count[0]["count"].to_i.times{|i| a_strings<< conjugations[i]['conj']
+      conj_count[0]["count"].to_i.times{|i| a_strings<<  grand_verb[conjugations[i]['conj']]=conjugations[i]['verb']}
     end
 
      words=ActiveRecord::Migration.execute("select word from words;")
@@ -64,11 +71,17 @@ end
     a_strings=a_strings.uniq
     #Now find out if each conjugation is found in a caption
     a_strings.each do |s|
-      a_verbs << s if hash_words[s]
+      if hash_words[s]
+        a_verbs << s
+        small_verb[s]=grand_verb[s]
+      end
     end
-    a_string=a_verbs.join(":")
-    Rails.cache.write("#{mood}#{tense}","#{a_string}")
-    return a_verbs.uniq.sort!
+    
+#    a_string=a_verbs.join(":")
+#    Rails.cache.write("#{mood}#{tense}","#{a_string}")
+    Rails.cache.write("#{mood}#{tense}","#{small_verb}")
+#    return a_verbs.uniq.sort!
+     return small_verb
   end
 end
 
@@ -118,11 +131,10 @@ end
       temp = Verb.find(:first,:conditions=>['conj = ?',"#{word}"])
       #loop through ids for each word, initialize hash set id as key and verb as value
       if hash_ids[word] and temp then
- #       print "11111 #{word} #{temp.verb}\n"
         #get english translation for verb
-        trans=Root.find(:first,:conditions=>['verb=?',temp.verb])
-          english["#{temp.verb}"]=trans.trans
-
+        #trans=Root.find(:first,:conditions=>['verb=?',temp.verb])
+#          english["#{temp.verb}"]=trans.trans
+          english[temp.verb]=Rails.cache.read("hash_trans")[temp.verb]
         hash_ids[word] =  hash_ids[word].sub(/|$/,"")
         array_of_ids = hash_ids[word].split("|")
         array_of_ids.each do |id|

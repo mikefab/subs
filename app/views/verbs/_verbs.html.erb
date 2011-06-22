@@ -9,7 +9,6 @@
 
 </script>
 
-
 <%if @verbs%>
 
 	<%c=0%>
@@ -20,10 +19,10 @@
 	<div id="instruction3">Now, click a verb below<br>to see it in action</div>
 	<div id="verb_place">
 
-	<%@verbs.each do |v| %>
+	<%@verbs.each do |k,v| %>
 		<%c=c+1%>
 <div >
-	<div id="<%=c%>_verb" style="cursor:pointer;display:inline;" onClick="display_results(this.innerHTML);" ><%=v%></div>
+	<div id="<%=c%>_verb" title="<%=v%>-<%=Rails.cache.read("hash_trans")[v]%>"style="cursor:pointer;display:inline;" onClick="display_results(this.innerHTML);" ><%=k%></div>
 <!-- <%#= title="<%=Rails.cache.read("hash_verb")[v]%><%#=Rails.cache.read("hash_trans")[Rails.cache.read("hash_verb")[v]]%>" %> -->
 </div>	
 
