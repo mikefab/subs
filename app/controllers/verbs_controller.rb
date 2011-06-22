@@ -12,7 +12,7 @@ class VerbsController < ApplicationController
   end
 
   def tenses
-#         Rails.cache.clear()
+      Rails.cache.clear()
     ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
 
     @tenses = Verb.return_tenses(params[:tense_mood])
