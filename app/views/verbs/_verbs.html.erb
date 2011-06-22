@@ -24,7 +24,7 @@
 		<%c=c+1%>
 <div >
 	<div id="<%=c%>_verb" style="cursor:pointer;display:inline;" onClick="display_results(this.innerHTML);" ><%=v%></div>
-<%#= title="<%=Rails.cache.read("hash_verb")[v]%><%#=Rails.cache.read("hash_trans")[Rails.cache.read("hash_verb")[v]]%>" %>
+<!-- <%#= title="<%=Rails.cache.read("hash_verb")[v]%><%#=Rails.cache.read("hash_trans")[Rails.cache.read("hash_verb")[v]]%>" %> -->
 </div>	
 
 	<%end%>
