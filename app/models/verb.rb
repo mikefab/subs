@@ -54,12 +54,12 @@ end
       #mu'fuck'n po'gres
       conj_count=ActiveRecord::Migration.execute("select count(*) from verbs where mood = '#{mood}' and tense = '#{tense}';")
 #      conj_count[0]["count"].to_i.times{|i| a_strings<< conjugations[i]['conj']
-conj_count[0]["count"].to_i.times{|i| puts "#{conjugations[i]['conj']} nn  #{conjugations[i]['verb']}\n"}
-
      conj_count[0]["count"].to_i.times{|i| grand_verb[conjugations[i]['conj']]=conjugations[i]['verb']}
 
     end
-
+grand_verb.each do |k,v|
+  puts "#{k} .... #{v}\n"
+end
      words=ActiveRecord::Migration.execute("select word from words;")
 
      if connection().to_s.match(/mysql/i) then
