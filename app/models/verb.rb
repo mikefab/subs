@@ -31,11 +31,12 @@ end
   end
 
   def self.return_mood_verbs(mood,tense)
-puts "#{Rails.cache.read("blow")} nnnnnnn"
     if Rails.cache.read("#{mood}#{tense}") 
+      puts "aaaaaaaaa"
       return Rails.cache.read("#{mood}#{tense}") 
-      puts "hello? I shouldn't be here"
     else
+      puts "bbbbbbbbb"
+
     a_verbs=Array.new()
     a_strings=Array.new()
     hash_words=Hash.new()
@@ -77,7 +78,6 @@ puts "#{Rails.cache.read("blow")} nnnnnnn"
         small_verb[s]=grand_verb[s]
       end
     end
-    print "xxxxxxx "
     Rails.cache.write("blow","hard")
     Rails.cache.write("#{mood}#{tense}","#{small_verb}")
 
@@ -95,7 +95,6 @@ end
     english=Hash.new()
     
     caps.each do |cap|
-      print "aaaa #{cap.id} #{cap.spa}\n"
       cap.spa=cap.spa.gsub(/\s+/," ")
       text = cap.spa.split(/\s+/)
       #loop through each word
