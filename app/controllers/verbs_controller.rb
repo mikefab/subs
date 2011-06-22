@@ -24,7 +24,7 @@ class VerbsController < ApplicationController
 #    Rails.cache.clear()
     ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
      @verbs = Verb.return_mood_verbs(params[:verb_mood],params[:verb_tense])
-       puts "#{@verbs} xxx\n"
+       puts "1111 #{@verbs} 2222\n"
  
 
  #    returned_results=@verbs.size || 0
