@@ -57,9 +57,7 @@ end
      conj_count[0]["count"].to_i.times{|i| grand_verb[conjugations[i]['conj']]=conjugations[i]['verb']}
 
     end
-grand_verb.each do |k,v|
-  puts "#{k} .... #{v}\n"
-end
+
      words=ActiveRecord::Migration.execute("select word from words;")
 
      if connection().to_s.match(/mysql/i) then
@@ -84,6 +82,9 @@ end
 #    Rails.cache.write("#{mood}#{tense}","#{a_string}")
     Rails.cache.write("#{mood}#{tense}","#{small_verb}")
 #    return a_verbs.uniq.sort!
+small_verb.each do |k,v|
+  puts "#{k} aaa #{v}\n"
+end
      return small_verb
   end
 end
