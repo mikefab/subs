@@ -55,7 +55,7 @@ end
       conj_count=ActiveRecord::Migration.execute("select count(*) from verbs where mood = '#{mood}' and tense = '#{tense}';")
 #      conj_count[0]["count"].to_i.times{|i| a_strings<< conjugations[i]['conj']
 #      conj_count[0]["count"].to_i.times{|i| grand_verb[conjugations[i]['conj']]=conjugations[i]['verb']}
-conj_count[0]["count"].to_i.times{|i| puts "#{conjugations[i]['conj']} #{conjugations[i]['verb']}\n"}
+conj_count[0]["count"].to_i.times{|i| puts "#{conjugations[i][0]} .. #{conjugations[i][1]}\n"}
 
     end
 
