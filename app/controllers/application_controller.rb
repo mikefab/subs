@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   include SessionsHelper
-  before_filter :pre
+#  before_filter :pre
 
   def pre
     @verbs_hash=  conj_verb()
