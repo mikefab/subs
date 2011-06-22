@@ -29,7 +29,7 @@ class VerbsController < ApplicationController
      end
 #     @verbs=@verbs.sort
  #    returned_results=@verbs.size || 0
-     Track.new(:ip=>ip,:search=>params[:verb_tense],:num=>returned_results).save!
+   #  Track.new(:ip=>ip,:search=>params[:verb_tense],:num=>returned_results).save!
 
    end
     
