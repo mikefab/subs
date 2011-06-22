@@ -57,9 +57,6 @@ Rails.cache.clear()
      conj_count[0]["count"].to_i.times{|i| grand_verb[conjugations[i]['conj']]=conjugations[i]['verb']}
 
     end
-grand_verb.each do |k,v|
-  puts "#{k} UUUU #{v}\n"
-end
      words=ActiveRecord::Migration.execute("select word from words;")
 
      if connection().to_s.match(/mysql/i) then
@@ -70,6 +67,11 @@ end
        word_count=ActiveRecord::Migration.execute("select count(*) from words;")
        word_count[0]["count"].to_i.times{|i| hash_words[words[i]['word']]=1 }
      end
+     
+     hash_words.each do |k,v|
+       puts "#{k} oooo #{v}\n"
+     end
+     
     #Many conjugations repeat, so make list unique
     a_strings=a_strings.uniq
     #Now find out if each conjugation is found in a caption
