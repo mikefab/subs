@@ -31,7 +31,7 @@ end
   end
 
   def self.return_mood_verbs(mood,tense)
-#Rails.cache.clear()
+Rails.cache.clear()
     if Rails.cache.read("#{mood}#{tense}") 
 #      return Rails.cache.read("#{mood}#{tense}").split(/:/) 
       return Rails.cache.read("#{mood}#{tense}") 
