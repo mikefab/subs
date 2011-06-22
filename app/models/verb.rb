@@ -42,7 +42,7 @@ end
     hash_words=Hash.new()
     grand_verb=Hash.new() #for all matching conjugations through life of function
     small_verb=Hash.new() #for unique conjugations with matching words.
-    conjugations=ActiveRecord::Migration.execute("select verb, conj from verbs where mood = '#{mood}' and tense = '#{tense}';")
+    conjugations=ActiveRecord::Migration.execute("select count(*),conj, verb from verbs where mood = '#{mood}' and tense = '#{tense}';")
 
 
     if connection().to_s.match(/mysql/i) then
