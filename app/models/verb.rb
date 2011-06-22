@@ -59,6 +59,7 @@ Rails.cache.clear()
     end
 grand_verb.each do |k,v|
   puts "#{k} UUUU #{v}\n"
+end
      words=ActiveRecord::Migration.execute("select word from words;")
 
      if connection().to_s.match(/mysql/i) then
