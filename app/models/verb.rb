@@ -72,7 +72,7 @@ end
     #Now find out if each conjugation is found in a caption
     a_strings.each do |s|
       if hash_words[s]
-        a_verbs << s
+#        a_verbs << s
         small_verb[s]=grand_verb[s]
       end
     end
