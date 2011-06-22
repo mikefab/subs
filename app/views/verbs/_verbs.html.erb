@@ -10,7 +10,9 @@
 </script>
 
 <%if @verbs%>
-
+	<%@verbs.each do |k,v| %>
+	<%=k%>
+	<%end%>
 	<%c=0%>
 	<%if @verbs.size==0 then%>
 	<div style="position:relative">	There are no verbs for this tense yet.<br>
