@@ -57,7 +57,8 @@ Rails.cache.clear()
      conj_count[0]["count"].to_i.times{|i| grand_verb[conjugations[i]['conj']]=conjugations[i]['verb']}
 
     end
-
+grand_verb.each do |k,v|
+  puts "#{k} UUUU #{v}\n"
      words=ActiveRecord::Migration.execute("select word from words;")
 
      if connection().to_s.match(/mysql/i) then
