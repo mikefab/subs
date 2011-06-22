@@ -23,6 +23,21 @@ tense_type=new Array();
 tense_type["Tiempos compuestos"]="Present";
 tense_type["Tiempos simples"] = ""
 
+	function light_verb(div){
+
+		var pos = getPos(div);
+//	    document.getElementById(id).style.left=(pos[0]+(document.getElementById(id+'_basic').offsetWidth*.6)) +"px";
+	    document.getElementById('verb_info').style.top=(pos[1]+div.offsetHeight-300) +"px";
+	}
+	function getPos(el) {
+	    // yay readability
+	    for (var lx=0, ly=0;
+	         el != null;
+	         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+	//    return {x: lx,y: ly};
+		return[lx,ly];
+	//alert(lx,ly);
+	}
 
 function return_mood(div,arg){
 	div.title=mood[arg];

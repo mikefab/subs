@@ -11,6 +11,7 @@
 
 
 <%if @verbs%>
+	<div id ="verb_info" style="position:relative;">asdf</div>
 	<%c=0%>
 	<%if @verbs.size==0 then%>
 	<div style="position:relative">	There are no verbs for this tense yet.<br>
@@ -21,7 +22,11 @@
 
 	<%@verbs.each do |v| %>
 		<%c=c+1%>
-		<div id="<%=c%>_verb" style="cursor:pointer;" title="<%=Rails.cache.read("hash_verb")[v]%>-<%=Rails.cache.read("hash_trans")[Rails.cache.read("hash_verb")[v]]%>"onClick="display_results(this.innerHTML);"><%=v%></div>
+<div >
+	<div id="<%=c%>_verb" style="cursor:pointer;display:inline;" title="<%=Rails.cache.read("hash_verb")[v]%>-<%=Rails.cache.read("hash_trans")[Rails.cache.read("hash_verb")[v]]%>" onClick="display_results(this.innerHTML);" ><%=v%></div>
+
+</div>	
+
 	<%end%>
 	</div>
 	<%end%>

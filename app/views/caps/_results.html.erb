@@ -58,8 +58,6 @@
 	}
 	function light_up(id,div){
 	  if(document.getElementById(id)){
-
-
 		var pos = getPos(div);
 		document.getElementById(id).style.display='inline';	
 	    document.getElementById(id).style.left=(pos[0]+(document.getElementById(id+'_basic').offsetWidth*.6)) +"px";
@@ -68,16 +66,17 @@
 	  }
 	}
 
-	function getPos(el) {
-	    // yay readability
-	    for (var lx=0, ly=0;
-	         el != null;
-	         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
-	//    return {x: lx,y: ly};
-		return[lx,ly];
-	//alert(lx,ly);
-	}
 
+	// function getPos(el) {
+	//     // yay readability
+	//     for (var lx=0, ly=0;
+	//          el != null;
+	//          lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+	// //    return {x: lx,y: ly};
+	// 	return[lx,ly];
+	// //alert(lx,ly);
+	// }
+	// 
 
 
 </script>
