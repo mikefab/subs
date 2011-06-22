@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   end
   
   def conj_verb
-  #  Rails.cache.clear() 
+   Rails.cache.clear() 
     if  Rails.cache.read("hash_verb") then
       return true
     else
