@@ -13,7 +13,6 @@ end
 
   def self.return_tenses(mood)
 
-    Rails.cache.clear();
     if Rails.cache.read("#{mood}") 
       return Rails.cache.read("#{mood}").split(/:/) if Rails.cache.read("#{mood}") 
     else
