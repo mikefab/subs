@@ -24,4 +24,4 @@ class ApplicationController < ActionController::Base
 #     Rails.cache.write("hash_trans",hash_trans)
 #     end
 #   end
-# end
+end
