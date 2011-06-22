@@ -31,9 +31,8 @@ end
   end
 
   def self.return_mood_verbs(mood,tense)
-Rails.cache.clear()
+puts "#{Rails.cache.read("blow")} nnnnnnn"
     if Rails.cache.read("#{mood}#{tense}") 
-#      return Rails.cache.read("#{mood}#{tense}").split(/:/) 
       return Rails.cache.read("#{mood}#{tense}") 
       puts "hello? I shouldn't be here"
     else
@@ -47,18 +46,17 @@ Rails.cache.clear()
 
     if connection().to_s.match(/mysql/i) then
       conjugations.each do |j|
-#        a_strings<<j[0]
+       a_strings<<j[0]
         grand_verb[j[0]]=j[1]
       end
     else
       #mu'fuck'n po'gres
       conj_count=ActiveRecord::Migration.execute("select count(*) from verbs where mood = '#{mood}' and tense = '#{tense}';")
-#      conj_count[0]["count"].to_i.times{|i| a_strings<< conjugations[i]['conj']
+     conj_count[0]["count"].to_i.times{|i| a_strings<< conjugations[i]['conj']}
      conj_count[0]["count"].to_i.times{|i| grand_verb[conjugations[i]['conj']]=conjugations[i]['verb']}
 
     end
      words=ActiveRecord::Migration.execute("select word from words;")
-
      if connection().to_s.match(/mysql/i) then
        words.each do |w|
          hash_words[w[0]]=1
@@ -68,27 +66,21 @@ Rails.cache.clear()
        word_count[0]["count"].to_i.times{|i| hash_words[words[i]['word']]=1 }
      end
      
-     hash_words.each do |k,v|
-       puts "#{k} oooo #{v}\n"
-     end
      
     #Many conjugations repeat, so make list unique
     a_strings=a_strings.uniq
     #Now find out if each conjugation is found in a caption
     a_strings.each do |s|
+
       if hash_words[s]
 #        a_verbs << s
         small_verb[s]=grand_verb[s]
       end
     end
-    
-#    a_string=a_verbs.join(":")
-#    Rails.cache.write("#{mood}#{tense}","#{a_string}")
+    print "xxxxxxx "
+    Rails.cache.write("blow","hard")
     Rails.cache.write("#{mood}#{tense}","#{small_verb}")
-#    return a_verbs.uniq.sort!
-small_verb.each do |k,v|
-  puts "#{k} aaa #{v}\n"
-end
+
      return small_verb
   end
 end

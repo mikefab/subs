@@ -8,11 +8,9 @@
     });
 
 </script>
-
+<%@verbs = eval(@verbs) if @verbs.class.to_s.match("String")%>
 <%if @verbs%>
-	<%@verbs.each do |k,v| %>
-	<%=k%> ddd
-	<%end%>
+
 	<%c=0%>
 	<%if @verbs.size==0 then%>
 	<div style="position:relative">	There are no verbs for this tense yet.<br>
@@ -25,7 +23,6 @@
 		<%c=c+1%>
 <div >
 	<div id="<%=c%>_verb" title="<%=v%>-<%=Rails.cache.read("hash_trans")[v]%>"style="cursor:pointer;display:inline;" onClick="display_results(this.innerHTML);" ><%=k%></div>
-<!-- <%#= title="<%=Rails.cache.read("hash_verb")[v]%><%#=Rails.cache.read("hash_trans")[Rails.cache.read("hash_verb")[v]]%>" %> -->
 </div>	
 
 	<%end%>

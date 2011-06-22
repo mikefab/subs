@@ -21,15 +21,12 @@ class VerbsController < ApplicationController
   end
 
   def verbs
+#    Rails.cache.clear()
     ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
-puts "xxxx"
      @verbs = Verb.return_mood_verbs(params[:verb_mood],params[:verb_tense])
-     
-     @verbs.each do |k,v|
-       puts "#{k} vvvv #{v}\n"
-     end
-     puts "zzzz"
-#     @verbs=@verbs.sort
+       puts "#{@verbs} xxx\n"
+ 
+
  #    returned_results=@verbs.size || 0
    #  Track.new(:ip=>ip,:search=>params[:verb_tense],:num=>returned_results).save!
 
