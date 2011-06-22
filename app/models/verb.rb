@@ -59,7 +59,6 @@ end
      else
        word_count=ActiveRecord::Migration.execute("select count(*) from words;")
        word_count[0]["count"].to_i.times{|i| hash_words[words[i]['word']]=1 }
-
      end
     #Many conjugations repeat, so make list unique
     a_strings=a_strings.uniq
