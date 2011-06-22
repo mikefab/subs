@@ -79,7 +79,7 @@ end
       end
     end
     Rails.cache.write("blow","hard")
-    Rails.cache.write("#{mood}#{tense}","#{small_verb}")
+    Rails.cache.write("#{mood}#{tense}",small_verb)
 
      return small_verb
   end
