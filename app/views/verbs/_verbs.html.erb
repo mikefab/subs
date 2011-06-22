@@ -23,7 +23,7 @@
 	<%@verbs.each do |v| %>
 		<%c=c+1%>
 <div >
-	<div id="<%=c%>_verb" style="cursor:pointer;display:inline;" title="<%=Rails.cache.read("hash_verb")[v]%>-<%=Rails.cache.read("hash_trans")[Rails.cache.read("hash_verb")[v]]%>" onClick="display_results(this.innerHTML);" ><%=v%></div>
+	<div id="<%=c%>_verb" style="cursor:pointer;display:inline;" onClick="display_results(this.innerHTML);" ><%=v%></div>
 
 </div>	
 
