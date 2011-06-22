@@ -52,8 +52,7 @@ function return_mood(div,arg){
 // }
 
 function display_verbs(value){
-	document.getElementById('verbs_div').innerHTML="<h3>loading verbs...</h3>";
-	
+	document.getElementById('verbs_div').innerHTML="<h3>loading verbs...</h3>";	
 	document.getElementById('verb_tense').value=value;
 	document.getElementById('verb_button').focus();
 	document.getElementById('verb_button').click();                     
@@ -74,6 +73,7 @@ function highlight_mood(div){
 	div.style.color="blue";
 	document.getElementById('tense_mood').value=div.innerHTML;
 	document.getElementById('verb_mood').value=div.innerHTML;
+	document.getElementById('verb').value="";
 
 	document.getElementById('mood_button').focus();
 	document.getElementById('mood_button').click();
@@ -83,6 +83,12 @@ function display_results(value){
 	document.getElementById('search').value=value;
 	document.getElementById('results_button').focus();
 	document.getElementById('results_button').click();                     
+}
+
+function find_one_verb(verb_one){
+	document.getElementById('verb').value=verb_one;
+	document.getElementById('verb_button').focus();
+	document.getElementById('verb_button').click();
 }
 
 </script>
@@ -125,6 +131,8 @@ function display_results(value){
 <% form_tag verbs_path,:name=>"verb_form",:id=>'verb_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :verb_mood, params[:mood]%>
 	<%=hidden_field_tag :verb_tense, params[:tense]%>
+	<%=hidden_field_tag :verb, params[:verb]%>
+
 	<%= submit_tag "Search", :id=>"verb_button",:name => 'verb_button',:style=>"display:none;" %>
 <%end%>
 

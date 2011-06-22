@@ -23,11 +23,13 @@ class VerbsController < ApplicationController
   def verbs
 #    Rails.cache.clear()
     ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
-     @verbs = Verb.return_mood_verbs(params[:verb_mood],params[:verb_tense])
-       puts "1111 #{@verbs} 2222\n"
- 
 
- #    returned_results=@verbs.size || 0
+    if(params[:verb].size>0)
+      @verbs = Verb.return_verb(params[:verb])
+    else
+      @verbs = Verb.return_mood_verbs(params[:verb_mood],params[:verb_tense])
+    end
+  #    returned_results=@verbs.size || 0
    #  Track.new(:ip=>ip,:search=>params[:verb_tense],:num=>returned_results).save!
 
    end

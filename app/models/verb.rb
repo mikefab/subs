@@ -10,6 +10,15 @@ end
     v = Verb.find(:all)
     return v.size
   end
+  
+  def self.return_verb(verb)
+    verb_hash=Hash.new()
+    Verb.find(:all,:conditions=>["verb=?",verb]).each do |v|
+      verb_hash[v.conj]=1 if Word.find(:first,:conditions=>["word=?",v.conj])
+    end
+    return verb_hash
+      
+  end
 
   def self.return_tenses(mood)
 
@@ -74,14 +83,14 @@ end
     a_strings.each do |s|
 
       if hash_words[s]
-#        a_verbs << s
+#        a_strings << s
         small_verb[s]=grand_verb[s]
       end
     end
     Rails.cache.write("blow","hard")
     Rails.cache.write("#{mood}#{tense}",small_verb.sort)
 
-     return small_verb
+     return small_verb.sort
   end
 end
 
