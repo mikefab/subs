@@ -24,8 +24,9 @@ function go_to(id,num,url,direction,div){
     <%@cap.spa.split(/\s+/).each do |w|%>
 <%thing="#{@cap.id}-#{counter}"%>
 	<span id="<%=@cap.id%>-<%=counter%>_basic" onmouseover="light_up('<%=@cap.id%>-<%=counter%>',this);" onmouseout="darken('<%=@cap.id%>-<%=counter%>');">
-	<a href='#' onClick="display_results('<%=w.gsub(/[\.,\!\?'"]/,"")%>');"><%=w%></a></span>
 <%if @hash_id[thing] then%>
+<u><a href='#' onClick="display_results('<%=w.gsub(/[\.,\!\?'"]/,"")%>');"><%=w%></a></span></u>
+
 	<span id="<%=@cap.id%>-<%=counter%>" style="position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 	<br>verb: <div onClick="find_one_verb(this.innerHTML);" style="cursor:pointer;display:inline;"><%= @hash_id[thing].verb%></div><div style="font-size:8pt;display:inline;"> <-- Click this!</div>
 	<br>eng: <%=@english["#{@hash_id[thing].verb}"]%>
@@ -35,6 +36,9 @@ function go_to(id,num,url,direction,div){
 	<br>pronoun: <a href=""> <%=@hash_id[thing].pro%></a>
 	
 	</span>
+	<%else%>
+	<a href='#' onClick="display_results('<%=w.gsub(/[\.,\!\?'"]/,"")%>');"><%=w%></a></span>
+	
  	<%end%>
 	<%counter=counter+1%>
 	<%end%>
@@ -46,7 +50,10 @@ function go_to(id,num,url,direction,div){
 	<div style="position:relative;display:inline;">
 	<%= render :partial => "ratings/rating", :object => @cap  %>
 	</div>
-	<div style="position:relative;left:200px;display:inline;">
+	<!-- <div id="edit_div">
+		<%#= render :partial => "caps/edit", :object => @cap  %>
+	</div> -->
+	<div style="position:relative;left:200px;display:inline;"><%#= link_to 'Edit', edit_cap_path(cap) %>
 		<div style="display:inline;" title="Removes all clips in database from same video" ><%#= link_to 'remove all', hide_all_cap_path(@cap), :confirm => 'Are you sure?'  %></div> 
 		<!-- <div style="display:inline;" >Edit<%#= link_to 'edit', hide_all_cap_path(@cap), :confirm => 'Are you sure?'  %></div>  -->
 
