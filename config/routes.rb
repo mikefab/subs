@@ -1,13 +1,18 @@
 Subs::Application.routes.draw do
  
+  
+  resources :supports, :only => [:new, :create]
+  
+
   get "tracks/index"
 
   get "home/about"
  match 'about' => 'home#about'
   get "home/index"
-  
+  match 'contact' => 'home#contact'
   match 'results' =>'caps#results'
   match 'verbs' =>'verbs#verbs'
+  match 'verb_one'=>'verbs#verb_one'
   match 'tenses'=>'verbs#tenses'
   match 'cap'=>'caps#cap'
   match 'ratings'=>'ratings#rating'

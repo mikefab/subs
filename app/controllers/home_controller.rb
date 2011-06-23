@@ -4,9 +4,13 @@ class HomeController < ApplicationController
     Track.new(:ip=>ip,:search=>"index page").save!
   end
 
-
+  def contact
+  
+  end
   
   def about
+        @support = Support.new(:id => 1)
+
   end
 
 end
