@@ -8,8 +8,10 @@ class SupportsController < ApplicationController
   def create
     @support = Support.new(params[:support])
     if @support.save
+    
       redirect_to('/', :notice => "Your message was sent. Thank you.")
     else
+
       flash[:alert] = "You must fill all fields."
       render 'new'
     end

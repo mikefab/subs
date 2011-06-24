@@ -12,11 +12,11 @@
 </head>
 <body style="width:90%;">
 	<% if params[:action]=="index"%>
-	<img style="position:fixed;top:50px;left:300px;" src="images/logo_base.jpg"/>
+	<img style="position:relative;top:50px;left:300px;" src="images/logo_base.jpg"/>
 
 <h5 style="position:relative;float:right;"><%= link_to 'About', about_path %></h5>
 <%else%>
-<img style="position:fixed;left:550px;" src="images/logo_base.jpg"/>
+<img style="position:relative;left:550px;" src="images/logo_base.jpg"/>
 
 <h5 style="position:relative;float:right;"><%= link_to 'Home', home_path %></h5>
 <%end%>

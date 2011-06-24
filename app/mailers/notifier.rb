@@ -5,6 +5,6 @@ class Notifier < ActionMailer::Base
     @sender = sender
     mail(:to => "mikefabrikant@gmail.com",
          :from => sender.email,
-         :subject => "New #{sender.support_type}")
+         :subject => "AudioTool message")
  end
 end
