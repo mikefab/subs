@@ -21,7 +21,8 @@ li {padding-bottom : 10px;}
 
 h2 {position:relative;padding-right:40px;}
 h3 {position:relative;display:inline;padding-right:40px;}
-h4 {position:relative;display:inline;padding-right:40px;}
+h4 {position:relative;display:inline;}
+h5 {position:relative;display:inline;}
 
 a { color: #000; }
 a:visited { color: #666; }

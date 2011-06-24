@@ -1,4 +1,4 @@
-# app/views/supports/_form.html.erb
+
 <% form_for @support, :url => { :controller=>"supports", :action => "create" }, :html => { :method => :post } do |f| %>
   <p>
     <%= f.label "Name" %>
@@ -12,14 +12,9 @@
   <p>
     <%= f.text_field :email %>
   </p>
+
   <p>
-    <%= f.label "Type" %>
-  </p>
-  <p>
-    <%= f.select :support_type, options_for_select(["Bug", "Ask", "Idea"]) %>
-  </p>
-  <p>
-    <%= f.label "Details" %>
+    <%= f.label "Message", :style=>"width:10px;" %>
   </p>
   <p>
     <%= f.text_area :content %>

@@ -8,9 +8,13 @@
 
   <%= csrf_meta_tag %>
 </head>
-<body>
-
-
+<body style="width:90%;">
+	<% if params[:action]=="index"%>
+<h5 style="position:relative;float:right;"><%= link_to 'About', about_path %></h5>
+<%else%>
+<h5 style="position:relative;float:right;"><%= link_to 'Home', home_path %></h5>
+<%end%>
+<br>
 <%= yield %>
 <script type="text/javascript">
 

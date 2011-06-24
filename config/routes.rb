@@ -16,6 +16,7 @@ Subs::Application.routes.draw do
   match 'tenses'=>'verbs#tenses'
   match 'cap'=>'caps#cap'
   match 'ratings'=>'ratings#rating'
+  match 'home' =>'home#index'
 
   resources :roots
   resources :ratings
