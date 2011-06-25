@@ -93,37 +93,37 @@ function find_one_verb(verb_one){
 
 </script>
 <%=flash[:notice]%>
-
 <div id="container" style="width:90%;">
-<div id="top_container" style="position:absolute;width:90%; ">
-	<div style="position:absolute;display:inline;float:right;right:200px; ">
+	<div id="top_container" style="position:absolute;width:90%; ">
+		<div style="position:absolute;display:inline;float:right;right:200px; ">
 		<%if !params[:hide_search] then%>
-			<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
 			<p>
-		<%= select_tag "language", options_for_select([ "Spa", "Eng"], @choice) %>
-		<%= text_field_tag :search, params[:search] %>
-		<%= submit_tag "Search", :id=>"results_button",:name => 'results_button',:style=>"display:inline;" %>
-		</p>
-		<%end%>
-	<%end%>
+			<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
+				<%= select_tag "language", options_for_select([ "Spa", "Eng"], @choice) %>
+				<%= text_field_tag :search, params[:search] %>
+				<%= submit_tag "Search", :id=>"results_button",:name => 'results_button',:style=>"display:inline;" %>
+			</p>
+			<%end%>
+	    <%end%>
+		</div>
+		<div id="mood_explination" style="position:absolute;display:inline;left:300px;top:100px;inline; ">
+	   		<div id="instruction1" >Learn Spanish verbs by listening to clips with text.<br>Begin by clicking a mood to the left.
+				<p style="font-size:9pt;">(In some cases this tool mistakes a noun for a verb or mistakes a tense.<br>Imperativo is especially slippery.)
+				</p>
+			</div>
+		</div>
+		<div id ="moods" style="position:absolute;display:inline;" >
+			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Verboide</h2>
+			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Indicativo</h2>
+			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Imperativo</h2>
+			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Condicional</h2>
+			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Subjuntivo</h2>
+		</div>
 	</div>
-	<div id="mood_explination" style="position:absolute;display:inline;left:300px;top:100px;inline; ">
-		<div id="instruction1" >Learn Spanish verbs by listening to clips with text.<br>Begin by clicking a mood to the left.<p style="font-size:9pt;">(In some cases this tool mistakes a noun for a verb or mistakes a tense.<br>Imperativo is especially slippery.)</p></div>
 
-	</div>
-	<div id ="moods" style="position:absolute;display:inline;" >
-		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Verboide</h2>
-		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Indicativo</h2>
-		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Imperativo</h2>
-		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Condicional</h2>
-		<h2 style="cursor:pointer;width:20px;" onClick="mood = this.innerHTML;highlight_mood(this);">Subjuntivo</h2>
-
-	</div>
-
-</div>
-
-<div style="position:relative;top:200px;">
-	<div id="instruction2" style="position:relative;visibility:hidden;left:200px;top 10px;" >Click on a tense to see the verbs!</div>
+	<div style="position:relative;top:200px;">
+		<div id="instruction2" style="position:relative;visibility:hidden;left:200px;top 10px;" >Click on a tense to see the verbs!
+		</div>
 
 <% form_tag tenses_path,:name=>"tense_form",:id=>'tense_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :tense_mood, params[:mood]%>
@@ -152,23 +152,20 @@ function find_one_verb(verb_one){
 <%end%>
 
 
-<div id="tenses_div" style="position:relative;">
-	<%= render :partial => "verbs/tenses", :object => @tenses  %>
-</div>
+		<div id="tenses_div" style="position:relative;">
+		<%= render :partial => "verbs/tenses", :object => @tenses  %>
+		</div>
 <br>
 <br>
 <br>
-<div id="verbs_div" style="position:relative;display:inline;float:left;height:400px;overflow:auto;width:200px">
+		<div id="verbs_div" style="position:relative;display:inline;float:left;height:400px;overflow:auto;width:200px">
 	<%= render :partial => "verbs/verbs", :object => @verbs  %>
-</div>
+		</div>
 	
-<div id ="results_div" style="position:relative;display:inline;float:right;width:70%;">
+		<div id ="results_div" style="position:relative;display:inline;float:right;width:70%;">
 	<%= render :partial => "caps/results", :object => @caps  %>
-</div>
+		</div>
 
-</div>
-
-
-
+	</div>
 </div>
 

@@ -82,14 +82,12 @@
 </script>
 
 <% form_tag softs_path,:name=>"soft_form",:id=>'soft_form', :method=>:get, :format=>'js', :remote=>true do%>
-	<p>
+
 <%= hidden_field_tag :soft_eng, params[:soft_eng] %>
 <%= hidden_field_tag :soft_id, params[:soft_id] %>
-
 <%= submit_tag "soft", :id=>"soft_button",:name => 'soft_button',:style=>"display:none;" %>
-</p>
-<%end%>
 
+<%end%>
 <% c=0 %>
 <div style="position:relative;">
 <%#= link_to 'New Cap', new_cap_path %>
