@@ -1,1 +1,3 @@
 document.getElementById('<%=params[:soft_id]%>_notice').innerHTML="<%=@notice%>";
+document.getElementById('<%=params[:soft_id]%>_text').setAttribute("contentEditable","false");
+document.getElementById('<%=params[:soft_id]%>_edit').innerHTML="edit";
