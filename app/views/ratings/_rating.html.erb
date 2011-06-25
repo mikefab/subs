@@ -4,7 +4,7 @@
 
 <div style="display:inline;">
 	<h5 style="display:inline;">Please rate quality.</h5>
-<%=@rate_default%> ssss
+
 <% form_tag ratings_path,:name=>"rating_form",:id=>'rating_form', :style=>"width:15%",:onClick=>"document.getElementById('#{@cap.id}_rating_button').click();",:method=>:get, :remote=>true do |f|%>
     <% 1.upto(4) do |value| %>
   <%= star_button f, @cap, value, (value==rated_number) %>

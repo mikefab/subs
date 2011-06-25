@@ -1,0 +1,29 @@
+<h1>Listing softs</h1>
+
+<table>
+  <tr>
+    <th>Text</th>
+    <th>Cap</th>
+    <th>Lang</th>
+    <th>User</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @softs.each do |soft| %>
+  <tr>
+    <td><%= soft.text %></td>
+    <td><%= soft.cap_id %></td>
+    <td><%= soft.lang %></td>
+    <td><%= soft.user_id %></td>
+    <td><%= link_to 'Show', soft %></td>
+    <td><%= link_to 'Edit', edit_soft_path(soft) %></td>
+    <td><%= link_to 'Destroy', soft, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Soft', new_soft_path %>

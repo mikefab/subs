@@ -41,6 +41,10 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
 
     end
 
+    def soft()
+      
+    end
+
     def cap()
       ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
       if params[:direction]=="back" then

@@ -36,19 +36,18 @@
 
 	}
 
-	function go_to(id,num,url,direction){
+
+	function go_to(id,num,url,direction,div){
+
+	// alert(div.parentNode.id);	
+
 		document.getElementById('direction').value=direction;
 		document.getElementById('url').value=url;
 		document.getElementById('num').value=num;
-		document.getElementById('id').value=id;
+		document.getElementById('id').value=div.parentNode.id;
 		document.getElementById('cap_button').focus();
 		document.getElementById('cap_button').click();
-
 	}
-
-
-
-
 	function darken(id){
 
 	  if(document.getElementById(id)){
@@ -66,20 +65,30 @@
 	  }
 	}
 
-
-	// function getPos(el) {
-	//     // yay readability
-	//     for (var lx=0, ly=0;
-	//          el != null;
-	//          lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
-	// //    return {x: lx,y: ly};
-	// 	return[lx,ly];
-	// //alert(lx,ly);
-	// }
-	// 
+	function soft_edit(id,div){
+		if(div.innerHTML=="edit"){
+			div.innerHTML="save";
+			document.getElementById(id+"_text").setAttribute("contentEditable","true");
+			document.getElementById(id+"_text").focus();
+		}else{
+			document.getElementById('soft_eng').value= document.getElementById(id+"_text").innerHTML;
+		    document.getElementById('soft_id').value = id;
+			document.getElementById('soft_button').click();
+		
+		}
+	}
 
 
 </script>
+
+<% form_tag softs_path,:name=>"soft_form",:id=>'soft_form', :method=>:get, :format=>'js', :remote=>true do%>
+	<p>
+<%= hidden_field_tag :soft_eng, params[:soft_eng] %>
+<%= hidden_field_tag :soft_id, params[:soft_id] %>
+
+<%= submit_tag "soft", :id=>"soft_button",:name => 'soft_button',:style=>"display:none;" %>
+</p>
+<%end%>
 
 <% c=0 %>
 <div style="position:relative;">

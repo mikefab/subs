@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Text:</b>
+  <%= @soft.text %>
+</p>
+
+<p>
+  <b>Cap:</b>
+  <%= @soft.cap_id %>
+</p>
+
+<p>
+  <b>Lang:</b>
+  <%= @soft.lang %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @soft.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_soft_path(@soft) %> |
+<%= link_to 'Back', softs_path %>
