@@ -1,6 +1,8 @@
 Subs::Application.routes.draw do
  
   
+  resources :softs, :only=>[:create]
+
   resources :supports, :only => [:new, :create]
   
 
@@ -11,6 +13,7 @@ Subs::Application.routes.draw do
   get "home/index"
   match 'contact' => 'home#contact'
   match 'results' =>'caps#results'
+  match 'softs'=>'softs#create'
   match 'verbs' =>'verbs#verbs'
   match 'verb_one'=>'verbs#verb_one'
   match 'tenses'=>'verbs#tenses'
@@ -19,6 +22,7 @@ Subs::Application.routes.draw do
   match 'home' =>'home#index'
 
   resources :roots
+
   resources :ratings
   resources :verbs
   resources :home
