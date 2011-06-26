@@ -13,8 +13,8 @@
 
 
 <body style="width:90%;">
-	<% if request.env['HTTP_USER_AGENT'].match(/(firefox|ie)/i) then%> 
-	<div style="position:absolute">This site works best in Chrome and Safari!</div>
+	<% if request.env['HTTP_USER_AGENT'].match(/ie/i) then%> 
+	<div style="position:absolute">This site does not work with Explorer yet.</div>
 	<%end%>
 
 	<% if params[:action]=="index"%>

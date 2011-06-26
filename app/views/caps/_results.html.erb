@@ -72,12 +72,21 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 			div.innerHTML="save";
 			document.getElementById(id+"_text").setAttribute("contentEditable","true");
 			document.getElementById(id+"_text").focus();
+			document.getElementById(id+"_cancel").style.display="inline";
+			
 		}else{
 			document.getElementById('soft_eng').value= document.getElementById(id+"_text").innerHTML;
 		    document.getElementById('soft_id').value = id;
 			document.getElementById('soft_button').click();
 		
 		}
+	}
+	
+	function soft_cancel(id){
+		document.getElementById(id+"_text").setAttribute("contentEditable","false");
+		document.getElementById(id+"_cancel").style.display="none";
+		document.getElementById(id+"_edit").innerHTML="edit";
+		
 	}
 
 
