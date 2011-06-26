@@ -99,7 +99,11 @@ function find_one_verb(verb_one){
 		<%if !params[:hide_search] then%>
 			<p>
 			<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
-				<%= select_tag "language", options_for_select([ "Spa", "Eng"], @choice) %>
+			
+				<%#= select_tag "language", options_for_select([ "Spa", "Eng"], @choice) %>
+				<%= select_tag "language", options_for_select([["Spanish","Spa"], ["English","Eng"]], @choice) %>
+
+				<%#= select( "language", "id", { "Spanish" => "Spa", "English" => "Eng"}) %>
 				<%= text_field_tag :search, params[:search] %>
 				<%= submit_tag "Search", :id=>"results_button",:name => 'results_button',:style=>"display:inline;" %>
 			</p>
