@@ -10,8 +10,8 @@
 
   <%= csrf_meta_tag %>
 </head>
-<% if request.env['HTTP_USER_AGENT'].match(/firefox/i) then%> 
-<div style="position:fixed">This site works best in Chrome and Safari!</div>
+<% if request.env['HTTP_USER_AGENT'].match(/(firefox|explorer)/i) then%> 
+<div style="position:absolute">This site works best in Chrome and Safari!</div>
 <%end%>
 
 <body style="width:90%;">
