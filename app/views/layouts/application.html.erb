@@ -10,11 +10,13 @@
 
   <%= csrf_meta_tag %>
 </head>
-<% if request.env['HTTP_USER_AGENT'].match(/(firefox|explorer)/i) then%> 
-<div style="position:absolute">This site works best in Chrome and Safari!</div>
-<%end%>
+
 
 <body style="width:90%;">
+	<% if request.env['HTTP_USER_AGENT'].match(/(firefox|ie)/i) then%> 
+	<div style="position:absolute">This site works best in Chrome and Safari!</div>
+	<%end%>
+
 	<% if params[:action]=="index"%>
 	<img style="position:relative;top:50px;left:300px;" src="images/logo_base.jpg"/>
 
