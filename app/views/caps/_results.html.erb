@@ -45,7 +45,7 @@
 		document.getElementById('url').value=url;
 		document.getElementById('num').value=num;
 		document.getElementById('id').value=div.parentNode.id;
-		document.getElementById('cap_button').focus();
+//		document.getElementById('cap_button').focus();
 		document.getElementById('cap_button').click();
 	}
 	function darken(id){
@@ -69,7 +69,7 @@
 		if(div.innerHTML=="edit"){
 			div.innerHTML="save";
 			document.getElementById(id+"_text").setAttribute("contentEditable","true");
-			document.getElementById(id+"_text").focus();
+			//document.getElementById(id+"_text").focus();
 		}else{
 			document.getElementById('soft_eng').value= document.getElementById(id+"_text").innerHTML;
 		    document.getElementById('soft_id').value = id;

@@ -54,7 +54,7 @@ function return_mood(div,arg){
 function display_verbs(value){
 	document.getElementById('verbs_div').innerHTML="<h3>loading verbs...</h3>";	
 	document.getElementById('verb_tense').value=value;
-	document.getElementById('verb_button').focus();
+//	document.getElementById('verb_button').focus();
 	document.getElementById('verb_button').click();                     
 }
 
@@ -75,19 +75,19 @@ function highlight_mood(div){
 	document.getElementById('verb_mood').value=div.innerHTML;
 	document.getElementById('verb').value="";
 
-	document.getElementById('mood_button').focus();
+//	document.getElementById('mood_button').focus();
 	document.getElementById('mood_button').click();
 
 }
 function display_results(value){
 	document.getElementById('search').value=value;
-	document.getElementById('results_button').focus();
+//	document.getElementById('results_button').focus();
 	document.getElementById('results_button').click();                     
 }
 
 function find_one_verb(verb_one){
 	document.getElementById('verb').value=verb_one;
-	document.getElementById('verb_button').focus();
+//	document.getElementById('verb_button').focus();
 	document.getElementById('verb_button').click();
 }
 
@@ -95,7 +95,7 @@ function find_one_verb(verb_one){
 <%=flash[:notice]%>
 <div id="container" style="width:90%;">
 	<div id="top_container" style="position:absolute;width:90%; ">
-		<div style="position:absolute;display:inline;float:right;right:200px; ">
+		<div style="position:absolute;display:inline;left:600px; ">
 		<%if !params[:hide_search] then%>
 			<p>
 			<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
