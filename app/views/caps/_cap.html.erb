@@ -17,7 +17,7 @@
 <u><a href='#' onClick="display_results('<%=w.gsub(/[\.,\!\?'"]/,"")%>');"><%=w%></a></span></u>
 
 	<span id="<%=@cap.id%>-<%=counter%>" style="position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
-	<br>verb: <div onClick="find_one_verb(this.innerHTML);" style="cursor:pointer;display:inline;"><a><%= @hash_id[thing].verb%></a></div>
+	<br>verb: <div onClick="find_one_verb(this.innerHTML);" title="lists all conjugations for this verb on left." style="cursor:pointer;display:inline;"><a><u><%= @hash_id[thing].verb%></u></a></div>
 	<br>eng: <%=@english["#{@hash_id[thing].verb}"]%>
 	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
 	<br>mood:  <a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
