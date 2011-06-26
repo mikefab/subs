@@ -14,7 +14,7 @@
 
 <body style="width:90%;">
 	<% if request.env['HTTP_USER_AGENT'].match(/ie/i) then%> 
-	<div style="position:absolute">This site does not work with Explorer yet.</div>
+	<div style="position:absolute">This site does not work with Explorer yet.<br>You must use Chrome, Safari, or Firefox!</div>
 	<%end%>
 
 	<% if params[:action]=="index"%>
