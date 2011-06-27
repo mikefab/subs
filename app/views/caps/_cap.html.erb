@@ -32,8 +32,8 @@
 	<%end%>
 	
 <br>
-	<div id="<%=@cap.id%>_eng" style="display:inline;" onBlur="//soft_cancel(<%=@cap.id%>);"><%=@cap.eng%></div>
-	<div id="<%=@cap.id%>_spa" style="visibility:hidden;" onBlur="//soft_cancel(<%=@cap.id%>);"><%=@cap.spa%></div>
+	<div id="<%=@cap.id%>_eng" style="display:inline;" onBlur="soft_cancel_wait(<%=@cap.id%>,'eng');"><%=@cap.eng%></div>
+	<div id="<%=@cap.id%>_spa" style="visibility:hidden;" onBlur="soft_cancel_wait(<%=@cap.id%>,'spa');"><%=@cap.spa%></div>
 
 <div style="display:inline;" id="<%=@cap.id%>_notice"></div>
 <br>

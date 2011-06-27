@@ -110,6 +110,10 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 	}
 	
 	
+	function soft_cancel_wait(id,lang){
+		setTimeout("soft_cancel('"+id+"','"+lang+"');",500);
+	}
+
 	
 	function soft_cancel(id,lang){
 		document.getElementById(id+"_eng").setAttribute("contentEditable","false");
