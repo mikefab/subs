@@ -81,7 +81,11 @@ class SoftsController < ApplicationController
   def correct()
     @soft = Soft.find(params[:id])
     cap = Cap.find(@soft.cap_id)
-    cap.eng = @soft.text
+
+    cap.eng = @soft.text if @soft.lang.match(/eng/)
+    cap.spa = @soft.text if @soft.lang.match(/spa/)
+
+
     cap.save!
     @soft.destroy
 
