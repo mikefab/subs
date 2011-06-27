@@ -1,7 +1,7 @@
 class SoftsController < ApplicationController
   # GET /softs
   # GET /softs.xml
-   before_filter :authenticate
+   before_filter :authenticate, :except=>:create
   def index
     @softs = Soft.all
 
@@ -41,12 +41,16 @@ class SoftsController < ApplicationController
   # POST /softs
   # POST /softs.xml
   def create
+    puts "xxxxxxxx"
     ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
     
-    @soft = Soft.new(:text=>params[:soft_eng],:cap_id=>params[:soft_id],:lang=>"eng",:user_id=>ip)
+    @soft = Soft.new(:text=>params[:soft_text],:cap_id=>params[:soft_id],:lang=>params[:soft_lang],:user_id=>ip)
     respond_to do |format|
       if @soft.save
-  @notice = 'Edit was successfully created. Please allow 24 hours for it to be reviewed.'
+        
+  @notice = "Spanish edit was successfully created. Please allow 24 hours for it to be reviewed." if params[:soft_lang].match(/spa/)
+  @notice = "English edit was successfully created. Please allow 24 hours for it to be reviewed." if params[:soft_lang].match(/eng/)
+
         format.html { redirect_to results_path() }
         format.js {}
       else

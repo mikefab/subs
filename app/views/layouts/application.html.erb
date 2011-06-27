@@ -9,7 +9,7 @@
     <%= javascript_include_tag "jquery.js", "rails.js"%>
 
   <%= csrf_meta_tag %>
-  <nav class="round">
+  <!-- <nav class="round">
     <ul>
       <% if signed_in? %>
       <li><%= link_to "Sign out", signout_path, :method => :delete %></li>
@@ -17,7 +17,7 @@
       <li><%= link_to "Sign in", signin_path %></li>
       <% end %>
     </ul>
-  </nav>
+  </nav> -->
 </head>
 
 
@@ -25,7 +25,7 @@
 	<%=flash[:notice]%>
 	<%=flash[:error]%>
 	<% if request.env['HTTP_USER_AGENT'].match(/ie/i) then%> 
-	<div style="position:absolute">This site does not work with Explorer yet.<br>You must use Chrome, Safari, or Firefox!</div>
+	<div id="browser_warning" style="position:absolute">This site does not work with Explorer yet.<br>You must use Chrome, Safari, or Firefox!</div end="browser_warning">
 	<%end%>
 
 	<% if params[:action]=="index"%>

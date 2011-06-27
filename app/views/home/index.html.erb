@@ -2,12 +2,12 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript"></script>
 <script>
 
-    $(function(){
-		for(i=0;i<5;i++){
-               $("#instruction1").animate({color: "blue"}, 'slow');
-               $("#instruction1").animate({color: "navy"}, 'slow');
-}
-    });
+//     $(function(){
+// 		for(i=0;i<5;i++){
+//                $("#instruction1").animate({color: "blue"}, 'slow');
+//                $("#instruction1").animate({color: "navy"}, 'slow');
+// }
+//     });
 
 mood = "Subjuntivo";
 mood_des= new Array();
@@ -95,39 +95,35 @@ function find_one_verb(verb_one){
 
 <div id="container" style="width:90%;">
 	<div id="top_container" style="position:absolute;width:90%; ">
-		<div style="position:absolute;display:inline;left:600px; ">
+		<div id="search_container" style="position:absolute;display:inline;left:600px;">
 		<%if !params[:hide_search] then%>
 			<p>
 			<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
-			
-				<%#= select_tag "language", options_for_select([ "Spa", "Eng"], @choice) %>
 				<%= select_tag "language", options_for_select([["Spanish","Spa"], ["English","Eng"]], @choice) %>
-
-				<%#= select( "language", "id", { "Spanish" => "Spa", "English" => "Eng"}) %>
 				<%= text_field_tag :search, params[:search] %>
 				<%= submit_tag "Search", :id=>"results_button",:name => 'results_button',:style=>"display:inline;" %>
 			</p>
 			<%end%>
 	    <%end%>
-		</div>
+		</div end="search_container">
 		<div id="mood_explination" style="position:absolute;display:inline;left:300px;top:100px;inline; ">
 	   		<div id="instruction1" >Compliment your Spanish studies by listening to clips with text.<br>Begin by clicking a mood to the left.
 				<p style="font-size:9pt;">(In some cases this tool mistakes a noun for a verb or mistakes a tense.<br>Imperativo is especially slippery.) 
 				</p>
-			</div>
-		</div>
+			</div end="instruction1">
+		</div end="mood_explanation">
 		<div id ="moods" style="position:absolute;display:inline;" >
 			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Verboide</h2>
 			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Indicativo</h2>
 			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Imperativo</h2>
 			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Condicional</h2>
 			<h2 onClick="mood = this.innerHTML;highlight_mood(this);">Subjuntivo</h2>
-		</div>
-	</div>
+		</div end="moods">
+	</div end="top_container">
 
 	<div style="position:relative;top:200px;">
 		<div id="instruction2" style="position:relative;visibility:hidden;left:200px;top 10px;" >Click on a tense to see the verbs!
-		</div>
+		</div end="instruction2">
 
 <% form_tag tenses_path,:name=>"tense_form",:id=>'tense_form', :method=>:get, :remote=>true do%>
 	<%=hidden_field_tag :tense_mood, params[:mood]%>
@@ -158,18 +154,18 @@ function find_one_verb(verb_one){
 
 		<div id="tenses_div" style="position:relative;">
 		<%= render :partial => "verbs/tenses", :object => @tenses  %>
-		</div>
+		</div end="tenses_div">
 <br>
 <br>
 <br>
 		<div id="verbs_div" style="position:relative;display:inline;float:left;height:400px;overflow:auto;width:200px">
 	<%= render :partial => "verbs/verbs", :object => @verbs  %>
-		</div>
+		</div end="verbs_div">
 	
 		<div id ="results_div" style="position:relative;display:inline;float:right;width:70%;">
 	<%= render :partial => "caps/results", :object => @caps  %>
-		</div>
+		</div end="results_div">
 
-	</div>
-</div>
+	</div end="top_container">
+</div end="container">
 

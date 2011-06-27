@@ -2,10 +2,10 @@
 <div id="<%=@cap.id%>_rating_div" style="display:inline;">
 		<%rated_number= @rate_default || 3%>
 
-<div title="1 for throw me out, and 4 for I'm excellent!" style="display:inline;">
+<div id="rate_container" title="1 for throw me out, and 4 for I'm excellent!" style="display:inline;">
 	<h5 style="display:inline;">Please rate quality.</h5>
 
-<% form_tag ratings_path,:name=>"rating_form",:id=>'rating_form', :style=>"width:15%",:onClick=>"document.getElementById('#{@cap.id}_rating_button').click();",:method=>:get, :remote=>true do |f|%>
+<% form_tag ratings_path,:name=>"rating_form",:id=>'rating_form', :style=>"",:onClick=>"document.getElementById('#{@cap.id}_rating_button').click();",:method=>:get, :remote=>true do |f|%>
     <% 1.upto(4) do |value| %>
   <%= star_button f, @cap, value, (value==rated_number) %>
     <% end %>
@@ -20,6 +20,6 @@
 	<%= submit_tag "Search", :id=>"#{@cap.id}_rating_button",:name => 'rating_button',:style=>"display:none;" %>
   <% end %>
   Rating: <%= @cap.average_rating %>
-</div></div>
+</div end="rate_container"></div end="<%=@cap.id%>_rating_div">
 
 
