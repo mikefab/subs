@@ -41,7 +41,7 @@ class SoftsController < ApplicationController
   # POST /softs
   # POST /softs.xml
   def create
-    puts "xxxxxxxx"
+
     ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
     
     @soft = Soft.new(:text=>params[:soft_text],:cap_id=>params[:soft_id],:lang=>params[:soft_lang],:user_id=>ip)
