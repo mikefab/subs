@@ -1,6 +1,7 @@
 class SoftsController < ApplicationController
   # GET /softs
   # GET /softs.xml
+   before_filter :authenticate
   def index
     @softs = Soft.all
 

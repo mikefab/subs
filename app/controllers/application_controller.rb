@@ -18,4 +18,12 @@ class ApplicationController < ActionController::Base
        Rails.cache.write("hash_trans",hash_trans) 
      end
    end
+   private
+
+       def authenticate
+         deny_access unless signed_in?
+       end
+       def deny_access
+         redirect_to signin_path, :notice => "Please sign in to access this page."
+       end
 end
