@@ -78,24 +78,38 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 			
 			
 		}else{
-//			alert(document.getElementById(id+"_"+lang).innerHTML);
-			document.getElementById('soft_text').value= document.getElementById(id+"_"+lang).innerHTML;
-		    document.getElementById('soft_id').value = id;
-		    document.getElementById('soft_lang').value = lang;
-			document.getElementById('soft_button').focus();
-			document.getElementById('soft_button').click();
-			if (lang.match(/eng/i)){
-
-				document.getElementById(id+"_edit_"+lang).innerHTML="edit English";
+			var answer = confirm("Are you sure you want to save?")
+			if (answer){
+				document.getElementById('soft_text').value= document.getElementById(id+"_"+lang).innerHTML;
+		    	document.getElementById('soft_id').value = id;
+		    	document.getElementById('soft_lang').value = lang;
+				document.getElementById('soft_button').focus();
+				document.getElementById('soft_button').click();
+				if (lang.match(/eng/i)){
+					document.getElementById(id+"_edit_"+lang).innerHTML="edit English";
+				}else{
+					document.getElementById(id+"_"+lang).style.visibility="hidden";				
+					document.getElementById(id+"_edit_"+lang).innerHTML="edit Spanish";
+				}
 			}else{
-				document.getElementById(id+"_"+lang).style.visibility="hidden";				
-				document.getElementById(id+"_edit_"+lang).innerHTML="edit Spanish";
+				soft_cancel(id,lang);	
+				
 			}
-
 
 		
 		}
 	}
+	
+	
+	function testo(){
+		child_divs= document.getElementById('container_1').childNodes;
+		for(var i = 0; i < child_divs.length; i++){
+		 if (child_divs[i].nodeType==1){child_divs[i].style.color="black";}
+			alert(child_divs[i].id);
+		}
+	}
+	
+	
 	
 	function soft_cancel(id,lang){
 		document.getElementById(id+"_eng").setAttribute("contentEditable","false");
@@ -112,7 +126,7 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 
 
 </script>
-
+<button onClick="testo();" style="display:none;"></button>
 <% form_tag softs_create_path,:name=>"soft_form",:id=>'soft_form', :method=>:get, :format=>'js', :remote=>true do%>
 
 <%= hidden_field_tag :soft_text, params[:soft_text] %>
