@@ -92,7 +92,7 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 
 </script>
 
-<% form_tag softs_path,:name=>"soft_form",:id=>'soft_form', :method=>:get, :format=>'js', :remote=>true do%>
+<% form_tag softs_create_path,:name=>"soft_form",:id=>'soft_form', :method=>:get, :format=>'js', :remote=>true do%>
 
 <%= hidden_field_tag :soft_eng, params[:soft_eng] %>
 <%= hidden_field_tag :soft_id, params[:soft_id] %>

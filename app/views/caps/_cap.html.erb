@@ -19,8 +19,8 @@
 	<span id="<%=@cap.id%>-<%=counter%>" style="position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 	<br>verb: <div onClick="find_one_verb('<%= @hash_id[thing].verb%>');" title="lists all conjugations for this verb on left." style="cursor:pointer;display:inline;"><a><u><%= @hash_id[thing].verb%></u></a></div>
 	<br>eng: <%=@english["#{@hash_id[thing].verb}"]%>
-	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
 	<br>mood:  <a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
+	<br>tense:<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
 	<br>tense type:  <a href="" onmouseover="return_tense_type(this,'<%=@hash_id[thing].tense_type%>');"><%=@hash_id[thing].tense_type%></a>
 	<br>pronoun: <a href=""> <%=@hash_id[thing].pro%></a>
 		</span>

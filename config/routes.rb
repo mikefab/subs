@@ -1,7 +1,14 @@
 Subs::Application.routes.draw do
  
+  resources :users
+  resources :sessions, :only => [:new, :create, :destroy]
+
+  match '/signup',  :to => 'users#new'
+  match '/signin',  :to => 'sessions#new'
+  match '/signout', :to => 'sessions#destroy'
+    
   
-  resources :softs, :only=>[:create]
+  resources :softs
 
   resources :supports, :only => [:new, :create]
   
@@ -13,7 +20,8 @@ Subs::Application.routes.draw do
   get "home/index"
   match 'contact' => 'home#contact'
   match 'results' =>'caps#results'
-  match 'softs'=>'softs#create'
+  match 'softs_create'=>'softs#create'
+  match 'softs_correct'=>'softs#correct'
   match 'verbs' =>'verbs#verbs'
   match 'verb_one'=>'verbs#verb_one'
   match 'tenses'=>'verbs#tenses'

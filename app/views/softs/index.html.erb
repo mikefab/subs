@@ -13,13 +13,13 @@
 
 <% @softs.each do |soft| %>
   <tr>
-    <td><%= soft.text %></td>
-    <td><%= soft.cap_id %></td>
+    <td><%= soft.cap.eng %><br><%= soft.cap.spa %><br><%= soft.text %></td>
+    <td></td>
     <td><%= soft.lang %></td>
     <td><%= soft.user_id %></td>
-    <td><%= link_to 'Show', soft %></td>
+    <td><%#= link_to 'Correct', correct_soft_path(soft) %></td>
     <td><%= link_to 'Edit', edit_soft_path(soft) %></td>
-    <td><%= link_to 'Destroy', soft, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to 'Correct', softs_correct_path(:id=>soft.id) %></td>
   </tr>
 <% end %>
 </table>

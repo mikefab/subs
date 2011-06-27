@@ -72,6 +72,22 @@ class SoftsController < ApplicationController
     end
   end
 
+
+  def correct()
+    @soft = Soft.find(params[:id])
+    cap = Cap.find(@soft.cap_id)
+    cap.eng = @soft.text
+    cap.save!
+    @soft.destroy
+
+    respond_to do |format|
+      format.html { redirect_to(softs_url) }
+      format.xml  { head :ok }
+    end
+  end
+
+
+
   # DELETE /softs/1
   # DELETE /softs/1.xml
   def destroy
