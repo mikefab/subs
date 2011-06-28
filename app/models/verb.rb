@@ -26,7 +26,7 @@ end
       return Rails.cache.read("#{mood}").split(/:/) if Rails.cache.read("#{mood}") 
     else
 #      tenses = ["futuro perfecto", "futuro simple", "gerundio", "imperfecto", "infinitivo", "participio", "pluscuamperfecto", "presente", "pretérito perfecto","pretérito anterior","condicional simple","condicional perfecto"]
-      tenses = ["presente", "imperfecto", "preterito perfecto", "preterito anterior", "pluscuamperfecto", "futuro simple", "futuro perfecto", "infinitivo","gerundio","preterito","condicional simple","condicional perfecto","participio"]
+      tenses = ["presente", "imperfecto", "pretérito perfecto", "pretérito anterior", "pluscuamperfecto", "futuro simple", "futuro perfecto", "infinitivo","gerundio","condicional simple","condicional perfecto","participio"]
       a=Array.new()
       tenses.each do |t|
         v= Verb.find(:first, :conditions=>["mood = ? and tense = ?", "#{mood}","#{t}"])

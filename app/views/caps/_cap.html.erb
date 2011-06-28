@@ -13,7 +13,7 @@
 <%if @hash_id[thing] then%>
 <u><a href='#' onClick="display_results('<%=w.gsub(/[\.,\!\?'"]/,"")%>');"><%=w%></a></span></u>
 
-	<span id="<%=@cap.id%>-<%=counter%>" style="position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
+	<span id="<%=@cap.id%>-<%=counter%>" style="border: 3px black solid;position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 
 	<br>infinitivo:&nbsp;&nbsp;&nbsp;<div onClick="find_one_verb('<%= @hash_id[thing].verb%>');" title="lists all conjugations for this verb on left." style="cursor:pointer;display:inline;"><a><u><%= @hash_id[thing].verb%></u></a> - <%=@english["#{@hash_id[thing].verb}"]%></div>
 	<br>mood:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
