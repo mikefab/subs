@@ -14,7 +14,7 @@ Subs::Application.routes.draw do
   
 
   get "tracks/index"
-
+ match 'clear'=>'tracks#clear'
   get "home/about"
  match 'about' => 'home#about'
   get "home/index"

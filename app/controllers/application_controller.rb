@@ -5,8 +5,22 @@ class ApplicationController < ActionController::Base
  # 
    def pre
      @trans_hash=  verb_trans()
+     @hash_conj_trans= conj_trans()
    end
  #  
+
+ def conj_trans
+   if  Rails.cache.read("hash_conj_trans") then
+     return true
+   else
+     hash_conj_trans=Hash.new()
+     Translation.find(:all).each do |t|
+       hash_conj_trans["#{t.verb}#{t.mood}#{t.tense}"]=t.trans
+     end
+     Rails.cache.write("hash_conj_trans",hash_conj_trans) 
+   end
+ end
+
    def verb_trans
      if  Rails.cache.read("hash_trans") then
        return true

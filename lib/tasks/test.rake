@@ -92,6 +92,31 @@ ActiveRecord::Migration.execute("truncate words;")
 end
 
 
+task :create_translations => [:environment] do
+
+  basedir = Rails.root.to_s + "/lib/tasks"
+  file = File.new(basedir + "/files/conj_trans.txt","r")
+  ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
+  file.each {|line|
+    
+  line = ic.iconv(line + ' ')[0..-2]
+  line.gsub(/\n/,'')
+  line.gsub(/\r/,'')
+    
+  (verb,mood,tense,trans)=line.split(/\t/)
+  trans=trans.gsub(/\n/,'')
+
+
+    r=Root.find(:first,:conditions=>["verb=?","#{verb}"])
+    mood="Condicional" if tense.match(/condicional/)
+    print "#{mood} #{tense}\n" 
+
+    t = Translation.new(:verb=>verb,:mood=>mood,:tense=>tense.downcase,:trans=>trans,:verb_id=>r.id) if r
+    #puts wcount.size.to_s + " " + ccount + " " + txt
+    t.save if r
+  }
+end
+
 task :create_subs => [:environment] do
 
   basedir = Rails.root.to_s + "/lib/tasks"

@@ -41,11 +41,8 @@ end
 
   def self.return_mood_verbs(mood,tense)
     if Rails.cache.read("#{mood}#{tense}") 
-      puts "aaaaaaaaa"
       return Rails.cache.read("#{mood}#{tense}") 
     else
-      puts "bbbbbbbbb"
-
     a_verbs=Array.new()
     a_strings=Array.new()
     hash_words=Hash.new()
