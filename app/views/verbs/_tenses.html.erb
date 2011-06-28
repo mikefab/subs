@@ -9,7 +9,7 @@
 
 
 tense_width=new Array();
-tense_width["future perfecto"] ="25";
+tense_width["future perfecto"] ="10";
 tense_width["futuro simple"] ="20";
 tense_width["imperfecto"] ="50";
 tense_width["pluscuamperfecto"] ="30";
@@ -27,16 +27,16 @@ tense_main["gerundio"]="a special, invariable form of the verb which<br>always e
 tense_main["condicional simple"]="1. To express a wish/courtesy:<p>	Me gustaría comprar una camisa (I´d like to buy a shirt).<br>¿Podrías decirme....? (Could you tell me...?)<p>2. To express a possibility:<br>Compraríamos la motocicleta si tuviéramos* más dinero. (We would buy the motorbike if we had more money).<p>3. To give an advice:<br>¡Deberías comer más! (You should eat more!)"
 tense_main["condicional perfecto"]="The conditional perfect is used to make statements that are contrary to reality.<br> Something would, or would not, have happened if some condition had been met.<p>As an example,<br>'I would have done the assingment last night, if I had only taken my notebook with me to the party'.<p>The conditional perfect can also be used to express probability or<br>conjecture about the completion of an action prior to some point in the past:<p>El habría sacado la gorda antes de comprar aquella mansion.<br>He would have won the lottery before purchasing that mansion.<p>El profesor le habría prometido una marca perfecta cuando empezó el curso.<br>The professor must have promised him an A plus when he started the course."
 tense_main["futuro simple"] ="future."
-tense_main["futuro perfecto"] ="The future perfect is formed by combining the auxiliary verb 'haber' with the past participle.<br>habré, habrás, habrá, habremos, habréis, habrán."+
+tense_main["futuro perfecto"] ="The future perfect is formed by combining<br>the auxiliary verb 'haber' with the past participle.<br>habré, habrás, habrá, habremos, habréis, habrán."+
 "<p> (yo) Habré escrito el libro antes del año nuevo."+
 "<br> I will have written the book before the new year. "+
 "<p>(tú) ¿Habrás comprado una casa en un año?"+
 "<br>Will you have bought a house in a year?"+
 
-"<p>(él) Habrá pagado todas las deudas para el dos de octubre."+
+"<p>(él) Habrá pagado todas las deudas para el<br> dos de octubre."+
 "<br>He will have paid all the debt by October 2."+
 
-"<p>(nosotros) Habremos vuelto de España para el doce de junio."+
+"<p>(nosotros) Habremos vuelto de España para<br>el doce de junio."+
 "<br>We will have returned from Spain by June 12."+
 
 "<p>(vosotros) Para cuando Juan llegue, vosotros ya habréis salido."+
@@ -113,7 +113,7 @@ function highlight_tense(div){
 <div id="tenses"  style="position:absolute;top:-20px">
 <%if @tenses%>	
 
-<div id="tenses_holder" style="position:relative;display:inline;left:-60px;">
+<div id="tenses_holder" style="position:relative;display:inline;left:-70px;">
 	<%c=1%>
 	<%@tenses.each do |t| %>
 	<div class="tenses" id="<%=c%>_tense" style="position:relative;display:inline;cursor:pointer;" onClick="document.getElementById('verb').value='';document.getElementById('instruction2').style.visibility='hidden';display_verbs(this.innerHTML);highlight_tense(this);" onmouseover= "explain_tense(this);" onmouseout="off_tense_explanation();"><%=t%></div end="<%=c%>_tense">
