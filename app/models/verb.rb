@@ -73,7 +73,6 @@ end
        word_count[0]["count"].to_i.times{|i| hash_words[words[i]['word']]=1 }
      end
      
-     
     #Many conjugations repeat, so make list unique
     a_strings=a_strings.uniq
     #Now find out if each conjugation is found in a caption
@@ -130,6 +129,7 @@ end
     end
     a_caps.uniq!
     a_caps.each do |word|
+
 #      print "zzzz #{word}\n"
       #remove punctuation from word or compound before checking if it's a verb
       word = word.gsub(/(\?|\!|\.|,)/,"")
