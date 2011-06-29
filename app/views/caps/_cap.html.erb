@@ -3,9 +3,15 @@
 	<div id="previous" onClick='go_to(<%=@cap.id%>,<%=@cap.num%>,"<%=@cap.url%>","back",this);' title="view previous clip." style="cursor:pointer;position:relative;display:inline;font-size:8pt;">previous clip
 		</div>
 			<%@cap.source2=@cap.source2.gsub(" ",".")%>
-			<audio src="http://www.mikefab.com/ogg/<%=@cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url  %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
 
-<div id="next" onClick="go_to(<%=@cap.id%>,<%=@cap.num%>,'<%=@cap.url%>','next',this);" title="view next clip." style="cursor:pointer;position:relative;display:inline;font-size:8pt;">next clip</div><br><br>
+			<%if @cap.source.match(/dotsub/) then%>
+			<audio src="http://www.mikefab.com/ogg/<%=@cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url  %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
+			<%else%>
+			<embed type="application/x-shockwave-flash" flashvars="audioUrl=http://www.mikefab.com/mp3/<%=@cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url  %>.mp3" src="http://www.google.com/reader/ui/3523697345-audio-player.swf" width="400" height="27" quality="best"></embed>
+			<%end%>
+			<div id="next" onClick="go_to(<%=@cap.id%>,<%=@cap.num%>,'<%=@cap.url%>','next',this);" title="view next clip." style="cursor:pointer;position:relative;display:inline;font-size:8pt;">next clip</div><br><br>
+
+
 	<%counter=0%>
     <%@cap.spa.split(/\s+/).each do |w|%>
 <%thing="#{@cap.id}-#{counter}"%>
