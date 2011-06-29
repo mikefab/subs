@@ -4,7 +4,7 @@
 		</div>
 			<%@cap.source2=@cap.source2.gsub(" ",".")%>
 
-			<%if @cap.source.match(/dotsub/) then%>
+			<%if @cap.source.match(/xxxx/) then%>
 			<audio src="http://www.mikefab.com/ogg/<%=@cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url  %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
 			<%else%>
 			<embed type="application/x-shockwave-flash" flashvars="audioUrl=http://www.mikefab.com/mp3/<%=@cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url  %>.mp3" src="http://www.google.com/reader/ui/3523697345-audio-player.swf" width="400" height="27" quality="best"></embed>
@@ -13,7 +13,7 @@
 
 
 	<%counter=0%>
-    <%@cap.spa.split(/\s+/).each do |w|%>
+    <%@cap.spa.split(/[\s+\.+]/).each do |w|%>
 <%thing="#{@cap.id}-#{counter}"%>
 	<span id="<%=@cap.id%>-<%=counter%>_basic" onmouseover="light_up('<%=@cap.id%>-<%=counter%>',this);" onmouseout="darken('<%=@cap.id%>-<%=counter%>');">
 <%if @hash_id[thing] then%>
