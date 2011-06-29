@@ -48,8 +48,8 @@ class SoftsController < ApplicationController
     respond_to do |format|
       if @soft.save
         
-  @notice = "Spanish edit was successfully created. Please allow 24 hours for it to be reviewed." if params[:soft_lang].match(/spa/)
-  @notice = "English edit was successfully created. Please allow 24 hours for it to be reviewed." if params[:soft_lang].match(/eng/)
+  @notice = "Spanish edit was created. Please allow 24 hours for review." if params[:soft_lang].match(/spa/)
+  @notice = "English edit was created. Please allow 24 hours for review." if params[:soft_lang].match(/eng/)
 
         format.html { redirect_to results_path() }
         format.js {}

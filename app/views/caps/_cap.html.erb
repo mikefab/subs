@@ -43,24 +43,28 @@
 	<div id="<%=@cap.id%>_eng" style="display:inline;" onBlur="soft_cancel_wait(<%=@cap.id%>,'eng');"><%=@cap.eng%></div>
 	<div id="<%=@cap.id%>_spa" style="visibility:hidden;" onBlur="soft_cancel_wait(<%=@cap.id%>,'spa');"><%=@cap.spa%></div>
 
-<div style="display:inline;" id="<%=@cap.id%>_notice"></div>
 <br>
 
 <div >
-	<div style="position:relative;display:inline;width:4px;">
+	<div style="position:relative;display:inline;width:4px;top:-20px;">
 	<%= render :partial => "ratings/rating", :object => @cap  %>
 	</div>
 
+	<div style="position:absolute;display:inline;left:-10px;" id="<%=@cap.id%>_notice"></div>
 	<div style="position:relative;display:inline;left:200px;top:-30px;width:4px;" >
+		<% if request.env['HTTP_USER_AGENT'].match(/moz/i) then%> 
+
+<div style="position:relative;display:inline;left:200px;width:4px;top:30px;" >
 		<div id="<%=@cap.id%>_edit_spa" onClick="soft_edit(<%=@cap.id%>,this,'spa');" style="display:inline;cursor:pointer;">edit Spanish</div>&nbsp;<div id="<%=@cap.id%>_cancel_spa" onClick="soft_cancel(<%=@cap.id%>,'spa');" style="position:relative;display:none;">cancel</div>
 		
 	|	
 		<div id="<%=@cap.id%>_edit_eng" onClick="soft_edit(<%=@cap.id%>,this,'eng');" style="display:inline;cursor:pointer;">edit English</div>&nbsp;<div id="<%=@cap.id%>_cancel_eng" onClick="soft_cancel(<%=@cap.id%>,'eng');" style="position:relative;display:none;">cancel</div>
-		
-
 </div>
+<%end%>
 
-	<div style="position:relative;display:inline;left:170px;">
+
+
+	<div style="position:relative;display:inline;left:10px;">
 	<%if @cap.source.match(/movies/i)%>
 	source: movies
 	<%else%>

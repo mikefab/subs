@@ -25,7 +25,7 @@
 <div style="position:relative;dislay:inline;">	<%=flash[:notice]%></div>
 <div style="position:relative;dislay:inline;">	<%=flash[:error]%></div>
 	<% if request.env['HTTP_USER_AGENT'].match(/ie/i) then%> 
-	<div id="browser_warning" style="position:absolute">This site does not work with Explorer yet.<br>You must use Chrome, Safari, or Firefox!</div end="browser_warning">
+	<div id="browser_warning" style="position:absolute">This site does best in Chrome, Firefox, and Safari.<br>Explorer is limited. Working on it. </div end="browser_warning">
 	<%end%>
 
 	<% if params[:action]=="index"%>

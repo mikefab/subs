@@ -4,6 +4,8 @@ class ApplicationController < ActionController::Base
   before_filter :pre
  # 
    def pre
+
+print "#{Rails.cache.read('thing').class} ....."
      @trans_hash=  verb_trans()
      @hash_conj_trans= conj_trans()
    end
