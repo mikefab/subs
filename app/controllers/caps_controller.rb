@@ -24,12 +24,22 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   end
   
     def results
-      Rails.cache.fetch('laji'){Word.find(:all,:limit=>10)}
+#      Rails.cache.fetch('laji'){Word.find(:all,:limit=>10)}
 ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   #    @caps = Cap.all
       @choice= params[:language]
       lang=params[:language] || "Spa"
-      @caps = Cap.search(params[:search], params[:page],lang) 
+
+      #if Rails.cache.exist?("#{params[:search]}-#{params[:page]}") then
+     #   print "fffff retrieving cache mmmmm #{Rails.cache.read("#{params[:search]}-#{params[:page]}").class}"
+    #    @caps = Rails.cache.read("#{params[:search]}-#{params[:page]}")
+
+   #   else
+  #      print "freaking creating cache...."
+        @caps = Cap.search(params[:search], params[:page],lang) 
+ #       Rails.cache.fetch("#{params[:search]}-#{params[:page]}", :expires_in => 2.minutes){@caps}
+#      end
+
       returned_results = @caps.size || 0
       Track.new(:ip=>ip,:search=>params[:search],:page=>params[:page],:num=>returned_results).save!      
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
