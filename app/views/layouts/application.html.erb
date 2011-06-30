@@ -31,11 +31,11 @@
 	<% if params[:action]=="index"%>
 	<img style="position:relative;top:50px;left:300px;" src="images/logo_base.jpg"/>
 
-<h5 style="position:relative;float:right;"><%= link_to 'About', about_path %></h5>
+<h5 style="position:relative;left:700px;"><%= link_to 'About', about_path %></h5>
 <%else%>
 <img style="position:relative;left:550px;" src="images/logo_base.jpg"/>
 
-<h5 style="position:relative;float:right;"><%= link_to 'Home', home_path %></h5>
+<h5 style="position:relative;"><%= link_to 'Home', home_path %></h5>
 <%end%>
 <br>
 <%= yield %>
