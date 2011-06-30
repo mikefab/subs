@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
  # 
    def pre
 
-print "#{Rails.cache.read('thing').class} ....."
+     
      @trans_hash=  verb_trans()
      @hash_conj_trans= conj_trans()
    end

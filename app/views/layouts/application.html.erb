@@ -22,6 +22,7 @@
 
 
 <body style="width:90%;">
+	<%=Rails.cache.read('laji').class%> 
 <div style="position:relative;dislay:inline;">	<%=flash[:notice]%></div>
 <div style="position:relative;dislay:inline;">	<%=flash[:error]%></div>
 	<% if request.env['HTTP_USER_AGENT'].match(/ie/i) then%> 

@@ -24,6 +24,7 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   end
   
     def results
+      Rails.cache.fetch('laji'){Word.find(:all,:limit=>10)}
 ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   #    @caps = Cap.all
       @choice= params[:language]
