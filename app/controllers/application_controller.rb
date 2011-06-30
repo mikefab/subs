@@ -19,7 +19,8 @@ class ApplicationController < ActionController::Base
      Translation.find(:all).each do |t|
        hash_conj_trans["#{t.verb}#{t.mood}#{t.tense}"]=t.trans
      end
-     Rails.cache.write("hash_conj_trans",hash_conj_trans) 
+     Rails.cache.fetch("hash_conj_trans", :expires_in=>3.days){hash_conj_trans} 
+
    end
  end
 
@@ -31,7 +32,7 @@ class ApplicationController < ActionController::Base
        Root.find(:all).each do |r|
          hash_trans[r.verb]=r.trans
        end
-       Rails.cache.write("hash_trans",hash_trans) 
+       Rails.cache.fetch("hash_trans", :expires_in => 3.days){hash_trans} 
      end
    end
    private
