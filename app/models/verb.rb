@@ -134,16 +134,16 @@ end
       #remove punctuation from word or compound before checking if it's a verb
       word = word.gsub(/(\?|\!|\.|,)/,"")
 
+ if ENV['RAILS_ENV']=="production" then
       if Rails.cache.read("conj-#{word}") then 
-
         temp = Rails.cache.read("conj-#{word}")
       else
-
         temp = Verb.find(:first,:conditions=>['conj = ?',"#{word}"])
         Rails.cache.fetch("conj-#{word}", :expires_in => 3.days){temp}
       end
-
-
+    else
+      temp = Verb.find(:first,:conditions=>['conj = ?',"#{word}"])
+  end
 
 
       #loop through ids for each word, initialize hash set id as key and verb as value
