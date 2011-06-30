@@ -1,15 +1,17 @@
 <%@cap=cap if cap%>
+<div id="previous" onClick='go_to(<%=@cap.id%>,<%=@cap.num%>,"<%=@cap.url%>","back",this);' title="view previous clip." style="cursor:pointer;position:relative;display:inline;font-size:8pt;">
+	previous clip
+</div>
 
-	<div id="previous" onClick='go_to(<%=@cap.id%>,<%=@cap.num%>,"<%=@cap.url%>","back",this);' title="view previous clip." style="cursor:pointer;position:relative;display:inline;font-size:8pt;">previous clip
-		</div>
-			<%@cap.source2=@cap.source2.gsub(" ",".")%>
-
-			<%if @cap.source.match(/xxxx/) then%>
-			<audio src="http://www.mikefab.com/ogg/<%=@cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url  %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
-			<%else%>
-			<embed type="application/x-shockwave-flash" flashvars="audioUrl=http://www.mikefab.com/mp3/<%=@cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url  %>.mp3" src="http://www.google.com/reader/ui/3523697345-audio-player.swf" width="400" height="27" quality="best"></embed>
-			<%end%>
-			<div id="next" onClick="go_to(<%=@cap.id%>,<%=@cap.num%>,'<%=@cap.url%>','next',this);" title="view next clip." style="cursor:pointer;position:relative;display:inline;font-size:8pt;">next clip</div><br><br>
+<%@cap.source2=@cap.source2.gsub(" ",".")%>
+<%if @cap.source.match(/xxxx/) then%>
+<audio src="http://www.mikefab.com/ogg/<%=@cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url  %>.ogg"  style="position:relative;z-index:0;" controls preload="auto" autobuffer></audio>
+<%else%>
+<embed type="application/x-shockwave-flash" flashvars="audioUrl=http://www.mikefab.com/mp3/<%=@cap.source%>/<%=@cap.url%>/<%= @cap.num %>_<%= @cap.url  %>.mp3" src="http://www.google.com/reader/ui/3523697345-audio-player.swf" width="400" height="27" quality="best"></embed>
+<%end%>
+<div id="next" onClick="go_to(<%=@cap.id%>,<%=@cap.num%>,'<%=@cap.url%>','next',this);" title="view next clip." style="cursor:pointer;position:relative;display:inline;font-size:8pt;">
+	next clip
+</div><br><br>
 
 
 	<%counter=0%>
@@ -21,7 +23,10 @@
 
 	<span id="<%=@cap.id%>-<%=counter%>" style="border: 3px black solid;position:fixed;z-index:2;background-color:yellow;display:none;" onmouseover="this.style.display='inline';" onmouseout="this.style.display='none';">
 
-	<br>infinitivo:&nbsp;&nbsp;&nbsp;<div onClick="find_one_verb('<%= @hash_id[thing].verb%>');" title="lists all conjugations for this verb on left." style="cursor:pointer;display:inline;"><a><u><%= @hash_id[thing].verb%></u></a> - <%=@english["#{@hash_id[thing].verb}"]%></div>
+	<br>infinitivo:&nbsp;&nbsp;&nbsp;
+	<div onClick="find_one_verb('<%= @hash_id[thing].verb%>');" title="lists all conjugations for this verb on left." style="cursor:pointer;display:inline;">
+		<a><u><%= @hash_id[thing].verb%></u></a> - <%=@english["#{@hash_id[thing].verb}"]%>
+	</div>
 	<br>mood:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""       onmouseover="return_mood(this,'<%=@hash_id[thing].mood%>');"><%=@hash_id[thing].mood%></a>
 	<br>tense:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""        onmouseover="return_tense(this,'<%=@hash_id[thing].tense%>');"><%=@hash_id[thing].tense%></a>
 	<%if @hash_id[thing].tense_type.size>0%>
@@ -40,39 +45,33 @@
 	<%end%>
 	
 <br>
-	<div id="<%=@cap.id%>_eng" style="display:inline;" onBlur="soft_cancel_wait(<%=@cap.id%>,'eng');"><%=@cap.eng%></div>
-	<div id="<%=@cap.id%>_spa" style="visibility:hidden;" onBlur="soft_cancel_wait(<%=@cap.id%>,'spa');"><%=@cap.spa%></div>
-
-<br>
-
-<div >
-	<div style="position:relative;display:inline;width:4px;top:-20px;">
-	<%= render :partial => "ratings/rating", :object => @cap  %>
+	<div id="<%=@cap.id%>_eng" style="display:inline;" onBlur="soft_cancel_wait(<%=@cap.id%>,'eng');">
+		<%=@cap.eng%>
 	</div>
-
-	<div style="position:absolute;display:inline;left:-10px;" id="<%=@cap.id%>_notice"></div>
-	<div style="position:relative;display:inline;left:200px;top:-30px;width:4px;" >
+	<div id="<%=@cap.id%>_spa" style="visibility:hidden;" onBlur="soft_cancel_wait(<%=@cap.id%>,'spa');">
+		<%=@cap.spa%>
+	</div>
+<br>
+<div>
+	<div style="position:relative;display:inline;width:4px;top:-20px;">
+		<%= render :partial => "ratings/rating", :object => @cap  %>
+	</div>
+	<div style="position:absolute;display:inline;left:-10px;" id="<%=@cap.id%>_notice">
+	</div>
+	<div style="position:relative;display:inline;left:200px;top:-20px;width:4px;" >
 		<% if request.env['HTTP_USER_AGENT'].match(/moz/i) then%> 
-
-<div style="position:relative;display:inline;left:200px;width:4px;top:30px;" >
-		<div id="<%=@cap.id%>_edit_spa" onClick="soft_edit(<%=@cap.id%>,this,'spa');" style="display:inline;cursor:pointer;">edit Spanish</div>&nbsp;<div id="<%=@cap.id%>_cancel_spa" onClick="soft_cancel(<%=@cap.id%>,'spa');" style="position:relative;display:none;">cancel</div>
-		
-	|	
-		<div id="<%=@cap.id%>_edit_eng" onClick="soft_edit(<%=@cap.id%>,this,'eng');" style="display:inline;cursor:pointer;">edit English</div>&nbsp;<div id="<%=@cap.id%>_cancel_eng" onClick="soft_cancel(<%=@cap.id%>,'eng');" style="position:relative;display:none;">cancel</div>
-</div>
-<%end%>
+		<div style="position:relative;display:inline;left:200px;width:4px;top:30px;" >
+			<div id="<%=@cap.id%>_edit_spa" onClick="soft_edit(<%=@cap.id%>,this,'spa');" style="display:inline;cursor:pointer;">edit Spanish</div>&nbsp;<div id="<%=@cap.id%>_cancel_spa" onClick="soft_cancel(<%=@cap.id%>,'spa');" style="position:relative;display:none;">cancel</div>
+			|	
+			<div id="<%=@cap.id%>_edit_eng" onClick="soft_edit(<%=@cap.id%>,this,'eng');" style="display:inline;cursor:pointer;">edit English</div>&nbsp;<div id="<%=@cap.id%>_cancel_eng" onClick="soft_cancel(<%=@cap.id%>,'eng');" style="position:relative;display:none;">cancel</div>
+		</div>
+		<%end%>
 
 
-
-	<div style="position:relative;display:inline;left:10px;">
 	<%if @cap.source.match(/movies/i)%>
 	source: movies
 	<%else%>
 	source: <a href="http://www.<%=@cap.source%>.com"><%=@cap.source%>.com</a>
 	<%end%>
-</div>
-	<div style="position:relative;left:200px;display:inline;"><%#= link_to 'Edit', edit_cap_path(cap) %>
-		<div style="display:inline;" title="Removes all clips in database from same video" ><%#= link_to 'remove all', hide_all_cap_path(@cap), :confirm => 'Are you sure?'  %></div> 
-
 	</div>
 </div>
