@@ -34,7 +34,9 @@ end
       end
       
       a_string=a.join(":")
-      Rails.cache.write("#{mood}","#{a_string}")
+#      Rails.cache.write("#{mood}","#{a_string}")
+      Rails.cache.fetch("#{mood}", :expires_in =>3.days){"#{a_string}"}
+
       return a
     end
   end
@@ -83,9 +85,8 @@ end
         small_verb[s]=grand_verb[s]
       end
     end
-    Rails.cache.write("blow","hard")
-    Rails.cache.write("#{mood}#{tense}",small_verb.sort)
-
+#    Rails.cache.write("#{mood}#{tense}",small_verb.sort)
+      Rails.cache.fetch("#{mood}#{tense}", :expires_in =>3.days){small_verb.sort}
      return small_verb.sort
   end
 end
@@ -130,10 +131,19 @@ end
     a_caps.uniq!
     a_caps.each do |word|
 
-#      print "zzzz #{word}\n"
       #remove punctuation from word or compound before checking if it's a verb
       word = word.gsub(/(\?|\!|\.|,)/,"")
-      temp = Verb.find(:first,:conditions=>['conj = ?',"#{word}"])
+
+      if Rails.cache.read("conj-#{word}") then 
+        temp = Rails.cache.read("conj-#{word}")
+      else
+        temp = Verb.find(:first,:conditions=>['conj = ?',"#{word}"])
+        Rails.cache.fetch("conj-#{word}", :expires_in => 3.days){temp}
+      end
+
+
+
+
       #loop through ids for each word, initialize hash set id as key and verb as value
       if hash_ids[word] and temp then
         #get english translation for verb
@@ -145,7 +155,7 @@ end
         array_of_ids.each do |id|
 
         hash_id["#{id}"] = temp
-        puts "#{hash_id[id].verb} #{id}"
+  #      puts "#{hash_id[id].verb} #{id}"
       end
     end
     verbs = verbs + " | " + word + " - " + temp.verb if temp
