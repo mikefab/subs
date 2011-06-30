@@ -60,7 +60,7 @@
 	</div>
 	<div style="position:relative;display:inline;left:150px;top:-20px;width:4px;" >
 		<% if request.env['HTTP_USER_AGENT'].match(/moz/i) then%> 
-		<div style="position:relative;display:inline;left:200px;width:4px;top:32px;" >
+		<div style="position:relative;display:inline;left:185px;width:4px;top:32px;" >
 			<div id="<%=@cap.id%>_edit_spa" onClick="soft_edit(<%=@cap.id%>,this,'spa');" style="display:inline;cursor:pointer;">edit Spanish</div>&nbsp;<div id="<%=@cap.id%>_cancel_spa" onClick="soft_cancel(<%=@cap.id%>,'spa');" style="position:relative;display:none;">cancel</div>
 			|	
 			<div id="<%=@cap.id%>_edit_eng" onClick="soft_edit(<%=@cap.id%>,this,'eng');" style="display:inline;cursor:pointer;">edit English</div>&nbsp;<div id="<%=@cap.id%>_cancel_eng" onClick="soft_cancel(<%=@cap.id%>,'eng');" style="position:relative;display:none;">cancel</div>
