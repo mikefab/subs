@@ -135,8 +135,11 @@ end
       word = word.gsub(/(\?|\!|\.|,)/,"")
 
       if Rails.cache.read("conj-#{word}") then 
+        print "RRRRRRRRR retrieving from verb - temp"
         temp = Rails.cache.read("conj-#{word}")
       else
+        print "PPPPPPP retrieving from verb - temp"
+
         temp = Verb.find(:first,:conditions=>['conj = ?',"#{word}"])
         Rails.cache.fetch("conj-#{word}", :expires_in => 3.days){temp}
       end
