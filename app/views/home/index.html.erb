@@ -6,6 +6,7 @@
 
 
 $(document).ready(function(){
+
 	$('#demo4').collapser({
 		target: 'siblings',
 		effect: 'fade',
@@ -117,7 +118,7 @@ function find_one_verb(verb_one){
 <div id="container" style="width:90%;">
 
 	<div id="top_container" style="position:absolute;width:90%; ">
-		<div id="search_container" style="position:absolute;display:inline;left:600px;">
+		<div id="search_container" style="position:absolute;display:inline;left:570px;top:20px;">
 		<%if !params[:hide_search] then%>
 			<p>
 			<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>

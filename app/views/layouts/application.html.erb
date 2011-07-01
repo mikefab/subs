@@ -21,8 +21,7 @@
 </head>
 
 
-<body style="width:90%;">
-<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAudioVerbcom%2F243504829009599&amp;width=180&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="position:absolute;border:none; overflow:hidden; width:180px; height:62px;left:750px;top:100px;" allowTransparency="true"></iframe>
+<body style="background-color:whitee;width:90%;">
 <div style="position:relative;dislay:inline;">	<%=flash[:notice]%></div>
 <div style="position:relative;dislay:inline;">	<%=flash[:error]%></div>
 
@@ -31,7 +30,14 @@
 	<%end%>
 
 	<% if params[:action]=="index"%>
-	<img style="position:relative;top:50px;left:300px;" src="images/logo_base.jpg"/>
+
+	<div style="position:absolute;top:50px;left:300px; background-image: url(images/logo_base.jpg);width:195px;height:20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #000;
+	padding: 10px;" >
+	</div>
+	<!-- <img id="logo" style="position:relative;top:50px;left:300px;" src="images/logo_base.jpg"/> -->
 
 <h5 style="position:absolute;left:870px;"><%= link_to 'About', about_path %></h5>
 <div id="movies"   style="z-index:2;position:absolute;left:920px;top:26px;display:inline;">
