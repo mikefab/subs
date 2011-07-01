@@ -26,31 +26,33 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
     def results
 #      Rails.cache.fetch('laji'){Word.find(:all,:limit=>10)}
 ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
-  #    @caps = Cap.all
+
+    
+      if params[:movie]  then
+        @caps=Cap.return_movie(params[:movie],params[:page])
+      else
+        
+
       @choice= params[:language]
       lang=params[:language] || "Spa"
 
       if ENV['RAILS_ENV']=="production" then
         if Rails.cache.exist?("#{params[:search]}-#{params[:page]}") then
-          print "fffff retrieving cache mmmmm #{Rails.cache.read("#{params[:search]}-#{params[:page]}").class}"
-          @caps = Rails.cache.read("#{params[:search]}-#{params[:page]}")
+           @caps = Rails.cache.read("#{params[:search]}-#{params[:page]}")
         else
-          print "freaking creating cache...."
           @caps = Cap.search(params[:search], params[:page],lang) 
           Rails.cache.fetch("#{params[:search]}-#{params[:page]}", :expires_in => 2.minutes){@caps}
         end
       else
           @caps = Cap.search(params[:search], params[:page],lang) 
       end
-      returned_results = @caps.size || 0
+     returned_results = @caps.size || 0
+    end
+ 
       Track.new(:ip=>ip,:search=>params[:search],:page=>params[:page],:num=>returned_results).save!      
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
 
-      # respond_to do |format|
-      #       format.html { render :partial=>"caps/results"}
-      #       format.xml  { render :xml => @cap }
-    
-      #end
+
 
     end
 
