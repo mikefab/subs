@@ -39,7 +39,6 @@ def self.return_movie(movie,page)
     Search.create(:search=>movie,:page=> page)
     paginate :per_page=>4, :page=>page,
     :conditions => ["source2=?","#{movie}"],
-    
   end
 end
 
