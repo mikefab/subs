@@ -170,9 +170,9 @@ task :fix_carancho => [:environment] do
     eng.gsub(/(^\s+|\s+$)/,'')
     
     cap=Cap.find(:first,:conditions=>["num=? and source2=?","#{num}","carancho"])
-    cap.spa=spa
+    cap.spa=spa if cap
 #    print "#{cap.num} #{cap.spa} #{spa}\n"
-    cap.save
+    cap.save if cap
   }  
 end
 
