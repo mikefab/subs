@@ -165,6 +165,7 @@ task :fix_carancho => [:environment] do
     line.gsub(/\r/,'')
     
     (url,num,start,stop,spa,eng,trash,source,source2,trash)=line.split(/\t/)
+    print "#{num} #{spa}\n"
     spa.gsub(/(^\s+|\s+$)/,'')
     eng.gsub(/(^\s+|\s+$)/,'')
     
