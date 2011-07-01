@@ -6,7 +6,7 @@
 
 
 $(document).ready(function(){
-	$('.demo4').collapser({
+	$('#demo4').collapser({
 		target: 'siblings',
 		effect: 'fade',
 		changeText: 0,
@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 
 $(function(){
-	setTimeout("$('.demo4').click()",2000);
+	setTimeout("$('#demo4').click()",2000);
 	for(i=0;i<50;i++){
     	$("#instruction1").animate({color: "blue"}, 'slow');
         $("#instruction1").animate({color: "navy"}, 'slow');
@@ -115,21 +115,7 @@ function find_one_verb(verb_one){
 </script>
 
 <div id="container" style="width:90%;">
-<div id="movies"   style="z-index:2;position:absolute;top:120px;left:900px;">
 
-		<h4 class="demo4" style="cursor:pointer;">Expand movies!</h4> 
-		<table>
-		<%@movies.each do |m|%>
-				<tr><td width="50px">
-					<img onClick="display_movie('<%=m.title.gsub(/\s+/,".")%>');" style="width:80%;cursor:pointer" src="images/<%=m.title.gsub(/\s+/,".").downcase%>_small.jpg">
-				</td>
-			    <td>
-				<%=m.title%><br><i><%=m.origin%></i>
-				</td></tr>
-		<%end%>
-	</tr></table>
-
-</div end="movies">
 	<div id="top_container" style="position:absolute;width:90%; ">
 		<div id="search_container" style="position:absolute;display:inline;left:600px;">
 		<%if !params[:hide_search] then%>
