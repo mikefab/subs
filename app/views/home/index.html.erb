@@ -145,7 +145,7 @@ function find_one_verb(verb_one){
 
 		<% form_tag results_path,:name=>"movie_form",:id=>'movie_form', :method=>:get, :remote=>true do%>
 			<%= hidden_field_tag :movie,params[:movie] %>
-			<%= submit_tag "movie_search", :id=>"movie_button",:name => 'movies_button',:style=>"display:hidden;" %>
+			<%= submit_tag "movie_search", :id=>"movie_button",:name => 'movies_button',:style=>"display:none;" %>
 		<%end%>
 
 
