@@ -5,6 +5,16 @@
 
 
 <script>
+
+$(document).ready(function(){
+
+var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+
+document.getElementById('footer').setAttribute("style","position:absolute;top:"+document.body.scrollHeight+"px");
+});
+
+
+
 	mood= new Array();
 	mood["Subjuntivo"]="Used to express everything except certainty and objectivity.";
 	mood["Indicativo"]="The verb mood used in ordinary, typical speech when making statements.";
@@ -162,3 +172,4 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 </div end="will_paginate2">
 </div end="search">	
 <%end%>
+

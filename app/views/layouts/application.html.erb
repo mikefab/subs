@@ -22,15 +22,17 @@
 
 <script>
 
-
 </script>
 </head>
+  
 
+<body  style="background-color:white;width:90%;">
 
-<body style="background-color:white;width:90%;">
+	<div class="wrapper">
+	
 <div style="position:relative;dislay:inline;">	<%=flash[:notice]%></div>
 <div style="position:relative;dislay:inline;">	<%=flash[:error]%></div>
-<!-- <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAudioVerbcom%2F243504829009599&amp;width=200&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="position:absolute;left:720px;top:100px;border:none; overflow:hidden; width:200px; height:62px;" allowTransparency="true"></iframe> -->
+
 	<% if request.env['HTTP_USER_AGENT'].match(/ie/i) then%> 
 	<div id="browser_warning" style="position:absolute;font-size:8pt;">This site works best in Chrome, Firefox, and Safari.</div end="browser_warning">
 	<%end%>
@@ -56,6 +58,19 @@
 <%end%>
 <br>
 <%= yield %>
+
+
+<div class="push"></div>
+
+
+</div>
+ 
+    
+    <div id="footer"  >
+  <div style="position:relative;top:-30px;left:500px;display:inline;">AudioVerb.com 2011</div>
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAudioVerbcom%2F243504829009599&amp;width=200&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="position:relative;left:800px;top:-20px;border:none;display:inline; overflow:hidden; width:200px; height:62px;" allowTransparency="true"></iframe> 
+	</div>
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
