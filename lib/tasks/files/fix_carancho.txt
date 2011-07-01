@@ -1,0 +1,1014 @@
+carancho	0	104.84	107.07	- Pará. ¿De dónde conoces a mi viejo? - Lo conozco dela cancha.	- Pará. ¿De dónde conoces a mi viejo? - Lo conozco dela cancha.	trash	movies	carancho	trash
+carancho	1	107.18	109.77	- ¿Dela cancha? ¿De qué cuadro era?	- ¿Dela cancha? ¿De qué cuadro era?	trash	movies	carancho	trash
+carancho	2	111.15	113.91	¿De qué cuadro era. Hijo de puta? Pará.	¿De qué cuadro era. Hijo de puta? Pará.	trash	movies	carancho	trash
+carancho	3	114.02	115.61	- ¿De qué club era mi viejo? - Almirante Brown.	- ¿De qué club era mi viejo? - Almirante Brown.	trash	movies	carancho	trash
+carancho	4	115.72	116.78	- ¿Cómo? - ¡Da e hijo de puta!	- ¿Cómo? - ¡Da e hijo de puta!	trash	movies	carancho	trash
+carancho	5	116.89	120.09	¿De qué cuadro era mi viejo?	¿De qué cuadro era mi viejo?	trash	movies	carancho	trash
+carancho	6	120.26	121.69	¿Eh? ¿De qué cuadro?	¿Eh? ¿De qué cuadro?	trash	movies	carancho	trash
+carancho	7	123.16	125.6	¿De qué club era mi viejo, hijo de puta?	¿De qué club era mi viejo, hijo de puta?	trash	movies	carancho	trash
+carancho	8	125.7	127.1	Laferrere.	Laferrere.	trash	movies	carancho	trash
+carancho	9	132.4	135.07	- ¿No te acordás?	- ¿No te acordás?	trash	movies	carancho	trash
+carancho	10	136.34	141.54	Hubieras esperado a que o entierre. Hijo de mi putas. Transa de mierda. Vamos.	Hubieras esperado a que o entierre. Hijo de mi putas. Transa de mierda. Vamos.	trash	movies	carancho	trash
+carancho	11	144.62	148.35	- Carancho de mierda. - Vamos, vamos.	- Carancho de mierda. - Vamos, vamos.	trash	movies	carancho	trash
+carancho	12	301.74	303.5	RADIO; Atento Sosa, atento Sosa.	RADIO; Atento Sosa, atento Sosa.	trash	movies	carancho	trash
+carancho	13	303.61	307.41	Choque de una camioneta con una moto, Mosconi y Villegas.	Choque de una camioneta con una moto, Mosconi y Villegas.	trash	movies	carancho	trash
+carancho	14	317.19	318.71	Tranquilo. Ya legaron.	Tranquilo. Ya legaron.	trash	movies	carancho	trash
+carancho	15	348.39	349.88	¿Qué paso?	¿Qué paso?	trash	movies	carancho	trash
+carancho	16	351.89	355.05	Parece que se paró delante de la camioneta.	Parece que se paró delante de la camioneta.	trash	movies	carancho	trash
+carancho	17	356.13	358.93	Se golpeó muy fuerte la cabeza, no tenía puesto el casco.	Se golpeó muy fuerte la cabeza, no tenía puesto el casco.	trash	movies	carancho	trash
+carancho	18	359.03	362.47	¿Sabes si estaba borracho? Olor a alcohol no tiene.	¿Sabes si estaba borracho? Olor a alcohol no tiene.	trash	movies	carancho	trash
+carancho	19	362.57	365.7	¿Sabes cómo se llama? Eh... Creo que Gustavo.	¿Sabes cómo se llama? Eh... Creo que Gustavo.	trash	movies	carancho	trash
+carancho	20	366.1	369.63	- ¿Estuvo todo el tiempo consciente? - Hasta recién hablaba. Ahora...	- ¿Estuvo todo el tiempo consciente? - Hasta recién hablaba. Ahora...	trash	movies	carancho	trash
+carancho	21	369.77	372.94	Gustavo, ¿me escuchas? - Sí. - ¿Sí?	Gustavo, ¿me escuchas? - Sí. - ¿Sí?	trash	movies	carancho	trash
+carancho	22	373.44	375.38	Bueno. Yo soy médica gordo. ¿sabes?	Bueno. Yo soy médica gordo. ¿sabes?	trash	movies	carancho	trash
+carancho	23	375.48	379.64	Te estoy poniendo un colar. Te vamos a llevar a hospital, ¿sí?	Te estoy poniendo un colar. Te vamos a llevar a hospital, ¿sí?	trash	movies	carancho	trash
+carancho	24	379.75	382.28	¿Te acordás de lo que pasó?	¿Te acordás de lo que pasó?	trash	movies	carancho	trash
+carancho	25	382.39	384.95	¿No? ¿No te acordás de nada?	¿No? ¿No te acordás de nada?	trash	movies	carancho	trash
+carancho	26	385.06	387.02	- ¿Cuántos años tenés. Gustavo?	- ¿Cuántos años tenés. Gustavo?	trash	movies	carancho	trash
+carancho	27	387.13	392.46	- 24. - ¿24? ¿Estabas trabajando?	- 24. - ¿24? ¿Estabas trabajando?	trash	movies	carancho	trash
+carancho	28	393.56	395.33	- Despejen. Por favor. - Quedáte tranquilo.	- Despejen. Por favor. - Quedáte tranquilo.	trash	movies	carancho	trash
+carancho	29	395.43	399.66	¿Me ayudás con la tabla? Dejále a cabeza acá. Ponéte a lado mío.	¿Me ayudás con la tabla? Dejále a cabeza acá. Ponéte a lado mío.	trash	movies	carancho	trash
+carancho	30	399.94	401.3	Tengo primeros auxilios.	Tengo primeros auxilios.	trash	movies	carancho	trash
+carancho	31	403.34	407.67	Te pido si podés poner una mano acá, con a otra trabás acá. ¿sí?	Te pido si podés poner una mano acá, con a otra trabás acá. ¿sí?	trash	movies	carancho	trash
+carancho	32	407.78	410.41	Cuando yo cuento. A la cuenta de tres. O vamos a correr.	Cuando yo cuento. A la cuenta de tres. O vamos a correr.	trash	movies	carancho	trash
+carancho	33	410.52	412.78	¿Vamos? 1, 2, 3.	¿Vamos? 1, 2, 3.	trash	movies	carancho	trash
+carancho	34	413.35	418.38	Tranquilo. Tranquilo, gordo. Dale, 1, 2, 3. Lo bajamos. - Muy bien. - Listo.	Tranquilo. Tranquilo, gordo. Dale, 1, 2, 3. Lo bajamos. - Muy bien. - Listo.	trash	movies	carancho	trash
+carancho	35	418.49	419.92	Ahí estamos.	Ahí estamos.	trash	movies	carancho	trash
+carancho	36	420.02	422.42	Oficial, ¿me ayuda por favor?	Oficial, ¿me ayuda por favor?	trash	movies	carancho	trash
+carancho	37	422.73	425.22	- ¿Vos estás bien? - ¿Yo?	- ¿Vos estás bien? - ¿Yo?	trash	movies	carancho	trash
+carancho	38	425.33	427.3	- Sí. - Sí, sí. Más o menos.	- Sí. - Sí, sí. Más o menos.	trash	movies	carancho	trash
+carancho	39	427.4	431.89	¿Sí? ¿Vos estabas manejando? - ¿Chocaste? - Ah. No, esto es otra cosa.	¿Sí? ¿Vos estabas manejando? - ¿Chocaste? - Ah. No, esto es otra cosa.	trash	movies	carancho	trash
+carancho	40	433.17	434.93	- Estoy bien. - A ver, perdón, ¿eh? Quedáte quieto.	- Estoy bien. - A ver, perdón, ¿eh? Quedáte quieto.	trash	movies	carancho	trash
+carancho	41	435.04	438.3	- Por ahí te tienen que coser. - Gracias.	- Por ahí te tienen que coser. - Gracias.	trash	movies	carancho	trash
+carancho	42	443.25	445.65	¿Lo conocés? ¿Qué?	¿Lo conocés? ¿Qué?	trash	movies	carancho	trash
+carancho	43	445.75	448.84	Si lo conocés al tipo que nos ayudó recién.	Si lo conocés al tipo que nos ayudó recién.	trash	movies	carancho	trash
+carancho	44	451.72	453.12	Nos está siguiendo.	Nos está siguiendo.	trash	movies	carancho	trash
+carancho	45	453.22	456.28	Sí, todo bien. Nos acompaña hasta el policlínico.	Sí, todo bien. Nos acompaña hasta el policlínico.	trash	movies	carancho	trash
+carancho	46	465.2	467.17	- ¿Qué pasó? - No lo quieren recibir.	- ¿Qué pasó? - No lo quieren recibir.	trash	movies	carancho	trash
+carancho	47	467.27	469.97	¿Por qué? Qué sé yo qué pasa.	¿Por qué? Qué sé yo qué pasa.	trash	movies	carancho	trash
+carancho	48	470.07	473.44	Que no hay nadie. Que tienen quilombo, la misma pajería de siempre.	Que no hay nadie. Que tienen quilombo, la misma pajería de siempre.	trash	movies	carancho	trash
+carancho	49	473.54	476.04	- Ahí está ella arreglando todo. - ¿Quién es a chica?	- Ahí está ella arreglando todo. - ¿Quién es a chica?	trash	movies	carancho	trash
+carancho	50	476.15	479.45	Es nueva. A hermana de un amigo.	Es nueva. A hermana de un amigo.	trash	movies	carancho	trash
+carancho	51	481.42	484.08	¿Me entendés? Vos acá tenés terapia y tenés tomógrafo.	¿Me entendés? Vos acá tenés terapia y tenés tomógrafo.	trash	movies	carancho	trash
+carancho	52	484.19	486.55	Te lo vas a tener que levar porque no lo puedo aceptar.	Te lo vas a tener que levar porque no lo puedo aceptar.	trash	movies	carancho	trash
+carancho	53	486.66	490.12	Yo no me lo voy a levar. Resolvelo, porque yo de acá no me voy.	Yo no me lo voy a levar. Resolvelo, porque yo de acá no me voy.	trash	movies	carancho	trash
+carancho	54	490.23	492.72	Habla con el jefe de servicio.	Habla con el jefe de servicio.	trash	movies	carancho	trash
+carancho	55	492.83	494.8	- Hola. Perdón. ¿Cómo estás? - Hola.	- Hola. Perdón. ¿Cómo estás? - Hola.	trash	movies	carancho	trash
+carancho	56	494.9	497.93	- Decíme. ¿El Ruso no está hoy? - Sí, está.	- Decíme. ¿El Ruso no está hoy? - Sí, está.	trash	movies	carancho	trash
+carancho	57	498.04	500.3	¿Lo podés llamar un minutito?	¿Lo podés llamar un minutito?	trash	movies	carancho	trash
+carancho	58	502.14	503.83	Voy a ver que hago.	Voy a ver que hago.	trash	movies	carancho	trash
+carancho	59	504.41	506.14	¿Y yo qué hago?	¿Y yo qué hago?	trash	movies	carancho	trash
+carancho	60	506.71	508.8	Vos, esperáme.	Vos, esperáme.	trash	movies	carancho	trash
+carancho	61	511.08	512.88	Gustavo, ¿estás bien?	Gustavo, ¿estás bien?	trash	movies	carancho	trash
+carancho	62	517.59	519.75	La verdad. No lo puedo creer.	La verdad. No lo puedo creer.	trash	movies	carancho	trash
+carancho	63	519.86	521.52	Tranquila.	Tranquila.	trash	movies	carancho	trash
+carancho	64	542.08	545.28	Pico. Entrego el vestuario y te veo fuera, ¿sí?	Pico. Entrego el vestuario y te veo fuera, ¿sí?	trash	movies	carancho	trash
+carancho	65	555.89	558.02	- ¿Todo bien? - Sí, gracias. Permiso.	- ¿Todo bien? - Sí, gracias. Permiso.	trash	movies	carancho	trash
+carancho	66	558.13	559.49	¿Algún problema?	¿Algún problema?	trash	movies	carancho	trash
+carancho	67	559.6	561.46	No. No. Todo bien. Gracias por ayudarme, en serio.	No. No. Todo bien. Gracias por ayudarme, en serio.	trash	movies	carancho	trash
+carancho	68	564.84	566.53	¿Me decís tu nombre?	¿Me decís tu nombre?	trash	movies	carancho	trash
+carancho	69	566.64	568.13	Olivera.	Olivera.	trash	movies	carancho	trash
+carancho	70	568.24	571.57	¿Y tu nombre? - Luján. Luján Olivera. - Luján Olivera.	¿Y tu nombre? - Luján. Luján Olivera. - Luján Olivera.	trash	movies	carancho	trash
+carancho	71	572.38	574.5	- ¿Necesitás mi matrícula? - No, no. Así está bien.	- ¿Necesitás mi matrícula? - No, no. Así está bien.	trash	movies	carancho	trash
+carancho	72	574.61	577.21	- Toma. Por si necesitás algo. - Bueno.	- Toma. Por si necesitás algo. - Bueno.	trash	movies	carancho	trash
+carancho	73	577.32	579.94	Tenéla, nunca se sabe. Hasta luego. [MOTOR]	Tenéla, nunca se sabe. Hasta luego. [MOTOR]	trash	movies	carancho	trash
+carancho	74	580.05	582.65	Gracias, Sosa. En serio.	Gracias, Sosa. En serio.	trash	movies	carancho	trash
+carancho	75	598.3	601.29	Che, ¿hace mucho que lo conocés a Sosa vos?	Che, ¿hace mucho que lo conocés a Sosa vos?	trash	movies	carancho	trash
+carancho	76	601.64	604.94	Bastante. ¿Cuánto es bastante?	Bastante. ¿Cuánto es bastante?	trash	movies	carancho	trash
+carancho	77	605.04	608.67	Y, bastante es como 8, 10 años.	Y, bastante es como 8, 10 años.	trash	movies	carancho	trash
+carancho	78	608.78	611.51	¿Siempre caranchando?	¿Siempre caranchando?	trash	movies	carancho	trash
+carancho	79	612.35	614.98	¿Eh? No. El loco empezó a hacer esto cuando le sacaron a matrícula.	¿Eh? No. El loco empezó a hacer esto cuando le sacaron a matrícula.	trash	movies	carancho	trash
+carancho	80	615.09	617.82	Empezó a trabajar para os putos estos de la fundación.	Empezó a trabajar para os putos estos de la fundación.	trash	movies	carancho	trash
+carancho	81	618.26	620.88	Primero te da dos gambas por el dato...	Primero te da dos gambas por el dato...	trash	movies	carancho	trash
+carancho	82	621.69	623.82	y si el caso es bueno,	y si el caso es bueno,	trash	movies	carancho	trash
+carancho	83	623.93	625.83	Y los clientes que vos le das. ¿cobran?	Y los clientes que vos le das. ¿cobran?	trash	movies	carancho	trash
+carancho	84	625.93	628.8	Los garcan un poco. ¿viste? Pero cobran.	Los garcan un poco. ¿viste? Pero cobran.	trash	movies	carancho	trash
+carancho	85	628.9	632.8	Imaginate que no tienen obra social ni trabajo. No tienen una mierda.	Imaginate que no tienen obra social ni trabajo. No tienen una mierda.	trash	movies	carancho	trash
+carancho	86	632.9	636.9	La fundación para esta gente termina haciendo como un trabajo social.	La fundación para esta gente termina haciendo como un trabajo social.	trash	movies	carancho	trash
+carancho	87	637.01	638.91	¿Un trabajo social?	¿Un trabajo social?	trash	movies	carancho	trash
+carancho	88	639.01	641.2	- Trabajo social. Sí.	- Trabajo social. Sí.	trash	movies	carancho	trash
+carancho	89	641.68	646.31	Imaginate un tipo de éstos. Tirado abajo de un bondi a las 4 de la mañana con los huesos rotos...	Imaginate un tipo de éstos. Tirado abajo de un bondi a las 4 de la mañana con los huesos rotos...	trash	movies	carancho	trash
+carancho	90	646.42	652.35	¿Qué es lo mejor que les puede pasar? Que caiga un carancho con ganas de romperle bien e ojete a las aseguradoras.	¿Qué es lo mejor que les puede pasar? Que caiga un carancho con ganas de romperle bien e ojete a las aseguradoras.	trash	movies	carancho	trash
+carancho	91	690.93	693.06	Ya llegamos. Gorda. Mirá, ya estamos.	Ya llegamos. Gorda. Mirá, ya estamos.	trash	movies	carancho	trash
+carancho	92	701.97	707.97	- Abuela, ¿con qué fue que te pegaron? - Ay. No sé con qué me pegaron. Venía llegando a casa y me golpearon.	- Abuela, ¿con qué fue que te pegaron? - Ay. No sé con qué me pegaron. Venía llegando a casa y me golpearon.	trash	movies	carancho	trash
+carancho	93	708.28	711.54	A caerme sobre el piso. Me lastimé la cabeza.	A caerme sobre el piso. Me lastimé la cabeza.	trash	movies	carancho	trash
+carancho	94	711.65	715.14	Un poco por arriba me duele.	Un poco por arriba me duele.	trash	movies	carancho	trash
+carancho	95	715.25	717.45	- No sé, doctora, que será. - ¿Te acordás de todo lo que te pasó?	- No sé, doctora, que será. - ¿Te acordás de todo lo que te pasó?	trash	movies	carancho	trash
+carancho	96	717.56	720.49	Más o menos.	Más o menos.	trash	movies	carancho	trash
+carancho	97	720.59	723.42	¿Vos sos policía? No, yo no soy policía. Soy médica.	¿Vos sos policía? No, yo no soy policía. Soy médica.	trash	movies	carancho	trash
+carancho	98	723.53	727.72	Quedáte un poquito tranquilito, ¿dale? Yo soy médica y te estoy curando.	Quedáte un poquito tranquilito, ¿dale? Yo soy médica y te estoy curando.	trash	movies	carancho	trash
+carancho	99	727.83	730.6	Te estoy tratando de curar la cabeza que tenés todo abierto.	Te estoy tratando de curar la cabeza que tenés todo abierto.	trash	movies	carancho	trash
+carancho	100	730.7	733.4	Estamos legando al hospital. Te van a atender.	Estamos legando al hospital. Te van a atender.	trash	movies	carancho	trash
+carancho	101	733.5	736.44	- Me voy. - No te vas ningún lado porque estamos manejando.	- Me voy. - No te vas ningún lado porque estamos manejando.	trash	movies	carancho	trash
+carancho	102	736.54	739.44	Cuando leguemos al hospital si querés te vas. ¿dale?	Cuando leguemos al hospital si querés te vas. ¿dale?	trash	movies	carancho	trash
+carancho	103	739.54	741.37	- Te amo. - Bueno, está bien. Está bien.	- Te amo. - Bueno, está bien. Está bien.	trash	movies	carancho	trash
+carancho	104	741.48	745.85	- Quedáte ahí quietito.	- Quedáte ahí quietito.	trash	movies	carancho	trash
+carancho	105	748.09	750.88	Las manos quietitas. Quedáte tranquilo. Cuidado.	Las manos quietitas. Quedáte tranquilo. Cuidado.	trash	movies	carancho	trash
+carancho	106	756.19	759.42	- Quedáte quieto. - Guacha.	- Quedáte quieto. - Guacha.	trash	movies	carancho	trash
+carancho	107	761.4	764.9	- Dame un beso. PICO; -Ahora yo te voy a dar un beso.	- Dame un beso. PICO; -Ahora yo te voy a dar un beso.	trash	movies	carancho	trash
+carancho	108	811.38	815.25	Es importante todo lo que se acuerde. Me dijo que tenía un testigo, ¿no?	Es importante todo lo que se acuerde. Me dijo que tenía un testigo, ¿no?	trash	movies	carancho	trash
+carancho	109	815.35	818.88	Un vecino que vio todo me dijo que la culpa fue del camión.	Un vecino que vio todo me dijo que la culpa fue del camión.	trash	movies	carancho	trash
+carancho	110	818.99	823.36	Porque el camión venía sin luces y por la mano contraria.	Porque el camión venía sin luces y por la mano contraria.	trash	movies	carancho	trash
+carancho	111	824.63	828.39	Él no tuvo tiempo de hacer nada. Doctor.	Él no tuvo tiempo de hacer nada. Doctor.	trash	movies	carancho	trash
+carancho	112	828.5	830.99	Dicen que fue un accidente.	Dicen que fue un accidente.	trash	movies	carancho	trash
+carancho	113	831.1	833.66	Si se podía evitar...	Si se podía evitar...	trash	movies	carancho	trash
+carancho	114	834.04	836.53	no es un accidente. Es un incidente.	no es un accidente. Es un incidente.	trash	movies	carancho	trash
+carancho	115	837.07	839.6	¿La policía le sacó fotos al auto?	¿La policía le sacó fotos al auto?	trash	movies	carancho	trash
+carancho	116	839.71	841.61	Yo no sé, creo que sí...	Yo no sé, creo que sí...	trash	movies	carancho	trash
+carancho	117	841.71	845.34	- ¿Usted firmo algo. Hizo la denuncia? - Hice la denuncia, sí.	- ¿Usted firmo algo. Hizo la denuncia? - Hice la denuncia, sí.	trash	movies	carancho	trash
+carancho	118	845.45	847.01	¿Dónde está esa denuncia?	¿Dónde está esa denuncia?	trash	movies	carancho	trash
+carancho	119	847.65	849.95	Creo que la tiene mi mujer. No sé. Está en casa.	Creo que la tiene mi mujer. No sé. Está en casa.	trash	movies	carancho	trash
+carancho	120	850.05	853.18	- ¿Quién lo socorrió? - La policía.	- ¿Quién lo socorrió? - La policía.	trash	movies	carancho	trash
+carancho	121	853.29	856.95	- Sí, pasaban por ahí. Me vieron que yo bajé de auto golpeado.	- Sí, pasaban por ahí. Me vieron que yo bajé de auto golpeado.	trash	movies	carancho	trash
+carancho	122	857.06	860	- ¿Ellos lo levaron a hospital? - Ellos me llevaron.	- ¿Ellos lo levaron a hospital? - Ellos me llevaron.	trash	movies	carancho	trash
+carancho	123	860.36	861.8	¿Se acuerda quién lo atendió?	¿Se acuerda quién lo atendió?	trash	movies	carancho	trash
+carancho	124	861.9	865.73	No, un médico que estaba de verde o de blanco.	No, un médico que estaba de verde o de blanco.	trash	movies	carancho	trash
+carancho	125	865.84	867.8	- ¿Le sacaron placas? - Me sacaron dos placas.	- ¿Le sacaron placas? - Me sacaron dos placas.	trash	movies	carancho	trash
+carancho	126	867.91	870.47	&nbsp;-¿Qué hacés, Sosa? -¿Esas placas as tiene usted?	&nbsp;-¿Qué hacés, Sosa? -¿Esas placas as tiene usted?	trash	movies	carancho	trash
+carancho	127	870.57	873.77	- Lo van a bajar en el juicio. A éste. -No es culpa mía y lo sabés.	- Lo van a bajar en el juicio. A éste. -No es culpa mía y lo sabés.	trash	movies	carancho	trash
+carancho	128	873.88	877.87	Dile a Guerrero 20 puntos. ¿Y ésto por qué no lo tenés? - ¿Porqué no lo firmaste? - Estamos trabajando bien.	Dile a Guerrero 20 puntos. ¿Y ésto por qué no lo tenés? - ¿Porqué no lo firmaste? - Estamos trabajando bien.	trash	movies	carancho	trash
+carancho	129	879.72	881.81	¿Tan difícil es, Casa? ¿Tan difícil es?	¿Tan difícil es, Casa? ¿Tan difícil es?	trash	movies	carancho	trash
+carancho	130	881.92	883.91	¿Qué pasó en la jeta?	¿Qué pasó en la jeta?	trash	movies	carancho	trash
+carancho	131	884.56	886.42	Nada. No pasa nada.	Nada. No pasa nada.	trash	movies	carancho	trash
+carancho	132	886.52	891.83	- ¿Ves que me tenés que llevar con vos? - ¿Qué hace el Perro acá?	- ¿Ves que me tenés que llevar con vos? - ¿Qué hace el Perro acá?	trash	movies	carancho	trash
+carancho	133	893.43	896.56	- Tenés todo servido en bandeja, Casal. - Dejame de joder.	- Tenés todo servido en bandeja, Casal. - Dejame de joder.	trash	movies	carancho	trash
+carancho	134	896.67	901.1	Tenés a mi gente trabajando para vos. Tenés auto, oficina, secretaria...	Tenés a mi gente trabajando para vos. Tenés auto, oficina, secretaria...	trash	movies	carancho	trash
+carancho	135	901.21	902.97	Vos estas acá porque yo quiero.	Vos estas acá porque yo quiero.	trash	movies	carancho	trash
+carancho	136	903.41	909.04	En este escrito usted nos autoriza a hacernos cargo de la presentación de caso.	En este escrito usted nos autoriza a hacernos cargo de la presentación de caso.	trash	movies	carancho	trash
+carancho	137	909.15	912.98	Yo no puedo creer que esté acá haciendo esto. No lo puedo creer.	Yo no puedo creer que esté acá haciendo esto. No lo puedo creer.	trash	movies	carancho	trash
+carancho	138	913.32	916.78	- No sé lo que voy a hacer, doctor. - No tiene que hacer nada.	- No sé lo que voy a hacer, doctor. - No tiene que hacer nada.	trash	movies	carancho	trash
+carancho	139	916.89	922.05	Sí, ya sé. Pero unas vecinas me dijeron de que ustedes son buenos.	Sí, ya sé. Pero unas vecinas me dijeron de que ustedes son buenos.	trash	movies	carancho	trash
+carancho	140	922.16	923.59	-Vamos por pasos.	-Vamos por pasos.	trash	movies	carancho	trash
+carancho	141	923.69	925.53	¿Por qué no te fijás en la comisarla?	¿Por qué no te fijás en la comisarla?	trash	movies	carancho	trash
+carancho	142	925.63	927.22	Ahí tenés que buscar al que te está calgando, no acá.	Ahí tenés que buscar al que te está calgando, no acá.	trash	movies	carancho	trash
+carancho	143	927.33	930.23	En la comisarla está todo bien, vos ocupate de lo que pasa acá.	En la comisarla está todo bien, vos ocupate de lo que pasa acá.	trash	movies	carancho	trash
+carancho	144	934.51	937.91	- Doctor Casa, un minuto por favor.	- Doctor Casa, un minuto por favor.	trash	movies	carancho	trash
+carancho	145	938.01	941.17	La Sra. Es la viuda de Arrieta.	La Sra. Es la viuda de Arrieta.	trash	movies	carancho	trash
+carancho	146	941.28	944.21	Del accidente de la cale Mármo.	Del accidente de la cale Mármo.	trash	movies	carancho	trash
+carancho	147	944.82	949.81	Sentimos mucho su pérdida, señora. Esperemos poder ayudarla.	Sentimos mucho su pérdida, señora. Esperemos poder ayudarla.	trash	movies	carancho	trash
+carancho	148	950.39	952.18	Ey. Dale.	Ey. Dale.	trash	movies	carancho	trash
+carancho	149	953.32	955.22	Dale que te espero afuera, dale.	Dale que te espero afuera, dale.	trash	movies	carancho	trash
+carancho	150	964.74	966.86	Hola. Hola, ¿cómo va?	Hola. Hola, ¿cómo va?	trash	movies	carancho	trash
+carancho	151	966.97	970.06	¿Qué tenemos? Accidente en vía pública.	¿Qué tenemos? Accidente en vía pública.	trash	movies	carancho	trash
+carancho	152	978.95	980.18	¿Vamos?	¿Vamos?	trash	movies	carancho	trash
+carancho	153	983.02	986.22	Viste que te dije que no era acá. Son como 20 cuadras para alá.	Viste que te dije que no era acá. Son como 20 cuadras para alá.	trash	movies	carancho	trash
+carancho	154	986.32	990.02	Bueno. Ya vamos a llegar.	Bueno. Ya vamos a llegar.	trash	movies	carancho	trash
+carancho	155	992.46	994.83	Ponéte el cinturón, Pico.	Ponéte el cinturón, Pico.	trash	movies	carancho	trash
+carancho	156	1006.34	1009.01	Pero en cualquier momento me raja un tiro en la nuca.	Pero en cualquier momento me raja un tiro en la nuca.	trash	movies	carancho	trash
+carancho	157	1009.11	1012.71	Tené cuidado. El Perro sabe que andás en cosas, claro que si.	Tené cuidado. El Perro sabe que andás en cosas, claro que si.	trash	movies	carancho	trash
+carancho	158	1012.82	1016.27	Lo hablamos mil veces, estoy cansado. Harto. Se terminó.	Lo hablamos mil veces, estoy cansado. Harto. Se terminó.	trash	movies	carancho	trash
+carancho	159	1016.39	1018.12	Vos no te podes ir, ahora no.	Vos no te podes ir, ahora no.	trash	movies	carancho	trash
+carancho	160	1018.22	1020.28	Miráme, ¿me ves?	Miráme, ¿me ves?	trash	movies	carancho	trash
+carancho	161	1020.39	1021.52	No puedo más.	No puedo más.	trash	movies	carancho	trash
+carancho	162	1021.63	1025.36	Bueno. Ok. ¿Estás cansado?	Bueno. Ok. ¿Estás cansado?	trash	movies	carancho	trash
+carancho	163	1025.46	1027.26	Salgo yo entonces, como en los viejos tiempos.	Salgo yo entonces, como en los viejos tiempos.	trash	movies	carancho	trash
+carancho	164	1027.36	1029.06	Pero no es de hoy. Desde hace mucho estoy cansado.	Pero no es de hoy. Desde hace mucho estoy cansado.	trash	movies	carancho	trash
+carancho	165	1029.17	1031.76	Yo estoy igual que vos.	Yo estoy igual que vos.	trash	movies	carancho	trash
+carancho	166	1031.87	1035	¿Te tengo que aclarar que estoy harto de Perro?	¿Te tengo que aclarar que estoy harto de Perro?	trash	movies	carancho	trash
+carancho	167	1035.11	1037.23	Las cosas están cambiando y él no se quiere enterar.	Las cosas están cambiando y él no se quiere enterar.	trash	movies	carancho	trash
+carancho	168	1037.34	1038.54	¿A mí qué me importa?	¿A mí qué me importa?	trash	movies	carancho	trash
+carancho	169	1038.64	1041.44	Yo recupero la matrícula y me voy a la mierda.	Yo recupero la matrícula y me voy a la mierda.	trash	movies	carancho	trash
+carancho	170	1041.55	1045.55	Hoy sin falta hablo con Rinaldi. Te necesito conmigo.	Hoy sin falta hablo con Rinaldi. Te necesito conmigo.	trash	movies	carancho	trash
+carancho	171	1046.02	1048.04	¿En qué quedamos? ¿Vos te querés ir o no?	¿En qué quedamos? ¿Vos te querés ir o no?	trash	movies	carancho	trash
+carancho	172	1048.15	1052.52	De acá no me saca nadie, el que se va es el Perro.	De acá no me saca nadie, el que se va es el Perro.	trash	movies	carancho	trash
+carancho	173	1052.62	1056.22	Rinaldi lo quiere calgar, ya me lo dijo.	Rinaldi lo quiere calgar, ya me lo dijo.	trash	movies	carancho	trash
+carancho	174	1056.66	1059.63	¿Cuánto te crees que le queda? A Perro, ¿cuánto le queda?	¿Cuánto te crees que le queda? A Perro, ¿cuánto le queda?	trash	movies	carancho	trash
+carancho	175	1059.73	1063.53	Ya esta. Ya esta. Ya fue. Que pase e que sigue.	Ya esta. Ya esta. Ya fue. Que pase e que sigue.	trash	movies	carancho	trash
+carancho	176	1063.87	1066.17	No te confundas con el Perro.	No te confundas con el Perro.	trash	movies	carancho	trash
+carancho	177	1066.27	1068.53	Vos haceme caso a mí.	Vos haceme caso a mí.	trash	movies	carancho	trash
+carancho	178	1068.91	1072.27	Tenemos que estar juntos más que nunca.	Tenemos que estar juntos más que nunca.	trash	movies	carancho	trash
+carancho	179	1076.25	1080.35	Dale, boludo. ¿Me vas a hacer ir a mí?	Dale, boludo. ¿Me vas a hacer ir a mí?	trash	movies	carancho	trash
+carancho	180	1083.02	1085.96	A vos te creen. A mí, no.	A vos te creen. A mí, no.	trash	movies	carancho	trash
+carancho	181	1100.9	1105.41	¿Señor Moyano? Me avisaron de la remisería que el coche está retrasado.	¿Señor Moyano? Me avisaron de la remisería que el coche está retrasado.	trash	movies	carancho	trash
+carancho	182	1105.51	1107.64	- Discúlpeme, pero yo no soy Moyano. - Ah. Perdón.	- Discúlpeme, pero yo no soy Moyano. - Ah. Perdón.	trash	movies	carancho	trash
+carancho	183	1107.74	1110.37	El señor Moyano tuvo un accidente de tránsito.	El señor Moyano tuvo un accidente de tránsito.	trash	movies	carancho	trash
+carancho	184	1110.48	1113.81	Soy su abogado. Pero no lo conozco personalmente. Disculpe.	Soy su abogado. Pero no lo conozco personalmente. Disculpe.	trash	movies	carancho	trash
+carancho	185	1114.22	1116.62	Yo también tuve un accidente.	Yo también tuve un accidente.	trash	movies	carancho	trash
+carancho	186	1116.72	1118.28	¿Ah. Sí? ¿Qué le pasó?	¿Ah. Sí? ¿Qué le pasó?	trash	movies	carancho	trash
+carancho	187	1118.39	1121.08	Un hijo de puta me atropelló con la camioneta.	Un hijo de puta me atropelló con la camioneta.	trash	movies	carancho	trash
+carancho	188	1121.19	1122.68	- ¿Cuándo fue eso? - Ayer.	- ¿Cuándo fue eso? - Ayer.	trash	movies	carancho	trash
+carancho	189	1122.79	1124.19	- ¿Le hicieron placas? - Sí.	- ¿Le hicieron placas? - Sí.	trash	movies	carancho	trash
+carancho	190	1124.29	1126.13	¿Me permite?	¿Me permite?	trash	movies	carancho	trash
+carancho	191	1137.54	1142.21	Iba a trabajar y salió un auto del boliche y la llevo por delante.	Iba a trabajar y salió un auto del boliche y la llevo por delante.	trash	movies	carancho	trash
+carancho	192	1142.31	1144.64	- ¿A qué hora? - A la madrugada.	- ¿A qué hora? - A la madrugada.	trash	movies	carancho	trash
+carancho	193	1144.75	1149.45	¿Casada? ¿Tiene hijos? Sí. Casada. Tiene dos hijos.	¿Casada? ¿Tiene hijos? Sí. Casada. Tiene dos hijos.	trash	movies	carancho	trash
+carancho	194	1151.42	1153.05	¿Al marido lo conocés?	¿Al marido lo conocés?	trash	movies	carancho	trash
+carancho	195	1153.16	1155.12	Sí. Está por venir.	Sí. Está por venir.	trash	movies	carancho	trash
+carancho	196	1172.48	1172.74	Pasaron a dejarte unas cosas por acá, Sosa.	Pasaron a dejarte unas cosas por acá, Sosa.	trash	movies	carancho	trash
+carancho	197	1175.05	1177.21	- Venite para la central.	- Venite para la central.	trash	movies	carancho	trash
+carancho	198	1177.31	1179.25	Te copié, estoy yendo para allá. Chau.	Te copié, estoy yendo para allá. Chau.	trash	movies	carancho	trash
+carancho	199	1179.35	1180.91	Dale, te espero.	Dale, te espero.	trash	movies	carancho	trash
+carancho	200	1196.23	1198.57	- Tengo las planillas. - Dale.	- Tengo las planillas. - Dale.	trash	movies	carancho	trash
+carancho	201	1206.14	1208.24	¿Qué fue o de Almafuerte?	¿Qué fue o de Almafuerte?	trash	movies	carancho	trash
+carancho	202	1208.35	1211.47	Un femenino de 82 años.	Un femenino de 82 años.	trash	movies	carancho	trash
+carancho	203	1211.95	1215.44	Hipertensa, con un pico de presión.	Hipertensa, con un pico de presión.	trash	movies	carancho	trash
+carancho	204	1218.39	1220.15	- ¿Qué hacés. Pico? - ¿Vamos a comer algo?	- ¿Qué hacés. Pico? - ¿Vamos a comer algo?	trash	movies	carancho	trash
+carancho	205	1220.26	1222.52	- Y el de Mosconi a 1500, ¿te acordás? - ¿Cuál?	- Y el de Mosconi a 1500, ¿te acordás? - ¿Cuál?	trash	movies	carancho	trash
+carancho	206	1222.63	1224.82	El de la bicicleta. Ese que quedó abajo.	El de la bicicleta. Ese que quedó abajo.	trash	movies	carancho	trash
+carancho	207	1224.93	1228.52	Sí. No sé que problema tuvo con el banco o fallo algo	Sí. No sé que problema tuvo con el banco o fallo algo	trash	movies	carancho	trash
+carancho	208	1228.63	1231.97	y no le entro el debito automático de seguro.	y no le entro el debito automático de seguro.	trash	movies	carancho	trash
+carancho	209	1232.07	1235.1	Y justo ese día se llevó puesto a un tipo en bicicleta. Lo mató.	Y justo ese día se llevó puesto a un tipo en bicicleta. Lo mató.	trash	movies	carancho	trash
+carancho	210	1235.21	1238.07	Eso es mala suerte. El de la bicicleta seguro que venía cruzando en rojo.	Eso es mala suerte. El de la bicicleta seguro que venía cruzando en rojo.	trash	movies	carancho	trash
+carancho	211	1238.18	1240.91	Siempre alguien tiene la culpa.	Siempre alguien tiene la culpa.	trash	movies	carancho	trash
+carancho	212	1241.01	1245.47	Sí, sí, claro. Por eso paga el seguro. Pero... - nadie quiere tener un accidente.	Sí, sí, claro. Por eso paga el seguro. Pero... - nadie quiere tener un accidente.	trash	movies	carancho	trash
+carancho	213	1245.58	1248.14	- ¿Y a mina de la agencia de manejo?	- ¿Y a mina de la agencia de manejo?	trash	movies	carancho	trash
+carancho	214	1248.25	1251.35	Había una mina con una agencia de manejo, años de oficio tenía.	Había una mina con una agencia de manejo, años de oficio tenía.	trash	movies	carancho	trash
+carancho	215	1251.46	1255.88	Y un día va manejando tranquilita y ve la increíble imagen por el parabrisas	Y un día va manejando tranquilita y ve la increíble imagen por el parabrisas	trash	movies	carancho	trash
+carancho	216	1255.99	1259.9	de un tipo que queda fulminado de un macetazo que le cae de arriba, ¿eh?	de un tipo que queda fulminado de un macetazo que le cae de arriba, ¿eh?	trash	movies	carancho	trash
+carancho	217	1260	1263.46	Y a la mina le agarra tal angustia que le agarra un paro en el auto.	Y a la mina le agarra tal angustia que le agarra un paro en el auto.	trash	movies	carancho	trash
+carancho	218	1263.57	1267.56	Y el auto siguió solo. Pará. Se sube arriba de la vereda.	Y el auto siguió solo. Pará. Se sube arriba de la vereda.	trash	movies	carancho	trash
+carancho	219	1267.67	1270.16	Y se leva puesto a un pendejo de 15 años que era el sobrino.	Y se leva puesto a un pendejo de 15 años que era el sobrino.	trash	movies	carancho	trash
+carancho	220	1270.27	1273	- Dejáte de chamullar. - ¿ Qué chamullo? - Estas cosas pasan.	- Dejáte de chamullar. - ¿ Qué chamullo? - Estas cosas pasan.	trash	movies	carancho	trash
+carancho	221	1273.11	1276.17	- El móvil está en camino. - Vamos muchachos.	- El móvil está en camino. - Vamos muchachos.	trash	movies	carancho	trash
+carancho	222	1276.28	1278.27	- Para vos nada. Sosa. - Ok.	- Para vos nada. Sosa. - Ok.	trash	movies	carancho	trash
+carancho	223	1282.19	1283.55	Luján.	Luján.	trash	movies	carancho	trash
+carancho	224	1290.33	1293.06	Es muy largo, no se cobra nunca.	Es muy largo, no se cobra nunca.	trash	movies	carancho	trash
+carancho	225	1293.16	1295.03	Es un quilombo. No me meto con los médicos.	Es un quilombo. No me meto con los médicos.	trash	movies	carancho	trash
+carancho	226	1296.47	1298.43	Bueno. Mejor.	Bueno. Mejor.	trash	movies	carancho	trash
+carancho	227	1298.54	1301.2	¿Qué tengo que hacer para que no me mires así?	¿Qué tengo que hacer para que no me mires así?	trash	movies	carancho	trash
+carancho	228	1301.3	1305.97	¿Así, cómo? No sé. Como con miedo.	¿Así, cómo? No sé. Como con miedo.	trash	movies	carancho	trash
+carancho	229	1306.08	1308.17	- No, no te miro con miedo. - ¿No?	- No, no te miro con miedo. - ¿No?	trash	movies	carancho	trash
+carancho	230	1313.58	1316.02	¿Te gusta trabajar acá?	¿Te gusta trabajar acá?	trash	movies	carancho	trash
+carancho	231	1316.59	1318.95	Sí. Me gusta.	Sí. Me gusta.	trash	movies	carancho	trash
+carancho	232	1320.09	1323.29	Es mi trabajo. Igual no voy a hacer guardias toda mi vida. ¿no?	Es mi trabajo. Igual no voy a hacer guardias toda mi vida. ¿no?	trash	movies	carancho	trash
+carancho	233	1323.39	1326.92	Claro. Estás como esperando. Aguantando.	Claro. Estás como esperando. Aguantando.	trash	movies	carancho	trash
+carancho	234	1327.96	1330.36	Puede ser. Yo también.	Puede ser. Yo también.	trash	movies	carancho	trash
+carancho	235	1331.2	1333.33	¿Qué estas esperando vos?	¿Qué estas esperando vos?	trash	movies	carancho	trash
+carancho	236	1333.44	1335.46	¿Un choque múltiple?	¿Un choque múltiple?	trash	movies	carancho	trash
+carancho	237	1336.37	1339.1	No, no sé.	No, no sé.	trash	movies	carancho	trash
+carancho	238	1339.21	1341.71	Cambiar de zona. De laire.	Cambiar de zona. De laire.	trash	movies	carancho	trash
+carancho	239	1341.71	1343.98	Salir un poco de acá.	Salir un poco de acá.	trash	movies	carancho	trash
+carancho	240	1344.31	1347.01	En fin, no sé.	En fin, no sé.	trash	movies	carancho	trash
+carancho	241	1348.19	1352.25	La verdad es que te empecé a ver un poco más seguido y...	La verdad es que te empecé a ver un poco más seguido y...	trash	movies	carancho	trash
+carancho	242	1352.36	1354.85	estoy pensando en quedarme.	estoy pensando en quedarme.	trash	movies	carancho	trash
+carancho	243	1356.99	1360.29	¿Es una especie de piropo. Eso?	¿Es una especie de piropo. Eso?	trash	movies	carancho	trash
+carancho	244	1360.4	1363.06	No. Es la verdad. No soy bueno para... ¿Vamos, Luján?	No. Es la verdad. No soy bueno para... ¿Vamos, Luján?	trash	movies	carancho	trash
+carancho	245	1364.3	1366.17	Me tengo que ir.	Me tengo que ir.	trash	movies	carancho	trash
+carancho	246	1366.27	1371.3	Bueno. ¿a que hora terminás? La guardia.	Bueno. ¿a que hora terminás? La guardia.	trash	movies	carancho	trash
+carancho	247	1372.84	1375.97	A las 8, pero por ahí me voy un poco antes, no sé.	A las 8, pero por ahí me voy un poco antes, no sé.	trash	movies	carancho	trash
+carancho	248	1376.08	1378.07	¿Te puedo esperar?	¿Te puedo esperar?	trash	movies	carancho	trash
+carancho	249	1380.55	1383.08	Bueno. Como quieras.	Bueno. Como quieras.	trash	movies	carancho	trash
+carancho	250	1383.39	1385.95	Te espero. Bueno.	Te espero. Bueno.	trash	movies	carancho	trash
+carancho	251	1436.31	1438.8	¿Todo bien? ¿Cómo fue hoy?	¿Todo bien? ¿Cómo fue hoy?	trash	movies	carancho	trash
+carancho	252	1438.91	1440.57	Terminé. ¿Bien?	Terminé. ¿Bien?	trash	movies	carancho	trash
+carancho	253	1440.68	1442.74	Bien. Cansada.	Bien. Cansada.	trash	movies	carancho	trash
+carancho	254	1442.85	1444.91	Necesito irme a dormir me parece.	Necesito irme a dormir me parece.	trash	movies	carancho	trash
+carancho	255	1445.02	1448.61	¿Ni un cafecito acá? 5 minutos.	¿Ni un cafecito acá? 5 minutos.	trash	movies	carancho	trash
+carancho	256	1448.72	1451.85	Te recibiste, hiciste la residencia allá,	Te recibiste, hiciste la residencia allá,	trash	movies	carancho	trash
+carancho	257	1451.96	1458.55	no habían muchas posibilidades. Pico te ayudó a conseguir este trabajo. No está tan mal.	no habían muchas posibilidades. Pico te ayudó a conseguir este trabajo. No está tan mal.	trash	movies	carancho	trash
+carancho	258	1460.33	1462.09	¿Y vos?	¿Y vos?	trash	movies	carancho	trash
+carancho	259	1463.2	1465.19	Yo. ¿qué?	Yo. ¿qué?	trash	movies	carancho	trash
+carancho	260	1465.94	1468.23	¿Qué hiciste para perder la matrícula?	¿Qué hiciste para perder la matrícula?	trash	movies	carancho	trash
+carancho	261	1469.31	1471.14	Nada.	Nada.	trash	movies	carancho	trash
+carancho	262	1472.24	1475.61	- Nada. - Nada, tuve mala suerte. No hice nada.	- Nada. - Nada, tuve mala suerte. No hice nada.	trash	movies	carancho	trash
+carancho	263	1476.51	1478.5	Mirá vos.	Mirá vos.	trash	movies	carancho	trash
+carancho	264	1480.15	1485.25	Pero me parece que ahora la cosa está cambiando.	Pero me parece que ahora la cosa está cambiando.	trash	movies	carancho	trash
+carancho	265	1485.56	1487.96	¿Qué? Mi suerte.	¿Qué? Mi suerte.	trash	movies	carancho	trash
+carancho	266	1488.06	1489.75	¿Por qué?	¿Por qué?	trash	movies	carancho	trash
+carancho	267	1489.86	1492.16	Mirá. ¿ves ese semáforo?	Mirá. ¿ves ese semáforo?	trash	movies	carancho	trash
+carancho	268	1493.16	1495.13	Ese.	Ese.	trash	movies	carancho	trash
+carancho	269	1496.4	1500.5	Si en el próximo dos autos pasan en rojo, yo te beso.	Si en el próximo dos autos pasan en rojo, yo te beso.	trash	movies	carancho	trash
+carancho	270	1501.07	1504.77	Estás loco. No, es un juego.	Estás loco. No, es un juego.	trash	movies	carancho	trash
+carancho	271	1504.87	1508.47	Es para mostrarte que mi suerte está cambiando. No pasa nada.	Es para mostrarte que mi suerte está cambiando. No pasa nada.	trash	movies	carancho	trash
+carancho	272	1508.95	1512.18	- Si es un juego. Eso es muy poco. - ¿3? ¿Querés 3?	- Si es un juego. Eso es muy poco. - ¿3? ¿Querés 3?	trash	movies	carancho	trash
+carancho	273	1512.28	1514.38	10.	10.	trash	movies	carancho	trash
+carancho	274	1514.95	1517.11	Te reís porque sabes que es mucho,	Te reís porque sabes que es mucho,	trash	movies	carancho	trash
+carancho	275	1517.22	1519.05	son las 6 de la mañana.	son las 6 de la mañana.	trash	movies	carancho	trash
+carancho	276	1520.89	1523.29	4. Igual 4 es mucho.	4. Igual 4 es mucho.	trash	movies	carancho	trash
+carancho	277	1524.09	1526.62	4. A ver.	4. A ver.	trash	movies	carancho	trash
+carancho	278	1529.33	1532.27	Un poco de ayuda necesito.	Un poco de ayuda necesito.	trash	movies	carancho	trash
+carancho	279	1534.3	1536.24	Ahí va 1.	Ahí va 1.	trash	movies	carancho	trash
+carancho	280	1546.78	1549.05	No, ese es un camión. No vale. Sí que vale.	No, ese es un camión. No vale. Sí que vale.	trash	movies	carancho	trash
+carancho	281	1552.92	1557.12	Me excedí. Y esos no eran camiones.	Me excedí. Y esos no eran camiones.	trash	movies	carancho	trash
+carancho	282	1559.96	1563.3	Igual no te voy a dar un beso. Vos no me lo tenés que dar, te lo tengo que dar yo.	Igual no te voy a dar un beso. Vos no me lo tenés que dar, te lo tengo que dar yo.	trash	movies	carancho	trash
+carancho	283	1563.4	1566.39	- Me tengo que ir. - Te lo voy a dar en cualquier momento.	- Me tengo que ir. - Te lo voy a dar en cualquier momento.	trash	movies	carancho	trash
+carancho	284	1629.27	1631.17	¿Cierro?	¿Cierro?	trash	movies	carancho	trash
+carancho	285	1754.86	1757.16	Seguros La superior. Esta es buena.	Seguros La superior. Esta es buena.	trash	movies	carancho	trash
+carancho	286	1760.8	1762.59	¿Está al día?	¿Está al día?	trash	movies	carancho	trash
+carancho	287	1763.4	1764.99	Sí.	Sí.	trash	movies	carancho	trash
+carancho	288	1766.74	1768.83	Está bien. ¿Cuánto quiere por esto?	Está bien. ¿Cuánto quiere por esto?	trash	movies	carancho	trash
+carancho	289	1768.94	1772.27	Con 500 y e arreglo del auto. Te lo saco.	Con 500 y e arreglo del auto. Te lo saco.	trash	movies	carancho	trash
+carancho	290	1772.38	1778.78	"Por el presente, autoriza a percibir la suma correspondiente a presente pacto de cuotalitis descontándo as de la sumas	"Por el presente, autoriza a percibir la suma correspondiente a presente pacto de cuotalitis descontándo as de la sumas	trash	movies	carancho	trash
+carancho	291	1778.88	1782.78	que se obtengan en concepto de indemnización.	que se obtengan en concepto de indemnización.	trash	movies	carancho	trash
+carancho	292	1782.89	1786.05	En prueba de conformidad. Se firman dos ejemplares."	En prueba de conformidad. Se firman dos ejemplares."	trash	movies	carancho	trash
+carancho	293	1786.16	1789.72	- Pero, ¿el resto cuándo lo cobro? - Ya te expliqué. - Hay que esperar, ¿te acordás?	- Pero, ¿el resto cuándo lo cobro? - Ya te expliqué. - Hay que esperar, ¿te acordás?	trash	movies	carancho	trash
+carancho	294	1796.87	1798.99	Terminá de leer. Ahí vengo.	Terminá de leer. Ahí vengo.	trash	movies	carancho	trash
+carancho	295	1802.91	1804.93	¿Cuánto querés que le demos?	¿Cuánto querés que le demos?	trash	movies	carancho	trash
+carancho	296	1805.24	1806.87	Dale 200 más.	Dale 200 más.	trash	movies	carancho	trash
+carancho	297	1807.91	1811.94	Lo vi a Rinaldi. Está todo en marcha. Lo tenés que conocer.	Lo vi a Rinaldi. Está todo en marcha. Lo tenés que conocer.	trash	movies	carancho	trash
+carancho	298	1812.05	1815.38	- ¿Otra vez con lo mismo? - Sí, porque no te creo.	- ¿Otra vez con lo mismo? - Sí, porque no te creo.	trash	movies	carancho	trash
+carancho	299	1815.65	1818.85	¿Dónde te van a tratar mejor que acá, Sosa?	¿Dónde te van a tratar mejor que acá, Sosa?	trash	movies	carancho	trash
+carancho	300	1825.33	1827.23	Tomá, 200 más.	Tomá, 200 más.	trash	movies	carancho	trash
+carancho	301	1834.04	1836.23	- Y ahora. ¿qué hago? - Firmá.	- Y ahora. ¿qué hago? - Firmá.	trash	movies	carancho	trash
+carancho	302	1844.05	1845.98	Cómo nos tomaríamos una cervecita ahora. ¿eh?	Cómo nos tomaríamos una cervecita ahora. ¿eh?	trash	movies	carancho	trash
+carancho	303	1846.08	1849.42	Dale Vega. No sea borracho. Firmá, que es esta noche.	Dale Vega. No sea borracho. Firmá, que es esta noche.	trash	movies	carancho	trash
+carancho	304	1891.23	1892.92	Por fin.	Por fin.	trash	movies	carancho	trash
+carancho	305	1894.53	1896.33	Vení. Vení.	Vení. Vení.	trash	movies	carancho	trash
+carancho	306	1898.67	1900.19	¿Todo bien?	¿Todo bien?	trash	movies	carancho	trash
+carancho	307	1900.3	1902.07	Todo bien.	Todo bien.	trash	movies	carancho	trash
+carancho	308	1903.17	1906.97	¿Qué paso? Nada. Te quedaste dormida.	¿Qué paso? Nada. Te quedaste dormida.	trash	movies	carancho	trash
+carancho	309	1907.34	1908.57	Perdón.	Perdón.	trash	movies	carancho	trash
+carancho	310	1908.68	1911.04	No, todo bien.	No, todo bien.	trash	movies	carancho	trash
+carancho	311	1911.15	1914.17	¿Cuánto dormí? Como 12 horas.	¿Cuánto dormí? Como 12 horas.	trash	movies	carancho	trash
+carancho	312	1915.35	1917.34	¿Tenés hambre?	¿Tenés hambre?	trash	movies	carancho	trash
+carancho	313	1919.66	1922.22	No te gusta que te hablen apenas te despertás. ¿no?	No te gusta que te hablen apenas te despertás. ¿no?	trash	movies	carancho	trash
+carancho	314	1922.33	1926.39	No, no, todo bien. No estoy muy acostumbrada.	No, no, todo bien. No estoy muy acostumbrada.	trash	movies	carancho	trash
+carancho	315	1932.4	1934.39	- ¿Querés que te ayude? - Dale.	- ¿Querés que te ayude? - Dale.	trash	movies	carancho	trash
+carancho	316	1934.7	1937.94	Corta un poco más de morrón y el zapallito ese.	Corta un poco más de morrón y el zapallito ese.	trash	movies	carancho	trash
+carancho	317	1939.01	1941.03	- ¿Éste? - Sí.	- ¿Éste? - Sí.	trash	movies	carancho	trash
+carancho	318	1941.34	1943.01	Los dos.	Los dos.	trash	movies	carancho	trash
+carancho	319	1947.32	1948.98	¿Así?	¿Así?	trash	movies	carancho	trash
+carancho	320	1949.09	1950.48	Sí.	Sí.	trash	movies	carancho	trash
+carancho	321	1972.81	1974.44	Hola.	Hola.	trash	movies	carancho	trash
+carancho	322	1975.18	1978.2	¿Qué haces vos acá? Estoy de reemplazo, salgo con vos.	¿Qué haces vos acá? Estoy de reemplazo, salgo con vos.	trash	movies	carancho	trash
+carancho	323	1978.31	1979.94	¿Qué? ¿Dónde está Santillán?	¿Qué? ¿Dónde está Santillán?	trash	movies	carancho	trash
+carancho	324	1983.09	1988.68	&nbsp; &nbsp;Y después con el pulgar. Hacés un larpegio rápido. - Y después con las uñas. ¿me entendés? - Sí.	&nbsp; &nbsp;Y después con el pulgar. Hacés un larpegio rápido. - Y después con las uñas. ¿me entendés? - Sí.	trash	movies	carancho	trash
+carancho	325	1988.79	1994.99	E pulgar para abajo marca a nota grave y el resto de la mano...	E pulgar para abajo marca a nota grave y el resto de la mano...	trash	movies	carancho	trash
+carancho	326	1995.1	1999.96	...también las agudas. Tercera, segunda, primera.	...también las agudas. Tercera, segunda, primera.	trash	movies	carancho	trash
+carancho	327	2000.07	2003.23	Y con el pulgar hacés un arpegio rápido y después con las uñas.	Y con el pulgar hacés un arpegio rápido y después con las uñas.	trash	movies	carancho	trash
+carancho	328	2003.34	2006.87	Pulgar mano, pulgar mano. Pulgar mano.	Pulgar mano, pulgar mano. Pulgar mano.	trash	movies	carancho	trash
+carancho	329	2008.14	2009.74	A ver. Mirame.	A ver. Mirame.	trash	movies	carancho	trash
+carancho	330	2009.85	2013.34	El secreto de la samba es el rasgueo.	El secreto de la samba es el rasgueo.	trash	movies	carancho	trash
+carancho	331	2013.55	2016.18	Como me hubiera gustado tocar un instrumento a mí.	Como me hubiera gustado tocar un instrumento a mí.	trash	movies	carancho	trash
+carancho	332	2016.29	2018.58	- ¿Sabes tocar algo, vos? - No.	- ¿Sabes tocar algo, vos? - No.	trash	movies	carancho	trash
+carancho	333	2018.69	2020.02	Tenés olor a alcohol.	Tenés olor a alcohol.	trash	movies	carancho	trash
+carancho	334	2020.12	2021.42	- No. - No me mientas.	- No. - No me mientas.	trash	movies	carancho	trash
+carancho	335	2021.52	2025.69	¡No! Dale. Dale, ¿falta mucho para esto? Ya está.&nbsp;	¡No! Dale. Dale, ¿falta mucho para esto? Ya está.&nbsp;	trash	movies	carancho	trash
+carancho	336	2025.8	2027.85	Deja la pierna bien dura.	Deja la pierna bien dura.	trash	movies	carancho	trash
+carancho	337	2029.4	2032.6	A los pibes chiquitos habría que enseñarles a tocar un instrumento.	A los pibes chiquitos habría que enseñarles a tocar un instrumento.	trash	movies	carancho	trash
+carancho	338	2035.4	2037.1	Toma, mordé esto.	Toma, mordé esto.	trash	movies	carancho	trash
+carancho	339	2038.51	2040.37	¿Qué sentís? - Nada.	¿Qué sentís? - Nada.	trash	movies	carancho	trash
+carancho	340	2040.48	2043.07	- ¿Estás seguro?&nbsp; No. Nada. Dale, no seas cagón.	- ¿Estás seguro?&nbsp; No. Nada. Dale, no seas cagón.	trash	movies	carancho	trash
+carancho	341	2043.18	2045.61	Bueno. Dale. Ahí va. No grites, ¿eh?	Bueno. Dale. Ahí va. No grites, ¿eh?	trash	movies	carancho	trash
+carancho	342	2054.42	2056.52	Aguantá, aguantá. Aguantá.	Aguantá, aguantá. Aguantá.	trash	movies	carancho	trash
+carancho	343	2056.63	2058.18	Dale, aguantá.	Dale, aguantá.	trash	movies	carancho	trash
+carancho	344	2058.29	2060.56	No grites que se pudre todo.	No grites que se pudre todo.	trash	movies	carancho	trash
+carancho	345	2065.4	2067.03	Escuchame. ¿me escuchás?	Escuchame. ¿me escuchás?	trash	movies	carancho	trash
+carancho	346	2067.14	2070.13	- Sí. - Ahora vas a seguir vos solo. Acordate de lo que te dije.	- Sí. - Ahora vas a seguir vos solo. Acordate de lo que te dije.	trash	movies	carancho	trash
+carancho	347	2070.24	2073.04	No lo mires. - Vega. ¿me oís? - Sí.	No lo mires. - Vega. ¿me oís? - Sí.	trash	movies	carancho	trash
+carancho	348	2150.12	2151.45	¿Qué pasó, flaco?	¿Qué pasó, flaco?	trash	movies	carancho	trash
+carancho	349	2151.55	2156.51	No lo vi. No sé. Apareció por ahí. ¡Nunca me pasó una cosa así!	No lo vi. No sé. Apareció por ahí. ¡Nunca me pasó una cosa así!	trash	movies	carancho	trash
+carancho	350	2156.63	2159.39	- ¿Qué hiciste. Pelotudo?	- ¿Qué hiciste. Pelotudo?	trash	movies	carancho	trash
+carancho	351	2159.5	2162.33	- Señor. ¿está bien? - Viejo. ¿me escuchás?	- Señor. ¿está bien? - Viejo. ¿me escuchás?	trash	movies	carancho	trash
+carancho	352	2162.43	2165.2	Nunca me paso una cosa así. Hace 30 años que manejo.	Nunca me paso una cosa así. Hace 30 años que manejo.	trash	movies	carancho	trash
+carancho	353	2165.3	2165.74	¿Dónde vamos. Pico?	¿Dónde vamos. Pico?	trash	movies	carancho	trash
+carancho	354	2165.74	2167.17	¿Dónde vamos. Pico?	¿Dónde vamos. Pico?	trash	movies	carancho	trash
+carancho	355	2167.27	2168.79	A un auxilio.	A un auxilio.	trash	movies	carancho	trash
+carancho	356	2168.91	2171.03	Si no llamaron de central...	Si no llamaron de central...	trash	movies	carancho	trash
+carancho	357	2171.14	2175.01	No importa, Luján. Vos preparate para atender porque ya llegamos. ¿ok?	No importa, Luján. Vos preparate para atender porque ya llegamos. ¿ok?	trash	movies	carancho	trash
+carancho	358	2192.76	2194.32	Hola.	Hola.	trash	movies	carancho	trash
+carancho	359	2195	2198.06	¿Qué haces acá? ¿Cómo qué hago acá? Estoy trabajando.	¿Qué haces acá? ¿Cómo qué hago acá? Estoy trabajando.	trash	movies	carancho	trash
+carancho	360	2198.17	2200.73	- Sí. Perdón. - ¿Qué pasó?	- Sí. Perdón. - ¿Qué pasó?	trash	movies	carancho	trash
+carancho	361	2202.57	2205.7	Tiene una factura en la cabeza me parece. Y en la pierna.	Tiene una factura en la cabeza me parece. Y en la pierna.	trash	movies	carancho	trash
+carancho	362	2214.12	2218.18	Sí. ¿Estuvo todo el tiempo inconsciente?	Sí. ¿Estuvo todo el tiempo inconsciente?	trash	movies	carancho	trash
+carancho	363	2221.32	2223.42	¿Sabés como se llama?	¿Sabés como se llama?	trash	movies	carancho	trash
+carancho	364	2224.19	2226.49	Vega, es mi amigo.	Vega, es mi amigo.	trash	movies	carancho	trash
+carancho	365	2229.73	2231.29	La camilla.	La camilla.	trash	movies	carancho	trash
+carancho	366	2231.9	2234.37	- Poné una mano acá y a otra acá. - Sí.	- Poné una mano acá y a otra acá. - Sí.	trash	movies	carancho	trash
+carancho	367	2234.47	2237.74	- Ahí va. ¿estás listo? - ¿Vamos?	- Ahí va. ¿estás listo? - ¿Vamos?	trash	movies	carancho	trash
+carancho	368	2237.84	2239.64	Uno, Dos, tres, ahí va.	Uno, Dos, tres, ahí va.	trash	movies	carancho	trash
+carancho	369	2239.74	2241.87	- Bajamos. - Cuidado.	- Bajamos. - Cuidado.	trash	movies	carancho	trash
+carancho	370	2241.98	2244.21	A ver. Pasale este suncho.	A ver. Pasale este suncho.	trash	movies	carancho	trash
+carancho	371	2245.75	2248.11	Ponele el suncho de allá.	Ponele el suncho de allá.	trash	movies	carancho	trash
+carancho	372	2248.48	2252.15	Ya está. Ya está. - Dale. Vamos a subirlo. - Uno, Dos, tres.	Ya está. Ya está. - Dale. Vamos a subirlo. - Uno, Dos, tres.	trash	movies	carancho	trash
+carancho	373	2252.72	2255.02	¿Me podés explicar qué es lo que pasó? ¿Eh?	¿Me podés explicar qué es lo que pasó? ¿Eh?	trash	movies	carancho	trash
+carancho	374	2256.49	2258.43	Ahora no. Esperá.	Ahora no. Esperá.	trash	movies	carancho	trash
+carancho	375	2258.76	2262.03	¿Vamos? - Uno. Dos. Tres. - Ahí va. ¿está fijo?	¿Vamos? - Uno. Dos. Tres. - Ahí va. ¿está fijo?	trash	movies	carancho	trash
+carancho	376	2262.13	2263.96	Después te cuento todo, ¿sí?	Después te cuento todo, ¿sí?	trash	movies	carancho	trash
+carancho	377	2264.07	2266.53	Subilo. Pico. Listo. Ya es mío.	Subilo. Pico. Listo. Ya es mío.	trash	movies	carancho	trash
+carancho	378	2268.07	2269.87	Vení conmigo. Subí.	Vení conmigo. Subí.	trash	movies	carancho	trash
+carancho	379	2275.91	2278.44	¿Qué pasó?	¿Qué pasó?	trash	movies	carancho	trash
+carancho	380	2278.55	2280.52	Por favor. Ahora no. Después te explico todo.	Por favor. Ahora no. Después te explico todo.	trash	movies	carancho	trash
+carancho	381	2280.62	2282.28	Salválo. Ayudáme.	Salválo. Ayudáme.	trash	movies	carancho	trash
+carancho	382	2282.39	2284.95	Después te cuento todo, te lo juro.	Después te cuento todo, te lo juro.	trash	movies	carancho	trash
+carancho	383	2286.36	2288.38	Toma, ponete esto.	Toma, ponete esto.	trash	movies	carancho	trash
+carancho	384	2288.49	2291.32	¿Qué hago? Ponételo.	¿Qué hago? Ponételo.	trash	movies	carancho	trash
+carancho	385	2297.07	2299.19	¿Sabes qué tomó?	¿Sabes qué tomó?	trash	movies	carancho	trash
+carancho	386	2299.54	2302.06	Un tramado y codeína.	Un tramado y codeína.	trash	movies	carancho	trash
+carancho	387	2302.17	2304.14	¿Y por qué?	¿Y por qué?	trash	movies	carancho	trash
+carancho	388	2304.47	2306.44	Para que no le duela.	Para que no le duela.	trash	movies	carancho	trash
+carancho	389	2306.54	2308.87	No, no entiendo Sosa.	No, no entiendo Sosa.	trash	movies	carancho	trash
+carancho	390	2309.61	2312.78	Yo después te voy a contar todo, ¿sí? Ahora salvalo.	Yo después te voy a contar todo, ¿sí? Ahora salvalo.	trash	movies	carancho	trash
+carancho	391	2312.88	2314.75	- Se paró. - ¿Eh? - ¿Cómo que se paró? - Escucháme, agarra ésto.	- Se paró. - ¿Eh? - ¿Cómo que se paró? - Escucháme, agarra ésto.	trash	movies	carancho	trash
+carancho	392	2314.85	2319.91	Cuando yo te diga, vas a apretar dos veces.	Cuando yo te diga, vas a apretar dos veces.	trash	movies	carancho	trash
+carancho	393	2320.99	2324.45	Dale, empezá. ¿Qué hago? Decíme. Cuando yo te aviso, empezá a bombear.	Dale, empezá. ¿Qué hago? Decíme. Cuando yo te aviso, empezá a bombear.	trash	movies	carancho	trash
+carancho	394	2324.56	2327.79	Uno. Dos. - ¿A cuánto estamos, Pico?	Uno. Dos. - ¿A cuánto estamos, Pico?	trash	movies	carancho	trash
+carancho	395	2327.9	2333.4	- 6, 7, minutos, como mucho - Bueno, llama y avisá que se paró. - Sí. Móvil 28 a base.	- 6, 7, minutos, como mucho - Bueno, llama y avisá que se paró. - Sí. Móvil 28 a base.	trash	movies	carancho	trash
+carancho	396	2344.55	2348.31	Recibido y notificado, señor. Aguantá boludo. No me hagas esto.	Recibido y notificado, señor. Aguantá boludo. No me hagas esto.	trash	movies	carancho	trash
+carancho	397	2350.95	2352.65	Hola. ¿cómo estás? Contame. ¿qué paso?	Hola. ¿cómo estás? Contame. ¿qué paso?	trash	movies	carancho	trash
+carancho	398	2354.02	2355.29	Es un accidente en vía pública,	Es un accidente en vía pública,	trash	movies	carancho	trash
+carancho	399	2357.39	2360.52	masculino, 65 años.	masculino, 65 años.	trash	movies	carancho	trash
+carancho	400	2360.63	2364.12	TEC con pérdida de conocimiento.	TEC con pérdida de conocimiento.	trash	movies	carancho	trash
+carancho	401	2364.23	2366	Está en paro hace 7 minutos.	Está en paro hace 7 minutos.	trash	movies	carancho	trash
+carancho	402	2366.1	2369.3	¿Pasaste algún tipo de medicación? - No. Nada. - ¿Es alérgico a alguna medicación?	¿Pasaste algún tipo de medicación? - No. Nada. - ¿Es alérgico a alguna medicación?	trash	movies	carancho	trash
+carancho	403	2375.88	2379.78	- Un paro. 65 años. Un politrauma grave. TEC con pérdida de conocimiento.	- Un paro. 65 años. Un politrauma grave. TEC con pérdida de conocimiento.	trash	movies	carancho	trash
+carancho	404	2388.82	2390.66	Llevate la Camilla, Pico.	Llevate la Camilla, Pico.	trash	movies	carancho	trash
+carancho	405	2391.63	2393.46	&nbsp;-¿Me conectás el oxigeno, por favor?	&nbsp;-¿Me conectás el oxigeno, por favor?	trash	movies	carancho	trash
+carancho	406	2397.5	2399.33	- Dame un poquito de vaselina. - Prendido monitor.	- Dame un poquito de vaselina. - Prendido monitor.	trash	movies	carancho	trash
+carancho	407	2399.44	2401.7	Preparamos una vía periférica para entubar.	Preparamos una vía periférica para entubar.	trash	movies	carancho	trash
+carancho	408	2401.8	2404.67	- Cargando. - Dame el oxigeno.	- Cargando. - Dame el oxigeno.	trash	movies	carancho	trash
+carancho	409	2406.01	2407.81	Atrás. Descarga.	Atrás. Descarga.	trash	movies	carancho	trash
+carancho	410	2408.88	2410.97	- Ahí va. ¿les ayudo en algo más?	- Ahí va. ¿les ayudo en algo más?	trash	movies	carancho	trash
+carancho	411	2411.08	2414.35	No. Pasá por admisión y dejáme un resumen solamente.	No. Pasá por admisión y dejáme un resumen solamente.	trash	movies	carancho	trash
+carancho	412	2415.25	2417.05	- Dale. - Para entubar. Por favor.	- Dale. - Para entubar. Por favor.	trash	movies	carancho	trash
+carancho	413	2429.23	2431.06	Luján, ¿cómo está?	Luján, ¿cómo está?	trash	movies	carancho	trash
+carancho	414	2431.6	2433.12	Está muerto. Sosa.	Está muerto. Sosa.	trash	movies	carancho	trash
+carancho	415	2433.24	2437.94	¿Qué decís? ¿Cómo que está?	¿Qué decís? ¿Cómo que está?	trash	movies	carancho	trash
+carancho	416	2438.04	2442.3	Está muerto. No me toques, ¿sabés?	Está muerto. No me toques, ¿sabés?	trash	movies	carancho	trash
+carancho	417	2464.37	2466.2	Espere afuera por favor.	Espere afuera por favor.	trash	movies	carancho	trash
+carancho	418	2498.8	2500.33	¿Doctora?	¿Doctora?	trash	movies	carancho	trash
+carancho	419	2500.74	2504.6	Subcomisario Ibáñez. - Doctor Casa, buenas noches. - Buenas noches.	Subcomisario Ibáñez. - Doctor Casa, buenas noches. - Buenas noches.	trash	movies	carancho	trash
+carancho	420	2504.71	2507.97	Usted hizo el auxilio de la calle Morelli. ¿verdad?	Usted hizo el auxilio de la calle Morelli. ¿verdad?	trash	movies	carancho	trash
+carancho	421	2508.08	2511.81	Necesitaría una copia del ese informe, por favor.	Necesitaría una copia del ese informe, por favor.	trash	movies	carancho	trash
+carancho	422	2511.91	2514.58	Pueden pedirla acá en admisión. Permiso.	Pueden pedirla acá en admisión. Permiso.	trash	movies	carancho	trash
+carancho	423	2514.68	2517.31	No se preocupe. Muchas gracias.	No se preocupe. Muchas gracias.	trash	movies	carancho	trash
+carancho	424	2517.42	2521.36	Doctora, vamos a necesitar su número de matricula, datos de siniestro.	Doctora, vamos a necesitar su número de matricula, datos de siniestro.	trash	movies	carancho	trash
+carancho	425	2521.46	2523.72	Colaboración en la pericia...	Colaboración en la pericia...	trash	movies	carancho	trash
+carancho	426	2525.63	2530.03	Él quería cuidarte que estés bien. - No te voy a dejar sola. Te lo juro. - Perdón.	Él quería cuidarte que estés bien. - No te voy a dejar sola. Te lo juro. - Perdón.	trash	movies	carancho	trash
+carancho	427	2531.1	2536.13	Tranquila, hicimos todo lo que pudimos. - Lo siento mucho. - Gracias. Doctora.	Tranquila, hicimos todo lo que pudimos. - Lo siento mucho. - Gracias. Doctora.	trash	movies	carancho	trash
+carancho	428	2536.24	2538.1	Tranquila.	Tranquila.	trash	movies	carancho	trash
+carancho	429	2541.74	2545.51	Esperáme acá, tengo que arreglar un asunto.	Esperáme acá, tengo que arreglar un asunto.	trash	movies	carancho	trash
+carancho	430	2566.27	2568.96	¿Vos estás loco? ¿Cómo no me vas a avisar en lo que me metés?	¿Vos estás loco? ¿Cómo no me vas a avisar en lo que me metés?	trash	movies	carancho	trash
+carancho	431	2569.07	2573.41	No sé. Era un traslado como cualquiera. - Un tipo con una pata quebrada. - ¿Vos me estas jodiendo?	No sé. Era un traslado como cualquiera. - Un tipo con una pata quebrada. - ¿Vos me estas jodiendo?	trash	movies	carancho	trash
+carancho	432	2573.51	2576.27	Yo soy la que firmo, vos no perdés nada.	Yo soy la que firmo, vos no perdés nada.	trash	movies	carancho	trash
+carancho	433	2576.38	2578.28	- Me voy a mi casa. - Luján. Escucháme un segundo.	- Me voy a mi casa. - Luján. Escucháme un segundo.	trash	movies	carancho	trash
+carancho	434	2578.38	2579.57	- No me toques. - Escucháme.	- No me toques. - Escucháme.	trash	movies	carancho	trash
+carancho	435	2579.68	2584.38	Está bien. Pero escucháme, es importante. ¿Qué te preguntaron? ¿Qué te dijeron?	Está bien. Pero escucháme, es importante. ¿Qué te preguntaron? ¿Qué te dijeron?	trash	movies	carancho	trash
+carancho	436	2584.49	2588.25	No firmes nada. No declares nada, esto lo tengo que arreglar yo.	No firmes nada. No declares nada, esto lo tengo que arreglar yo.	trash	movies	carancho	trash
+carancho	437	2588.36	2589.65	¿Qué vas a arreglar vos?	¿Qué vas a arreglar vos?	trash	movies	carancho	trash
+carancho	438	2589.76	2592.75	Vos no tenías que estar metida en esto. Te pido que me perdones.	Vos no tenías que estar metida en esto. Te pido que me perdones.	trash	movies	carancho	trash
+carancho	439	2592.86	2595.56	No tengo nada que perdonarte, Sosa.	No tengo nada que perdonarte, Sosa.	trash	movies	carancho	trash
+carancho	440	2597.4	2599.39	Se acaba de morir un tipo por tu culpa.	Se acaba de morir un tipo por tu culpa.	trash	movies	carancho	trash
+carancho	441	2599.5	2602.96	Aunque vos no me lo creas. E estaba haciendo un favor a Vega.	Aunque vos no me lo creas. E estaba haciendo un favor a Vega.	trash	movies	carancho	trash
+carancho	442	2603.07	2604.3	É necesitaba la plata, era algo simple.	É necesitaba la plata, era algo simple.	trash	movies	carancho	trash
+carancho	443	2604.41	2607.81	Tenía que salir bien. Pero salió mal.	Tenía que salir bien. Pero salió mal.	trash	movies	carancho	trash
+carancho	444	2610.25	2612.27	No sé qué hacer.	No sé qué hacer.	trash	movies	carancho	trash
+carancho	445	2612.65	2615.31	¿Y yo te tengo que decir qué tenés que hacer?	¿Y yo te tengo que decir qué tenés que hacer?	trash	movies	carancho	trash
+carancho	446	2615.42	2617.51	Estás grande. Sosa.	Estás grande. Sosa.	trash	movies	carancho	trash
+carancho	447	2618.65	2620.85	No te quiero ver más.	No te quiero ver más.	trash	movies	carancho	trash
+carancho	448	2695.46	2698.7	Tiene un laboratorio hecho. Tiene dolor abdominal. Tienen que venir los cirujanos.	Tiene un laboratorio hecho. Tiene dolor abdominal. Tienen que venir los cirujanos.	trash	movies	carancho	trash
+carancho	449	2698.8	2700.83	- ¿Los lamaste ya? - Sí, pero no legaron.	- ¿Los lamaste ya? - Sí, pero no legaron.	trash	movies	carancho	trash
+carancho	450	2703.41	2707.17	Tiene una fractura expuesta y traumatismo de cráneo.	Tiene una fractura expuesta y traumatismo de cráneo.	trash	movies	carancho	trash
+carancho	451	2707.28	2709.01	- ¿Le pediste placas? - Las placas sí.	- ¿Le pediste placas? - Las placas sí.	trash	movies	carancho	trash
+carancho	452	2712.92	2716.01	Este es un señor que parece una TBC.	Este es un señor que parece una TBC.	trash	movies	carancho	trash
+carancho	453	2716.12	2718.92	¿A ver? ¿Y porqué no lo aislaste?	¿A ver? ¿Y porqué no lo aislaste?	trash	movies	carancho	trash
+carancho	454	2719.02	2722.48	Porque no, no sé. No lo vi yo, no hay cama tampoco.	Porque no, no sé. No lo vi yo, no hay cama tampoco.	trash	movies	carancho	trash
+carancho	455	2722.59	2725.96	Necesito un reemplazo para la guardia de los viernes, ¿te interesa?	Necesito un reemplazo para la guardia de los viernes, ¿te interesa?	trash	movies	carancho	trash
+carancho	456	2726.06	2729.29	Sí. Claro. No parece.	Sí. Claro. No parece.	trash	movies	carancho	trash
+carancho	457	2729.4	2733.33	No, no. Pasa que es mi único día libre y estoy un poco cansada, nada más.	No, no. Pasa que es mi único día libre y estoy un poco cansada, nada más.	trash	movies	carancho	trash
+carancho	458	2733.44	2736.96	Para tu nombramiento te conviene acumular horas.	Para tu nombramiento te conviene acumular horas.	trash	movies	carancho	trash
+carancho	459	2737.31	2740.67	Sí. Sí. ¿Te anoto? Sí. Gracias.	Sí. Sí. ¿Te anoto? Sí. Gracias.	trash	movies	carancho	trash
+carancho	460	2744.78	2746.34	Tiene ruido.	Tiene ruido.	trash	movies	carancho	trash
+carancho	461	2746.45	2748.71	Apuren que tengo dos más esperando afuera.	Apuren que tengo dos más esperando afuera.	trash	movies	carancho	trash
+carancho	462	2750.45	2752.42	La panza está blandita. Dale.	La panza está blandita. Dale.	trash	movies	carancho	trash
+carancho	463	2752.52	2754.32	Yo me encargo.	Yo me encargo.	trash	movies	carancho	trash
+carancho	464	2754.42	2756.19	- ¿Qué pasa, flaco?	- ¿Qué pasa, flaco?	trash	movies	carancho	trash
+carancho	465	2760.46	2763.63	¿Dónde te pegaron? - Por todos lados. - ¿Por todos lados?	¿Dónde te pegaron? - Por todos lados. - ¿Por todos lados?	trash	movies	carancho	trash
+carancho	466	2763.73	2767.46	¿Perdiste el conocimiento? ¿Qué haces. Gordo. Acá? La concha de tu madre. Pedazo de puto.	¿Perdiste el conocimiento? ¿Qué haces. Gordo. Acá? La concha de tu madre. Pedazo de puto.	trash	movies	carancho	trash
+carancho	467	2773.81	2775.83	Pará. Llamá la seguridad.	Pará. Llamá la seguridad.	trash	movies	carancho	trash
+carancho	468	2866.57	2869.37	Dale Pico, poné la sirena así avanzamos.	Dale Pico, poné la sirena así avanzamos.	trash	movies	carancho	trash
+carancho	469	2869.47	2872.44	Para, es un semáforo, ¿qué querés que haga? Mirá.	Para, es un semáforo, ¿qué querés que haga? Mirá.	trash	movies	carancho	trash
+carancho	470	2877.45	2879.14	¿Te gusta ahí? ¿ Querés ésta?	¿Te gusta ahí? ¿ Querés ésta?	trash	movies	carancho	trash
+carancho	471	2880.22	2882.71	Desde que se rajó de la fundación no o vi más.	Desde que se rajó de la fundación no o vi más.	trash	movies	carancho	trash
+carancho	472	2882.82	2884.68	Y me quedó debiendo unos pesos.	Y me quedó debiendo unos pesos.	trash	movies	carancho	trash
+carancho	473	2884.79	2887.45	Yo hace rato que no lo veo tampoco.	Yo hace rato que no lo veo tampoco.	trash	movies	carancho	trash
+carancho	474	2887.79	2890.35	Yo lo vi en... La San Martín.	Yo lo vi en... La San Martín.	trash	movies	carancho	trash
+carancho	475	2890.46	2893.16	Paso por un pasillo.	Paso por un pasillo.	trash	movies	carancho	trash
+carancho	476	2893.26	2895.73	¿Y vos no lo viste por ahí?	¿Y vos no lo viste por ahí?	trash	movies	carancho	trash
+carancho	477	2897.97	2904.27	E boga me dice "Ah. Te quería confirmar a ver si sabés algo". 5 días en Tablada.	E boga me dice "Ah. Te quería confirmar a ver si sabés algo". 5 días en Tablada.	trash	movies	carancho	trash
+carancho	478	2904.37	2907.5	E digo; "No, mira... Ni idea, a mí no me avisaron nada".	E digo; "No, mira... Ni idea, a mí no me avisaron nada".	trash	movies	carancho	trash
+carancho	479	2907.61	2909.48	Y me dice; "No sé. Yo voy a ir igual".	Y me dice; "No sé. Yo voy a ir igual".	trash	movies	carancho	trash
+carancho	480	2933.67	2936.93	Una para traumato, un masculino.	Una para traumato, un masculino.	trash	movies	carancho	trash
+carancho	481	2938.21	2941.51	Una mujer para cirugía.	Una mujer para cirugía.	trash	movies	carancho	trash
+carancho	482	2947.12	2950.55	Un chico de 25 años para aislar.	Un chico de 25 años para aislar.	trash	movies	carancho	trash
+carancho	483	2951.52	2953.72	No, ése hay que derivarlo.	No, ése hay que derivarlo.	trash	movies	carancho	trash
+carancho	484	2953.82	2957.31	Bueno. E dejo acá los pedidos. Gracias, ¿eh?	Bueno. E dejo acá los pedidos. Gracias, ¿eh?	trash	movies	carancho	trash
+carancho	485	2961.46	2962.95	¿Qué haces acá?	¿Qué haces acá?	trash	movies	carancho	trash
+carancho	486	2963.07	2964.53	- Te estuve llamando. - Sí. Ya sé.	- Te estuve llamando. - Sí. Ya sé.	trash	movies	carancho	trash
+carancho	487	2964.63	2968.57	Te dejo mensajes, no atendés, no contestás...	Te dejo mensajes, no atendés, no contestás...	trash	movies	carancho	trash
+carancho	488	2968.94	2970.63	Necesito hablar con vos.	Necesito hablar con vos.	trash	movies	carancho	trash
+carancho	489	2970.74	2972.33	Sí. Pero acá no. No quiero que me vean con vos.	Sí. Pero acá no. No quiero que me vean con vos.	trash	movies	carancho	trash
+carancho	490	2972.44	2975.88	Bueno. Decíme cuándo, dónde... Y yo voy. No tengo problema.	Bueno. Decíme cuándo, dónde... Y yo voy. No tengo problema.	trash	movies	carancho	trash
+carancho	491	2976.88	2980.81	Necesito que me escuches un minuto. Sólo eso.	Necesito que me escuches un minuto. Sólo eso.	trash	movies	carancho	trash
+carancho	492	2987.09	2988.89	¿Cuándo?	¿Cuándo?	trash	movies	carancho	trash
+carancho	493	2989.73	2992.19	No sé. Ahora estoy trabajando.	No sé. Ahora estoy trabajando.	trash	movies	carancho	trash
+carancho	494	3033.03	3034.83	¿Qué carajo te pasa. Sosa?	¿Qué carajo te pasa. Sosa?	trash	movies	carancho	trash
+carancho	495	3034.94	3037.4	¿Qué? ¿Viste a la virgen? ¿Sos bueno ahora?	¿Qué? ¿Viste a la virgen? ¿Sos bueno ahora?	trash	movies	carancho	trash
+carancho	496	3037.51	3039.06	¿Quién te hablo, Jesús?	¿Quién te hablo, Jesús?	trash	movies	carancho	trash
+carancho	497	3039.64	3041.47	Esa plata no es tuya.	Esa plata no es tuya.	trash	movies	carancho	trash
+carancho	498	3041.58	3044.67	Vas a tener que romper muchos huesos ahora para devolverla.	Vas a tener que romper muchos huesos ahora para devolverla.	trash	movies	carancho	trash
+carancho	499	3044.78	3047.91	Y mientras tanto. A mí me van a seguir mandando a cagarte a trompadas.	Y mientras tanto. A mí me van a seguir mandando a cagarte a trompadas.	trash	movies	carancho	trash
+carancho	500	3049.52	3051.01	¿Qué le digo a Casal?	¿Qué le digo a Casal?	trash	movies	carancho	trash
+carancho	501	3051.12	3053.31	Decíme, ¿qué le digo a Casal?	Decíme, ¿qué le digo a Casal?	trash	movies	carancho	trash
+carancho	502	3053.42	3055.95	¿Cuánto hace que nos conocemos, Sosa?	¿Cuánto hace que nos conocemos, Sosa?	trash	movies	carancho	trash
+carancho	503	3056.06	3058.92	Sabés que a mí me encantaría estar con Romina en casa,	Sabés que a mí me encantaría estar con Romina en casa,	trash	movies	carancho	trash
+carancho	504	3059.03	3066.33	con los chicos mirando a la tele... y sin embargo. Tengo que venir acá a explicarle a un pelotudo como vos como son las cosas. ¿Eh?	con los chicos mirando a la tele... y sin embargo. Tengo que venir acá a explicarle a un pelotudo como vos como son las cosas. ¿Eh?	trash	movies	carancho	trash
+carancho	505	3067.77	3070.8	¿Qué el digo a Casal. Sosa?	¿Qué el digo a Casal. Sosa?	trash	movies	carancho	trash
+carancho	506	3070.91	3074.6	Y que te quede claro algo, Sosa. Que te quede claro algo.	Y que te quede claro algo, Sosa. Que te quede claro algo.	trash	movies	carancho	trash
+carancho	507	3074.71	3078.7	Acá el único responsable sos vos, a concha de tu madre.	Acá el único responsable sos vos, a concha de tu madre.	trash	movies	carancho	trash
+carancho	508	3095.16	3099.96	Te está buscando un tipo que tiene un corte en la cabeza, hace como 10 minutos que está esperándote.	Te está buscando un tipo que tiene un corte en la cabeza, hace como 10 minutos que está esperándote.	trash	movies	carancho	trash
+carancho	509	3105.47	3107.27	¿vos me estas jodiendo?	¿vos me estas jodiendo?	trash	movies	carancho	trash
+carancho	510	3107.38	3109.04	¿Qué te paso?	¿Qué te paso?	trash	movies	carancho	trash
+carancho	511	3113.55	3116.24	- ¿Podés? - Sí. Claro.	- ¿Podés? - Sí. Claro.	trash	movies	carancho	trash
+carancho	512	3117.89	3119.91	A ver. Vení. Dale.	A ver. Vení. Dale.	trash	movies	carancho	trash
+carancho	513	3121.06	3122.85	- ¿La campera? - Ya la agarré.	- ¿La campera? - Ya la agarré.	trash	movies	carancho	trash
+carancho	514	3124.69	3126.63	Dale, apuráte.	Dale, apuráte.	trash	movies	carancho	trash
+carancho	515	3128.86	3130.7	- Andá allá. - Perdonáme.	- Andá allá. - Perdonáme.	trash	movies	carancho	trash
+carancho	516	3132.5	3135.9	El caso de Vega iba a ser el último. Era fáci.	El caso de Vega iba a ser el último. Era fáci.	trash	movies	carancho	trash
+carancho	517	3136	3138.17	Si lo había hecho varias veces.	Si lo había hecho varias veces.	trash	movies	carancho	trash
+carancho	518	3138.27	3141.07	Siempre salieron todos beneficiados.	Siempre salieron todos beneficiados.	trash	movies	carancho	trash
+carancho	519	3141.74	3145.08	Iba a ser mi último trabajo para la fundación, te lo juro.	Iba a ser mi último trabajo para la fundación, te lo juro.	trash	movies	carancho	trash
+carancho	520	3145.71	3146.68	A ver. Quedáte así.	A ver. Quedáte así.	trash	movies	carancho	trash
+carancho	521	3146.78	3150.68	Necesitaba recuperar a matricula para sacármelos de encima. Nada más.	Necesitaba recuperar a matricula para sacármelos de encima. Nada más.	trash	movies	carancho	trash
+carancho	522	3150.79	3153.55	Después en el medio de todo ese quilombo...	Después en el medio de todo ese quilombo...	trash	movies	carancho	trash
+carancho	523	3154.79	3156.69	Apareciste vos...	Apareciste vos...	trash	movies	carancho	trash
+carancho	524	3157.56	3162.43	y empecé a sentir que las cosas podían cambiar.	y empecé a sentir que las cosas podían cambiar.	trash	movies	carancho	trash
+carancho	525	3164.27	3166.06	Pero claro...	Pero claro...	trash	movies	carancho	trash
+carancho	526	3167.7	3170.4	algo tenía que salir mal. ¿no?	algo tenía que salir mal. ¿no?	trash	movies	carancho	trash
+carancho	527	3170.51	3171.77	Algo...	Algo...	trash	movies	carancho	trash
+carancho	528	3173.51	3174.77	Quedáte así.	Quedáte así.	trash	movies	carancho	trash
+carancho	529	3174.88	3177	No sé. Ahora es tan raro.	No sé. Ahora es tan raro.	trash	movies	carancho	trash
+carancho	530	3178.18	3181.24	Es como si saliera dela cárcel.	Es como si saliera dela cárcel.	trash	movies	carancho	trash
+carancho	531	3182.65	3186.64	Recuperé a matrícula. Puedo trabajar solo, pero no lo puedo hacer acá.	Recuperé a matrícula. Puedo trabajar solo, pero no lo puedo hacer acá.	trash	movies	carancho	trash
+carancho	532	3187.19	3189.45	Esto fue un aviso.	Esto fue un aviso.	trash	movies	carancho	trash
+carancho	533	3191.46	3194.39	Estoy empezando a hacer as cosas bien.	Estoy empezando a hacer as cosas bien.	trash	movies	carancho	trash
+carancho	534	3194.5	3196.12	¿Esto es hacer las cosas bien?	¿Esto es hacer las cosas bien?	trash	movies	carancho	trash
+carancho	535	3196.23	3201.73	me hice cagar a trompadas para que me des un poquito de bola.	me hice cagar a trompadas para que me des un poquito de bola.	trash	movies	carancho	trash
+carancho	536	3202.44	3206.24	Cobré toda la plata de Vega. Se la díla su mujer.	Cobré toda la plata de Vega. Se la díla su mujer.	trash	movies	carancho	trash
+carancho	537	3207.18	3209.84	E la se o merecía.	E la se o merecía.	trash	movies	carancho	trash
+carancho	538	3209.95	3212.81	Y yo, que me caguen a trompadas.	Y yo, que me caguen a trompadas.	trash	movies	carancho	trash
+carancho	539	3213.55	3217.04	No puedo seguir trabajando acá, Luján.	No puedo seguir trabajando acá, Luján.	trash	movies	carancho	trash
+carancho	540	3217.75	3221.38	Me vas a tener todas las semanas acá en la guardia.	Me vas a tener todas las semanas acá en la guardia.	trash	movies	carancho	trash
+carancho	541	3223.39	3226.29	Por eso me tengo que rajar. ¿entendés?	Por eso me tengo que rajar. ¿entendés?	trash	movies	carancho	trash
+carancho	542	3226.73	3229.06	Tenía dos opciones.	Tenía dos opciones.	trash	movies	carancho	trash
+carancho	543	3229.16	3231.79	Venir a despedirme...	Venir a despedirme...	trash	movies	carancho	trash
+carancho	544	3232.37	3235.5	o pedirte que me acompañes.	o pedirte que me acompañes.	trash	movies	carancho	trash
+carancho	545	3238.51	3240.3	¿Qué opinás?	¿Qué opinás?	trash	movies	carancho	trash
+carancho	546	3242.71	3245.44	Que no sabés lo que estás diciendo.	Que no sabés lo que estás diciendo.	trash	movies	carancho	trash
+carancho	547	3247.85	3250.72	Ahora vengo. Es en serio.	Ahora vengo. Es en serio.	trash	movies	carancho	trash
+carancho	548	3254.76	3258.99	Estaba todo golpeado. ¿Cómo todo? ¿Todo golpeado? ¿Cuánto?	Estaba todo golpeado. ¿Cómo todo? ¿Todo golpeado? ¿Cuánto?	trash	movies	carancho	trash
+carancho	549	3262.53	3265.43	¿Qué? ¿Así onda puntos y todo eso?	¿Qué? ¿Así onda puntos y todo eso?	trash	movies	carancho	trash
+carancho	550	3266.1	3269.07	Sí. Le di dos puntos.	Sí. Le di dos puntos.	trash	movies	carancho	trash
+carancho	551	3269.5	3271.37	Vos le diste diez puntos. Te enamoraste, ¿eh?	Vos le diste diez puntos. Te enamoraste, ¿eh?	trash	movies	carancho	trash
+carancho	552	3271.47	3273.91	- Lo viste y te lo compraste. - Qué boludo que sos.	- Lo viste y te lo compraste. - Qué boludo que sos.	trash	movies	carancho	trash
+carancho	553	3274.01	3277.5	Digo "Sosa" y mirá cómo te ponés.	Digo "Sosa" y mirá cómo te ponés.	trash	movies	carancho	trash
+carancho	554	3277.61	3279.08	Qué pelotudo.	Qué pelotudo.	trash	movies	carancho	trash
+carancho	555	3289.79	3293.89	¿Que carajo te pasó. Sosa? ¿Sos mogólico?	¿Que carajo te pasó. Sosa? ¿Sos mogólico?	trash	movies	carancho	trash
+carancho	556	3294	3296.93	para que un pelotudo como vos me traiga problemas.	para que un pelotudo como vos me traiga problemas.	trash	movies	carancho	trash
+carancho	557	3297.03	3301.06	- Só lo quiero que me dejen en paz. - ¡Me chupa un huevo!	- Só lo quiero que me dejen en paz. - ¡Me chupa un huevo!	trash	movies	carancho	trash
+carancho	558	3301.4	3303.87	En esta zona no laburás.	En esta zona no laburás.	trash	movies	carancho	trash
+carancho	559	3303.97	3308.51	Me cagaste el caso Vega, te quedaste con mi plata. ¿ahora querés más?	Me cagaste el caso Vega, te quedaste con mi plata. ¿ahora querés más?	trash	movies	carancho	trash
+carancho	560	3308.61	3311.51	Lo que le diste al viejo cobrátelo de lo que me debías. Estamos a mano.	Lo que le diste al viejo cobrátelo de lo que me debías. Estamos a mano.	trash	movies	carancho	trash
+carancho	561	3311.61	3313.38	- ¿A mano? - A mano, sí.	- ¿A mano? - A mano, sí.	trash	movies	carancho	trash
+carancho	562	3313.48	3316.78	Sosa, vos no podés negociar con nada.	Sosa, vos no podés negociar con nada.	trash	movies	carancho	trash
+carancho	563	3317.69	3319.95	Haceme caso, perdete. Desaparecé.	Haceme caso, perdete. Desaparecé.	trash	movies	carancho	trash
+carancho	564	3320.06	3321.65	- No me quiero meter con vos.	- No me quiero meter con vos.	trash	movies	carancho	trash
+carancho	565	3321.76	3324.62	Yo trabajé para ustedes mucho tiempo. Pero eso ya terminó.	Yo trabajé para ustedes mucho tiempo. Pero eso ya terminó.	trash	movies	carancho	trash
+carancho	566	3324.73	3326.63	Necesito que me dejen laburar tranquilo,	Necesito que me dejen laburar tranquilo,	trash	movies	carancho	trash
+carancho	567	3326.73	3329.42	poder juntar un poco de guita y rajarme. Sólo eso.	poder juntar un poco de guita y rajarme. Sólo eso.	trash	movies	carancho	trash
+carancho	568	3329.53	3334.03	Yo te entiendo, pero los accidentes son míos.	Yo te entiendo, pero los accidentes son míos.	trash	movies	carancho	trash
+carancho	569	3334.14	3336.47	Los clientes son míos, el policlínico es mío.	Los clientes son míos, el policlínico es mío.	trash	movies	carancho	trash
+carancho	570	3336.57	3338.73	El hospital es mío, San Justo es mío. ¡el país es mío!	El hospital es mío, San Justo es mío. ¡el país es mío!	trash	movies	carancho	trash
+carancho	571	3338.84	3342.04	Así que. Andate bien lejos si no querés quilombo.	Así que. Andate bien lejos si no querés quilombo.	trash	movies	carancho	trash
+carancho	572	3342.14	3343.67	Sino. No sé...	Sino. No sé...	trash	movies	carancho	trash
+carancho	573	3344.88	3349.18	Hacé consorcio, divorcio, sucesiones.	Hacé consorcio, divorcio, sucesiones.	trash	movies	carancho	trash
+carancho	574	3349.92	3352.35	Francisco Abendaño, choque de colectivos.	Francisco Abendaño, choque de colectivos.	trash	movies	carancho	trash
+carancho	575	3352.45	3358.86	La compañía pagó 270.000 pesos, él recibió 30.	La compañía pagó 270.000 pesos, él recibió 30.	trash	movies	carancho	trash
+carancho	576	3358.96	3362.83	Delia Ortega. Estaba embarazada cuando el auto a levantó en la senda pelatona,	Delia Ortega. Estaba embarazada cuando el auto a levantó en la senda pelatona,	trash	movies	carancho	trash
+carancho	577	3362.93	3364.23	me acuerdo perfectamente.	me acuerdo perfectamente.	trash	movies	carancho	trash
+carancho	578	3364.33	3366.8	- Pagaron 150. ella recibió 25.	- Pagaron 150. ella recibió 25.	trash	movies	carancho	trash
+carancho	579	3366.9	3371.43	Rodrigo Suárez. Accidente de moto. Pagaron 80, recibió 11.	Rodrigo Suárez. Accidente de moto. Pagaron 80, recibió 11.	trash	movies	carancho	trash
+carancho	580	3371.54	3373.47	Martín Prieti y su familia, ¿te acordás?	Martín Prieti y su familia, ¿te acordás?	trash	movies	carancho	trash
+carancho	581	3373.58	3376.74	Pagaron 112.000, é recibió 35. ¿sigo?	Pagaron 112.000, é recibió 35. ¿sigo?	trash	movies	carancho	trash
+carancho	582	3376.85	3378.57	¿Qué sos? ¿La voz de mi consciencia?	¿Qué sos? ¿La voz de mi consciencia?	trash	movies	carancho	trash
+carancho	583	3378.68	3381.48	No. Tengo todos os teléfonos. Boludo.	No. Tengo todos os teléfonos. Boludo.	trash	movies	carancho	trash
+carancho	584	3382.72	3385.88	Tengo todas las copias de las actas de acuerdo.	Tengo todas las copias de las actas de acuerdo.	trash	movies	carancho	trash
+carancho	585	3385.99	3390.48	Si quiero. Hago que te presenten una demanda por semana, te vuelvo loco.	Si quiero. Hago que te presenten una demanda por semana, te vuelvo loco.	trash	movies	carancho	trash
+carancho	586	3390.59	3393.93	¿Hasta cuándo vas a julgar a que sos el jefe?	¿Hasta cuándo vas a julgar a que sos el jefe?	trash	movies	carancho	trash
+carancho	587	3394.03	3399.26	¿Quién te va a defender? ¿El Perro? ¿Rinaldi? ¿Quién?	¿Quién te va a defender? ¿El Perro? ¿Rinaldi? ¿Quién?	trash	movies	carancho	trash
+carancho	588	3399.37	3403.06	¿Me estás amenazando?	¿Me estás amenazando?	trash	movies	carancho	trash
+carancho	589	3403.17	3406.73	¿Vos estás loco? ¿Vos te olvidás todo o que hice yo por vos?	¿Vos estás loco? ¿Vos te olvidás todo o que hice yo por vos?	trash	movies	carancho	trash
+carancho	590	3406.84	3409.67	Yo te encontré tirado. Te di laburo, te cuidé...	Yo te encontré tirado. Te di laburo, te cuidé...	trash	movies	carancho	trash
+carancho	591	3409.78	3411.9	- Me vas a emocionar. - ¡Emocionáte, pelotudo!	- Me vas a emocionar. - ¡Emocionáte, pelotudo!	trash	movies	carancho	trash
+carancho	592	3412.01	3417.87	Escucháme una cosa. Necesito que me des un poco de tiempo, juntar un poco de guita, y me voy a la mierda.	Escucháme una cosa. Necesito que me des un poco de tiempo, juntar un poco de guita, y me voy a la mierda.	trash	movies	carancho	trash
+carancho	593	3417.99	3421.68	Es solo eso. ¿Lo podés entender. O no?	Es solo eso. ¿Lo podés entender. O no?	trash	movies	carancho	trash
+carancho	594	3422.79	3425.05	No lo puedo creer.	No lo puedo creer.	trash	movies	carancho	trash
+carancho	595	3432.53	3435	- Tranquilo Sosa. - Me das asco. Boludo.	- Tranquilo Sosa. - Me das asco. Boludo.	trash	movies	carancho	trash
+carancho	596	3435.64	3437.4	- Ojo con lo que hacés. - La concha de tu madre.	- Ojo con lo que hacés. - La concha de tu madre.	trash	movies	carancho	trash
+carancho	597	3437.97	3441.1	¿Vos atendiste a Nevares, un paciente con FA?	¿Vos atendiste a Nevares, un paciente con FA?	trash	movies	carancho	trash
+carancho	598	3441.21	3442.27	Sí.	Sí.	trash	movies	carancho	trash
+carancho	599	3442.38	3444.71	¿Y le diste heparina? Sí. Claro.	¿Y le diste heparina? Sí. Claro.	trash	movies	carancho	trash
+carancho	600	3444.81	3445.51	¿Claro? ¿Sos tarada?	¿Claro? ¿Sos tarada?	trash	movies	carancho	trash
+carancho	601	3445.51	3446.48	¿Claro? ¿Sos tarada?	¿Claro? ¿Sos tarada?	trash	movies	carancho	trash
+carancho	602	3446.58	3448.48	¿Qué querés? ¿Matarlo?	¿Qué querés? ¿Matarlo?	trash	movies	carancho	trash
+carancho	603	3448.58	3451.95	¿No te diste cuenta que el tipo tenía una hemorragia digestiva?	¿No te diste cuenta que el tipo tenía una hemorragia digestiva?	trash	movies	carancho	trash
+carancho	604	3452.45	3456.76	- No, no me di cuenta. Perdón. - ¿En qué estás pensando? - Es que estoy sin dormir.	- No, no me di cuenta. Perdón. - ¿En qué estás pensando? - Es que estoy sin dormir.	trash	movies	carancho	trash
+carancho	605	3456.86	3460.03	- Estamos todos cansados. Pero vas a terminar matando a alguien.	- Estamos todos cansados. Pero vas a terminar matando a alguien.	trash	movies	carancho	trash
+carancho	606	3460.6	3462.03	Andá y resolvelo.	Andá y resolvelo.	trash	movies	carancho	trash
+carancho	607	3462.13	3464.03	Pero yo me estaba yendo ya.	Pero yo me estaba yendo ya.	trash	movies	carancho	trash
+carancho	608	3464.13	3468.16	Vos te quedás hasta que o resuelvas, ¿está claro?	Vos te quedás hasta que o resuelvas, ¿está claro?	trash	movies	carancho	trash
+carancho	609	3486.89	3488.56	Doctora, arriba.	Doctora, arriba.	trash	movies	carancho	trash
+carancho	610	3511.58	3513.34	Vamos. Luján. ¿Que pasó?	Vamos. Luján. ¿Que pasó?	trash	movies	carancho	trash
+carancho	611	3513.45	3516.47	Se pegaron un palo en la ruta, un auto y un camión.	Se pegaron un palo en la ruta, un auto y un camión.	trash	movies	carancho	trash
+carancho	612	3516.58	3517.09	¿Cuantas víctimas hay? Y, tenemos 6 víctimas...	¿Cuantas víctimas hay? Y, tenemos 6 víctimas...	trash	movies	carancho	trash
+carancho	613	3519.22	3522.82	- ¿6? - 6. Y 3 aparentemente muy graves.	- ¿6? - 6. Y 3 aparentemente muy graves.	trash	movies	carancho	trash
+carancho	614	3522.92	3524.05	¿Cuántos somos?	¿Cuántos somos?	trash	movies	carancho	trash
+carancho	615	3524.16	3526.25	Estamos Juárez. Vos y yo.	Estamos Juárez. Vos y yo.	trash	movies	carancho	trash
+carancho	616	3526.36	3529.52	- ¿Y Garrido donde está? - Garrido está yendo para la guardia.	- ¿Y Garrido donde está? - Garrido está yendo para la guardia.	trash	movies	carancho	trash
+carancho	617	3534.87	3536.3	Se ahoga. Ayúdeme, ¡Se ahoga. Se ahoga!	Se ahoga. Ayúdeme, ¡Se ahoga. Se ahoga!	trash	movies	carancho	trash
+carancho	618	3540.94	3543.67	Esperá por acá. ¿dale?	Esperá por acá. ¿dale?	trash	movies	carancho	trash
+carancho	619	3545.35	3545.61	Si te pones así no lo puedo atender. Andá para afuera.	Si te pones así no lo puedo atender. Andá para afuera.	trash	movies	carancho	trash
+carancho	620	3554.46	3557.08	Quitá e la remera, poné el oxígeno.	Quitá e la remera, poné el oxígeno.	trash	movies	carancho	trash
+carancho	621	3560.46	3565.76	- No, no le está entrando aire. - ¿Es hipertenso? - Sí. Sí. - Tomá. Tomá.	- No, no le está entrando aire. - ¿Es hipertenso? - Sí. Sí. - Tomá. Tomá.	trash	movies	carancho	trash
+carancho	622	3566.37	3570.13	Ponéle un poco de pervinox. Dale. Tratá de respirar tranquilo.	Ponéle un poco de pervinox. Dale. Tratá de respirar tranquilo.	trash	movies	carancho	trash
+carancho	623	3575.48	3577.6	Volvé a respirar, ¿ahí va? ¿Estamos? ¿Sí?	Volvé a respirar, ¿ahí va? ¿Estamos? ¿Sí?	trash	movies	carancho	trash
+carancho	624	3578.48	3580.54	¿Me escuchás, viejo?	¿Me escuchás, viejo?	trash	movies	carancho	trash
+carancho	625	3588.66	3589.05	- Ahí va. - Bien. Así, dale, dale.	- Ahí va. - Bien. Así, dale, dale.	trash	movies	carancho	trash
+carancho	626	3589.16	3592.06	Ahí va, está ventilando. Está ventilando.	Ahí va, está ventilando. Está ventilando.	trash	movies	carancho	trash
+carancho	627	3592.16	3593.96	Bien. Andá si querés. Yo me quedo.	Bien. Andá si querés. Yo me quedo.	trash	movies	carancho	trash
+carancho	628	3594.06	3595.62	Dale. Ponéle el collar y andá.	Dale. Ponéle el collar y andá.	trash	movies	carancho	trash
+carancho	629	3597.13	3598.5	- Llamá la cirugía.	- Llamá la cirugía.	trash	movies	carancho	trash
+carancho	630	3598.6	3601.4	- Ahora llamo. - Pará que te pongo el collar.	- Ahora llamo. - Pará que te pongo el collar.	trash	movies	carancho	trash
+carancho	631	3601.7	3603.17	- Dale. Yo me quedo con él. - Ya estás. Tranquilo. ¿eh?	- Dale. Yo me quedo con él. - Ya estás. Tranquilo. ¿eh?	trash	movies	carancho	trash
+carancho	632	3603.17	3604.66	- Dale. Yo me quedo con él. - Ya estás. Tranquilo. ¿eh?	- Dale. Yo me quedo con él. - Ya estás. Tranquilo. ¿eh?	trash	movies	carancho	trash
+carancho	633	3604.77	3607.37	Respirá ahí viejo. Respirá hondo y adentro.	Respirá ahí viejo. Respirá hondo y adentro.	trash	movies	carancho	trash
+carancho	634	3621.72	3625.09	- Era mi único hermano varón, doctora. - A ver.	- Era mi único hermano varón, doctora. - A ver.	trash	movies	carancho	trash
+carancho	635	3627.33	3631.53	Bueno, pero tenés que pensar en que tu marido está bien, ¿eh?	Bueno, pero tenés que pensar en que tu marido está bien, ¿eh?	trash	movies	carancho	trash
+carancho	636	3642.31	3646.08	- Va a estar todo bien. ¿sabés? - ¿Cómo le cuento a mi mamá?	- Va a estar todo bien. ¿sabés? - ¿Cómo le cuento a mi mamá?	trash	movies	carancho	trash
+carancho	637	3646.18	3646.21	- Bueno, ya e vas a contar... - ¡Ay. Doctora!	- Bueno, ya e vas a contar... - ¡Ay. Doctora!	trash	movies	carancho	trash
+carancho	638	3649.42	3652.28	Vas a encontrar a forma de contarle.	Vas a encontrar a forma de contarle.	trash	movies	carancho	trash
+carancho	639	3657.19	3660.23	Qué tristeza.	Qué tristeza.	trash	movies	carancho	trash
+carancho	640	3662.3	3664.53	Pará. Pará, pará. - Prometémelo. - ¿Qué cosa?	Pará. Pará, pará. - Prometémelo. - ¿Qué cosa?	trash	movies	carancho	trash
+carancho	641	3664.63	3666.73	Que vas a hacer las cosas bien.	Que vas a hacer las cosas bien.	trash	movies	carancho	trash
+carancho	642	3666.83	3669.67	- Ya te lo dije. - Bueno, prometémelo otra vez.	- Ya te lo dije. - Bueno, prometémelo otra vez.	trash	movies	carancho	trash
+carancho	643	3673.44	3674.74	Te lo prometo otra vez.	Te lo prometo otra vez.	trash	movies	carancho	trash
+carancho	644	3674.74	3675.83	Te lo prometo otra vez.	Te lo prometo otra vez.	trash	movies	carancho	trash
+carancho	645	3676.48	3678.27	¿Está?	¿Está?	trash	movies	carancho	trash
+carancho	646	3682.68	3685.08	Bueno. Vamos.	Bueno. Vamos.	trash	movies	carancho	trash
+carancho	647	3686.19	3688.05	Lo hago por ella, no por vos.	Lo hago por ella, no por vos.	trash	movies	carancho	trash
+carancho	648	3688.16	3688.76	Igual, te agradezco que confíes en mí.	Igual, te agradezco que confíes en mí.	trash	movies	carancho	trash
+carancho	649	3691.53	3692.49	De nada.	De nada.	trash	movies	carancho	trash
+carancho	650	3703.17	3703.27	Mis familiares ya están hablando con otro estudio, pero ellos nos dicen	Mis familiares ya están hablando con otro estudio, pero ellos nos dicen	trash	movies	carancho	trash
+carancho	651	3707.44	3710.78	que es mejor que todos tengamos un mismo abogado.	que es mejor que todos tengamos un mismo abogado.	trash	movies	carancho	trash
+carancho	652	3710.88	3712.61	No, no. Eso no es verdad.	No, no. Eso no es verdad.	trash	movies	carancho	trash
+carancho	653	3712.71	3715.65	Usted tiene derecho a trabajar con quien le parezca conveniente.	Usted tiene derecho a trabajar con quien le parezca conveniente.	trash	movies	carancho	trash
+carancho	654	3715.75	3717.79	Y por favor. No firmen nada todavía.	Y por favor. No firmen nada todavía.	trash	movies	carancho	trash
+carancho	655	3717.99	3719.58	Usted después me trae los papeles	Usted después me trae los papeles	trash	movies	carancho	trash
+carancho	656	3719.69	3722.45	y yo les explico qué es lo que ellos les están proponiendo.	y yo les explico qué es lo que ellos les están proponiendo.	trash	movies	carancho	trash
+carancho	657	3722.56	3724.42	Sí. Doctor.	Sí. Doctor.	trash	movies	carancho	trash
+carancho	658	3724.93	3728.16	¿Y con mi hermano qué vamos a hacer?	¿Y con mi hermano qué vamos a hacer?	trash	movies	carancho	trash
+carancho	659	3728.26	3730.13	Porque mi cuñada está desesperada.	Porque mi cuñada está desesperada.	trash	movies	carancho	trash
+carancho	660	3730.23	3731.8	En el hospital no nos dicen nada, en la policía tampoco.	En el hospital no nos dicen nada, en la policía tampoco.	trash	movies	carancho	trash
+carancho	661	3736.17	3739.9	Y tampoco nos quieren entregar el cuerpo. Señor.	Y tampoco nos quieren entregar el cuerpo. Señor.	trash	movies	carancho	trash
+carancho	662	3802.3	3802.37	- Ay, Dios mío. ¿por qué? - No me dejes, hermanito mío.	- Ay, Dios mío. ¿por qué? - No me dejes, hermanito mío.	trash	movies	carancho	trash
+carancho	663	3802.37	3806.81	Pasás por rayos. Te hacés la placa y me la levás a la guardia. - Yo estoy toda la noche. ¿sí? - Bueno.	Pasás por rayos. Te hacés la placa y me la levás a la guardia. - Yo estoy toda la noche. ¿sí? - Bueno.	trash	movies	carancho	trash
+carancho	664	3808.14	3810.91	¿Olivera? Vení un minuto.	¿Olivera? Vení un minuto.	trash	movies	carancho	trash
+carancho	665	3811.01	3812.88	Sí. ¿que pasó?	Sí. ¿que pasó?	trash	movies	carancho	trash
+carancho	666	3814.62	3816.55	¿Te volviste loca?	¿Te volviste loca?	trash	movies	carancho	trash
+carancho	667	3816.88	3817.89	¿Qué estás haciendo? No, no entiendo.	¿Qué estás haciendo? No, no entiendo.	trash	movies	carancho	trash
+carancho	668	3819.79	3822.92	No te hagas la ingenua. No te hagas la boluda conmigo. ¿eh?	No te hagas la ingenua. No te hagas la boluda conmigo. ¿eh?	trash	movies	carancho	trash
+carancho	669	3823.02	3826.98	¿Vos le estas pasando información a carancho que anda por el hospital?	¿Vos le estas pasando información a carancho que anda por el hospital?	trash	movies	carancho	trash
+carancho	670	3828.16	3829.32	No.	No.	trash	movies	carancho	trash
+carancho	671	3829.43	3831.9	Escucháme una cosa. No me tomes por pelotudo.	Escucháme una cosa. No me tomes por pelotudo.	trash	movies	carancho	trash
+carancho	672	3832.2	3837.73	Tené cuidado con o que hacés, la podés pasar muy mal. Te podés arrepentir.	Tené cuidado con o que hacés, la podés pasar muy mal. Te podés arrepentir.	trash	movies	carancho	trash
+carancho	673	3837.84	3840.31	Miráme cuando te hablo. ¿entendiste?	Miráme cuando te hablo. ¿entendiste?	trash	movies	carancho	trash
+carancho	674	3840.41	3841.81	Me parece que usted está confundido.	Me parece que usted está confundido.	trash	movies	carancho	trash
+carancho	675	3841.91	3844.74	Acá a única confundida sos vos.	Acá a única confundida sos vos.	trash	movies	carancho	trash
+carancho	676	3845.85	3846.41	Y te avisé, no te olvides.	Y te avisé, no te olvides.	trash	movies	carancho	trash
+carancho	677	3975.74	3977.3	Hola.	Hola.	trash	movies	carancho	trash
+carancho	678	3978.45	3980.44	Buen día.	Buen día.	trash	movies	carancho	trash
+carancho	679	3983.38	3985.75	¿Estás bien? Sí.	¿Estás bien? Sí.	trash	movies	carancho	trash
+carancho	680	3995.6	3997.46	¿Qué buscas?	¿Qué buscas?	trash	movies	carancho	trash
+carancho	681	3997.8	4000.73	Mis cosas. ¿Quedaron en el hospital?	Mis cosas. ¿Quedaron en el hospital?	trash	movies	carancho	trash
+carancho	682	4000.84	4002.89	No. Yo las traje, están en tu cartera, por ahí.	No. Yo las traje, están en tu cartera, por ahí.	trash	movies	carancho	trash
+carancho	683	4003	4003.57	- ¿Las querés? - No, no. Está bien.	- ¿Las querés? - No, no. Está bien.	trash	movies	carancho	trash
+carancho	684	4007.81	4011.77	Estoy bien, ¿eh? Si querés. Andá. ¿Querés que me vaya?	Estoy bien, ¿eh? Si querés. Andá. ¿Querés que me vaya?	trash	movies	carancho	trash
+carancho	685	4014.68	4017.24	No. Quiero que te quedes.	No. Quiero que te quedes.	trash	movies	carancho	trash
+carancho	686	4018.69	4020.75	Entonces. Me quedo.	Entonces. Me quedo.	trash	movies	carancho	trash
+carancho	687	4023.12	4025.46	Gracias por traerme.	Gracias por traerme.	trash	movies	carancho	trash
+carancho	688	4044.31	4046.61	El otro día anduvieron por acá.	El otro día anduvieron por acá.	trash	movies	carancho	trash
+carancho	689	4046.71	4048.15	- ¿Quién? - El gordo.	- ¿Quién? - El gordo.	trash	movies	carancho	trash
+carancho	690	4048.25	4051.65	Ah. ¿Y? Preguntó si te había visto y eso. No.	Ah. ¿Y? Preguntó si te había visto y eso. No.	trash	movies	carancho	trash
+carancho	691	4052.09	4053.99	- ¿Tenés los papeles? - Sí.	- ¿Tenés los papeles? - Sí.	trash	movies	carancho	trash
+carancho	692	4054.82	4056.81	Tomá, contálo bien.	Tomá, contálo bien.	trash	movies	carancho	trash
+carancho	693	4058.13	4059.96	¿En qué andás?	¿En qué andás?	trash	movies	carancho	trash
+carancho	694	4064.23	4065.89	Ey. Guardate un poco.	Ey. Guardate un poco.	trash	movies	carancho	trash
+carancho	695	4089.39	4094.93	¿Le decís a Ibáñez que está Sosa? Ahora le digo. ¿Tomás algo? Un vaso de agua.	¿Le decís a Ibáñez que está Sosa? Ahora le digo. ¿Tomás algo? Un vaso de agua.	trash	movies	carancho	trash
+carancho	696	4114.45	4117.88	¿qué pensás? ¿Vos creés que yo no sé hace cuánto venís hablando con Casa?	¿qué pensás? ¿Vos creés que yo no sé hace cuánto venís hablando con Casa?	trash	movies	carancho	trash
+carancho	697	4117.99	4118.19	Me estás cansando.	Me estás cansando.	trash	movies	carancho	trash
+carancho	698	4123.79	4126.28	- Adiós, Sosa. - Rinaldi.	- Adiós, Sosa. - Rinaldi.	trash	movies	carancho	trash
+carancho	699	4127.16	4129.43	Sosa, perdoname la demora, ¿eh?	Sosa, perdoname la demora, ¿eh?	trash	movies	carancho	trash
+carancho	700	4129.53	4131.33	No, por favor, no hay problema.	No, por favor, no hay problema.	trash	movies	carancho	trash
+carancho	701	4131.9	4132.7	Vos siempre dándome sorpresas a mí, ¿eh?	Vos siempre dándome sorpresas a mí, ¿eh?	trash	movies	carancho	trash
+carancho	702	4134.44	4139.24	Te escapás de la fundación así nomás. Sin decir una palabra. Sin saludar.	Te escapás de la fundación así nomás. Sin decir una palabra. Sin saludar.	trash	movies	carancho	trash
+carancho	703	4139.34	4142.64	Pegando un portazo. Eso es un acto de ingratitud.	Pegando un portazo. Eso es un acto de ingratitud.	trash	movies	carancho	trash
+carancho	704	4142.74	4145.3	Sí. Sí. Sí, sí. Claro que lo es.	Sí. Sí. Sí, sí. Claro que lo es.	trash	movies	carancho	trash
+carancho	705	4146.15	4146.71	Y después venís acá, sin avisar. Nada.	Y después venís acá, sin avisar. Nada.	trash	movies	carancho	trash
+carancho	706	4148.02	4151.21	- No, avisé. Pero... - ¿A quién le avisaste?	- No, avisé. Pero... - ¿A quién le avisaste?	trash	movies	carancho	trash
+carancho	707	4151.52	4155.25	Te estas ocupando del accidente de la ruta 3, ¿no?	Te estas ocupando del accidente de la ruta 3, ¿no?	trash	movies	carancho	trash
+carancho	708	4157.12	4161.23	¿Ya tenés os poderes? 2. Los otros 3 los tiene Casal.	¿Ya tenés os poderes? 2. Los otros 3 los tiene Casal.	trash	movies	carancho	trash
+carancho	709	4162.3	4164.53	¿Y qué haces acá?	¿Y qué haces acá?	trash	movies	carancho	trash
+carancho	710	4166.8	4168.83	No sé. Quiero trabajar tranquilo.	No sé. Quiero trabajar tranquilo.	trash	movies	carancho	trash
+carancho	711	4168.94	4172.63	Casal está muy ansioso. Se me vino encima.	Casal está muy ansioso. Se me vino encima.	trash	movies	carancho	trash
+carancho	712	4173.14	4175.24	Necesitaría que o controles un poco.	Necesitaría que o controles un poco.	trash	movies	carancho	trash
+carancho	713	4176.08	4178.24	Sí. Es que me quiere calgar. Casal.	Sí. Es que me quiere calgar. Casal.	trash	movies	carancho	trash
+carancho	714	4178.35	4181.44	Está tranzando con Rinaldi.	Está tranzando con Rinaldi.	trash	movies	carancho	trash
+carancho	715	4181.55	4183.52	Bueno. No importa, siempre fue así.	Bueno. No importa, siempre fue así.	trash	movies	carancho	trash
+carancho	716	4183.62	4186.48	Cuando estás arriba. Os que están abajo te quieren sacar algo.	Cuando estás arriba. Os que están abajo te quieren sacar algo.	trash	movies	carancho	trash
+carancho	717	4186.59	4189.61	- Yo no le quiero sacar nada a nadie. - Yo sí.	- Yo no le quiero sacar nada a nadie. - Yo sí.	trash	movies	carancho	trash
+carancho	718	4189.72	4194.72	Yo quiero los 5 poderes firmados acá. Y que me los traigas vos, no Casal.	Yo quiero los 5 poderes firmados acá. Y que me los traigas vos, no Casal.	trash	movies	carancho	trash
+carancho	719	4194.83	4198.46	Yo te ayudo, vos me ayudas.	Yo te ayudo, vos me ayudas.	trash	movies	carancho	trash
+carancho	720	4199.3	4202.96	¿Y qué necesitás para conseguir esos poderes?	¿Y qué necesitás para conseguir esos poderes?	trash	movies	carancho	trash
+carancho	721	4204.94	4206.67	Tiempo.	Tiempo.	trash	movies	carancho	trash
+carancho	722	4206.77	4208.71	Lo vas a tener.	Lo vas a tener.	trash	movies	carancho	trash
+carancho	723	4208.81	4211.8	Yo me ocupo de controlar a Casal para que no te joda...	Yo me ocupo de controlar a Casal para que no te joda...	trash	movies	carancho	trash
+carancho	724	4211.91	4215.18	y cuando vos tengas os poderes firmados, me los traés.	y cuando vos tengas os poderes firmados, me los traés.	trash	movies	carancho	trash
+carancho	725	4215.28	4219.78	IBAÑEZ: Si esto sale bien, tengo grandes proyectos para vos.	IBAÑEZ: Si esto sale bien, tengo grandes proyectos para vos.	trash	movies	carancho	trash
+carancho	726	4228.1	4230.12	Doctor nuestra intención es negociar.	Doctor nuestra intención es negociar.	trash	movies	carancho	trash
+carancho	727	4230.23	4233.06	Pero la situación se presentó muy complicada.	Pero la situación se presentó muy complicada.	trash	movies	carancho	trash
+carancho	728	4233.17	4236.97	Usted maneja unos casos, e doctor Casal maneja otros.	Usted maneja unos casos, e doctor Casal maneja otros.	trash	movies	carancho	trash
+carancho	729	4237.07	4241.34	Para la compañía sería más simple negociar todas las víctimas del siniestro con un solo estudio.	Para la compañía sería más simple negociar todas las víctimas del siniestro con un solo estudio.	trash	movies	carancho	trash
+carancho	730	4241.44	4244	- ¿Me entiende, o no? - Sí, o entiendo perfecto.	- ¿Me entiende, o no? - Sí, o entiendo perfecto.	trash	movies	carancho	trash
+carancho	731	4244.35	4248.68	Si prefiere terminamos de charlar todo esto en Tribunales y listo.	Si prefiere terminamos de charlar todo esto en Tribunales y listo.	trash	movies	carancho	trash
+carancho	732	4249.25	4251.44	El doctor Casal me llamó 5 veces hoy	El doctor Casal me llamó 5 veces hoy	trash	movies	carancho	trash
+carancho	733	4251.55	4255.68	y me dijo que su situación no tiene sentido. Que sus poderes fueron revocados.	y me dijo que su situación no tiene sentido. Que sus poderes fueron revocados.	trash	movies	carancho	trash
+carancho	734	4256.02	4258.18	¿Usted le cree a Casal?	¿Usted le cree a Casal?	trash	movies	carancho	trash
+carancho	735	4258.29	4259.85	¿A Casal?	¿A Casal?	trash	movies	carancho	trash
+carancho	736	4260.73	4265.56	Esta invitación es para usted, es del cumpleaños de 15 de mi hija.	Esta invitación es para usted, es del cumpleaños de 15 de mi hija.	trash	movies	carancho	trash
+carancho	737	4265.67	4268.33	Bueno. Muchas gracias. Qué lindo.	Bueno. Muchas gracias. Qué lindo.	trash	movies	carancho	trash
+carancho	738	4268.44	4269.96	Va a venir. ¿verdad?	Va a venir. ¿verdad?	trash	movies	carancho	trash
+carancho	739	4270.4	4272.46	- ¿Cuando es? - El sábado que viene.	- ¿Cuando es? - El sábado que viene.	trash	movies	carancho	trash
+carancho	740	4272.57	4275.13	Lo que pasa es que yo el sábado trabajo.	Lo que pasa es que yo el sábado trabajo.	trash	movies	carancho	trash
+carancho	741	4275.24	4276.9	Tengo guardia, no puedo.	Tengo guardia, no puedo.	trash	movies	carancho	trash
+carancho	742	4277.01	4280.45	Un ratito doctora, por favor.	Un ratito doctora, por favor.	trash	movies	carancho	trash
+carancho	743	4280.98	4286.21	Gracias a usted mi marido está vivo y podemos hacer esta fiesta.	Gracias a usted mi marido está vivo y podemos hacer esta fiesta.	trash	movies	carancho	trash
+carancho	744	4286.32	4289.88	Nos encantaría que venga. Usted va a ser la invitada especial.	Nos encantaría que venga. Usted va a ser la invitada especial.	trash	movies	carancho	trash
+carancho	745	4289.99	4293.79	¡Vamos chicos! ¿Listos?	¡Vamos chicos! ¿Listos?	trash	movies	carancho	trash
+carancho	746	4296.53	4298.12	Un minuto.	Un minuto.	trash	movies	carancho	trash
+carancho	747	4298.87	4300.86	¡Vamos!	¡Vamos!	trash	movies	carancho	trash
+carancho	748	4302.14	4304.7	Ahí va. A ver.	Ahí va. A ver.	trash	movies	carancho	trash
+carancho	749	4305.41	4307.17	Sonrían, whisky.	Sonrían, whisky.	trash	movies	carancho	trash
+carancho	750	4308.11	4310.98	Otra más.	Otra más.	trash	movies	carancho	trash
+carancho	751	4311.08	4312.98	Vamos. A ver la abuela, sonría.	Vamos. A ver la abuela, sonría.	trash	movies	carancho	trash
+carancho	752	4313.75	4317.01	Aparece con esta oferta y lo firma. Es lógico.	Aparece con esta oferta y lo firma. Es lógico.	trash	movies	carancho	trash
+carancho	753	4317.12	4320.38	Bueno. E compraron el caso. Y usted ni se enteró. Así es.	Bueno. E compraron el caso. Y usted ni se enteró. Así es.	trash	movies	carancho	trash
+carancho	754	4320.49	4323.48	Al año. Se puede enterar que altravés de la demanda,	Al año. Se puede enterar que altravés de la demanda,	trash	movies	carancho	trash
+carancho	755	4323.59	4326.35	consiguen 80, 100, 120 mil pesos o lo que sea...	consiguen 80, 100, 120 mil pesos o lo que sea...	trash	movies	carancho	trash
+carancho	756	4326.46	4328.36	y usted lo siente como una estafa.	y usted lo siente como una estafa.	trash	movies	carancho	trash
+carancho	757	4328.46	4331.9	Quiere hacer una denuncia. Es tarde, ya firmó.	Quiere hacer una denuncia. Es tarde, ya firmó.	trash	movies	carancho	trash
+carancho	758	4332	4338.53	¿Qué pasa? E los pueden hacerlo porque tienen mucha plata. Tienen muchos casos como el de ustedes y tienen tiempo.	¿Qué pasa? E los pueden hacerlo porque tienen mucha plata. Tienen muchos casos como el de ustedes y tienen tiempo.	trash	movies	carancho	trash
+carancho	759	4338.64	4340.33	Pueden esperar.	Pueden esperar.	trash	movies	carancho	trash
+carancho	760	4340.44	4344.24	Todo está bien. Doctor. Pero con usted, ¿cuándo cobramos?	Todo está bien. Doctor. Pero con usted, ¿cuándo cobramos?	trash	movies	carancho	trash
+carancho	761	4344.34	4350.48	Eso no es algo que decido yo. Eso lo tenemos que charlar, Lo tenemos que hablar, como en el caso de ellos.	Eso no es algo que decido yo. Eso lo tenemos que charlar, Lo tenemos que hablar, como en el caso de ellos.	trash	movies	carancho	trash
+carancho	762	4350.58	4352.28	Lo importante es no apurarse.	Lo importante es no apurarse.	trash	movies	carancho	trash
+carancho	763	4352.39	4353.82	Acá el que se apura. Pierde. Por eso es que el los ganan.	Acá el que se apura. Pierde. Por eso es que el los ganan.	trash	movies	carancho	trash
+carancho	764	4353.92	4357.58	La clave es saber esperar.	La clave es saber esperar.	trash	movies	carancho	trash
+carancho	765	4391.16	4393.56	¡Un aplauso para la doctora, por favor!	¡Un aplauso para la doctora, por favor!	trash	movies	carancho	trash
+carancho	766	4399.93	4401.9	Vamos a medio.	Vamos a medio.	trash	movies	carancho	trash
+carancho	767	4547.91	4549.75	Te quiero.	Te quiero.	trash	movies	carancho	trash
+carancho	768	4554.55	4558.92	Después. Cuando vine a Buenos Aires. Conocí a un tipo que era anestesista	Después. Cuando vine a Buenos Aires. Conocí a un tipo que era anestesista	trash	movies	carancho	trash
+carancho	769	4559.03	4561.86	y con él me empecé a inyectar.	y con él me empecé a inyectar.	trash	movies	carancho	trash
+carancho	770	4563.76	4566.53	Es lo único que me calma.	Es lo único que me calma.	trash	movies	carancho	trash
+carancho	771	4568.24	4571.14	Nada. Igual, también me gusta, creo.	Nada. Igual, también me gusta, creo.	trash	movies	carancho	trash
+carancho	772	4577.08	4582.55	- ¿Y fotos tenés? - ¿De qué? De cuando eras gorda.	- ¿Y fotos tenés? - ¿De qué? De cuando eras gorda.	trash	movies	carancho	trash
+carancho	773	4582.65	4584.41	No te las voy a mostrar nunca.	No te las voy a mostrar nunca.	trash	movies	carancho	trash
+carancho	774	4584.52	4586.25	Qué lástima.	Qué lástima.	trash	movies	carancho	trash
+carancho	775	4586.35	4589.98	No sé porque pienso que me gustarías gorda, ¿eh?	No sé porque pienso que me gustarías gorda, ¿eh?	trash	movies	carancho	trash
+carancho	776	4590.09	4592.12	¿Qué? ¿Así no te gusto?	¿Qué? ¿Así no te gusto?	trash	movies	carancho	trash
+carancho	777	4592.23	4594.63	Más o menos.	Más o menos.	trash	movies	carancho	trash
+carancho	778	4596.93	4598.63	Qué malo.	Qué malo.	trash	movies	carancho	trash
+carancho	779	4608.01	4610.53	- Contáme algo de vos. - ¿De mí?	- Contáme algo de vos. - ¿De mí?	trash	movies	carancho	trash
+carancho	780	4610.64	4612.58	- Sí. - No.	- Sí. - No.	trash	movies	carancho	trash
+carancho	781	4612.68	4615.31	- ¿Por qué? - Porque a estamos pasando bien.	- ¿Por qué? - Porque a estamos pasando bien.	trash	movies	carancho	trash
+carancho	782	4616.62	4619.02	Me gustaría dejarlo así.	Me gustaría dejarlo así.	trash	movies	carancho	trash
+carancho	783	4638.47	4642.84	"En San Justo, partido de La Matanza, provincia de Buenos Aires.	"En San Justo, partido de La Matanza, provincia de Buenos Aires.	trash	movies	carancho	trash
+carancho	784	4642.94	4647.51	Se presentan y dicen que otorgan poder general judicial	Se presentan y dicen que otorgan poder general judicial	trash	movies	carancho	trash
+carancho	785	4647.61	4650.64	a favor de doctor Sosa Héctor.	a favor de doctor Sosa Héctor.	trash	movies	carancho	trash
+carancho	786	4650.75	4655.78	Para que intervenga y entienda en todos los asuntos judiciales,	Para que intervenga y entienda en todos los asuntos judiciales,	trash	movies	carancho	trash
+carancho	787	4655.89	4660.35	quedando por consiguiente facultado para cobrar.	quedando por consiguiente facultado para cobrar.	trash	movies	carancho	trash
+carancho	788	4660.46	4663.19	Percibir y gestionar diligencias."	Percibir y gestionar diligencias."	trash	movies	carancho	trash
+carancho	789	4663.3	4669.43	Y eso es que me están autorizando también a cobrar por ustedes ante a aseguradora.	Y eso es que me están autorizando también a cobrar por ustedes ante a aseguradora.	trash	movies	carancho	trash
+carancho	790	4670.14	4672.5	Ahora firmo yo. Si me permite.	Ahora firmo yo. Si me permite.	trash	movies	carancho	trash
+carancho	791	4681.82	4684.31	Para eso me sacaste a bailar... - para verduguiarme, por eso no quería.	Para eso me sacaste a bailar... - para verduguiarme, por eso no quería.	trash	movies	carancho	trash
+carancho	792	4684.42	4686.75	- No, mentira. -No ves que es así?	- No, mentira. -No ves que es así?	trash	movies	carancho	trash
+carancho	793	4690.59	4694.68	Muy quieto acá. En los hombros.	Muy quieto acá. En los hombros.	trash	movies	carancho	trash
+carancho	794	4705.74	4708.11	No puedo creer que estoy acá otra vez.	No puedo creer que estoy acá otra vez.	trash	movies	carancho	trash
+carancho	795	4708.21	4710.57	Y. ¿cómo hacemos? ¿Te paso a buscar a la noche?	Y. ¿cómo hacemos? ¿Te paso a buscar a la noche?	trash	movies	carancho	trash
+carancho	796	4710.68	4712.87	No, estoy hasta mañana.	No, estoy hasta mañana.	trash	movies	carancho	trash
+carancho	797	4713.48	4716.14	- Ah. Y, ¿entonces? - Yo te amo.	- Ah. Y, ¿entonces? - Yo te amo.	trash	movies	carancho	trash
+carancho	798	4718.59	4722.58	¿ Me lo levás a shock y le ponés una vía? Gracias, ¿eh?	¿ Me lo levás a shock y le ponés una vía? Gracias, ¿eh?	trash	movies	carancho	trash
+carancho	799	4723.86	4726.52	A de la 12 hay que cambiarle el suero. ¿sabes?	A de la 12 hay que cambiarle el suero. ¿sabes?	trash	movies	carancho	trash
+carancho	800	4726.63	4730.26	Doctora, por un análisis de sangre. Ésta es la orden.	Doctora, por un análisis de sangre. Ésta es la orden.	trash	movies	carancho	trash
+carancho	801	4730.36	4733.2	No, no es por acá, - es de otro lado.	No, no es por acá, - es de otro lado.	trash	movies	carancho	trash
+carancho	802	4752.75	4754.62	¿Hola?	¿Hola?	trash	movies	carancho	trash
+carancho	803	4766.83	4769.46	¿Hola? Me quedé encerrada.	¿Hola? Me quedé encerrada.	trash	movies	carancho	trash
+carancho	804	4769.57	4771.94	No se puede abrir, doctora.	No se puede abrir, doctora.	trash	movies	carancho	trash
+carancho	805	4772.37	4775.03	Acá tiene algo para leer.	Acá tiene algo para leer.	trash	movies	carancho	trash
+carancho	806	4775.14	4777.2	Así no se aburre.	Así no se aburre.	trash	movies	carancho	trash
+carancho	807	4788.99	4792.82	- ¿Me abrís? - ¿Qué te pasa? - Dejáme pasar.	- ¿Me abrís? - ¿Qué te pasa? - Dejáme pasar.	trash	movies	carancho	trash
+carancho	808	4792.93	4796.86	- Caminá. - Soltame. - Tranquila. ¿Eh?	- Caminá. - Soltame. - Tranquila. ¿Eh?	trash	movies	carancho	trash
+carancho	809	4797.26	4799.49	Sin complicármela. ¿Estamos?	Sin complicármela. ¿Estamos?	trash	movies	carancho	trash
+carancho	810	4799.6	4803.3	Tranquilita que no te va a pasar nada. ¿Hay alguien más acá?	Tranquilita que no te va a pasar nada. ¿Hay alguien más acá?	trash	movies	carancho	trash
+carancho	811	4803.4	4804.77	- No. - ¿Eh?	- No. - ¿Eh?	trash	movies	carancho	trash
+carancho	812	4805.17	4807.4	¿Vos sabés por qué estamos acá?	¿Vos sabés por qué estamos acá?	trash	movies	carancho	trash
+carancho	813	4810.08	4812.84	No. ¿Qué te pasa? ¿Sos tonta o no leíste el expediente vos?	No. ¿Qué te pasa? ¿Sos tonta o no leíste el expediente vos?	trash	movies	carancho	trash
+carancho	814	4812.95	4814.94	Andá ala puerta.	Andá ala puerta.	trash	movies	carancho	trash
+carancho	815	4817.72	4820.62	¿Qué hace una pendeja como vos metida en esto?	¿Qué hace una pendeja como vos metida en esto?	trash	movies	carancho	trash
+carancho	816	4821.29	4823.88	Vos sabés por qué estamos acá.	Vos sabés por qué estamos acá.	trash	movies	carancho	trash
+carancho	817	4824.26	4826.35	Te dimos señales.	Te dimos señales.	trash	movies	carancho	trash
+carancho	818	4826.46	4828.55	¿Querés más?	¿Querés más?	trash	movies	carancho	trash
+carancho	819	4828.93	4830.26	Dejame pasar.	Dejame pasar.	trash	movies	carancho	trash
+carancho	820	4832.57	4834.56	Me estás lastimando.	Me estás lastimando.	trash	movies	carancho	trash
+carancho	821	4834.67	4837.73	Adónde vas? Esto no se terminó.	Adónde vas? Esto no se terminó.	trash	movies	carancho	trash
+carancho	822	4837.84	4840.17	Yo digo cuando termina.	Yo digo cuando termina.	trash	movies	carancho	trash
+carancho	823	4841.64	4843.4	Terminaste?	Terminaste?	trash	movies	carancho	trash
+carancho	824	4848.42	4850.38	- ¡Pará. Pará! - ¡Calláte!	- ¡Pará. Pará! - ¡Calláte!	trash	movies	carancho	trash
+carancho	825	4874.04	4878.31	¿Qué te pasó? ¿Qué tenés? ¿Qué te hicieron? Miráme. Miráme, por favor. Dejáme ver.	¿Qué te pasó? ¿Qué tenés? ¿Qué te hicieron? Miráme. Miráme, por favor. Dejáme ver.	trash	movies	carancho	trash
+carancho	826	4878.41	4880.81	Luján. Luján. Dejáme verte. Dejáme verte.	Luján. Luján. Dejáme verte. Dejáme verte.	trash	movies	carancho	trash
+carancho	827	4881.78	4884.65	- Ay. Hijos de puta. - Sacame de acá, por favor.	- Ay. Hijos de puta. - Sacame de acá, por favor.	trash	movies	carancho	trash
+carancho	828	4884.75	4889.22	¿Estás bien? ¿Estás bien? Amor. Decíme.	¿Estás bien? ¿Estás bien? Amor. Decíme.	trash	movies	carancho	trash
+carancho	829	4893.99	4895.76	Perdoname, por favor.	Perdoname, por favor.	trash	movies	carancho	trash
+carancho	830	4895.86	4897.85	Luján, perdoname.	Luján, perdoname.	trash	movies	carancho	trash
+carancho	831	4904.6	4906.6	Sentáte ahí. Afirmáte.	Sentáte ahí. Afirmáte.	trash	movies	carancho	trash
+carancho	832	4906.71	4908.54	Ahí. Dejáme ver.	Ahí. Dejáme ver.	trash	movies	carancho	trash
+carancho	833	4910.18	4912.3	Abrí a boca.	Abrí a boca.	trash	movies	carancho	trash
+carancho	834	4913.91	4915.81	Hijos de puta.	Hijos de puta.	trash	movies	carancho	trash
+carancho	835	4916.52	4919.45	A ver. Te voy a sacar esto, levantá los brazos.	A ver. Te voy a sacar esto, levantá los brazos.	trash	movies	carancho	trash
+carancho	836	4921.45	4923.22	- ¿Qué? - Ay. Me duele.	- ¿Qué? - Ay. Me duele.	trash	movies	carancho	trash
+carancho	837	4923.32	4925.95	- ¿Qué te duele? ¿ Qué te duele? - Todo.	- ¿Qué te duele? ¿ Qué te duele? - Todo.	trash	movies	carancho	trash
+carancho	838	4941.68	4943.7	Ay, esperá. Esperá.	Ay, esperá. Esperá.	trash	movies	carancho	trash
+carancho	839	4946.25	4947.54	¿ Qué?	¿ Qué?	trash	movies	carancho	trash
+carancho	840	4949.52	4951.28	Ayudáme.	Ayudáme.	trash	movies	carancho	trash
+carancho	841	4952.09	4953.75	Por favor.	Por favor.	trash	movies	carancho	trash
+carancho	842	4985.55	4987.65	Ponela en la vena.	Ponela en la vena.	trash	movies	carancho	trash
+carancho	843	4987.75	4990.38	- Sé como hacerlo. - ¿Ves?	- Sé como hacerlo. - ¿Ves?	trash	movies	carancho	trash
+carancho	844	5011.51	5012.91	Miráme.	Miráme.	trash	movies	carancho	trash
+carancho	845	5013.01	5014.81	Gracias.	Gracias.	trash	movies	carancho	trash
+carancho	846	5023.42	5026.15	Perdonáme, por favor.	Perdonáme, por favor.	trash	movies	carancho	trash
+carancho	847	5028.86	5031.09	Ay, voy a estar bien.	Ay, voy a estar bien.	trash	movies	carancho	trash
+carancho	848	5045.55	5047.14	Te amo.	Te amo.	trash	movies	carancho	trash
+carancho	849	5069.3	5070.96	- ¡Hijo de puta!	- ¡Hijo de puta!	trash	movies	carancho	trash
+carancho	850	5071.37	5074.57	¡Con ella no te metés más!	¡Con ella no te metés más!	trash	movies	carancho	trash
+carancho	851	5076.54	5079.03	¡La puta que te parió!	¡La puta que te parió!	trash	movies	carancho	trash
+carancho	852	5079.75	5082.08	Nunca más. ¿me entendés?	Nunca más. ¿me entendés?	trash	movies	carancho	trash
+carancho	853	5082.18	5084.01	¡Nunca más!	¡Nunca más!	trash	movies	carancho	trash
+carancho	854	5099.9	5101.76	¿Me oíste?	¿Me oíste?	trash	movies	carancho	trash
+carancho	855	5102.3	5104.24	¿Me oís bien?	¿Me oís bien?	trash	movies	carancho	trash
+carancho	856	5107.17	5108.87	¡Contestá!	¡Contestá!	trash	movies	carancho	trash
+carancho	857	5110.01	5112.67	La puta que te parió.	La puta que te parió.	trash	movies	carancho	trash
+carancho	858	5145.95	5147.47	¿Qué pasó?	¿Qué pasó?	trash	movies	carancho	trash
+carancho	859	5192.89	5194.79	Luján, vamos.	Luján, vamos.	trash	movies	carancho	trash
+carancho	860	5195.36	5197.52	Despertate, dale.	Despertate, dale.	trash	movies	carancho	trash
+carancho	861	5198.3	5200.32	- Por favor Luján, levantáte. - ¿Qué haces?	- Por favor Luján, levantáte. - ¿Qué haces?	trash	movies	carancho	trash
+carancho	862	5200.43	5204.43	Escucháme. No tenemos tiempo. Nos tenemos que ir. Dale.	Escucháme. No tenemos tiempo. Nos tenemos que ir. Dale.	trash	movies	carancho	trash
+carancho	863	5204.54	5206.51	- ¿Qué te pasó? - Poné algo de ropa.	- ¿Qué te pasó? - Poné algo de ropa.	trash	movies	carancho	trash
+carancho	864	5206.61	5208.54	Hace o que te dije. Después te explico.	Hace o que te dije. Después te explico.	trash	movies	carancho	trash
+carancho	865	5208.91	5210.03	Dale, acá te dejo el bolso.	Dale, acá te dejo el bolso.	trash	movies	carancho	trash
+carancho	866	5230.3	5231.76	Vamos.	Vamos.	trash	movies	carancho	trash
+carancho	867	5250.38	5252.48	Esperá. No abras. Esperá, escucháme. No mires para afuera.	Esperá. No abras. Esperá, escucháme. No mires para afuera.	trash	movies	carancho	trash
+carancho	868	5252.59	5256.52	No mires para afuera, no mires para afuera, mirame a mí.	No mires para afuera, no mires para afuera, mirame a mí.	trash	movies	carancho	trash
+carancho	869	5256.62	5259.25	- Vamos a hacer otra cosa. - Vamos para arriba.	- Vamos a hacer otra cosa. - Vamos para arriba.	trash	movies	carancho	trash
+carancho	870	5259.36	5260.62	- Vos vas a ir para arriba. - No.	- Vos vas a ir para arriba. - No.	trash	movies	carancho	trash
+carancho	871	5260.73	5263.63	Te vas a encerrar en el departamento y no vas a abrir hasta que yo vue va.	Te vas a encerrar en el departamento y no vas a abrir hasta que yo vue va.	trash	movies	carancho	trash
+carancho	872	5263.73	5268.03	¿Me escuchaste? No atiendas el teléfono. - Escucháme, no hables. - No te vayas, por favor.	¿Me escuchaste? No atiendas el teléfono. - Escucháme, no hables. - No te vayas, por favor.	trash	movies	carancho	trash
+carancho	873	5274.97	5283.24	¡Escucháme a mí! Miráme. Abrí los ojos. Abrí los ojos.	¡Escucháme a mí! Miráme. Abrí los ojos. Abrí los ojos.	trash	movies	carancho	trash
+carancho	874	5283.55	5291.45	Agarrá el bolso. Anda arriba, encerráte y no le abras a nadie hasta que yo vuelva. No atiendas el teléfono tampoco.	Agarrá el bolso. Anda arriba, encerráte y no le abras a nadie hasta que yo vuelva. No atiendas el teléfono tampoco.	trash	movies	carancho	trash
+carancho	875	5291.56	5293.86	Yo vuelvo. Yo vuelvo.	Yo vuelvo. Yo vuelvo.	trash	movies	carancho	trash
+carancho	876	5293.96	5295.69	Te juro que vuelvo.	Te juro que vuelvo.	trash	movies	carancho	trash
+carancho	877	5295.8	5298.2	- Por favor. - Tranquila, anda arriba.	- Por favor. - Tranquila, anda arriba.	trash	movies	carancho	trash
+carancho	878	5298.3	5300.2	Vuelvo, amor. Chau.	Vuelvo, amor. Chau.	trash	movies	carancho	trash
+carancho	879	5315.72	5317.27	Vení. Mirá.	Vení. Mirá.	trash	movies	carancho	trash
+carancho	880	5317.72	5319.45	Mirá como o dejaste.	Mirá como o dejaste.	trash	movies	carancho	trash
+carancho	881	5319.55	5322.42	Qué o parió che, como quedó este hombre.	Qué o parió che, como quedó este hombre.	trash	movies	carancho	trash
+carancho	882	5323.16	5325.06	Se te fue la mano.	Se te fue la mano.	trash	movies	carancho	trash
+carancho	883	5325.16	5327.06	Pobre muchacho.	Pobre muchacho.	trash	movies	carancho	trash
+carancho	884	5328.49	5334.12	Casa estaba buscando roña y la encontró.	Casa estaba buscando roña y la encontró.	trash	movies	carancho	trash
+carancho	885	5335.44	5337.06	Bueno. Ya fue.	Bueno. Ya fue.	trash	movies	carancho	trash
+carancho	886	5337.17	5339.4	Pero la verdad es que me hicieron un favor.	Pero la verdad es que me hicieron un favor.	trash	movies	carancho	trash
+carancho	887	5339.51	5342.27	Lo que yo no quiero es que a vos te rompan las pelotas éstos.	Lo que yo no quiero es que a vos te rompan las pelotas éstos.	trash	movies	carancho	trash
+carancho	888	5342.38	5346.4	- ¿Qué querés? - Que te quedes tranquilo.	- ¿Qué querés? - Que te quedes tranquilo.	trash	movies	carancho	trash
+carancho	889	5347.05	5348.67	Soltalo.	Soltalo.	trash	movies	carancho	trash
+carancho	890	5349.42	5351.44	Vamos a conversar, vení.	Vamos a conversar, vení.	trash	movies	carancho	trash
+carancho	891	5353.05	5354.99	Sentáte. Dale.	Sentáte. Dale.	trash	movies	carancho	trash
+carancho	892	5365.4	5368.86	Conseguiste todos los casos y no me avisaste.	Conseguiste todos los casos y no me avisaste.	trash	movies	carancho	trash
+carancho	893	5371.04	5373.44	Bueno, no importa. Cuando os cobres,	Bueno, no importa. Cuando os cobres,	trash	movies	carancho	trash
+carancho	894	5373.81	5376.43	cambiás el cheque y me traés a plata a mí.	cambiás el cheque y me traés a plata a mí.	trash	movies	carancho	trash
+carancho	895	5376.54	5378.27	¿ Cuánto?	¿ Cuánto?	trash	movies	carancho	trash
+carancho	896	5378.38	5384.31	Todo, obvio. Tomalo como una inversión. Esa plata no es mía.	Todo, obvio. Tomalo como una inversión. Esa plata no es mía.	trash	movies	carancho	trash
+carancho	897	5384.42	5387.61	Yo no puedo resolver todos tus problemas.	Yo no puedo resolver todos tus problemas.	trash	movies	carancho	trash
+carancho	898	5387.72	5392.38	Yo te ofrezco amistad y protección. ¿parece poco?	Yo te ofrezco amistad y protección. ¿parece poco?	trash	movies	carancho	trash
+carancho	899	5395.5	5396.72	¿Muñoz?	¿Muñoz?	trash	movies	carancho	trash
+carancho	900	5397.76	5399.49	¡Che, Muñoz!	¡Che, Muñoz!	trash	movies	carancho	trash
+carancho	901	5401.6	5403.3	Sí. Acá estoy.	Sí. Acá estoy.	trash	movies	carancho	trash
+carancho	902	5404.7	5408.5	É tiene que hacer un trámite muy delicado para mí.	É tiene que hacer un trámite muy delicado para mí.	trash	movies	carancho	trash
+carancho	903	5408.61	5411.34	Yo quiero que vos lo acompañes y que te quedes con él.	Yo quiero que vos lo acompañes y que te quedes con él.	trash	movies	carancho	trash
+carancho	904	5411.44	5413.91	- Para su mayor seguridad. - Perfecto.	- Para su mayor seguridad. - Perfecto.	trash	movies	carancho	trash
+carancho	905	5414.01	5416.81	Vení. Vayan tranquilos.	Vení. Vayan tranquilos.	trash	movies	carancho	trash
+carancho	906	5420.62	5423.68	Che. Sosa. ¡Sosa!	Che. Sosa. ¡Sosa!	trash	movies	carancho	trash
+carancho	907	5424.36	5426.76	Este sillón es para vos.	Este sillón es para vos.	trash	movies	carancho	trash
+carancho	908	5481.28	5483.31	Escucháme.	Escucháme.	trash	movies	carancho	trash
+carancho	909	5483.68	5487.28	Villegas 1357. A la altura de descampado.	Villegas 1357. A la altura de descampado.	trash	movies	carancho	trash
+carancho	910	5489.16	5492.61	Después de cobrar, ¿pensás que te van a dejar ir?	Después de cobrar, ¿pensás que te van a dejar ir?	trash	movies	carancho	trash
+carancho	911	5492.73	5495.32	No. Por eso, prestame atención.	No. Por eso, prestame atención.	trash	movies	carancho	trash
+carancho	912	5495.43	5497.62	Es una ocura.	Es una ocura.	trash	movies	carancho	trash
+carancho	913	5500.87	5503.7	Quedáte conmigo, por favor.	Quedáte conmigo, por favor.	trash	movies	carancho	trash
+carancho	914	5516.42	5518.08	Ya pasamos por acá.	Ya pasamos por acá.	trash	movies	carancho	trash
+carancho	915	5528.53	5530.55	Cuidate.	Cuidate.	trash	movies	carancho	trash
+carancho	916	5539.17	5541.14	Tengo miedo.	Tengo miedo.	trash	movies	carancho	trash
+carancho	917	5542.54	5545.48	No tengas miedo, confiá en mí.	No tengas miedo, confiá en mí.	trash	movies	carancho	trash
+carancho	918	5547.21	5549.34	¿Dónde queda la financiera?	¿Dónde queda la financiera?	trash	movies	carancho	trash
+carancho	919	5550.38	5553.91	Villegas 1357. Bien. Bien.	Villegas 1357. Bien. Bien.	trash	movies	carancho	trash
+carancho	920	5598.5	5600.97	La indemnización convenida a favor del reclamante	La indemnización convenida a favor del reclamante	trash	movies	carancho	trash
+carancho	921	5601.07	5603.7	y que asciende a la suma de 580.000 pesos	y que asciende a la suma de 580.000 pesos	trash	movies	carancho	trash
+carancho	922	5603.8	5606.17	se efectuará mediante la entrega de 3 cheques	se efectuará mediante la entrega de 3 cheques	trash	movies	carancho	trash
+carancho	923	5606.27	5608.83	al nombre del letrado, apoderado de reclamante.	al nombre del letrado, apoderado de reclamante.	trash	movies	carancho	trash
+carancho	924	5608.94	5612.97	Después vienen as partes. Bueno, y la firma.	Después vienen as partes. Bueno, y la firma.	trash	movies	carancho	trash
+carancho	925	5634.53	5635.76	Bien.	Bien.	trash	movies	carancho	trash
+carancho	926	5637	5639.2	Bueno Sosa, legaste.	Bueno Sosa, legaste.	trash	movies	carancho	trash
+carancho	927	5639.31	5640.9	¿Está todo?	¿Está todo?	trash	movies	carancho	trash
+carancho	928	5642.04	5643.8	Vamos a chequearlo.	Vamos a chequearlo.	trash	movies	carancho	trash
+carancho	929	5645.68	5647.84	Bueno. Parece que sí. ¿Vamos?	Bueno. Parece que sí. ¿Vamos?	trash	movies	carancho	trash
+carancho	930	5705.81	5707.74	Este también está bien, ¿eh?	Este también está bien, ¿eh?	trash	movies	carancho	trash
+carancho	931	5711.98	5713.34	Correcto.	Correcto.	trash	movies	carancho	trash
+carancho	932	5740.24	5745.71	530 y 560. 20 de la comisión.	530 y 560. 20 de la comisión.	trash	movies	carancho	trash
+carancho	933	5755.02	5758.72	La oficina quedó hecha una miseria, realmente.	La oficina quedó hecha una miseria, realmente.	trash	movies	carancho	trash
+carancho	934	5758.82	5761.29	Bueno. A hice limpiar bien...	Bueno. A hice limpiar bien...	trash	movies	carancho	trash
+carancho	935	5761.39	5765.89	Ahora quiero cambiar os muebles y traer a los pintores.	Ahora quiero cambiar os muebles y traer a los pintores.	trash	movies	carancho	trash
+carancho	936	5766	5767.99	- ¿Qué color te gustaría? - ¿Eh?	- ¿Qué color te gustaría? - ¿Eh?	trash	movies	carancho	trash
+carancho	937	5768.1	5771.04	¿De qué color? La oficina.	¿De qué color? La oficina.	trash	movies	carancho	trash
+carancho	938	5771.14	5773.1	No sé.	No sé.	trash	movies	carancho	trash
+carancho	939	5773.51	5775.5	Yo pienso que hay que pintarla de colores claros,	Yo pienso que hay que pintarla de colores claros,	trash	movies	carancho	trash
+carancho	940	5775.61	5778.51	para que se vea más grande. Más importante, ¿viste?	para que se vea más grande. Más importante, ¿viste?	trash	movies	carancho	trash
+carancho	941	5778.61	5781.58	Estaba muy oscura, con muchas cosas...	Estaba muy oscura, con muchas cosas...	trash	movies	carancho	trash
+carancho	942	5782.15	5784.84	Bueno. Vemos después eso.	Bueno. Vemos después eso.	trash	movies	carancho	trash
+carancho	943	5791.46	5793.22	Bueno. Ya está.	Bueno. Ya está.	trash	movies	carancho	trash
+carancho	944	5793.56	5794.82	Tomá.	Tomá.	trash	movies	carancho	trash
+carancho	945	5794.93	5800.09	- Vos venís con nosotros, Sosa. - ¿Adónde? Donde quieras, te acercamos.	- Vos venís con nosotros, Sosa. - ¿Adónde? Donde quieras, te acercamos.	trash	movies	carancho	trash
+carancho	946	5804.6	5806.13	Subí.	Subí.	trash	movies	carancho	trash
+carancho	947	5818.92	5822.72	Bueno. Seguí pensando o del color y me decís.	Bueno. Seguí pensando o del color y me decís.	trash	movies	carancho	trash
+carancho	948	5823.22	5825.55	Yo ya hice cambiar a cerradura. Esta tarde me entregan as laves.	Yo ya hice cambiar a cerradura. Esta tarde me entregan as laves.	trash	movies	carancho	trash
+carancho	949	5825.93	5830.56	Así que haceme acordar y te doy la copia.	Así que haceme acordar y te doy la copia.	trash	movies	carancho	trash
+carancho	950	5832.13	5835.86	Ya me entregaron la lista de todos los accidentes del fin de semana.	Ya me entregaron la lista de todos los accidentes del fin de semana.	trash	movies	carancho	trash
+carancho	951	5836.2	5841.87	Anoche un taxi levantó dos tipos en la vereda. Armó un quilombo.	Anoche un taxi levantó dos tipos en la vereda. Armó un quilombo.	trash	movies	carancho	trash
+carancho	952	5844.04	5847.14	- ¿Leíste el diario? - Sí. ¿ Cuántos hubo esta semana?	- ¿Leíste el diario? - Sí. ¿ Cuántos hubo esta semana?	trash	movies	carancho	trash
+carancho	953	5847.91	5849.61	¿8 ya?	¿8 ya?	trash	movies	carancho	trash
+carancho	954	5849.72	5853.24	En el mes ya van más de 30, es una barbaridad.	En el mes ya van más de 30, es una barbaridad.	trash	movies	carancho	trash
+carancho	955	5861.29	5863.73	¿Te enteraste del choque de Camino de Cintura?	¿Te enteraste del choque de Camino de Cintura?	trash	movies	carancho	trash
+carancho	956	5863.83	5865.63	E 57 iba lleno.	E 57 iba lleno.	trash	movies	carancho	trash
+carancho	957	5865.73	5868.76	Hay más de 12 heridos, un par de muertos.	Hay más de 12 heridos, un par de muertos.	trash	movies	carancho	trash
+carancho	958	5877.81	5880.04	No arreglan a barrera estos hijos de puta.	No arreglan a barrera estos hijos de puta.	trash	movies	carancho	trash
+carancho	959	5880.15	5881.37	No, no puede ser.	No, no puede ser.	trash	movies	carancho	trash
+carancho	960	5881.48	5885.28	Hay uno con 60% de incapacidad. Ese no vue ve a caminar.	Hay uno con 60% de incapacidad. Ese no vue ve a caminar.	trash	movies	carancho	trash
+carancho	961	5885.38	5887.75	Hay que conseguirlo sí o sí. ¿eh?	Hay que conseguirlo sí o sí. ¿eh?	trash	movies	carancho	trash
+carancho	962	5887.85	5890.25	Eso es trabajo tuyo, Sosa.	Eso es trabajo tuyo, Sosa.	trash	movies	carancho	trash
+carancho	963	5891.92	5895.86	¿Qué le pasa a este? No contesta. Anda perdido.	¿Qué le pasa a este? No contesta. Anda perdido.	trash	movies	carancho	trash
+carancho	964	5896.7	5898.09	Calgaste, Perro.	Calgaste, Perro.	trash	movies	carancho	trash
+carancho	965	5901.77	5907.03	Dale Pico. Arrancá. ¿No escuchaste? ¡Dale! - Pará, que venga Vitali. - No. Arrancá ahora. Pará. Que tiene que venir.	Dale Pico. Arrancá. ¿No escuchaste? ¡Dale! - Pará, que venga Vitali. - No. Arrancá ahora. Pará. Que tiene que venir.	trash	movies	carancho	trash
+carancho	966	5908.44	5910.14	¿Qué pasó?	¿Qué pasó?	trash	movies	carancho	trash
+carancho	967	5921.65	5924.38	- ¡Apurensé! ¡Apurensé! - ¿Qué pasó?	- ¡Apurensé! ¡Apurensé! - ¿Qué pasó?	trash	movies	carancho	trash
+carancho	968	5929.9	5932.26	¡Dale. Apuráte!	¡Dale. Apuráte!	trash	movies	carancho	trash
+carancho	969	5932.36	5934.23	No, no, no. Todavía no.	No, no, no. Todavía no.	trash	movies	carancho	trash
+carancho	970	5943.71	5946.8	¡Sosa! Sosa, ¿estás bien?	¡Sosa! Sosa, ¿estás bien?	trash	movies	carancho	trash
+carancho	971	5954.35	5955.82	¿Estás bien? ¿Estás bien, mi amor?	¿Estás bien? ¿Estás bien, mi amor?	trash	movies	carancho	trash
+carancho	972	5955.92	5958.01	¿Me escuchás? Quedáte quieto. No te muevas. ¿sí?	¿Me escuchás? Quedáte quieto. No te muevas. ¿sí?	trash	movies	carancho	trash
+carancho	973	5958.12	5961.85	- No lo muevas. - La pierna...	- No lo muevas. - La pierna...	trash	movies	carancho	trash
+carancho	974	5961.96	5966.69	- No lo muevas. Poné en el colar. - No, ¿qué colar? Hay que sacarlo.	- No lo muevas. Poné en el colar. - No, ¿qué colar? Hay que sacarlo.	trash	movies	carancho	trash
+carancho	975	5966.8	5967.99	- La pierna. - ¿Estás bien?	- La pierna. - ¿Estás bien?	trash	movies	carancho	trash
+carancho	976	5971.57	5976.3	Pará. Ponele el colar.	Pará. Ponele el colar.	trash	movies	carancho	trash
+carancho	977	5976.41	5979.17	No hay tiempo para colar, ayudame a sacarlo.	No hay tiempo para colar, ayudame a sacarlo.	trash	movies	carancho	trash
+carancho	978	5979.51	5980.81	Escucháme. ¿cómo te sentís?	Escucháme. ¿cómo te sentís?	trash	movies	carancho	trash
+carancho	979	5980.91	5984.14	Miráme. No cierres los ojos. Miráme.	Miráme. No cierres los ojos. Miráme.	trash	movies	carancho	trash
+carancho	980	5984.25	5985.84	Miráme mi amor. Miráme.	Miráme mi amor. Miráme.	trash	movies	carancho	trash
+carancho	981	5991.69	5995.39	- La guita. - ¿Eh? Buscá la guita. E maletín. - El maletín. - Vení.	- La guita. - ¿Eh? Buscá la guita. E maletín. - El maletín. - Vení.	trash	movies	carancho	trash
+carancho	982	5995.83	5997.49	Venía muy rápido.	Venía muy rápido.	trash	movies	carancho	trash
+carancho	983	5997.6	6000.62	- ¿Venía muy rápido? - Muy rápido. Sí. Te dio muy duro.	- ¿Venía muy rápido? - Muy rápido. Sí. Te dio muy duro.	trash	movies	carancho	trash
+carancho	984	6001.1	6008.6	- Traé ala ella. - Sí, quedáte tranquilo. - Traéla ala ella, traé ala ella. - Acá estoy. Quedáte tranquilo.	- Traé ala ella. - Sí, quedáte tranquilo. - Traéla ala ella, traé ala ella. - Acá estoy. Quedáte tranquilo.	trash	movies	carancho	trash
+carancho	985	6010.71	6013.75	A ver. Sentáte ahí. Dejáme que lo voy a mirar. Vámonos de acá, Vámonos de acá.	A ver. Sentáte ahí. Dejáme que lo voy a mirar. Vámonos de acá, Vámonos de acá.	trash	movies	carancho	trash
+carancho	986	6013.85	6016.01	Dejáme que lo voy a mirar Pico. Miráme. Escucháme.	Dejáme que lo voy a mirar Pico. Miráme. Escucháme.	trash	movies	carancho	trash
+carancho	987	6022.79	6026.02	- El arma. ¿dónde está el arma? - No sé. Dámela. Dámela.	- El arma. ¿dónde está el arma? - No sé. Dámela. Dámela.	trash	movies	carancho	trash
+carancho	988	6029.03	6032.59	- ¡Pico! - No salgas. - No salgas, vení. Vení. - ¡Pico!	- ¡Pico! - No salgas. - No salgas, vení. Vení. - ¡Pico!	trash	movies	carancho	trash
+carancho	989	6036.03	6038.2	- ¡Está muerto!	- ¡Está muerto!	trash	movies	carancho	trash
+carancho	990	6039.77	6041.97	- ¡El auto! ¿Donde está el auto? - ¡Allá! ¡Allá!	- ¡El auto! ¿Donde está el auto? - ¡Allá! ¡Allá!	trash	movies	carancho	trash
+carancho	991	6046.11	6047.37	Vení.	Vení.	trash	movies	carancho	trash
+carancho	992	6049.92	6051.47	¡Dejálo!	¡Dejálo!	trash	movies	carancho	trash
+carancho	993	6051.58	6053.45	- ¡Subíte al auto!	- ¡Subíte al auto!	trash	movies	carancho	trash
+carancho	994	6056.96	6059.79	- ¡Arrancá! ¡Arrancá! - ¿Qué hago? ¡No arranca!	- ¡Arrancá! ¡Arrancá! - ¿Qué hago? ¡No arranca!	trash	movies	carancho	trash
+carancho	995	6077.91	6080.97	¡Miráme! ¡Abrí los ojos!	¡Miráme! ¡Abrí los ojos!	trash	movies	carancho	trash
+carancho	996	6085.05	6088.11	¡Decíme qué hago! Fijáte si nos siguen.	¡Decíme qué hago! Fijáte si nos siguen.	trash	movies	carancho	trash
+carancho	997	6090.36	6092.12	No, no nos siguen.	No, no nos siguen.	trash	movies	carancho	trash
+carancho	998	6092.22	6095.66	Miráme, miráme. ¿Estás bien?	Miráme, miráme. ¿Estás bien?	trash	movies	carancho	trash
+carancho	999	6097	6098.59	Doblá acá. Dale, doblá.	Doblá acá. Dale, doblá.	trash	movies	carancho	trash
+carancho	1000	6108.64	6110.2	Lo hiciste muy bien.	Lo hiciste muy bien.	trash	movies	carancho	trash
+carancho	1001	6117.68	6120.12	- Gracias. Doctora. - Te amo.	- Gracias. Doctora. - Te amo.	trash	movies	carancho	trash
+carancho	1002	6120.22	6122.05	Yo también. Vámonos. Salí de acá.	Yo también. Vámonos. Salí de acá.	trash	movies	carancho	trash
+carancho	1003	6122.15	6123.64	Dale, vamos.	Dale, vamos.	trash	movies	carancho	trash
+carancho	1004	6137.44	6140.13	- Permiso, permiso. Permiso. - Permiso, permiso.	- Permiso, permiso. Permiso. - Permiso, permiso.	trash	movies	carancho	trash
+carancho	1005	6141.17	6145.58	Acá tenemos una femenina. En el auto, a ver. Un masculino.	Acá tenemos una femenina. En el auto, a ver. Un masculino.	trash	movies	carancho	trash
+carancho	1006	6145.68	6151.15	El señor. Mirá. Tiene sangre por todos lados. No el palpo pulso. Sangre aparentemente en abdomen, región umbar...	El señor. Mirá. Tiene sangre por todos lados. No el palpo pulso. Sangre aparentemente en abdomen, región umbar...	trash	movies	carancho	trash
+carancho	1007	6151.25	6152.88	Vamos a levarnos a la mujer.	Vamos a levarnos a la mujer.	trash	movies	carancho	trash
+carancho	1008	6152.99	6154.95	Señora, señora.	Señora, señora.	trash	movies	carancho	trash
+carancho	1009	6156.19	6158.45	¿Me contás cómo fue el accidente? ¿Flaca?	¿Me contás cómo fue el accidente? ¿Flaca?	trash	movies	carancho	trash
+carancho	1010	6158.56	6161.62	Acá tenés el colar. Yo te ayudo.	Acá tenés el colar. Yo te ayudo.	trash	movies	carancho	trash
+carancho	1011	6162.43	6164.92	Ahí está bien agarrada. Bueno. A la cuenta de 3, ¿sí?	Ahí está bien agarrada. Bueno. A la cuenta de 3, ¿sí?	trash	movies	carancho	trash
+carancho	1012	6165.03	6167	1, 2, 3.	1, 2, 3.	trash	movies	carancho	trash
+carancho	1013	6168.2	6171.14	- Permiso. - Permiso, permiso. Vamos a pasar. Permiso.	- Permiso. - Permiso, permiso. Vamos a pasar. Permiso.	trash	movies	carancho	trash

@@ -150,6 +150,33 @@ end
 
 
 
+task :fix_carancho => [:environment] do
+
+  basedir = Rails.root.to_s + "/lib/tasks"
+ file = File.new(basedir + "/files/fix_carancho.txt","r")
+ 
+  c=0
+  ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
+
+  file.each {|line|
+    
+    line = ic.iconv(line + ' ')[0..-2]
+    line.gsub(/\n/,'')
+    line.gsub(/\r/,'')
+    
+    (url,num,start,stop,spa,eng,trash,source,source2,trash)=line.split(/\t/)
+    spa.gsub(/(^\s+|\s+$)/,'')
+    eng.gsub(/(^\s+|\s+$)/,'')
+    
+    cap=Cap.find(:first,:conditions=>["num=? and source2=?","#{num}","carancho"])
+    cap.spa=spa
+#    print "#{cap.num} #{cap.spa} #{spa}\n"
+    cap.save
+  }  
+end
+
+
+
 task :import_caps => [:environment] do
   ActiveRecord::Migration.execute("truncate caps;")
 
