@@ -6,6 +6,23 @@ body, p, ol, ul, td {
   line-height: 18px;
 }
 
+
+html, body {
+height: 100%;
+}
+
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
+
+
 .tenses{
 	position:relative;display:inline;top:20px;left:100px;padding-right:35px;font-weight: bold;
 }
