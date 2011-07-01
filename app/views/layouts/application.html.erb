@@ -22,8 +22,10 @@
 
 
 <body style="width:90%;">
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAudioVerbcom%2F243504829009599&amp;width=180&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="position:absolute;border:none; overflow:hidden; width:180px; height:62px;left:750px;top:100px;" allowTransparency="true"></iframe>
 <div style="position:relative;dislay:inline;">	<%=flash[:notice]%></div>
 <div style="position:relative;dislay:inline;">	<%=flash[:error]%></div>
+
 	<% if request.env['HTTP_USER_AGENT'].match(/ie/i) then%> 
 	<div id="browser_warning" style="position:absolute">This site works best in Chrome, Firefox, and Safari.<br>Explorer is limited. Working on it. </div end="browser_warning">
 	<%end%>
