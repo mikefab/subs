@@ -30,6 +30,8 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
     
       if params[:movie]  then
         @caps=Cap.return_movie(params[:movie],params[:page])
+        Track.new(:ip=>ip,:search=>params[:movie],:page=>params[:page],:num=>0).save!      
+
       else
         
 
@@ -47,9 +49,10 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
           @caps = Cap.search(params[:search], params[:page],lang) 
       end
      returned_results = @caps.size || 0
+     Track.new(:ip=>ip,:search=>params[:search],:page=>params[:page],:num=>returned_results).save!      
+
     end
  
-      Track.new(:ip=>ip,:search=>params[:search],:page=>params[:page],:num=>returned_results).save!      
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
 
 
