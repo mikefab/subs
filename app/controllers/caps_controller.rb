@@ -5,14 +5,15 @@ class CapsController < ApplicationController
 
   def index
 #    @caps = Cap.all
-ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']   
+ 
     @choice= params[:language]
     lang=params[:language] || "Spa"
     
     if params[:search] then
     @caps = Cap.search(params[:search], params[:page],lang)
     returned_results = @caps.size || 0
-    Track.new(:ip=>ip,:search=>params[:search],:page=>params[:page],:lang=>params[:language],:num=>returned_results).save!
+
+    grab_ip_info(params[:search],returned_results,params[:page],lang)
     (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
 
   end
@@ -24,19 +25,14 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
   end
   
     def results
-#      Rails.cache.fetch('laji'){Word.find(:all,:limit=>10)}
-ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
-
     
       if params[:movie]  then
         @caps=Cap.return_movie(params[:movie],params[:page])
-        Track.new(:ip=>ip,:search=>params[:movie],:page=>params[:page],:num=>0).save!      
-
+   
+        grab_ip_info(params[:movie],0,0,"")
       else
-        
-
-      @choice= params[:language]
-      lang=params[:language] || "Spa"
+        @choice= params[:language]
+        lang=params[:language] || "Spa"
 
       if ENV['RAILS_ENV']=="production" then
         if Rails.cache.exist?("#{params[:search]}-#{params[:page]}") then
@@ -49,8 +45,7 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
           @caps = Cap.search(params[:search], params[:page],lang) 
       end
      returned_results = @caps.size || 0
-     Track.new(:ip=>ip,:search=>params[:search],:page=>params[:page],:num=>returned_results).save!      
-
+     grab_ip_info(params[:search],returned_results,params[:page],lang)
     end
  
       (@verbs,@hash_id,@english) = Verb.return_verbs(@caps)
@@ -72,8 +67,8 @@ ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
       end
         @cap = Cap.find(:first,:conditions=>["url=? and num = ?", params[:url], params[:num]] ) if !@cap
         @cap? returned_results=1 : returned_results=0
-        Track.new(:ip=>ip,:search=>"#{params[:num]}-#{params[:url]}",:num=>returned_results).save!
 
+        grab_ip_info("#{params[:num]}-#{params[:url]}",returned_results,0,"")
       caps=Array.new()
       caps<<@cap
       (@verbs,@hash_id,@english) = Verb.return_verbs(caps)

@@ -3,9 +3,15 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   before_filter :pre
  # 
-   def pre
 
-     
+
+ def grab_ip_info(search,returned_results,page,lang)
+   browser= request.env['HTTP_USER_AGENT']
+   ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
+   Track.new(:ip=>ip,:search=>search, :browser=>browser,:num=>returned_results,:lang=>lang).save!
+ end
+
+   def pre     
      @trans_hash=  verb_trans()
      @hash_conj_trans= conj_trans()
    end

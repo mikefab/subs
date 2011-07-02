@@ -1,7 +1,6 @@
 class HomeController < ApplicationController
   def index
-    ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
-    Track.new(:ip=>ip,:search=>"index page").save!
+    grab_ip_info("index",0,0,"")
     @movies = Movie.find(:all)
     
   end
@@ -10,9 +9,11 @@ class HomeController < ApplicationController
   end
   
   def about
+    
+    grab_ip_info("about",0,0,"")
+    
         @support = Support.new(:id => 1)
-        ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
-        Track.new(:ip=>ip,:search=>"about page").save!
+
 
   end
 

@@ -13,24 +13,19 @@ class VerbsController < ApplicationController
 
   def tenses
 
-    ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
 
     @tenses = Verb.return_tenses(params[:tense_mood])
     returned_results=@tenses.size || 0
-    Track.new(:ip=>ip,:search=>params[:tense_mood],:num=>returned_results).save!
+    grab_ip_info(params[:tense_mood], returned_results,0,"")
   end
 
   def verbs
-#    Rails.cache.clear()
-    ip = request.env['HTTP_X_REAL_IP'] || request.env['REMOTE_ADDR']
 
     if(params[:verb].size>0)
       @verbs = Verb.return_verb(params[:verb])
     else
       @verbs = Verb.return_mood_verbs(params[:verb_mood],params[:verb_tense])
     end
-  #    returned_results=@verbs.size || 0
-   #  Track.new(:ip=>ip,:search=>params[:verb_tense],:num=>returned_results).save!
 
    end
     
