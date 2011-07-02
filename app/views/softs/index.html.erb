@@ -20,6 +20,7 @@
     <td><%#= link_to 'Correct', correct_soft_path(soft) %></td>
     <td><%= link_to 'Edit', edit_soft_path(soft) %></td>
     <td><%= link_to 'Correct', softs_correct_path(:id=>soft.id) %></td>
+    <td><%= link_to 'Destroy', soft, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
