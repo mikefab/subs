@@ -174,7 +174,7 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 <%end%>
 <% c=0 %>
 
-<div id ="go_back" style="display:inline;">go back</div end="go_back">
+<div id ="go_back" style="display:inline;cursor:pointer;">go back</div end="go_back">
 <div id="will_paginate1">
 	<%= will_paginate @caps, :remote=>true %> 
 	<%#= page_entries_info @caps %> 
