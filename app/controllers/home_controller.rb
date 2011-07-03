@@ -1,7 +1,9 @@
 class HomeController < ApplicationController
   def index
     grab_ip_info("index",0,0,"")
-    @movies = Movie.find(:all)
+#    @movies = Movie.find(:all)
+    
+    @movies = Movie.return_movies()
     
   end
 
