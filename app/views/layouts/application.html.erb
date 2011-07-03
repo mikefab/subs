@@ -47,21 +47,9 @@
 	</div> -->
 	<img id="logo" style="position:relative;top:50px;left:300px;" src="images/logo_base.jpg"/>
 
-<h5 style="position:absolute;left:850px;"><%= link_to 'About', about_path %></h5>
+<h5 style="position:absolute;left:840px;"><%= link_to 'About', about_path %></h5>
 
-<div id="movies"   style="z-index:2;position:absolute;left:920px;top:25px;display:inline;">
-		<h5 id="demo4"  style="cursor:pointer;display:inline;">Movies</h5> 
-		<table>
-		<%@movies.each do |m|%>
-				<tr><td width="50px">
-					<img onClick="display_movie('<%=m.title.gsub(/\s+/,".")%>');" style="width:80%;cursor:pointer" src="images/<%=m.title.gsub(/\s+/,".").downcase%>_small.jpg">
-				</td>
-			    <td>
-				<div onClick="display_movie('<%=m.title.gsub(/\s+/,".")%>');" style="cursor:pointer"><%=m.title%><br><i><%=m.origin%></i></div>
-				</td></tr>
-		<%end%>
-	</tr></table>
-</div end="movies">
+
 
 <%else%>
 <img style="position:relative;left:550px;" src="images/logo_base.jpg"/>
