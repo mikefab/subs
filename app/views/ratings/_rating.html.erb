@@ -3,7 +3,7 @@
 		<%rated_number= @rate_default || 0%>
 
 <div id="rate_container"  style="display:inline;">
-	<h5 style="display:inline;">Please click if audio is poor.</h5>
+	<h5 style="display:inline;">Please click if audio is bad.</h5>
 
 <% form_tag ratings_path,:name=>"rating_form",:id=>'rating_form', :style=>"display:inline;",:onClick=>"document.getElementById('#{@cap.id}_rating_button').click();",:method=>:get, :remote=>true do |f|%>
     <% 1.upto(1) do |value| %>

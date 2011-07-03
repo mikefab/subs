@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AudioVerb - Spanish Audio Clips</title>
+  <title>AudioVerb - Spanish Audio Clips with Transcriptions & Translations</title>
 
 <meta name="description=" content="Listen to Spanish sentences online. AudioVerb.com is virtual Spanish language immersion. It serves Spanish language audio clips for practicing listening comprehension. All clips are accompanied by transcriptions and English translations. It's an online database of Spanish sentences.">
   <%= stylesheet_link_tag :all %>
@@ -21,6 +21,23 @@
 
 
 <script>
+$(document).ready(function(){
+	$('#demo4').collapser({
+		target: 'siblings',
+		effect: 'fade',
+		changeText: 0,
+		expandClass: 'expIco',
+		collapseClass: 'collIco'
+	});
+});
+
+
+
+
+$(function(){
+		setTimeout("$('#demo4').click()",1000);
+});
+</script>
 
 </script>
 </head>
@@ -46,11 +63,23 @@
 	padding: 10px;" >
 	</div> -->
 	<img id="logo" style="position:relative;top:50px;left:300px;" src="images/logo_base.jpg"/>
-
-<h5 style="position:absolute;left:870px;"><%= link_to 'About', about_path %></h5>
-
-
-
+<table style="position:absolute;left:870px;" border='0'><tr valign="top"><td>
+<h5 style=""><%= link_to 'About', about_path %></h5>
+</td><td>|</td><td>
+<div id="movies"   style="z-index:2;display:inline;">
+		<h5 id="demo4"  style="cursor:pointer;display:inline;">Movies</h5> 
+		<table>
+		<%@movies.each do |m|%>
+				<tr><td width="50px">
+					<img onClick="display_movie('<%=m.title.gsub(/\s+/,".")%>');" style="width:80%;cursor:pointer" src="images/<%=m.title.gsub(/\s+/,".").downcase%>_small.jpg">
+				</td>
+			    <td>
+				<div onClick="display_movie('<%=m.title.gsub(/\s+/,".")%>');" style="cursor:pointer"><%=m.title%><br><i><%=m.origin%></i></div>
+				</td></tr>
+		<%end%>
+</div end="movies">
+</td></tr></table>
+</td></tr></table>
 <%else%>
 <img style="position:relative;left:550px;" src="images/logo_base.jpg"/>
 

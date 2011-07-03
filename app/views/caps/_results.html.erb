@@ -1,12 +1,43 @@
  <%= javascript_include_tag "pagination.js" %>
+<div style="display:none;" onClick="javascript:localStorage.clear();">clear</div>
+<div style="display:none;" onClick="javascript:alert(localStorage.getItem('history'));">show</div>
+
 <%if @caps%>
 
 <div id="search" >
 
-
 <script>
 
 $(document).ready(function(){
+		$("#go_back").click(function(event){
+			var history = localStorage.getItem('history').split("^");
+			var current= history.pop();
+			var forward = localStorage.getItem('forward').split("^");
+			localStorage.setItem('forward',"^"+current+forward);
+
+			if(history.length>0){
+				document.getElementById('go_back').setAttribute('style',"cursor:pointer;display:inline;")
+				var last_search = history[history.length-1].split("::");
+				localStorage.setItem('forward',"^"+last_search+forward);
+
+				var lang=last_search[0];
+				var search=last_search[1];
+				if(search){
+					document.getElementById('search').value= search;
+					document.getElementById('language').value= lang;
+					document.getElementById('results_button').click();
+//					history.shift();
+//					alert(history);
+					localStorage.setItem('history',history.join("^"));
+					
+				}else{
+					document.getElementById('go_back').setAttribute('style',"cursor:pointer;display:none;")
+				}
+			}
+			
+
+	//		var journey = localStorage.setItem('journey',journey +"^"+lang+"::"+search);
+	  	});
 
 var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 
@@ -111,13 +142,7 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 	}
 	
 	
-	function testo(){
-		child_divs= document.getElementById('container_1').childNodes;
-		for(var i = 0; i < child_divs.length; i++){
-		 if (child_divs[i].nodeType==1){child_divs[i].style.color="black";}
-			alert(child_divs[i].id);
-		}
-	}
+
 	
 	
 	function soft_cancel_wait(id,lang){
@@ -140,17 +165,16 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 
 
 </script>
-<button onClick="testo();" style="display:none;"></button>
 <% form_tag softs_create_path,:name=>"soft_form",:id=>'soft_form', :method=>:get, :format=>'js', :remote=>true do%>
-
 <%= hidden_field_tag :soft_text, params[:soft_text] %>
 <%= hidden_field_tag :soft_id, params[:soft_id] %>
 <%= hidden_field_tag :soft_lang, params[:soft_lang] %>
-
 <%= submit_tag "soft", :id=>"soft_button",:name => 'soft_button',:style=>"display:none;" %>
 
 <%end%>
 <% c=0 %>
+
+<div id ="go_back" style="display:inline;">go back</div end="go_back">
 <div id="will_paginate1">
 	<%= will_paginate @caps, :remote=>true %> 
 	<%#= page_entries_info @caps %> 
