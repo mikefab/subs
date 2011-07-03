@@ -136,32 +136,10 @@ function find_one_verb(verb_one){
 
 <div id="container" style="width:90%;">
 
-	
+
 	<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAudioVerbcom%2F243504829009599&amp;width=200&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="position:absolute;left:1050px;border:none;overflow:hidden; width:200px; height:62px;" allowTransparency="true"></iframe> 
 
-	<div id="google_add" style="position:absolute;display:inline;left:1090px;top:140px;inline;">
-		<!-- Place this tag in your head or just before your close body tag -->
-		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
-		<!-- Place this tag where you want the +1 button to render -->
-		<g:plusone></g:plusone>
-	</div>
-
-
-	<div id="google_add" style="position:absolute;display:inline;left:1090px;top:190px;inline;">
-		<script type="text/javascript"><!--
-		google_ad_client = "ca-pub-1316172525658382";
-		/* vertical short */
-		google_ad_slot = "5593041963";
-		google_ad_width = 120;
-		google_ad_height = 240;
-		//-->
-		</script>
-		<script type="text/javascript"
-		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-		</script>
-
-</div>
 	<div id="movies"   style="z-index:2;position:absolute;left:890px;top:95px;display:inline;">
 			<h5 id="demo4"  style="cursor:pointer;display:inline;"><ul><li>Movies</li></ul></h5> 
 			<table>
@@ -175,6 +153,7 @@ function find_one_verb(verb_one){
 			<%end%>
 		</tr></table>
 	</div end="movies">
+
 
 	<div id="top_container" style="position:absolute;width:90%; ">
 		<div id="search_container" style="position:absolute;display:inline;left:570px;">
@@ -196,7 +175,7 @@ function find_one_verb(verb_one){
 
 
 		
-		<div id="mood_explination" style="position:absolute;display:inline;left:280px;top:100px;inline; width:500px;">
+		<div id="mood_explination" style="position:absolute;display:inline;left:280px;top:100px;inline; width:400px;">
 	   		<div id="instruction1" style="">Complement your Spanish studies by listening to audio clips with transcriptions and translations.
 		<br><br>Begin by clicking a mood to the left.
 				<p style="font-size:9pt;">(In some cases this tool mistakes a noun for a verb or mistakes a tense. Imperativo is especially slippery.) 
@@ -243,17 +222,17 @@ function find_one_verb(verb_one){
 <%end%>
 
 
-		<div id="tenses_div" style="position:absolute;display:inline">
+		<div id="tenses_div" style="position:relative;">
 		<%= render :partial => "verbs/tenses", :object => @tenses  %>
 		</div end="tenses_div">
 <br>
 <br>
 <br>
-		<div id="verbs_div" style="position:absolute;display:inline;float:left;height:400px;overflow:auto;width:200px">
+		<div id="verbs_div" style="position:relative;display:inline;float:left;height:400px;overflow:auto;width:200px">
 	<%= render :partial => "verbs/verbs", :object => @verbs  %>
 		</div end="verbs_div">
 	
-		<div id ="results_div" style="position:absolute;display:inline;float:right;width:70%;">
+		<div id ="results_div" style="position:relative;display:inline;float:right;width:70%;">
 	<%= render :partial => "caps/results", :object => @caps  %>
 	
 		</div end="results_div">

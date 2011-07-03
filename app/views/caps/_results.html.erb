@@ -87,7 +87,7 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 		document.getElementById('url').value=url;
 		document.getElementById('num').value=num;
 		document.getElementById('id').value=div.parentNode.id;
-		document.getElementById('cap_button').focus();
+//		document.getElementById('cap_button').focus();
 		document.getElementById('cap_button').click();
 	}
 	function darken(id){
@@ -124,7 +124,7 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 				document.getElementById('soft_text').value= document.getElementById(id+"_"+lang).innerHTML;
 		    	document.getElementById('soft_id').value = id;
 		    	document.getElementById('soft_lang').value = lang;
-				document.getElementById('soft_button').focus();
+			//	document.getElementById('soft_button').focus();
 				document.getElementById('soft_button').click();
 				if (lang.match(/eng/i)){
 					document.getElementById(id+"_edit_"+lang).innerHTML="edit English";
