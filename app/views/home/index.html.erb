@@ -41,6 +41,13 @@
 	
 }
 
+#movies_pointer{
+	position:absolute;
+	left:940px;
+	top:110px;
+	
+}
+
 </style>
 
 
@@ -235,7 +242,7 @@ function ezbAnimateFade(lastTick,eid){
     setTimeout("ezbAnimateFade(" + curTick + ",'" + eid + "')", 33);
 }
 </script>
-<img src="images/point_movies.jpg" style="position:absolute;left:940px;top:110px;-webkit-transform: rotate(1deg);-moz-transform: rotate(-1deg);filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);" />
+<img id="movies_pointer" src="images/point_movies.jpg"  />
 
 	<div id="movies"   style="z-index:2;position:absolute;left:890px;top:95px;display:inline;">
 			<h5 id="movie_label" onclick="ezbFade('movies_list',1000);"  style="z-index:2;cursor:pointer;display:inline;"><ul><li>Movies</li></ul></h5> 
