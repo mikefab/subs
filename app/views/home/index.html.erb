@@ -7,10 +7,11 @@
 
 
 <% if request.env['HTTP_USER_AGENT'].match(/ie/i) then%> 
-#pointer2{
+#mood_pointer{
 	position:absolute;
 	left:120px;
 	top:-40px;
+	display:none;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9659258262890684, M12=0.25881904510252024, M21=-0.25881904510252024, M22=0.9659258262890684, SizingMethod='auto expand')";
    filter: progid:DXImageTransform.Microsoft.Matrix(
             M11=0.9659258262890684,
@@ -26,6 +27,8 @@
 	position:absolute;
 	left:180px;
 	top:130px;
+	display:none;
+
    /* IE8+ - must be on one line, unfortunately */ 
    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9659258262890683, M12=-0.2588190451025207, M21=0.2588190451025207, M22=0.9659258262890683, SizingMethod='auto expand')";
 
@@ -40,10 +43,11 @@
 }
 
 <%else%>
-#pointer2{
+#mood_pointer{
 	position:absolute;
 	left:120px;
 	top:-20px;
+	display:none;
 	-webkit-transform: rotate(-15deg);
 	-moz-transform: rotate(-15deg);
 }
@@ -53,6 +57,7 @@
 	position:absolute;
 	left:180px;
 	top:145px;
+	display:none;
 	-webkit-transform: rotate(15deg);
 	-moz-transform: rotate(15deg);
 	
@@ -87,6 +92,10 @@ $(document).ready(function(){
 
 
 	setTimeout("ezbFade('movies_list',1000);document.getElementById('movies_pointer').style.display='inline';ezbFade('movies_pointer',1000);",10000);
+	setTimeout("document.getElementById('mood_pointer').style.display='inline';document.getElementById('pointer_long').style.display='inline';ezbFade('mood_pointer',1000);ezbFade('pointer_long',1000);",3000);
+ezbFade('mood_pointer',1000);
+ezbFade('pointer_long',1000);
+
 
 ezbFade('movies_pointer',1000);
 movies_label_flag=0;
@@ -298,7 +307,7 @@ function ezbAnimateFade(lastTick,eid){
 			<%= submit_tag "movie_search", :id=>"movie_button",:name => 'movies_button',:style=>"display:none;" %>
 		<%end%>
 
-<img  id="pointer2" src="images/pointer2.jpg"  />
+<img  id="mood_pointer" src="images/pointer2.jpg"  />
 <img id = "pointer_long" src="images/pointer_long.jpg"  />
 		
 		<div id="mood_explination" style="position:absolute;display:inline;left:280px;top:100px;inline; width:500px;">
