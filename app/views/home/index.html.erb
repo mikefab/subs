@@ -20,30 +20,28 @@ $(document).ready(function(){
   });
 
 
+	setTimeout("ezbFade('movies_list',1000);",10000);
 
 
-
-
-	$('#demo4').collapser({
-		target: 'siblings',
-		effect: 'fade',
-		changeText: 0,
-		expandClass: 'expIco',
-		collapseClass: 'collIco'
-	});
+	// $('#demo4').collapser({
+	// 	target: 'siblings',
+	// 	effect: 'fade',
+	// 	changeText: 0,
+	// 	expandClass: 'expIco',
+	// 	collapseClass: 'collIco'
+	// });
 });
 
 
 
 
 $(function(){
-		setTimeout("$('#demo4').click()",10000);
+	//	setTimeout("$('#demo4').click()",10000);
 	// for(i=0;i<50;i++){
 	//     	$("#instruction1").animate({color: "blue"}, 'slow');
 	//         $("#instruction1").animate({color: "navy"}, 'slow');
 	// }
 });
-
 mood = "Subjuntivo";
 mood_des= new Array();
 mood_des["Subjuntivo"]="The subjunctive mood is used to express everything except certainty and objectivity: things like doubt, uncertainty, subjectivity, etc. It expresses a wish, intent or command for a possible action or state of being. It is usually used in subordinate clauses that begin with que or si.";
@@ -162,9 +160,51 @@ function find_one_verb(verb_one){
 		</script>
 
 </div>
+
+<script>
+function ezbFade(eid,time){
+
+    if(time) fadeTime = time
+    else fadeTime = 1000.0;
+    var element = document.getElementById(eid);
+    if(element == null) return;
+    if(element.FadeState == null){
+        if(element.style.opacity == null || element.style.opacity == '' || element.style.opacity == '1') element.FadeState = 2;
+        else element.FadeState = -2;
+    }
+    if(element.FadeState == 1 || element.FadeState == -1){
+        element.FadeState = element.FadeState == 1 ? -1 : 1;
+        element.FadeTimeLeft = fadeTime - element.FadeTimeLeft;
+    }
+    else{
+        element.FadeState = element.FadeState == 2 ? -1 : 1;
+        element.FadeTimeLeft = fadeTime;
+        setTimeout("ezbAnimateFade(" + new Date().getTime() + ",'" + eid + "')", 33);
+    } 
+}
+ 
+function ezbAnimateFade(lastTick,eid){
+    var curTick = new Date().getTime();
+    var elapsedTicks = curTick - lastTick;
+    var element = document.getElementById(eid);
+    if(element.FadeTimeLeft <= elapsedTicks){
+        element.style.opacity = element.FadeState == 1 ? '1' : '0';
+        element.style.filter = 'alpha(opacity = ' + (element.FadeState == 1 ? '100' : '0') + ')';
+        element.FadeState = element.FadeState == 1 ? 2 : -2;
+        return;
+    }
+    element.FadeTimeLeft -= elapsedTicks;
+    var newOpVal = element.FadeTimeLeft/fadeTime;
+    if(element.FadeState == 1) newOpVal = 1 - newOpVal;
+    element.style.opacity = newOpVal;
+    element.style.filter = 'alpha(opacity = ' + (newOpVal*100) + ')';
+    setTimeout("ezbAnimateFade(" + curTick + ",'" + eid + "')", 33);
+}
+</script>
+
 	<div id="movies"   style="z-index:2;position:absolute;left:890px;top:95px;display:inline;">
-			<h5 id="demo4"  style="z-index:2;cursor:pointer;display:inline;"><ul><li>Movies</li></ul></h5> 
-			<table>
+			<h5 id="movie_label" onclick="ezbFade('movies_list',1000);"  style="z-index:2;cursor:pointer;display:inline;"><ul><li>Movies</li></ul></h5> 
+			<table id="movies_list">
 			<%@movies.each do |m|%>
 					<tr><td width="50px">
 						<img onClick="display_movie('<%=m.title.gsub(/\s+/,".")%>');" style="width:80%;cursor:pointer" src="images/<%=m.title.gsub(/\s+/,".").downcase%>_small.jpg">
