@@ -39,12 +39,6 @@
 	
 }
 
-#movies_pointer{
-	position:absolute;
-	left:940px;
-	top:110px;
-	
-}
 <%else%>
 #pointer2{
 	position:absolute;
@@ -64,16 +58,14 @@
 	
 }
 
+<%end%>
 #movies_pointer{
 	position:absolute;
 	left:940px;
 	top:110px;
-	
+	opacity == null;
+	display:none;
 }
-
-
-
-<%end%>
 
 </style>
 
@@ -94,9 +86,10 @@ $(document).ready(function(){
   });
 
 
-	setTimeout("ezbFade('movies_list',1000);",10000);
+	setTimeout("ezbFade('movies_list',1000);document.getElementById('movies_pointer').style.display='inline';ezbFade('movies_pointer',1000);",10000);
 
-
+ezbFade('movies_pointer',1000);
+movies_label_flag=0;
 	// $('#demo4').collapser({
 	// 	target: 'siblings',
 	// 	effect: 'fade',
@@ -272,7 +265,7 @@ function ezbAnimateFade(lastTick,eid){
 <img id="movies_pointer" src="images/point_movies.jpg"  />
 
 	<div id="movies"   style="z-index:2;position:absolute;left:890px;top:95px;display:inline;">
-			<h5 id="movie_label" onclick="ezbFade('movies_list',1000);"  style="z-index:2;cursor:pointer;display:inline;"><ul><li>Movies</li></ul></h5> 
+			<h5 id="movie_label" onclick="ezbFade('movies_list',1000);movies_label_flag++;if(movies_label_flag==1){ezbFade('movies_pointer',1000);}"  style="z-index:2;cursor:pointer;display:inline;"><ul><li>Movies</li></ul></h5> 
 			<table id="movies_list">
 			<%@movies.each do |m|%>
 					<tr><td width="50px">
