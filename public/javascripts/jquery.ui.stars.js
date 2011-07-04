@@ -16,7 +16,6 @@
  *
  */
 (function($) {
-
 $.widget('ui.stars', {
 	options: {
 		inputType: 'radio', // [radio|select]
