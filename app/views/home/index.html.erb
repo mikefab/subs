@@ -12,18 +12,32 @@
 	-webkit-transform: rotate(-15deg);
 	-moz-transform: rotate(-15deg);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9659258262890684, M12=0.25881904510252024, M21=-0.25881904510252024, M22=0.9659258262890684, SizingMethod='auto expand')";
-/*   filter: progid:DXImageTransform.Microsoft.Matrix(
+   filter: progid:DXImageTransform.Microsoft.Matrix(
             M11=0.9659258262890684,
             M12=0.25881904510252024,
             M21=-0.25881904510252024,
             M22=0.9659258262890684,
             SizingMethod='auto expand');
-*/
+
 }
 
 
 #pointer_long{
-	position:absolute;left:180px;top:145px;-webkit-transform: rotate(15deg);-moz-transform: rotate(-10deg);filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.2);
+	position:absolute;
+	left:180px;
+	top:145px;
+	-webkit-transform: rotate(15deg);
+	-moz-transform: rotate(15deg);
+   /* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9659258262890683, M12=-0.2588190451025207, M21=0.2588190451025207, M22=0.9659258262890683, SizingMethod='auto expand')";
+
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=0.9659258262890683,
+            M12=-0.2588190451025207,
+            M21=0.2588190451025207,
+            M22=0.9659258262890683,
+            SizingMethod='auto expand');
 	
 }
 
@@ -257,8 +271,8 @@ function ezbAnimateFade(lastTick,eid){
 			<%= submit_tag "movie_search", :id=>"movie_button",:name => 'movies_button',:style=>"display:none;" %>
 		<%end%>
 
-<img  id="pointer2" src="images/pointer2.jpg" style="position:absolute;left:120px;top:-20px;-webkit-transform: rotate(-15deg);-moz-transform: rotate(-15deg);filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9659258262890684, M12=0.25881904510252024,M21=-0.25881904510252024,0.9659258262890684,SizingMethod='auto expand');" />
-<img id = "pointer_long" src="images/pointer_long.jpg" style="position:absolute;left:180px;top:145px;-webkit-transform: rotate(15deg);-moz-transform: rotate(-10deg);filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.2);" />
+<img  id="pointer2" src="images/pointer2.jpg"  />
+<img id = "pointer_long" src="images/pointer_long.jpg"  />
 		
 		<div id="mood_explination" style="position:absolute;display:inline;left:280px;top:100px;inline; width:500px;">
 	   		<div id="instruction1" style="">Complement your Spanish studies by listening to audio clips with transcriptions and translations.

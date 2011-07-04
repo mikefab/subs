@@ -34,7 +34,7 @@
 <div style="position:relative;dislay:inline;">	<%=flash[:error]%></div>
 
 	<% if request.env['HTTP_USER_AGENT'].match(/ie/i) then%> 
-	<div id="browser_warning" style="position:absolute;font-size:8pt;">This site works best in Chrome, Firefox, and Safari.</div end="browser_warning">
+	<!-- <div id="browser_warning" style="position:absolute;font-size:8pt;">This site works best in Chrome, Firefox, and Safari.</div end="browser_warning"> -->
 	<%end%>
 
 	<% if params[:action]=="index"%>
