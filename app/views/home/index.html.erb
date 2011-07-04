@@ -121,6 +121,7 @@ function display_results(value){
 
 function display_movie(value){
 	document.getElementById('movie').value=value;
+	document.getElementById('page').value=1;
 	document.getElementById('movie_button').click();                     
 }
 
@@ -231,6 +232,8 @@ function ezbAnimateFade(lastTick,eid){
 
 		<% form_tag results_path,:name=>"movie_form",:id=>'movie_form', :method=>:get, :remote=>true do%>
 			<%= hidden_field_tag :movie,params[:movie] %>
+			<%= hidden_field_tag :page,params[:page] %>
+
 			<%= submit_tag "movie_search", :id=>"movie_button",:name => 'movies_button',:style=>"display:none;" %>
 		<%end%>
 
@@ -238,7 +241,7 @@ function ezbAnimateFade(lastTick,eid){
 		
 		<div id="mood_explination" style="position:absolute;display:inline;left:280px;top:100px;inline; width:500px;">
 	   		<div id="instruction1" style="">Complement your Spanish studies by listening to audio clips with transcriptions and translations.
-		<br><br>Begin by clicking a mood to the left.
+		<br><br><b>Begin by clicking a mood to the left.</b>
 				<p style="font-size:9pt;">(In some cases this tool mistakes a noun for a verb or mistakes a tense. Imperativo is especially slippery.) 
 				</p>
 			</div end="instruction1">

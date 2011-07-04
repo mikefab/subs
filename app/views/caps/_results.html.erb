@@ -163,6 +163,10 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 		}
 	}
 
+function go_to_page(){
+	document.getElementById('page').value=document.getElementById('go_to').value;
+	document.getElementById('movie_button').click();   
+}
 
 </script>
 <% form_tag softs_create_path,:name=>"soft_form",:id=>'soft_form', :method=>:get, :format=>'js', :remote=>true do%>
@@ -176,7 +180,12 @@ var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 
 <div id ="go_back" style="display:inline;cursor:pointer;">go back</div end="go_back">
 <div id="will_paginate1">
-	<%= will_paginate @caps, :remote=>true %> 
+	
+	<%if params[:movie] then%>
+	<button onClick="go_to_page();">go to page</button>	<input id="go_to" type="text" size='1' value='1'> 
+		<%end%>
+
+	<%= will_paginate @caps, :remote=>true %>  
 	<%#= page_entries_info @caps %> 
 
 	<% @caps.each do |cap| %>
