@@ -298,7 +298,7 @@ function ezbAnimateFade(lastTick,eid){
 			<% form_tag results_path,:name=>"results_form",:id=>'results_form', :method=>:get, :remote=>true do%>
 				<%= select_tag "language", options_for_select([["Spanish","Spa"], ["English","Eng"]], @choice) %>
 				<%= text_field_tag :search, params[:search] %>
-				<%= submit_tag "Search", :id=>"results_button",:onclick=>"ezbFade('pointer_long',1000);", :name => 'results_button',:style=>"display:inline;" %>
+				<%= submit_tag "Search", :id=>"results_button",:onclick=>"ezbFade('pointer_long',1000); document.getElementById('pointer_long').style.display='none';", :name => 'results_button',:style=>"display:inline;" %>
 			</p>
 			<%end%>
 	    <%end%>
